@@ -1,6 +1,6 @@
 # Marketing Context
 
-> Filled during /hive-setup. Maya reads this on every session open.
+> Filled during /hive-setup. Pietro reads this on every session open.
 
 ## Brand
 
@@ -21,4 +21,4 @@
 
 ## Active Priorities
 
-<!-- What Maya should focus on right now -->
+<!-- What Pietro should focus on right now -->
