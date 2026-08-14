@@ -4,22 +4,20 @@
 
 ## Brand
 
-- **Company name:** 
-- **Tagline:** 
-- **Voice & tone:** 
-- **What we never say:** 
-
-## Audience
-
-- **Primary ICP:** 
-- **Secondary audience:** 
-- **Where they hang out:** 
+- **Brand voice (3 words):** Resultado, Parceira, Escala
+- **Target audience:**
 
 ## Channels
 
-- **Active channels:** 
-- **Posting cadence:** 
-- **Content formats that work:** 
+- **Active channels:** YouTube, Instagram, LinkedIn, TikTok, Twitter/X
+- **Primary channel:**
+- **Posting cadence:**
+
+## Content
+
+- **Content generation is a core focus for this squad** (folded in from user request — includes content production across all active channels above).
+- **Content pillars:**
+- **Content tools:**
 
 ## Active Priorities
 

@@ -1,12 +1,11 @@
 # Commercial STATE
 
 [L1]
-Squad not yet activated. Run `/hive-setup` to configure Victor with your company's sales context.
+Squad ativado via /hive-setup (2026-08-14). Estágio: building pipeline. ICP: clientes locais sem conhecimento de vendas online.
 
 [L2]
-- [ ] Complete /hive-setup
-- [ ] Define ICP in foundation/icp-profile.md
-- [ ] Set up pipeline stages in foundation/pipeline-playbook.md
+- [ ] Definir ICP completo em foundation/icp-profile.md
+- [ ] Configurar estágios de pipeline em foundation/pipeline-playbook.md
 
 [L3]
 - Document qualification criteria

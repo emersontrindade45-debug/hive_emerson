@@ -1,7 +1,7 @@
 # CS STATE
 
 [L1]
-Squad not yet activated. Run `/hive-setup` to configure Leah with your company's customer success context.
+Squad inactive — not selected during /hive-setup. Activate via /hive-setup.
 
 [L2]
 - [ ] Complete /hive-setup

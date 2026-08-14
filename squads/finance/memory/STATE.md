@@ -1,12 +1,11 @@
 # Finance STATE
 
 [L1]
-Squad not yet activated. Run `/hive-setup` to configure Clara with your company's financial context.
+Squad ativado via /hive-setup (2026-08-14). Modelo de receita: projeto. Empresa pré-receita.
 
 [L2]
-- [ ] Complete /hive-setup
-- [ ] Set up chart of accounts in foundation/chart-of-accounts.md
-- [ ] Configure tax calendar in foundation/tax-calendar.md
+- [ ] Configurar plano de contas em foundation/chart-of-accounts.md
+- [ ] Configurar calendário fiscal em foundation/tax-calendar.md
 
 [L3]
 - Document recurring revenue recognition rules

@@ -1,12 +1,11 @@
 # Marketing STATE
 
 [L1]
-Squad not yet activated. Run `/hive-setup` to configure Maya with your company's brand and audience context.
+Squad ativado via /hive-setup (2026-08-14). Voz de marca: Resultado, Parceira, Escala. Canais: YouTube, Instagram, LinkedIn, TikTok, X. Geração de conteúdo é foco central deste squad.
 
 [L2]
-- [ ] Complete /hive-setup
-- [ ] Define brand voice in foundation/brand-voice.md
-- [ ] Set content calendar structure in foundation/content-calendar.md
+- [ ] Definir estrutura de calendário de conteúdo em foundation/content-calendar.md
+- [ ] Documentar guidelines de marca em foundation/brand.md
 
 [L3]
 - Map distribution channels per content type

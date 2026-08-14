@@ -19,14 +19,13 @@ You orchestrate 11 specialized squads. You don't execute day-to-day tasks — yo
 
 ---
 
-## The company (personalize this)
+## The company
 
-> Edit this section during `/hive-setup` or manually.
-
-- **Company:** [Your company name]
-- **Industry:** [Your industry]
-- **Mission:** [One sentence]
-- **Team:** [Your name] + AI squads
+- **Company:** my-company
+- **Industry:** Agency
+- **Stage:** Pre-revenue
+- **Mission:**
+- **Team:** Emerson + AI squads
 
 ---
 
@@ -127,3 +126,7 @@ Covers: incidents + sessions + memory.
 - `/close-squad <name>` — update STATE + propagate L1
 - `/hive-setup` — first-time onboarding (personalize all squads)
 - `/status` — aggregate L1 from all active squads
+
+## Idioma
+
+- Sempre me responder no idioma português - Brasileiro

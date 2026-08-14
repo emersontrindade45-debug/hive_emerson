@@ -1,12 +1,11 @@
 # Dev STATE
 
 [L1]
-Squad not yet activated. Run `/hive-setup` to configure Ethan with your tech stack and codebase context.
+Squad ativado via /hive-setup (2026-08-14). Stack: Node/TypeScript. Multi-repo.
 
 [L2]
-- [ ] Complete /hive-setup
-- [ ] Document tech stack in foundation/tech-stack.md
-- [ ] Set code principles in foundation/code-principles.md
+- [ ] Documentar stack completo em foundation/tech-stack.md
+- [ ] Definir princípios de código em foundation/code-principles.md
 
 [L3]
 - Define branch and commit conventions

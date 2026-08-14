@@ -1,7 +1,7 @@
 # Operations STATE
 
 [L1]
-Squad not yet activated. Run `/hive-setup` to configure Harper with your company's operational context.
+Squad inactive — not selected during /hive-setup. Activate via /hive-setup.
 
 [L2]
 - [ ] Complete /hive-setup

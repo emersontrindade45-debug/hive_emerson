@@ -4,23 +4,23 @@
 
 ## Financial Structure
 
-- **Legal entity type:** 
-- **Country / jurisdiction:** 
-- **Tax regime:** 
-- **Fiscal year:** 
+- **Legal entity type:**
+- **Country / jurisdiction:**
+- **Tax regime:**
+- **Fiscal year:**
 
 ## Revenue
 
-- **Revenue model:** 
-- **Current MRR / ARR:** 
-- **Primary payment method:** 
-- **Invoicing tool:** 
+- **Revenue model:** Project-based
+- **Current MRR / ARR:**
+- **Primary payment method:**
+- **Invoicing tool:**
 
 ## Cash Flow
 
-- **Monthly fixed costs:** 
-- **Current runway:** 
-- **Next major expense:** 
+- **Monthly fixed costs:**
+- **Current runway:**
+- **Next major expense:**
 
 ## Active Priorities
 

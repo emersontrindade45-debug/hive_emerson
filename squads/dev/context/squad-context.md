@@ -4,23 +4,23 @@
 
 ## Tech Stack
 
-- **Frontend:** 
-- **Backend:** 
-- **Database:** 
-- **Infrastructure:** 
-- **CI/CD:** 
+- **Frontend:**
+- **Backend:** Node/TypeScript
+- **Database:**
+- **Infrastructure:**
+- **CI/CD:**
 
 ## Repos
 
-- **Main repo(s):** 
-- **Monorepo or multi-repo:** 
-- **Branching strategy:** 
+- **Main repo(s):**
+- **Monorepo or multi-repo:** Multi-repo
+- **Branching strategy:**
 
 ## Team
 
-- **Developers:** 
-- **Code review policy:** 
-- **Deploy frequency:** 
+- **Developers:**
+- **Code review policy:**
+- **Deploy frequency:**
 
 ## Active Priorities
 
