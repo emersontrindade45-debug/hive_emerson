@@ -13,7 +13,7 @@ Sessão pausada em 2026-08-14 — retomar pelos itens L2 abaixo.
 - [x] Popular foundation/ do Finance com estrutura de custos real — custo fixo fechado em R$359,21/mês (set/2026+), ver squads/finance/foundation/budget.md
 - [ ] Definir e publicar primeiro conteúdo real (usar metodo-influencia-digital.md + signal-monitoring.md)
 - [ ] Popular foundation/ dos demais squads ativos (CS, Operations, Quality)
-- [x] Linear MCP conectado via /mcp no terminal (2026-08-15) — confirmado pelo Emerson. Ferramentas ainda não apareceram nesta sessão (conexão feita no meio da conversa). PRÓXIMO PASSO: na próxima sessão nova, confirmar que as tools do Linear carregaram e começar a configurar os projetos em desenvolvimento (a começar pelo AI Retail Automation Hub).
+- [x] Linear MCP conectado e confirmado (2026-08-15). Projeto "AI Retail Automation Hub" criado no Linear (team Emerson/EME) com issues NOW: EME-5 (vazamento apps-auth, Urgent), EME-6 (credencial Postgres exposta, Urgent), EME-7 (decisão multi-tenant, Medium).
 
 [L3]
 - Configurar ferramenta de PM (padrão: Linear — ver docs/how-to-customize.md)
