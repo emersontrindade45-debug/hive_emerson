@@ -28,10 +28,19 @@
 > Objetivo declarado por Emerson: quanto mais ferramentas testadas, maior a chance de melhoria contínua no trabalho e na entrega do produto final. Cobre dois usos distintos — não misturar no digest.
 
 ### A. Ferramentas para Produto/Dev (consumidor: Paes)
+
+**Modelos/agentes de IA em alta — acompanhar sempre (lista fixa, 2026-08-15):**
+- **Claude Code** (Anthropic) — já em uso ativo no Hub
+- **Grok** (xAI)
+- **ChatGPT / Codex** (OpenAI)
+- Demais LLMs/agentes que emergirem como relevantes para produção de produto (adicionar aqui conforme aparecerem)
+
+**Fontes de descoberta:**
 - **Product Hunt** — lançamentos diários, categoria AI/Developer Tools
 - **GitHub Trending** — repositórios novos em alta (diário/semanal)
 - **Changelogs de plataformas já em uso:** Vercel, Supabase, n8n, Anthropic/Claude, Cursor — novidades que podem melhorar o AI Retail Automation Hub
 - **Hacker News (Show HN)** — ferramentas lançadas pela comunidade dev
+- **Canais de YouTube/Instagram das próprias empresas donas das LLMs** (OpenAI, Anthropic, xAI, Google) — pendente lista específica, Emerson vai informar quais outros canais (BR ou não) ele confia para tradução/análise de lançamento
 
 ### B. Ferramentas para Criação de Conteúdo (consumidor: Pietro)
 - **Product Hunt** — categoria AI/Content/Video/Design
@@ -119,6 +128,7 @@ Um sinal só entra no digest se passar em pelo menos 2 destes filtros:
 
 ## Active Priorities
 
-- Validar lista de fontes/canais específicos com Emerson (quais ele já segue e confia)
+- **Pendente:** Emerson vai informar canais específicos de YouTube/Instagram (BR e/ou oficiais das empresas donas de LLM) para completar a lista de fontes de descoberta da trilha de ferramentas
+- Validar lista de fontes/canais específicos com Emerson (quais ele já segue e confia) — trilha de tendências (semanal)
 - Definir se cadência semanal evolui para automação (n8n) depois do primeiro ciclo manual
 - Aguardar material de business/consultoria de ROI que Emerson vai enviar, para incorporar como fonte própria (não só externa)
