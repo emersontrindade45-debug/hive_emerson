@@ -4,16 +4,15 @@
 
 ---
 
-## Recurring Obligations
+## Recurring Obligations (MEI — Brasil)
 
 | Obligation | Frequency | Due Date | Responsible | Filing Method | Status |
 |-----------|-----------|---------|-------------|--------------|--------|
-| _e.g. Corporate income tax (advance)_ | _Quarterly_ | _Last business day of Q_ | _CFO_ | _Online portal_ | ☐ |
-| _e.g. Payroll / social contributions_ | _Monthly_ | _Day ___ of following month_ | _Finance_ | _Payroll system_ | ☐ |
-| _e.g. VAT / Sales tax_ | _Monthly / Quarterly_ | _Day ___ of following month_ | _Finance_ | _Online portal_ | ☐ |
-| _e.g. Annual corporate income tax_ | _Annual_ | _[Date]_ | _CFO + Accountant_ | _External filing_ | ☐ |
-| _e.g. Annual financial statements_ | _Annual_ | _[Date]_ | _CFO_ | _Regulatory body_ | ☐ |
-| _e.g. Service invoice tax (NFS-e)_ | _Per invoice_ | _At invoice issuance_ | _Finance_ | _City portal_ | ☐ |
+| DAS-MEI (INSS + ICMS/ISS unificado) | Mensal | Dia 20 do mês seguinte | Lorenzo | App/portal MEI (Receita Federal) | ☐ |
+| DASN-SIMEI (declaração anual) | Anual | 31 de maio | Lorenzo | Portal do Simples Nacional | ☐ |
+| Nota fiscal de serviço (se emitir para cliente PJ) | Por nota | Na emissão | Lorenzo | Portal da prefeitura | ☐ |
+
+> MEI tem teto de faturamento anual (R$ 81.000 em 2026, confirmar valor vigente) — se o AI Retail Automation Hub começar a faturar como serviço recorrente para múltiplos clientes, avaliar migração para ME/EPP antes de estourar o teto.
 
 ---
 
