@@ -1,12 +1,11 @@
 # Infra STATE
 
 [L1]
-Squad inactive — not selected during /hive-setup. Activate via /hive-setup.
+Squad ativado (2026-08-14). Aguardando dados de infraestrutura (hospedagem, deploy) para popular foundation/.
 
 [L2]
-- [ ] Complete /hive-setup
-- [ ] Document server inventory in foundation/server-inventory.md
-- [ ] Set up deploy checklist in foundation/deploy-checklist.md
+- [ ] Documentar inventário de servidores em foundation/server-inventory.md
+- [ ] Configurar checklist de deploy em foundation/deploy-checklist.md
 
 [L3]
 - Configure monitoring and alerting

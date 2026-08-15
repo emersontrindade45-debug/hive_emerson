@@ -1,12 +1,11 @@
 # Quality STATE
 
 [L1]
-Squad inactive — not selected during /hive-setup. Activate via /hive-setup.
+Squad ativado (2026-08-14). Aguardando definição de processos/SOPs prioritários.
 
 [L2]
-- [ ] Complete /hive-setup
-- [ ] Create first SOP using foundation/sop-template.md
-- [ ] Schedule first process audit
+- [ ] Criar primeira SOP usando foundation/sop-template.md
+- [ ] Agendar primeira auditoria de processo
 
 [L3]
 - Identify top 10 highest-risk processes to document

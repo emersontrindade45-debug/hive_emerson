@@ -1,12 +1,11 @@
 # CS STATE
 
 [L1]
-Squad inactive — not selected during /hive-setup. Activate via /hive-setup.
+Squad ativado (2026-08-14). Aguardando dados reais de clientes/onboarding para popular foundation/.
 
 [L2]
-- [ ] Complete /hive-setup
-- [ ] Define onboarding checklist in foundation/onboarding-playbook.md
-- [ ] Set health score thresholds in foundation/health-score.md
+- [ ] Definir checklist de onboarding em foundation/onboarding-playbook.md
+- [ ] Definir thresholds de health score em foundation/health-score.md
 
 [L3]
 - Document churn signals and response protocol

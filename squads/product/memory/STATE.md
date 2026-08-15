@@ -1,12 +1,11 @@
 # Product STATE
 
 [L1]
-Squad inactive — not selected during /hive-setup. Activate via /hive-setup.
+Squad ativado (2026-08-14). Aguardando definição de roadmap/produto para popular foundation/.
 
 [L2]
-- [ ] Complete /hive-setup
-- [ ] Define current roadmap in foundation/roadmap.md
-- [ ] Set sprint cadence and ritual schedule
+- [ ] Definir roadmap atual em foundation/roadmap.md
+- [ ] Definir cadência de sprint e rituais
 
 [L3]
 - Document active user research sources
