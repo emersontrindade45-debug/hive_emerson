@@ -5,7 +5,7 @@ Squad ativado (2026-08-14). Três frentes: (1) radar semanal de sinais IA/busine
 
 [L2]
 - [ ] Rodar primeiro digest semanal de tendências (foundation/signal-monitoring.md)
-- [ ] Rodar primeiro digest diário de ferramentas (mesma foundation, trilha nova)
+- [x] Primeiro digest diário de ferramentas rodado (2026-08-15) — destaques: n8n AI Assistant (monta workflow por linguagem natural), n8n Workflow Packages (relevante p/ multi-tenant), CapCut Auto-Edit/Smart Composition (economia de tempo em edição). Ambas ferramentas já em uso, sem custo extra.
 - [x] Receber material estratégico de modelos de negócio — Aulas 01-02 registradas em foundation/business-opportunities.md (material completo conforme disponível; Aula 02 termina sem síntese final)
 - [ ] Validar lista de fontes com Emerson após primeiro ciclo
 
