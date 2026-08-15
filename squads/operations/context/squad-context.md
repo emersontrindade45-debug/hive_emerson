@@ -1,6 +1,6 @@
 # Operations Context
 
-> Filled during /hive-setup. Harper reads this on every session open.
+> Filled during /hive-setup. Cristina reads this on every session open.
 
 ## Team
 
@@ -22,4 +22,4 @@
 
 ## Active Priorities
 
-<!-- What Harper should focus on right now -->
+<!-- What Cristina should focus on right now -->

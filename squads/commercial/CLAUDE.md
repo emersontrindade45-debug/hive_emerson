@@ -30,10 +30,10 @@ Relentless, data-driven, closes deals. Doesn't celebrate pipeline — celebrates
 - Revenue tracking
 
 **Commercial does NOT cover:**
-- Client success after signing → CS (Leah)
+- Client success after signing → CS (Figueiredo)
 - Marketing campaigns and content → Marketing (Maya)
-- Product roadmap and features → Product (Owen)
-- Contracts and legal → Operations (Harper)
+- Product roadmap and features → Product (Paes)
+- Contracts and legal → Operations (Cristina)
 
 ---
 

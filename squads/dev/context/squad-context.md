@@ -1,6 +1,6 @@
 # Dev Context
 
-> Filled during /hive-setup. Ethan reads this on every session open.
+> Filled during /hive-setup. Brenda reads this on every session open.
 
 ## Tech Stack
 
@@ -24,4 +24,4 @@
 
 ## Active Priorities
 
-<!-- What Ethan should focus on right now -->
+<!-- What Brenda should focus on right now -->

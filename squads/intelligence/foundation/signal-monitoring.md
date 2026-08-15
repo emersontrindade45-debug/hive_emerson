@@ -1,6 +1,6 @@
 # Signal Monitoring — Radar de IA & Business
 
-> Rex usa este playbook para alimentar o Pietro (Marketing) com atualizações relevantes de IA e negócios, traduzidas e priorizadas por potencial de virar conteúdo. Objetivo: manter Emerson à frente da curva sem ele precisar garimpar sozinho.
+> Emerson usa este playbook para alimentar o Pietro (Marketing) com atualizações relevantes de IA e negócios, traduzidas e priorizadas por potencial de virar conteúdo. Objetivo: manter Emerson à frente da curva sem ele precisar garimpar sozinho.
 
 ---
 
@@ -10,7 +10,7 @@
 
 **Cadência alvo:** resumo semanal.
 
-**Gatilho:** Emerson pede ("Rex, traz o radar da semana") ou eu proativamente sugiro ao abrir o squad Intelligence/Marketing se fizer mais de 7 dias desde o último digest (ver `memory/STATE.md`).
+**Gatilho:** Emerson pede ("Emerson, traz o radar da semana") ou eu proativamente sugiro ao abrir o squad Intelligence/Marketing se fizer mais de 7 dias desde o último digest (ver `memory/STATE.md`).
 
 **Idioma:** toda fonte em inglês é traduzida para PT-BR no resumo. Termos técnicos mantidos em inglês entre parênteses quando não há tradução natural (ex: "ajuste fino (fine-tuning)").
 

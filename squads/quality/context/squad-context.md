@@ -1,6 +1,6 @@
 # Quality Context
 
-> Filled during /hive-setup. Nora reads this on every session open.
+> Filled during /hive-setup. Trindade reads this on every session open.
 
 ## Quality Standards
 
@@ -22,4 +22,4 @@
 
 ## Active Priorities
 
-<!-- What Nora should focus on right now -->
+<!-- What Trindade should focus on right now -->

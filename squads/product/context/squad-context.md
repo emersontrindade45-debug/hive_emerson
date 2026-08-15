@@ -1,6 +1,6 @@
 # Product Context
 
-> Filled during /hive-setup. Owen reads this on every session open.
+> Filled during /hive-setup. Paes reads this on every session open.
 
 ## Product
 
@@ -23,4 +23,4 @@
 
 ## Active Priorities
 
-<!-- What Owen should focus on right now -->
+<!-- What Paes should focus on right now -->

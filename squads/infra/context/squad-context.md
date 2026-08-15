@@ -1,6 +1,6 @@
 # Infra Context
 
-> Filled during /hive-setup. Dean reads this on every session open.
+> Filled during /hive-setup. Emilly reads this on every session open.
 
 ## Infrastructure
 
@@ -23,4 +23,4 @@
 
 ## Active Priorities
 
-<!-- What Dean should focus on right now -->
+<!-- What Emilly should focus on right now -->

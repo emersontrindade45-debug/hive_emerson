@@ -1,6 +1,6 @@
 # Intelligence Context
 
-> Filled during /hive-setup. Rex reads this on every session open.
+> Filled during /hive-setup. Emerson reads this on every session open.
 
 ## Competitive Landscape
 
@@ -22,4 +22,4 @@
 
 ## Active Priorities
 
-<!-- What Rex should focus on right now -->
+<!-- What Emerson should focus on right now -->

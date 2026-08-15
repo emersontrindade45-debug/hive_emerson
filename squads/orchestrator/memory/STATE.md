@@ -2,7 +2,7 @@
 
 [L1]
 HIVE configurado. Empresa: my-company | Indústria: Agency | Estágio: Pré-receita
-Squads ativos: todos os 10 — Commercial (Tatiane), Dev (Ethan), Marketing (Pietro), Finance (Clara), Intelligence (Rex), CS (Leah), Product (Owen), Infra (Dean), Operations (Harper), Quality (Nora)
+Squads ativos: todos os 10 — Commercial (Tatiane), Dev (Brenda), Marketing (Pietro), Finance (Lorenzo), Intelligence (Emerson), CS (Figueiredo), Product (Paes), Infra (Emilly), Operations (Cristina), Quality (Trindade)
 Último setup: 2026-08-14
 
 [L2]

@@ -1,6 +1,6 @@
 # CS Context
 
-> Filled during /hive-setup. Leah reads this on every session open.
+> Filled during /hive-setup. Figueiredo reads this on every session open.
 
 ## Customer Base
 
@@ -23,4 +23,4 @@
 
 ## Active Priorities
 
-<!-- What Leah should focus on right now -->
+<!-- What Figueiredo should focus on right now -->

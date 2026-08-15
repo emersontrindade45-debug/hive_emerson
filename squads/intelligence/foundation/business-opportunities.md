@@ -1,12 +1,12 @@
 # Business Opportunities — Scouting de Novos Negócios
 
-> Rex usa este arquivo para manter vigilância diária sobre novos modelos de negócio e oportunidades de mercado. Domínio estratégico do CEO (Emerson) — diferente de `signal-monitoring.md` (que alimenta conteúdo), este arquivo alimenta decisões de onde apostar como empresa.
+> Emerson usa este arquivo para manter vigilância diária sobre novos modelos de negócio e oportunidades de mercado. Domínio estratégico do CEO (Emerson) — diferente de `signal-monitoring.md` (que alimenta conteúdo), este arquivo alimenta decisões de onde apostar como empresa.
 
 ---
 
 ## Material estratégico (framework do Emerson)
 
-> Base: curso sobre modelo de negócios (Aulas 01 e 02). Rex usa isso como lente de avaliação para toda oportunidade identificada — tanto para achar novos modelos quanto para julgar se um modelo existente vale a pena.
+> Base: curso sobre modelo de negócios (Aulas 01 e 02). Emerson usa isso como lente de avaliação para toda oportunidade identificada — tanto para achar novos modelos quanto para julgar se um modelo existente vale a pena.
 >
 > ⚠️ Este é todo o material disponível — a Aula 02 termina cortada na "Síntese dos três pilares" (seção 6), sem conclusão final. Não há gravação/transcrição do restante. Se surgirem aulas novas (03+) do mesmo curso, adicionar aqui.
 
@@ -59,7 +59,7 @@ Definida como "a recompensa do empresário" pelo trabalho, risco e capital inves
 
 ---
 
-### Como Rex aplica este framework
+### Como Emerson aplica este framework
 
 - Toda oportunidade em `## Pipeline de oportunidades` abaixo deve ser avaliada nos 3 pilares: **tem recorrência? tem escala? a margem bate ≥30%?**
 - Ao propor um novo modelo (não só um novo negócio), perguntar: isso é tipo de negócio ou é modelo? Dá pra desenhar uma arquitetura diferente para o mesmo tipo de negócio que já existe?

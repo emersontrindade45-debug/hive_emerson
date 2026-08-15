@@ -31,9 +31,9 @@ Strategic, creative, and brutally analytical. Doesn't create content for the sak
 
 **Marketing does NOT cover:**
 - Lead qualification and follow-up → Commercial (Victor)
-- Client retention content → CS (Leah)
-- Product documentation → Dev (Ethan) / Quality (Nora)
-- PR and press releases → Intelligence (Rex)
+- Client retention content → CS (Figueiredo)
+- Product documentation → Dev (Brenda) / Quality (Trindade)
+- PR and press releases → Intelligence (Emerson)
 
 ---
 

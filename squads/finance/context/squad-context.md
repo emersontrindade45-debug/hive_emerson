@@ -1,6 +1,6 @@
 # Finance Context
 
-> Filled during /hive-setup. Clara reads this on every session open.
+> Filled during /hive-setup. Lorenzo reads this on every session open.
 
 ## Financial Structure
 
@@ -24,4 +24,4 @@
 
 ## Active Priorities
 
-<!-- What Clara should focus on right now -->
+<!-- What Lorenzo should focus on right now -->
