@@ -2,7 +2,7 @@
 
 [L1]
 HIVE configurado. Empresa: my-company | Indústria: Agency | Estágio: Pré-receita
-Squads ativos: Commercial, Dev, Marketing, Finance
+Squads ativos: Commercial, Dev, Marketing, Finance, Intelligence (radar de sinais IA/business p/ conteúdo)
 Último setup: 2026-08-14
 
 [L2]

@@ -10,9 +10,9 @@
 
 ## Market
 
-- **Market size / segment:** 
-- **Key trends to watch:** 
-- **Signals monitored weekly:** 
+- **Market size / segment:** IA aplicada a PMEs/negócios locais no Brasil
+- **Key trends to watch:** lançamentos de modelos/ferramentas de IA aplicáveis a pequenos negócios; cases de ROI em automação/atendimento
+- **Signals monitored weekly:** ver `foundation/signal-monitoring.md` — fontes LinkedIn, YouTube, Instagram, TikTok + changelogs oficiais (OpenAI, Anthropic, Google AI)
 
 ## War Game
 
