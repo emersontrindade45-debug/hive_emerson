@@ -19,13 +19,13 @@
 |---|---:|---|
 | Cursor Pro | 113 – 118 | IDE / dev com IA |
 | Claude Code (Anthropic) | 110 – 118 | Agente de dev com IA |
-| VPS Hostinger (renovação) | 71 – 108 | Hospedagem (provável n8n) |
+| VPS Hostinger (inclui "Renovação automática") | 71 – 108 | Hospedagem (provável n8n) — mesmo serviço, nomes de lançamento variam |
+| Hospedagem Hostinger (item separado, ~R$ 52) | ~52 | Serviço distinto da VPS — valor claramente diferente (quase metade), provável hospedagem compartilhada à parte |
 | Google One (×2 assinaturas) | ~20 (10 × 2) | Armazenamento |
 | Canva | 35 | Design (aparece 1x — confirmar se é mensal ou anual rateado) |
-| Hospedagem Hostinger (item separado da VPS) | ~52 | A confirmar se é serviço distinto da VPS |
 | Domínio (mercadoaraujo.com) | ~51 | Registro anual, aparece como parcela |
 
-**Estimativa de piso mensal só nesta categoria: ~R$ 400–470/mês** (soma das faixas baixas). Não é número fechado — falta confirmar duplicidades (ex.: "VPS Hostinger" vs. "Hospedagem Hostinger" podem ser a mesma coisa contabilizada 2x).
+**Estimativa de piso mensal só nesta categoria: ~R$ 450–520/mês** (soma das faixas baixas, com VPS + Hospedagem como 2 serviços distintos). Ainda não é número fechado — falta consolidar todos os meses de 2026 pra virar média real, não faixa.
 
 ## 2. Capacitação — Cursos (sem código COGS/OPEX ainda — sugestão: 6004 ou nova conta "Capacitação")
 
@@ -48,7 +48,7 @@ Gastos físicos ligados à validação do piloto Araújo — ringlight, luminár
 
 ## Pendências para fechar a estrutura
 
-- [ ] Confirmar se "VPS Hostinger" e "Hospedagem Hostinger" são cobranças duplicadas ou serviços distintos
+- [x] VPS Hostinger vs. Hospedagem Hostinger — critério aplicado: mesmo nome + valor próximo = mesma cobrança; valor muito diferente = serviço distinto. VPS (~R$71-108) e Hospedagem (~R$52) tratados como 2 serviços reais (diferença grande demais pra ser o mesmo lançamento duplicado).
 - [ ] Confirmar valor da reserva/capital próprio disponível
 - [ ] Definir se Nocode (curso recorrente) continua sendo pago indefinidamente ou tem prazo de encerramento
 - [ ] Consolidar todos os meses de 2026 (a planilha mostrada cobre parte do ano) para ter média mensal real, não só faixa
