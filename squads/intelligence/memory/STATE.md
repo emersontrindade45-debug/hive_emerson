@@ -5,7 +5,7 @@ Squad ativado (2026-08-14). Duas frentes: (1) radar semanal de sinais IA/busines
 
 [L2]
 - [ ] Rodar primeiro digest semanal (foundation/signal-monitoring.md)
-- [ ] Receber material estratégico de modelos de negócio (foundation/business-opportunities.md)
+- [x] Receber material estratégico de modelos de negócio — Aulas 01-02 registradas em foundation/business-opportunities.md (Aula 02 chegou incompleta, falta síntese final dos 3 pilares)
 - [ ] Validar lista de fontes com Emerson após primeiro ciclo
 
 [L3]
