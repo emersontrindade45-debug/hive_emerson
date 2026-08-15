@@ -18,8 +18,8 @@
 
 ## Cash Flow
 
-- **Monthly fixed costs:** R$ 516,74/mês (fechado — R$ 359,21 ferramentas digitais + R$ 157,53 Nocode, ver foundation/budget.md)
-- **Current runway:** depende da reserva pessoal informada (valor a confirmar)
+- **Monthly fixed costs:** R$ 359,21/mês a partir de set/2026 (Nocode encerra em ago) — R$ 516,74/mês até então. Ver foundation/budget.md.
+- **Current runway:** reserva de R$ 400/mês cobre o fixo a partir de set/2026, com folga de ~R$ 40,79/mês (aperta para ~R$5,79 se Canva entrar)
 - **Next major expense:**
 
 ## Active Priorities

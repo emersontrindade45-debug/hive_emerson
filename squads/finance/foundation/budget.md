@@ -6,7 +6,7 @@
 
 - **Entidade legal:** MEI
 - **Receita atual:** R$ 0 — projeto AI Retail Automation Hub (cliente Araújo) ainda em piloto, sem cobrança
-- **Reserva/capital próprio:** existe, valor a confirmar
+- **Reserva/capital próprio:** R$ 400,00/mês (aporte recorrente confirmado — não é saldo acumulado, é quanto Emerson reserva por mês para custear a empresa)
 - **Empresa:** 100% custeada com capital próprio, sem receita ainda entrando
 
 ---
@@ -30,7 +30,7 @@
 - **ChatGPT (R$106,33, abril)** — gasto pontual/avulso, nunca foi assinatura recorrente. Confirmado pelo Emerson.
 - **Canva (R$35, julho)** — foi uso avulso único até agora. Emerson vai assinar em breve (necessidade confirmada para criação de conteúdo — ver squad Marketing) — **não contar como custo atual, mas prever como próximo custo fixo a entrar**.
 - **Domínio mercadoaraujo.com (~R$51) e "Hostinger Renovação Domínio evo.api" (R$181,08)** — registro de domínio, recorrência anual, não mensal.
-- **Hospedagem Hostinger (R$51,99)** — só aparece em jan/fev/jun 2026, não aparece mais depois. Parece ter sido descontinuada ou substituída pela VPS. **Pendência: confirmar com Emerson.**
+- **Hospedagem Hostinger (R$51,99)** — **descontinuada, confirmado pelo Emerson.** Não conta mais em nenhum mês daqui em diante.
 
 **Projeção com Canva entrando:** R$ 359,21 + R$ 35,00 = **~R$ 394,21/mês** quando a assinatura for contratada.
 
@@ -38,8 +38,8 @@
 
 | Curso | Valor | Padrão |
 |---|---:|---|
-| Nocode | R$ 157,53/mês | Recorrente — visto todos os meses de jan a dez/2026 (parcela 1/12 a 12/12), ciclo de 12 meses. **Confirmar se renova após dez/2026 ou encerra.** |
-| Arkad | R$ 156,32 | Parcelado 1/2 (jan) e 2/2 (fev) — **encerrado**, não é custo recorrente contínuo |
+| Nocode | R$ 157,53/mês | **Encerra em agosto/2026, confirmado pelo Emerson.** A partir de setembro/2026 este custo sai do fixo mensal. |
+| Arkad | R$ 156,32 | Parcelado 1/2 (jan) e 2/2 (fev) — encerrado, não é custo recorrente contínuo |
 | ChatGPT | R$ 106,33 | Gasto avulso único (abril) — não é curso nem recorrente |
 
 Este é o material-base do `metodo-influencia-digital.md` e `business-opportunities.md` do squad Marketing/Intelligence — o investimento em aprendizado já está gerando ativo de conteúdo documentado.
@@ -56,7 +56,17 @@ Gastos físicos ligados à validação do piloto Araújo — ringlight, luminár
 
 ## Custo fixo total mensal (visão consolidada)
 
-**R$ 359,21/mês** (Ferramentas Digitais) **+ R$ 157,53/mês** (Nocode, enquanto ativo) **= R$ 516,74/mês** de saída recorrente confirmada, sem contar tráfego pago (variável) e investimentos pontuais.
+**Até agosto/2026:** R$ 359,21 (Ferramentas) + R$ 157,53 (Nocode) = **R$ 516,74/mês**.
+
+**A partir de setembro/2026 (Nocode encerrado):** custo fixo cai para **R$ 359,21/mês**, só ferramentas digitais.
+
+## Reserva vs. custo fixo — situação de caixa
+
+- **Reserva mensal do Emerson:** R$ 400,00/mês
+- **Custo fixo até agosto:** R$ 516,74/mês → **déficit de R$ 116,74/mês** (reserva não cobre o custo fixo enquanto o Nocode estava ativo)
+- **Custo fixo a partir de setembro:** R$ 359,21/mês → **sobra de R$ 40,79/mês** (reserva passa a cobrir o fixo, com folga pequena)
+
+A folga de ~R$ 40,79/mês a partir de setembro é o que sobra para: Canva (R$35, projetado), qualquer novo custo fixo, ou tráfego pago pontual. Com Canva entrando (R$394,21/mês de fixo), a folga real cai para ~R$ 5,79/mês — margem muito apertada, quase sem espaço para imprevisto.
 
 ---
 
@@ -65,12 +75,13 @@ Gastos físicos ligados à validação do piloto Araújo — ringlight, luminár
 - [x] VPS Hostinger vs. Hospedagem Hostinger — confirmado como mesmo servidor, preço reajustado ao longo do ano (não são serviços duplicados)
 - [x] ChatGPT — confirmado como gasto avulso, não recorrente
 - [x] Canva — confirmado como avulso até agora; assinatura recorrente prevista para entrar em breve
-- [ ] Confirmar valor da reserva/capital próprio disponível
-- [ ] Confirmar se Hospedagem Hostinger (R$51,99) ainda está ativa ou foi descontinuada
-- [ ] Confirmar se Nocode (R$157,53/mês) continua após completar o ciclo de 12 parcelas (dez/2026)
+- [x] Hospedagem Hostinger — confirmado descontinuada
+- [x] Nocode — confirmado encerramento em agosto/2026
+- [x] Reserva/capital próprio — confirmado R$ 400,00/mês
 - [ ] Criar conta própria no chart-of-accounts.md para "Capacitação/Cursos" — hoje não tem código dedicado
+- [ ] Decidir se Canva entra já ou se espera a folga de caixa crescer (hoje ficaria em ~R$5,79/mês de sobra, risco alto)
 
 ## Active Priorities
 
 <!-- O que Lorenzo deve focar agora -->
-- Custo fixo mensal real está fechado em R$ 516,74/mês (Ferramentas + Nocode). Usar este número como piso de custo ao calcular margem em qualquer precificação futura do AI Retail Automation Hub.
+- Alertar Emerson: a partir de setembro/2026 a reserva de R$400/mês passa a cobrir o custo fixo (R$359,21), mas com folga mínima (~R$40,79). Qualquer novo custo fixo (Canva incluso) aperta a margem para quase zero. Antes de assinar Canva, avaliar se algum custo atual pode ser cortado ou se a reserva mensal deve subir.

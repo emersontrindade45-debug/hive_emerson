@@ -1,12 +1,11 @@
 # Finance STATE
 
 [L1]
-Squad populado com dados reais do extrato Jan-Dez/2026 (2026-08-15). MEI, R$ 0 de receita (Araújo ainda piloto não cobrado). Custo fixo mensal FECHADO: R$ 516,74/mês (R$ 359,21 ferramentas + R$ 157,53 Nocode) — ver foundation/budget.md. Reserva própria existe, valor a confirmar.
+Estrutura de custos FECHADA (2026-08-15). MEI, R$ 0 receita (Araújo piloto). Reserva mensal: R$400. Custo fixo até ago/2026: R$516,74 (déficit -R$116,74/mês). A partir de set/2026 (Nocode encerra): R$359,21 (folga +R$40,79/mês). ⚠️ ALERTA: com Canva entrando, folga cai para ~R$5,79/mês — margem quase zero para qualquer imprevisto ou novo custo.
 
 [L2]
-- [ ] Confirmar valor exato da reserva/capital próprio
-- [ ] Confirmar se Hospedagem Hostinger (R$51,99) ainda ativa ou descontinuada
-- [ ] Confirmar renovação do Nocode após dez/2026
+- [ ] Decidir com Emerson: assinar Canva já (aperta margem a quase zero) ou esperar/cortar outro custo primeiro
+- [ ] Criar conta "Capacitação" no chart-of-accounts.md
 - [ ] Consolidar todos os meses de 2026 para média mensal real (hoje é faixa, não número fechado)
 - [ ] Criar conta de "Capacitação/Cursos" no chart-of-accounts.md
 
