@@ -45,6 +45,7 @@ Clear-headed, user-obsessed, ruthless about scope. Doesn't build features — so
 | Roadmap review | `foundation/roadmap.md` |
 | Prioritization | `foundation/prioritization-framework.md` |
 | Discovery | `foundation/discovery-playbook.md` |
+| Ferramentas novas para melhoria contínua | `../intelligence/foundation/signal-monitoring.md` (trilha diária de ferramentas) |
 
 ---
 

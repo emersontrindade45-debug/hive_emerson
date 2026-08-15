@@ -1,6 +1,15 @@
 # Signal Monitoring — Radar de IA & Business
 
-> Emerson usa este playbook para alimentar o Pietro (Marketing) com atualizações relevantes de IA e negócios, traduzidas e priorizadas por potencial de virar conteúdo. Objetivo: manter Emerson à frente da curva sem ele precisar garimpar sozinho.
+> Emerson usa este playbook para alimentar o Pietro (Marketing) com atualizações relevantes de IA e negócios, e o Paes (Product) com ferramentas novas para melhoria contínua de produto e de criação de conteúdo. Traduzido e priorizado por potencial de uso real. Objetivo: manter Emerson à frente da curva sem ele precisar garimpar sozinho.
+
+---
+
+## Duas trilhas, duas cadências
+
+| Trilha | Conteúdo | Cadência | Consumidor |
+|---|---|---|---|
+| **Tendências (IA/Business)** | Ver seções "Fontes por plataforma" abaixo | Semanal | Pietro (Marketing) |
+| **Ferramentas** | Novas ferramentas de dev/produto e de criação de conteúdo | **Diária** | Paes (Product) + Pietro (Marketing) |
 
 ---
 
@@ -8,11 +17,45 @@
 
 **Mecanismo:** sob demanda via WebSearch/WebFetch dentro da conversa — ainda não há automação recorrente rodando sozinha em background.
 
-**Cadência alvo:** resumo semanal.
-
-**Gatilho:** Emerson pede ("Emerson, traz o radar da semana") ou eu proativamente sugiro ao abrir o squad Intelligence/Marketing se fizer mais de 7 dias desde o último digest (ver `memory/STATE.md`).
+**Gatilho:** Emerson pede ("Emerson, traz o radar da semana" / "traz as ferramentas novas de hoje") ou eu proativamente sugiro ao abrir o squad Intelligence/Marketing/Product se fizer mais de 7 dias (tendências) ou 1 dia (ferramentas) desde o último digest (ver `memory/STATE.md`).
 
 **Idioma:** toda fonte em inglês é traduzida para PT-BR no resumo. Termos técnicos mantidos em inglês entre parênteses quando não há tradução natural (ex: "ajuste fino (fine-tuning)").
+
+---
+
+## Trilha de Ferramentas (diária)
+
+> Objetivo declarado por Emerson: quanto mais ferramentas testadas, maior a chance de melhoria contínua no trabalho e na entrega do produto final. Cobre dois usos distintos — não misturar no digest.
+
+### A. Ferramentas para Produto/Dev (consumidor: Paes)
+- **Product Hunt** — lançamentos diários, categoria AI/Developer Tools
+- **GitHub Trending** — repositórios novos em alta (diário/semanal)
+- **Changelogs de plataformas já em uso:** Vercel, Supabase, n8n, Anthropic/Claude, Cursor — novidades que podem melhorar o AI Retail Automation Hub
+- **Hacker News (Show HN)** — ferramentas lançadas pela comunidade dev
+
+### B. Ferramentas para Criação de Conteúdo (consumidor: Pietro)
+- **Product Hunt** — categoria AI/Content/Video/Design
+- **Ferramentas de edição de vídeo/imagem com IA** (novos lançamentos ou updates relevantes)
+- **Novos recursos em ferramentas já usadas:** Canva, CapCut, edição nativa de redes sociais
+- **Comunidades de criadores de conteúdo BR** — o que estão testando/recomendando
+
+### Critério de entrada no digest (ferramentas)
+Só entra se passar em pelo menos 1 destes:
+1. Resolve um problema concreto já identificado (ex: gargalo técnico do Hub, dificuldade de produção de conteúdo)
+2. É gratuita ou tem teste grátis — Emerson pode validar sem custo
+3. Tem tração real (não é vaporware) — lançada, com usuários, não só anunciada
+
+### Formato do digest diário de ferramentas
+
+```
+## Ferramentas Novas — [data]
+
+### 🛠️ Para Produto/Dev
+- [Nome] — [o que faz, 1 frase] — [por que pode ajudar o Hub]
+
+### 🎨 Para Criação de Conteúdo
+- [Nome] — [o que faz, 1 frase] — [que tipo de conteúdo melhora]
+```
 
 ---
 
