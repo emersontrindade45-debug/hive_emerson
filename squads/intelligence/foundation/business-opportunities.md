@@ -8,7 +8,7 @@
 
 > Base: curso sobre modelo de negócios (Aulas 01 e 02). Rex usa isso como lente de avaliação para toda oportunidade identificada — tanto para achar novos modelos quanto para julgar se um modelo existente vale a pena.
 >
-> ⚠️ A Aula 02 chegou cortada na seção 6 (precificação/branding) — a síntese final dos 3 pilares não foi recebida completa. Se houver mais aulas (03, 04...) ou o fechamento da 02, mandar para completar o framework.
+> ⚠️ Este é todo o material disponível — a Aula 02 termina cortada na "Síntese dos três pilares" (seção 6), sem conclusão final. Não há gravação/transcrição do restante. Se surgirem aulas novas (03+) do mesmo curso, adicionar aqui.
 
 ### Aula 01 — O que é modelo de negócios
 
