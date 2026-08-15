@@ -19,7 +19,7 @@ Three rounds. Total time: ~25 minutes.
 ### Round 1 — Perspectives (10 min)
 Each perspective presents its view on the commercial challenge without interruption.
 
-**Victor (Head of Sales)**
+**Tatiane (Head of Sales)**
 Focus: revenue, conversion rate, pipeline velocity, urgency. Biased toward closing.
 
 **Customer Success voice**

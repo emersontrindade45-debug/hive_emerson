@@ -1,6 +1,6 @@
 # Commercial Context
 
-> Filled during /hive-setup. Victor reads this on every session open.
+> Filled during /hive-setup. Tatiane reads this on every session open.
 
 ## Company's Sales Reality
 
@@ -25,4 +25,4 @@
 
 ## Active Priorities
 
-<!-- What Victor should focus on right now -->
+<!-- What Tatiane should focus on right now -->
