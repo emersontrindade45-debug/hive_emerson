@@ -4,11 +4,12 @@
 
 ## Tech Stack
 
-- **Frontend:**
-- **Backend:** Node/TypeScript
-- **Database:**
-- **Infrastructure:**
+- **Frontend:** Next.js 15 (mobile-first)
+- **Backend:** Node/TypeScript, n8n (orquestração de automação)
+- **Database:** Supabase/PostgreSQL (Realtime, pgvector para busca semântica)
+- **Infrastructure:** Vercel (deploy do Hub), servidor próprio para n8n
 - **CI/CD:**
+- **Integrações-chave (produto AI Retail Automation Hub):** Evolution API (WhatsApp), Instagram Messaging API, Resend (e-mail), Cosmos/CCG (conciliação com ERP)
 
 ## Repos
 

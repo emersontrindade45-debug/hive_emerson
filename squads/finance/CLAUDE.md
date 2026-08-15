@@ -30,7 +30,7 @@ Precise, calm under pressure, zero tolerance for ambiguity in numbers. Keeps the
 - Tax obligations and compliance calendar
 
 **Finance does NOT cover:**
-- Pricing strategy → Commercial (Victor) + Stamper
+- Pricing strategy → Commercial (Tatiane) + Stamper
 - Product investment decisions → Product (Paes) + Stamper
 - Payroll HR details → Operations (Cristina)
 - Legal contracts → Operations (Cristina)

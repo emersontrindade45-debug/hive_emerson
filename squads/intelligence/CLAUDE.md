@@ -34,9 +34,9 @@ Cold-eyed analyst. Separates signal from noise. Monitors competitors, tracks mar
 **Intelligence does NOT cover:**
 - Marketing campaigns → Marketing (Pietro)
 - Product decisions → Product (Paes)
-- Sales execution → Commercial (Victor)
+- Sales execution → Commercial (Tatiane)
 - Financial modeling → Finance (Lorenzo)
-- Execução/validação de uma oportunidade escolhida → vira trabalho de Product/Commercial/Dev depois que Emerson identifica e Emerson decide
+- Execução/validação de uma oportunidade escolhida → vira trabalho de Product/Commercial/Dev depois que o squad Intelligence identifica e o CEO decide
 
 ---
 

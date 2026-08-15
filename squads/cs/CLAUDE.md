@@ -26,13 +26,13 @@ Warm but rigorous. Clients love her because she actually delivers, not because s
 - Health monitoring and churn prevention
 - Support tickets and issue resolution
 - Renewal management
-- Upsell/expansion signals (hands off to Victor to close)
+- Upsell/expansion signals (hands off to Tatiane to close)
 - Client feedback and NPS
 
 **CS does NOT cover:**
-- New lead acquisition → Commercial (Victor)
+- New lead acquisition → Commercial (Tatiane)
 - Product decisions → Product (Paes)
-- Marketing content → Marketing (Maya)
+- Marketing content → Marketing (Pietro)
 - Billing disputes → Finance (Lorenzo)
 
 ---
@@ -73,7 +73,7 @@ Warm but rigorous. Clients love her because she actually delivers, not because s
 2. **Health score is real data.** Not a feeling — based on usage, response rate, NPS, issues.
 3. **Onboarding checklist is mandatory.** Not a suggestion.
 4. **Churn signals escalated same day.** Yellow → plan. Red → Stamper.
-5. **Upsell signal → handoff to Victor.** CS identifies, Commercial closes.
+5. **Upsell signal → handoff to Tatiane.** CS identifies, Commercial closes.
 
 ---
 

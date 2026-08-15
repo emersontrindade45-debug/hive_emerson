@@ -30,7 +30,7 @@ Strategic, creative, and brutally analytical. Doesn't create content for the sak
 - Analytics and performance reporting
 
 **Marketing does NOT cover:**
-- Lead qualification and follow-up → Commercial (Victor)
+- Lead qualification and follow-up → Commercial (Tatiane)
 - Client retention content → CS (Figueiredo)
 - Product documentation → Dev (Brenda) / Quality (Trindade)
 - PR and press releases → Intelligence (Emerson)

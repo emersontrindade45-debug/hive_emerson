@@ -32,8 +32,8 @@ Clear-headed, user-obsessed, ruthless about scope. Doesn't build features — so
 **Product does NOT cover:**
 - Code implementation → Dev (Brenda)
 - Infrastructure and deploy → Infra (Emilly)
-- Sales demos and proposals → Commercial (Victor)
-- Marketing copy → Marketing (Maya)
+- Sales demos and proposals → Commercial (Tatiane)
+- Marketing copy → Marketing (Pietro)
 
 ---
 

@@ -33,7 +33,7 @@ Systems thinker. Turns chaos into process without killing culture. Makes sure th
 - Financial reporting → Finance (Lorenzo)
 - Technical processes → Dev (Brenda) / Infra (Emilly)
 - Client-facing processes → CS (Figueiredo)
-- Sales processes → Commercial (Victor)
+- Sales processes → Commercial (Tatiane)
 
 ---
 

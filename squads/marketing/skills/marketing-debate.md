@@ -19,7 +19,7 @@ Three rounds. Total time: ~25 minutes.
 ### Round 1 — Perspectives (10 min)
 Each perspective presents its view on the marketing decision.
 
-**Marketing Lead (Maya)**
+**Marketing Lead (Pietro)**
 Focus: brand coherence, reach, engagement, content quality, channel fit. Asks: "Does this strengthen or dilute the brand?"
 
 **Sales voice**
