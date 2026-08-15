@@ -18,7 +18,7 @@
 
 ## Cash Flow
 
-- **Monthly fixed costs:** ~R$ 450–520/mês só em ferramentas digitais (ver foundation/budget.md — número ainda não fechado)
+- **Monthly fixed costs:** R$ 516,74/mês (fechado — R$ 359,21 ferramentas digitais + R$ 157,53 Nocode, ver foundation/budget.md)
 - **Current runway:** depende da reserva pessoal informada (valor a confirmar)
 - **Next major expense:**
 
