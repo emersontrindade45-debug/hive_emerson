@@ -95,6 +95,59 @@ Só entra se passar em pelo menos 1 destes:
 
 ---
 
+## Painel de Inteligência — Fontes nomeadas (definido 2026-08-19)
+
+> Curadoria pessoal de Emerson (CEO), organizada por Emerson (Intelligence) em 3 níveis por relevância ao perfil do negócio (n8n, agentes, APIs, RAG, automação). Cobre as duas trilhas: ferramentas (diária) e IA aplicada a negócios/tecnologia de fronteira (semanal).
+
+### Nível 1 — obrigatório (checar sempre)
+
+| Fonte | Canal principal | Por que importa |
+|---|---|---|
+| **Andrej Karpathy** | [YouTube](http://www.youtube.com/@AndrejKarpathy) · [X](https://x.com/karpathy) · [site](https://karpathy.ai) · [LinkedIn](https://linkedin.com/in/andrej-karpathy-9a650716) · [Eureka Labs](https://eurekalabs.ai) | Conceitos de IA direto da fonte — Nível 3 na origem, mas prioridade 1 pelo peso da opinião |
+| **Andrew Ng** | [LinkedIn](https://www.linkedin.com/in/andrewyng/) · [site](https://cs.stanford.edu) · [Coursera](https://coursera.org) | IA aplicada a negócios, referência global |
+| **Matt Wolfe** | [YouTube](https://www.youtube.com/@mreflow) · [FutureTools.io](https://futuretools.io) · [Newsletter](https://futuretools.beehiiv.com/subscribe) · [X](https://twitter.com/mreflow) · [Instagram](https://instagram.com/mr.eflow) | Descoberta diária de ferramentas novas — fonte primária do digest diário (Grupo Ferramentas). Nota: Future Tools migrou o foco para curadoria/reviews, não só listagem |
+| **Allie K. Miller** | [YouTube (AKM)](https://www.youtube.com/@AKMofficial) · [LinkedIn](https://linkedin.com/in/alliekmiller) · [X](https://twitter.com/alliekmiller) · [Instagram](https://instagram.com/alliekmiller) · [TikTok](https://tiktok.com/@alliekmiller) · [site](https://alliekmiller.com) | IA + negócios + ferramentas — tradução direta pra aplicação prática |
+| **Ethan Mollick** | [LinkedIn](https://linkedin.com/in/emollick) · [site](https://startupinnovation.org) | "Como a IA muda o trabalho" — direto pro ângulo de ROI/produtividade |
+| **The AI Advantage (Igor)** | [YouTube](https://joinaiaclub.com/igor) | Formato pegar ferramenta → testar → mostrar uso — bom modelo de conteúdo prático |
+
+### Nível 2 — inteligência de mercado
+
+| Fonte | Canal principal | Por que importa |
+|---|---|---|
+| **Ben's Bites** | Newsletter (já listada acima) | Curadoria diária de notícias de IA |
+| **Demis Hassabis** | [LinkedIn](https://linkedin.com/in/demishassabis) · [DeepMind](https://deepmind.google) | Direção estratégica da IA (Google DeepMind) |
+| **Dario Amodei** | (CEO Anthropic — perfis a confirmar) | Direção estratégica da IA (Anthropic) — dona da LLM em uso ativo no Hub |
+| **Yann LeCun** | [LinkedIn](https://linkedin.com/in/yann-lecun) · [site](https://yann.lecun.com) · [NYU](https://cs.nyu.edu) | Para onde a tecnologia está indo — visão crítica/alternativa |
+
+### Nível 3 — pesquisa/futuro
+
+| Fonte | Canal principal | Por que importa |
+|---|---|---|
+| **Fei-Fei Li** | [LinkedIn](https://linkedin.com/in/fei-fei-li-4541247) · [Stanford](https://profiles.stanford.edu) | Computer vision, spatial intelligence, IA aplicada, modelos multimodais |
+| Outros pesquisadores de frontier AI | — | Adicionar conforme emergirem |
+
+### Fontes adicionais — descoberta de ferramentas (apoio ao Nível 1)
+
+- **MattVidPro AI** — [YouTube](https://www.youtube.com/@mattvidpro) · [X](https://twitter.com/mattvidpro) · [Instagram](https://instagram.com/mattvidpro) · [TikTok](https://tiktok.com/@mattvidpro) — descoberta de ferramentas
+- **Dinastia (IA para Negócios)** — [YouTube](https://www.dinastia.uk) — IA aplicada a negócios, conteúdo BR
+
+### Fontes específicas de stack (uso direto no Hub — prioridade Produto/Dev)
+
+- **Cursor** — [YouTube](https://www.youtube.com/@cursor_ai) — IDE em uso
+- **Claude Code** — [YouTube](https://www.youtube.com/@claude) — ferramenta de execução em uso ativo
+- **Grok** — [YouTube](https://www.youtube.com/@Grok) — LLM no watchlist fixo (ver seção Ferramentas acima)
+- **OpenAI** — [YouTube](https://www.youtube.com/@OpenAI) — LLM no watchlist fixo
+- **Linear** — [site](https://linear.app) — ferramenta de PM já em uso (Linear MCP conectado)
+- **AI Hero (Matt Pocock)** — [site](https://aihero.dev) — tutoriais de engenharia aplicada, útil para Dev
+
+### Como usar o painel
+
+- **Trilha diária (Ferramentas → Paes + Pietro):** Nível 1 (Matt Wolfe, The AI Advantage, AKM) + MattVidPro + fontes de stack — checar por lançamentos que passem no critério de entrada já definido acima
+- **Trilha semanal (Tendências → Pietro):** Nível 1 completo + Nível 2 — sinais que viram conteúdo Hero/Hub/Help
+- **Radar trimestral/sob demanda (Frontier AI → CEO/Intelligence):** Nível 3 — não vira conteúdo direto, alimenta visão estratégica de Emerson (CEO) sobre para onde a IA está indo
+
+---
+
 ## Critério de priorização (o que vira conteúdo)
 
 Um sinal só entra no digest se passar em pelo menos 2 destes filtros:
@@ -128,7 +181,7 @@ Um sinal só entra no digest se passar em pelo menos 2 destes filtros:
 
 ## Active Priorities
 
-- **Pendente:** Emerson vai informar canais específicos de YouTube/Instagram (BR e/ou oficiais das empresas donas de LLM) para completar a lista de fontes de descoberta da trilha de ferramentas
-- Validar lista de fontes/canais específicos com Emerson (quais ele já segue e confia) — trilha de tendências (semanal)
+- **[x] Fechado 2026-08-19:** painel de inteligência com fontes nomeadas definido (ver seção acima) — 6 fontes Nível 1, 4 Nível 2, Nível 3 aberto para pesquisadores frontier AI
+- Rodar primeiro digest semanal de tendências usando o painel novo
 - Definir se cadência semanal evolui para automação (n8n) depois do primeiro ciclo manual
 - Aguardar material de business/consultoria de ROI que Emerson vai enviar, para incorporar como fonte própria (não só externa)
