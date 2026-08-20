@@ -7,6 +7,7 @@ Squad ativado via /hive-setup (2026-08-14). Voz de marca: Resultado, Parceira, E
 - [ ] Definir estrutura de calendário de conteúdo em foundation/content-calendar.md
 - [ ] Documentar guidelines de marca em foundation/brand.md
 - [ ] 3 pautas recebidas do Intelligence (radar 2026-08-19, ver ../intelligence/data/radar-semanal-2026-08-19.md): Hero "saber pedir certo" / Hub "bastidores da corrida de IA" / Help "3 coisas que a IA já faz sozinha" — avaliar e priorizar no calendário
+- [ ] **EM ANDAMENTO (pausado 2026-08-19):** roteiro de vídeo YouTube (5-10min) sobre pauta Hero "saber pedir certo" + adaptação Instagram/LinkedIn/TikTok. Bloqueado em `foundation/brand-voice.md` e `foundation/creator-profile.md` ainda vazios (templates) — Emerson vai enviar lista de habilidades/pilares para preencher creator-profile.md antes de continuar o roteiro. Retomar perguntando por essa lista.
 
 [L3]
 - Map distribution channels per content type
