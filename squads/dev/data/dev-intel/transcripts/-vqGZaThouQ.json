@@ -1,0 +1,17 @@
+{
+  "video_id": "-vqGZaThouQ",
+  "channel": "Programming with Mosh",
+  "channel_id": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+  "title": "New Course Dropping Soon...",
+  "url": "https://www.youtube.com/watch?v=-vqGZaThouQ",
+  "upload_date": "20260318",
+  "duration_seconds": 117,
+  "view_count": 30192,
+  "like_count": 1458,
+  "comment_count": 128,
+  "description": "I’ve been working on something special — can’t wait to share it with you soon. Watch this space.\n\n✋ Stay connected:\n- Full Courses: https://codewithmosh.com\n- Twitter: https://twitter.com/moshhamedani\n- Facebook: https://www.facebook.com/programmingwithmosh/\n- Instagram: https://www.instagram.com/codewithmosh.official/\n- LinkedIn: https://www.linkedin.com/school/codewithmosh/",
+  "transcript": "Cloudcode is changing the way software gets built. At Anthropic, engineers are already using it to write up to 90% of their code. And in this course, you will learn how to use it to build and deploy real production-grade software with AI. We'll build a full-stack AI-powered support ticket system, the kind of app you would actually ship to real customers. It has authentication and role-based access control, so the right people see the right things. We'll build a rich ticket management experience, so agents can quickly and easily find what they need. And we'll add AI-powered features that make the whole system smarter, summarizing long ticket conversations in one click, and polishing agent replies to sound professional and on-brand. And here's my favorite part. When a customer sends us an email, an AI agent in the background picks it up, analyzes it, and sends a professional reply within seconds. No human involved. And if the ticket can't be resolved, it gets escalated to a real agent to handle. This is a real engineering course, not a vibe coding experiment where 50 AI agents build an app while you sleep. We'll review every line of AI-generated code, identify issues, refactor constantly, and make sure everything follows solid engineering practices backed by hundreds of automated tests. This is the app I started building to solve a real problem for my own coding school. I built this with Cloudcode in about two full working days. If I wanted to build this manually with all the tests and all the features, we're talking two to three weeks minimum. That's the power of building with AI. And in this course, I'm going to show you exactly how I did it, from an idea to a live deployed application. The course is coming soon. Follow me so you don't miss it when it drops.",
+  "transcript_status": "ok",
+  "transcript_words": 310,
+  "collected_at": "2026-08-23T15:44:29.141196+00:00"
+}
