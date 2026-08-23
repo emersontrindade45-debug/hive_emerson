@@ -33,3 +33,4 @@ _core/.youtube-collect.log
 _core/.youtube-pending.md
 squads/*/data/*/.last-run
 squads/*/data/*/.last-analyzed
+_core/.neotriad-token.json
