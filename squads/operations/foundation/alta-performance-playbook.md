@@ -165,6 +165,59 @@ Atividades do dia (executadas × restantes), tempo planejado × executado × res
 
 ---
 
+## A Tríade do Tempo (Christian Barbosa)
+
+> ⚠️ **Procedência:** o livro NÃO foi lido. O que segue vem de fontes públicas — blog oficial do Neotriad, resumo do Sebrae-RS, materiais de divulgação da editora. Suficiente para aplicar o método; insuficiente para citar o livro. Se o Emerson tiver o livro, revalidar e marcar como confirmado.
+
+É a metodologia que originou o Neotriad — entender a tríade é entender por que o app é estruturado como é.
+
+### As três esferas
+
+| Esfera | O que é | Sinal |
+|---|---|---|
+| **Importante** | Ligado aos seus sonhos, metas e objetivos | Você escolheu fazer |
+| **Urgente** | Imprevisto, chega em cima da hora | Gera estresse; você não escolheu |
+| **Circunstancial** | Não agrega nada — conversa fútil, tarefa inútil | Tempo desperdiçado |
+
+**Diferença-chave para a matriz de Eisenhower:** aqui importante e urgente **nunca acontecem ao mesmo tempo**. Se algo importante virou urgente, é porque foi mal planejado — não é uma categoria "importante e urgente", é falha de planejamento.
+
+Base declarada: pesquisa com mais de 42.000 pessoas.
+
+### Distribuição-alvo: 70 / 20 / 10
+
+- **70% importante**
+- **20% urgente**
+- **10% circunstancial**
+
+A meta operacional é **eliminar urgências**, não administrá-las melhor. Urgência crônica é sintoma de planejamento ausente.
+
+### Regra de agenda: não planeje mais de 70% do tempo
+
+Imprevisto acontece. Agenda 100% cheia quebra no primeiro problema. **Quem está começando deve planejar no máximo 50%.**
+
+> Isso corrige um erro comum: encher o dia de tarefas e terminar frustrado. O espaço vazio é parte do método, não folga.
+
+### Toda tarefa precisa de duração estimada
+
+Tirar da cabeça e colocar no papel (ou no app) — **com tempo estimado**. Sem duração, a lista vira desejo e não cabe em dia nenhum.
+
+### Os 4 passos do planejamento semanal
+
+1. **Ações ligadas à identidade** — papéis, relacionamentos, equilíbrio, missão
+2. **Ações ligadas às metas** — os pequenos passos que executam a meta
+3. **Rotina** — tarefas e compromissos recorrentes
+4. **Uma tarefa de organização pessoal**
+
+> A ordem importa: identidade e metas entram **antes** da rotina. Se a rotina entra primeiro, ela consome tudo e a meta fica para "quando sobrar" — e nunca sobra. É a mesma lógica do bloco matinal do Joel Jota, por outro caminho.
+
+### Como isso conecta com o Neotriad
+
+Os campos que o app pede — **papel**, **categoria**, **indicador**, **prazo**, **plano de ação** — são a tríade materializada: `papel` vem do passo 1, `plano de ação` do passo 2, e a classificação importante/urgente/circunstancial é o que o dashboard mede.
+
+**Fontes:** [Neotriad — blog oficial](https://neotriad.com/blog/produtividade-no-trabalho-triade-do-tempo/) · [Sebrae-RS](https://digital.sebraers.com.br/blog/resumo-do-livro-a-triade-do-tempo/) · [triade.com.br](https://www.triade.com.br/)
+
+---
+
 ## Rotina diária proposta (a resposta ao "o que faço hoje")
 
 Derivada do método acima, adaptada ao contexto de operador solo com um cliente em produção:
@@ -209,4 +262,4 @@ Derivada do método acima, adaptada ao contexto de operador solo com um cliente 
 
 - **Integração Neotriad ↔ HIVE:** não avaliada. Emerson informou ter acesso à API/docs; pendente de recebê-los.
 - **Notion:** integração possível (API pública), mas não faz sentido antes da cadeia meta→dia existir.
-- **Livro *A Tríade do Tempo*** (Christian Barbosa, origem do Neotriad): não lido. O conceito de tríade (importante / urgente / circunstancial) não está coberto pelos vídeos coletados — são tutoriais de ferramenta, não do método.
+- **Livro *A Tríade do Tempo*** (Christian Barbosa): não lido — é obra comercial protegida. O método está registrado acima **a partir de fontes públicas** (blog oficial do Neotriad, Sebrae-RS, editora), o que basta para aplicar. Falta o aprofundamento que só o livro dá: a pesquisa com 42 mil pessoas, os estudos de caso e as nuances de aplicação. Se o Emerson tiver o livro, revalidar a seção e marcá-la como confirmada.
