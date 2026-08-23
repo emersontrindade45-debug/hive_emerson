@@ -27,3 +27,9 @@ Thumbs.db
 secrets/
 
 .vercel
+
+# Inteligência de YouTube — estado efêmero, não versionar
+_core/.youtube-collect.log
+_core/.youtube-pending.md
+squads/*/data/*/.last-run
+squads/*/data/*/.last-analyzed
