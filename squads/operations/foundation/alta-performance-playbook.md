@@ -218,6 +218,46 @@ Os campos que o app pede — **papel**, **categoria**, **indicador**, **prazo**,
 
 ---
 
+## Integração Neotriad — ativa
+
+`_core/neotriad.py` — cliente da API. Chave no `.env` (nunca versionado).
+
+```bash
+python _core/neotriad.py status   # distribuição da tríade vs alvo 70/20/10
+python _core/neotriad.py hoje     # tarefas e compromissos do dia
+python _core/neotriad.py papeis   # papéis cadastrados
+```
+
+**Três coisas que a doc oficial erra ou omite** (testado 2026-08-23):
+
+1. `POST /token` exige corpo **form-urlencoded** (`grant_type=password`). A doc diz JSON — com JSON responde `400 unsupported_grant_type`.
+2. **User-Agent de navegador é obrigatório** — sem ele o Cloudflare devolve `403 (error code 1010)` antes de avaliar a chave.
+3. Respostas vêm como `{"data": {"Quantidade": N, "<Recurso>": [...]}}`, não lista direta.
+
+Token vale ~30 dias, cacheado em `_core/.neotriad-token.json` (ignorado pelo git).
+
+### 🔴 O que os dados reais revelaram (2026-08-23)
+
+**121 tarefas na janela de 14 dias — 100% classificadas como "Importante".**
+
+Pela Tríade, isso é o sintoma central: se tudo é importante, a classificação não está discriminando nada. O alvo é 70/20/10, e uma distribuição 100/0/0 significa que a ferramenta está sendo usada como lista de tarefas, não como instrumento de priorização.
+
+> Conecta direto com o travamento nº 1 do Emerson ("não sei qual a prioridade"). O dado confirma o diagnóstico: a prioridade não está sendo declarada em lugar nenhum.
+
+**13 papéis cadastrados**, incluindo `ASSISTENTE LEGISLATIVO` (900 min ideais) e `ESTUDANTE` (1680 min). Há dois papéis `EMPREENDEDOR` duplicados.
+
+> ⚠️ **Fato novo para o HIVE:** o papel de assistente legislativo com 900 min/semana não aparecia em nenhum squad. Se há emprego formal, o tempo real disponível para o negócio é muito menor que o pressuposto — e toda meta de trimestre precisa caber nesse resto, não no dia inteiro.
+
+**Tarefas duplicadas:** "Empreendimento Digital" (180min), "Aprendizado" (105min) e "Comunicação" aparecem duas vezes no mesmo dia, com duração idêntica. Provável recorrência duplicada — infla o tempo planejado e falseia qualquer medição.
+
+### Ações sugeridas (a decidir com Emerson)
+
+1. Limpar as duplicatas e os papéis `EMPREENDEDOR` repetidos
+2. Reclassificar a tríade de verdade — o que é urgente e o que é circunstancial no meio das 121
+3. Confirmar quantas horas/semana sobram de fato para o negócio, considerando o papel de assistente legislativo
+
+---
+
 ## Rotina diária proposta (a resposta ao "o que faço hoje")
 
 Derivada do método acima, adaptada ao contexto de operador solo com um cliente em produção:
