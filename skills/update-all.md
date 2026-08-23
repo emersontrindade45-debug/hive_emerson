@@ -19,6 +19,7 @@ Cadências, derivadas da frequência real de publicação de cada canal:
 | marketing | 7 dias | 10 dias | Canais publicam quase diariamente; algoritmo muda toda semana |
 | dev | 14 dias | 30 dias | Fireship é frequente, mas nem toda notícia muda decisão |
 | infra | 28 dias | 60 dias | Anton Putra publica a cada ~2 meses; benchmark não envelhece rápido |
+| operations | 14 dias | 30 dias | Joel Jota publica com frequência; Neotriad é esporádico |
 
 ---
 
@@ -57,6 +58,7 @@ Seguir a skill correspondente, que já define o filtro:
 | marketing | `squads/marketing/skills/update-youtube.md` | Criar conteúdo |
 | dev | `squads/dev/skills/update-dev-intel.md` | Decidir e manter habilidade técnica |
 | infra | `squads/infra/skills/update-tech-intel.md` | Decidir stack, custo, confiabilidade |
+| operations | (sem skill própria) | Método de metas e decisão diária — grava em `squads/operations/foundation/alta-performance-playbook.md` |
 
 **Marketing é o único voltado a conteúdo.** Dev e Infra são decisão — não gerar pauta a partir deles.
 
@@ -69,6 +71,7 @@ Cada squad no seu lugar:
 - `squads/marketing/foundation/youtube-playbook.md` + relatório em `data/youtube-intel/reports/YYYY-MM-DD.md`
 - `squads/dev/foundation/engineering-playbook.md`
 - `squads/infra/foundation/tech-decision-playbook.md`
+- `squads/operations/foundation/alta-performance-playbook.md`
 
 Editar item existente em vez de duplicar. Atualizar `[L1]` do STATE de cada squad que mudou.
 
@@ -77,7 +80,7 @@ Editar item existente em vez de duplicar. Atualizar `[L1]` do STATE de cada squa
 **Obrigatório**, senão os mesmos vídeos reaparecem como pendentes:
 
 ```bash
-python -c "import io,os;from datetime import datetime,timezone;a=datetime.now(timezone.utc).replace(tzinfo=None).isoformat(timespec='seconds');[io.open(os.path.join(d,'.last-analyzed'),'w',encoding='utf-8').write(a) for d in ['squads/marketing/data/youtube-intel','squads/dev/data/dev-intel','squads/infra/data/tech-intel']]"
+python -c "import io,os;from datetime import datetime,timezone;a=datetime.now(timezone.utc).replace(tzinfo=None).isoformat(timespec='seconds');[io.open(os.path.join(d,'.last-analyzed'),'w',encoding='utf-8').write(a) for d in ['squads/marketing/data/youtube-intel','squads/dev/data/dev-intel','squads/infra/data/tech-intel','squads/operations/data/performance-intel']]"
 ```
 
 Marcar **somente** os squads efetivamente analisados. `.last-analyzed` é UTC, para bater com `collected_at`.
