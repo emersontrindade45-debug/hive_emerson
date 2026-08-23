@@ -1,0 +1,17 @@
+{
+  "video_id": "5-sDEDBJPlY",
+  "channel": "Anton Putra",
+  "channel_id": "UCeLvlbC754U6FyFQbKc0UnQ",
+  "title": "Rust vs C++ Performance: Can Rust Actually Be Faster? (Pt. 2)",
+  "url": "https://www.youtube.com/watch?v=5-sDEDBJPlY",
+  "upload_date": "20250907",
+  "duration_seconds": 183,
+  "view_count": 18353,
+  "like_count": 491,
+  "comment_count": 98,
+  "description": "👨‍💼📈 Mentorship/On-the-Job Support/Consulting - https://calendly.com/antonputra/youtube or me@antonputra.com\n\n▬▬▬▬▬ Experience & Location 💼 ▬▬▬▬▬\n►  I’m a Senior Software Engineer (13+ years of experience)\n►  Located in San Francisco Bay Area, CA (US citizen)\n\n▬▬▬▬▬▬ Connect with me 👋 ▬▬▬▬▬▬\n►  LinkedIn: https://www.linkedin.com/in/anton-putra\n►  Twitter/X: https://twitter.com/antonvputra\n►  GitHub: https://github.com/antonputra\n►  Email: me@antonputra.com\n\n▬▬▬▬▬▬▬ Timestamps ⏰  ▬▬▬▬▬▬▬\n0:00 Intro\n0:38 Test\n\n▬▬▬▬▬▬▬ Source Code 📚 ▬▬▬▬▬▬▬\n► PR by grincha09: https://github.com/antonputra/tutorials/pull/474\n\n► Original Source Code: https://github.com/antonputra/tutorials/tree/265/lessons/265\n\n#rust #cpp",
+  "transcript": "In this quick update video, I compare actics framework in Rust with Boost Beast in C++. I got a pull request with C++ improvements. Now it uses Corins instead. Let's see if it makes any difference. It's a relatively old framework that I comparing with Rust and in a few days I'll also compare modern C++ frameworks such as Sear, Userware and Dragon. And on the Frost side, Actix, Axum, May, and Antax. If you want me to compare other frameworks, just raise a PR and I'll test them as well. Let's go ahead and run a test. I use M7A large EC2 instances in AWS with two CPUs and 8 GB of memory. I use AdWS to closely simulate a production environment that most of you have rather than using my home lab to test. As always, I run the test for about an hour or two and just compress it to a couple of minutes for you. All right, let me run it for one more minute and we'll go over each graph one by one. Heat. Heat. Well, unfortunately, that change in C++ didn't make any difference. This time, Boost Beast reached around 90,000 requests per second. In the previous test, it was like 89 or something. Not a big difference. Rust, on the other hand, reaches the same number of requests per second. Next, we have latency and the trend is pretty much the same. C++ has slightly higher latency and it's mostly due to the framework implementation and not C++ itself. C++ and Rust are very low-level languages and implementation plays a huge role in those frameworks. I really do at the end of the day compare frameworks and not the languages themselves. In the next video, I'll do either C++ frameworks or Rust frameworks and then compare the winner with each",
+  "transcript_status": "ok",
+  "transcript_words": 307,
+  "collected_at": "2026-08-23T15:34:00.911000+00:00"
+}

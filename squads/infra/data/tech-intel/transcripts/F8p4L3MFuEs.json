@@ -1,0 +1,17 @@
+{
+  "video_id": "F8p4L3MFuEs",
+  "channel": "Anton Putra",
+  "channel_id": "UCeLvlbC754U6FyFQbKc0UnQ",
+  "title": "Zig vs Rust Performance Benchmark 2026",
+  "url": "https://www.youtube.com/watch?v=F8p4L3MFuEs",
+  "upload_date": "20260110",
+  "duration_seconds": 106,
+  "view_count": 33895,
+  "like_count": 593,
+  "comment_count": 161,
+  "description": "Rust vs Zig Performance Benchmark (Actix vs ZZZ)\n\n🤝 - LinkedIn - https://www.linkedin.com/in/anton-putra\n🎙 - Twitter - https://twitter.com/antonvputra\n📧 - Email - me@antonputra.com\n👨‍💻 - GitHub - https://github.com/antonputra\n\n=========\n\n📚 - Source Code: https://github.com/antonputra/tutorials/tree/main/lessons/278\n\n#Rust #Zig  #DevOps",
+  "transcript": "In this video, we'll compare Rust and Zig, the fastest web frameworks that I could find for each language. We'll measure latency, throughput, CPU, and memory usage. This is very simple test. When the client sends a get request, the server responds with a hello world string. I run it on AWS using large instances and each framework uses two workers to utilize the entire VM. Let's go ahead and run the test. ZIK framework uses busy loop by default. That's why you'll immediately see full 100% CPU utilization. Let me run the test for another minute. Let go. Let go. Well, you can see that Zigg slightly outperformed Rust, but not by much. In terms of latency, Rust performed a little better. Let me know what should I test",
+  "transcript_status": "ok",
+  "transcript_words": 130,
+  "collected_at": "2026-08-23T15:30:08.161376+00:00"
+}

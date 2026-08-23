@@ -1,0 +1,32 @@
+{
+  "_comment": "Canais monitorados para DECISÃO TÉCNICA de negócio — escolha de stack, arquitetura, custo e confiabilidade ao construir apps/software/IA. NÃO é insumo de conteúdo (isso é o squad marketing). Cada item de playbook derivado daqui é avaliado por: economia, segurança, confiabilidade.",
+  "channels": [
+    {
+      "name": "NetworkChuck",
+      "handle": "@NetworkChuck",
+      "channel_id": "UC9x0AN7BWHpCDHSm9NiJFJQ",
+      "url": "https://www.youtube.com/@NetworkChuck",
+      "lang": "en",
+      "focus": "Linux, Docker, self-hosting, redes, VPN, segurança prática",
+      "eixo": "segurança, custo de VPS"
+    },
+    {
+      "name": "Anton Putra",
+      "handle": "@AntonPutra",
+      "channel_id": "UCeLvlbC754U6FyFQbKc0UnQ",
+      "url": "https://www.youtube.com/@AntonPutra",
+      "lang": "en",
+      "focus": "Benchmarks medidos lado a lado (bancos, runtimes, filas), tuning",
+      "eixo": "confiabilidade, economia — dados medidos, não opinião"
+    },
+    {
+      "name": "ByteByteGo",
+      "handle": "@ByteByteGo",
+      "channel_id": "UCZgt6AzoyjslHTC9dz0UoTw",
+      "url": "https://www.youtube.com/@ByteByteGo",
+      "lang": "en",
+      "focus": "Arquitetura de sistemas e tradeoffs, formato curto",
+      "eixo": "decisão de arquitetura"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "_comment": "Canais monitorados para PRÁTICA DE ENGENHARIA — padrões de código, ferramentas, mudanças de ecossistema que afetam o que construímos. NÃO é insumo de conteúdo (marketing) nem decisão de infra (infra). Filtro: só entra o que muda como escrevemos ou entregamos código.",
+  "channels": [
+    {
+      "name": "Fireship",
+      "handle": "@Fireship",
+      "channel_id": "UCsBjURrPoezykLs9EqgamOA",
+      "url": "https://www.youtube.com/@Fireship",
+      "lang": "en",
+      "focus": "Notícia de tech, novas ferramentas, mudanças de framework — formato curto e denso",
+      "uso": "radar de ecossistema: o que mudou em Next.js, TypeScript, IA para dev"
+    },
+    {
+      "name": "freeCodeCamp",
+      "handle": "@freecodecamp",
+      "channel_id": "UC8butISFwT-Wl7EV0hUK0BQ",
+      "url": "https://www.youtube.com/@freecodecamp",
+      "lang": "en",
+      "focus": "Cursos longos e aprofundados de programação",
+      "uso": "referência sob demanda quando precisarmos aprender algo do zero"
+    },
+    {
+      "name": "Programming with Mosh",
+      "handle": "@programmingwithmosh",
+      "channel_id": "UCWv7vMbMWH4-V0ZXdmDpPBA",
+      "url": "https://www.youtube.com/@programmingwithmosh",
+      "lang": "en",
+      "focus": "Tutoriais práticos, projetos reais, fundamentos",
+      "uso": "fundamentos e padrões de código"
+    }
+  ]
+}

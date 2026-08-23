@@ -1,22 +1,25 @@
 #!/usr/bin/env python3
 """
-Coletor de inteligência de YouTube para o squad Marketing.
+Coletor de inteligencia de YouTube — compartilhado entre squads.
 
-Raspa os canais listados em channels.json: metadados + transcrição (legenda
-automática em PT). Guarda cada vídeo como um .json em transcripts/ e usa isso
-como cache — vídeo já baixado nunca é rebaixado.
+Raspa os canais listados no channels.json do squad: metadados + transcricao
+no idioma original (pt-orig, en-orig, ...). Grava um .json por video em
+transcripts/ e usa isso como cache — video ja baixado nunca e rebaixado.
 
 Uso:
-    python collect.py                    # novos vídeos dos últimos 7 dias
-    python collect.py --days 30          # janela maior
-    python collect.py --max 5            # limita vídeos por canal
-    python collect.py --resolve <url>    # descobre o channel_id de uma URL
-    python collect.py --no-transcript    # só metadados (rápido)
+    python _core/youtube-collect.py --dir squads/marketing/data/youtube-intel
+    python _core/youtube-collect.py --dir squads/infra/data/tech-intel --days 14
+    python _core/youtube-collect.py --resolve https://youtube.com/@canal
+    python _core/youtube-collect.py --dir <dir> --no-transcript   # so metadados
 
-Saída: imprime um resumo e grava transcripts/<video_id>.json
+IMPORTANTE: rode sempre da raiz do repo. Nao use "cd" para subpasta —
+os hooks de sessao do HIVE resolvem caminho relativo ao cwd e quebram.
+
+O idioma vem do campo "lang" de cada canal em channels.json (default: pt).
 """
 
 import argparse
+import glob
 import io
 import json
 import os
@@ -26,9 +29,13 @@ import sys
 import time
 from datetime import datetime, timedelta, timezone
 
-BASE = os.path.dirname(os.path.abspath(__file__))
-TRANSCRIPTS = os.path.join(BASE, "transcripts")
-CHANNELS_FILE = os.path.join(BASE, "channels.json")
+# Coletor compartilhado: cada squad passa seu proprio diretorio via --dir.
+# Ex.: --dir squads/infra/data/tech-intel
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DEFAULT_DIR = os.path.join(REPO, "squads", "marketing", "data", "youtube-intel")
+
+# definido em main() a partir de --dir
+TRANSCRIPTS = None
 
 # O YouTube devolve 429 se pedirmos legendas rápido demais. Pausa entre vídeos.
 THROTTLE_SECONDS = 2.5
@@ -75,8 +82,8 @@ def list_videos(channel, days, max_videos):
         [
             "--flat-playlist",
             "--playlist-items", f"1-{max_videos}",
-            # lang=pt evita que o YouTube devolva títulos auto-traduzidos p/ inglês
-            "--extractor-args", "youtube:lang=pt",
+            # fixar o idioma do canal evita títulos auto-traduzidos pelo YouTube
+            "--extractor-args", f"youtube:lang={channel.get('lang', 'pt')}",
             "-J", url,
         ]
     )
@@ -136,7 +143,7 @@ def fetch_video(video, channel, want_transcript):
     # exige uma segunda chamada, sem "-J".
     out, err = run_ytdlp(
         [
-            "--extractor-args", "youtube:lang=pt",
+            "--extractor-args", f"youtube:lang={channel.get('lang', 'pt')}",
             "--skip-download",
             "-J",
             video["url"],
@@ -151,18 +158,26 @@ def fetch_video(video, channel, want_transcript):
     except json.JSONDecodeError:
         return None, "json invalido"
 
+    # video privado, removido ou so-para-membros faz o yt-dlp devolver "null"
+    if not isinstance(meta, dict):
+        return None, "indisponivel (privado/removido/membros)"
+
     # Passo 2 - legenda, sem "-J", para que os arquivos sejam escritos.
     transcript = ""
     transcript_status = "nao solicitada"
     if want_transcript:
+        # "<lang>-orig" e a legenda no idioma original em que o video foi
+        # falado (pt-orig, en-orig, ...). Pegamos o idioma preferido do canal
+        # e caimos para o generico se ele nao existir. Pedir variantes demais
+        # gera HTTP 429.
+        lang = channel.get("lang", "pt")
         _, sub_err = run_ytdlp(
             [
-                "--extractor-args", "youtube:lang=pt",
+                "--extractor-args", f"youtube:lang={lang}",
                 "--skip-download",
                 "--write-auto-subs",
                 "--write-subs",
-                # pt-orig = legenda no idioma original. Pedir variantes demais gera 429.
-                "--sub-langs", "pt-orig",
+                "--sub-langs", f"{lang}-orig,{lang}",
                 "--sub-format", "json3",
                 "-o", tmp_prefix + ".%(ext)s",
                 video["url"],
@@ -170,24 +185,21 @@ def fetch_video(video, channel, want_transcript):
             timeout=240,
         )
         err = (err or "") + (sub_err or "")
-        found = None
-        for suffix in (".pt-orig.json3", ".pt.json3"):
-            candidate = tmp_prefix + suffix
-            if os.path.exists(candidate):
-                found = candidate
-                break
-        if found:
+        # o yt-dlp nomeia como <prefixo>.<lang>.json3; o "-orig" tem
+        # prioridade por ser a fala original, sem tradução automática.
+        candidates = sorted(
+            glob.glob(tmp_prefix + ".*.json3"),
+            key=lambda p: (0 if "-orig." in p else 1, p),
+        )
+        if candidates:
             try:
-                transcript = parse_json3(found)
+                transcript = parse_json3(candidates[0])
                 transcript_status = "ok"
             except Exception as exc:
                 transcript_status = f"erro no parse: {exc}"
             finally:
-                # limpa os temporários
-                for suffix in (".pt-orig.json3", ".pt.json3"):
-                    leftover = tmp_prefix + suffix
-                    if os.path.exists(leftover):
-                        os.remove(leftover)
+                for leftover in glob.glob(tmp_prefix + ".*.json3"):
+                    os.remove(leftover)
         else:
             transcript_status = "indisponivel"
             if "429" in (err or ""):
@@ -220,14 +232,28 @@ def main():
     ap.add_argument("--no-transcript", action="store_true")
     ap.add_argument("--resolve", metavar="URL", help="descobre o channel_id de uma URL")
     ap.add_argument("--force", action="store_true", help="rebaixa mesmo se ja existir")
+    ap.add_argument(
+        "--dir",
+        default=DEFAULT_DIR,
+        help="diretorio do squad (contem channels.json; grava em transcripts/)",
+    )
     args = ap.parse_args()
 
     if args.resolve:
         resolve_channel(args.resolve)
         return
 
+    global TRANSCRIPTS
+    base = args.dir if os.path.isabs(args.dir) else os.path.join(REPO, args.dir)
+    TRANSCRIPTS = os.path.join(base, "transcripts")
+    channels_file = os.path.join(base, "channels.json")
+
+    if not os.path.exists(channels_file):
+        log(f"ERRO: nao encontrei {channels_file}")
+        sys.exit(1)
+
     os.makedirs(TRANSCRIPTS, exist_ok=True)
-    with io.open(CHANNELS_FILE, encoding="utf-8") as fh:
+    with io.open(channels_file, encoding="utf-8") as fh:
         channels = json.load(fh)["channels"]
 
     cutoff_date = (datetime.now(timezone.utc) - timedelta(days=args.days)).strftime("%Y%m%d")

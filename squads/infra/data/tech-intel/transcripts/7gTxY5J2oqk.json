@@ -1,0 +1,17 @@
+{
+  "video_id": "7gTxY5J2oqk",
+  "channel": "Anton Putra",
+  "channel_id": "UCeLvlbC754U6FyFQbKc0UnQ",
+  "title": "Fastest Rust Framework in 2025? 🚀 Benchmarking the Best!",
+  "url": "https://www.youtube.com/watch?v=7gTxY5J2oqk",
+  "upload_date": "20250917",
+  "duration_seconds": 199,
+  "view_count": 17999,
+  "like_count": 485,
+  "comment_count": 44,
+  "description": "👨‍💼📈 Mentorship/On-the-Job Support/Consulting - https://calendly.com/antonputra/youtube or me@antonputra.com\n\n▬▬▬▬▬ Experience & Location 💼 ▬▬▬▬▬\n►  I’m a Senior Software Engineer (13+ years of experience)\n►  Located in San Francisco Bay Area, CA (US citizen)\n\n▬▬▬▬▬▬ Connect with me 👋 ▬▬▬▬▬▬\n►  LinkedIn: https://www.linkedin.com/in/anton-putra\n►  Twitter/X: https://twitter.com/antonvputra\n►  GitHub: https://github.com/antonputra\n►  Email: me@antonputra.com\n\n▬▬▬▬▬▬▬ Timestamps ⏰  ▬▬▬▬▬▬▬\n0:00 Intro\n1:12 Test\n\n▬▬▬▬▬▬▬ Source Code 📚 ▬▬▬▬▬▬▬\n► PR by Svetlin Zarev: https://github.com/antonputra/tutorials/pull/478\n\n► Original Source Code: https://github.com/antonputra/tutorials/tree/257/lessons/257\n\n#rust",
+  "transcript": "In this quick video, I want to find the fastest Rust framework to use later and compare it with C++. I recently discovered that using a decade old C++ framework like Boobe Beast and comparing it with modern Rust frameworks is not a smart decision. So, I'll pick the fastest Rust framework based on this test, compare modern C++ frameworks in the next video, and finally compare Rust and C++. In the end, we'll measure latency of each request, saturation of each application by monitoring CPU and memory usage and gradually increase the number of clients until all applications fail to handle additional requests. I'm using ADBs instead of a home lab to provide real world performance results similar to what you would get in real production environment. I use M7A large instances with two CPUs and 8 GB of memory and running my clients on EKS cluster to generate load. If you want to learn more about EDBs networking, EKS best practices and production setups, I have a full course available on YouTube. All right, let's go ahead and run the test. As always, you can find the source code for this test on my GitHub and send me pull requests if anything needs to be improved. The entire test took around 2 hours and I compressed it to just a few minutes. All right, let me run this test for one more minute and then we'll go over each graph one by one. Let it go. First we have requests per second. As you can see, May clearly handles more requests than others with actics close behind followed by Antax and Axom. Next we have latency where lower is better. May again shows the best results with actics right after. Next we have CPU usage. Finally we have memory usage. Clearly May has the lead but actics is actually very close in terms of throughput and latency. due to its community size. For a real project, I would still choose actics because small projects on GitHub tend to be abundant, leaving you with unmaintained framework. However, if you only care about performance, May is the way to",
+  "transcript_status": "ok",
+  "transcript_words": 359,
+  "collected_at": "2026-08-23T15:33:52.686869+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "gwtoJTevxSA",
+  "channel": "Anton Putra",
+  "channel_id": "UCeLvlbC754U6FyFQbKc0UnQ",
+  "title": "Redis vs Valkey Performance [NEW] (8.6 vs 9.0)",
+  "url": "https://www.youtube.com/watch?v=gwtoJTevxSA",
+  "upload_date": "20260224",
+  "duration_seconds": 231,
+  "view_count": 19541,
+  "like_count": 412,
+  "comment_count": 62,
+  "description": "Valkey vs Redis: Performance & Comparison\n\nRedis 8.6: Performance improvements: https://redis.io/blog/announcing-redis-86-performance-improvements-streams/\n\n▬▬▬▬▬▬ Connect with me 👋 ▬▬▬▬▬▬\n►  LinkedIn: https://www.linkedin.com/in/anton-putra\n►  Twitter/X: https://twitter.com/antonvputra\n►  GitHub: https://github.com/antonputra\n►  Email: me@antonputra.com\n\n▬▬▬▬▬▬▬ Source Code 📚 ▬▬▬▬▬▬▬\n► Original Source Code: https://github.com/antonputra/tutorials/tree/281/lessons/281\n\n#redis #valkey #devops",
+  "transcript": "In this video, I'll compare just released Radius 8.6, which brings major performance improvements against Valky. We'll be measuring roundtrip latency, throughout, and both CPU and memory usage. Since my last benchmark, Radius has made significant performance improvements in its latest version. So, I decided it was time to rerun the test. You can find a link to the blog post as well as the test source code in the video description. My goal for this test is to reproduce the benchmark published by Valky where they claim to hit 1 million requests per second with a 512 byte payload. To test performance, I'm using simple set and get commands with 1 second TTL measuring the total roundrip duration. I'm using the same 512 byte payload size used in the original VI blog post. For the infrastructure, I provision AWS gray on based four extra-l large instances for both databases and I use exactly the same nine IO threads for both. To generate load, I'm using EKS and gradually increase the number of ports until both Radius and Valky can't handle any more requests. Let's go ahead and run the test. Usually, it takes a couple of hours to run it, and I just compressed it to a few minutes while I'm editing. The source code and instructions can be found in my public GitHub repo and are easily reproducible by anyone. On the left hand side, we have latency. The lower the better. Then on the right hand side, we have throughout. It's vice versa. The more requests per second each instance can handle, the better. And on the bottom, we have CPU and memory usage. All right, let me run this test for one more minute and we'll go over each graph one by one. Let go. Let it go. First of all, we have throughput and radius definitely improved performance as they promised in the blog post. Then we have latency and in this case it's pretty much the same at the beginning and slightly higher at the end. I think it directly correlates with much lower CPU usage. Keep in mind I'm using four extra large instance with 16 CPU cores. Based on my experience, the sweet spot between vertical and horizontal scaling would be using two extra large with eight CPU instance and scaling to form a cluster. I think in this case, Radius will be much more efficient compared to Wii. If you're not using elastic in AWS, which is a managed service based on VI, and are hosting Radius yourself, I think you'll get much better performance for less money, which is ultimately what we and",
+  "transcript_status": "ok",
+  "transcript_words": 443,
+  "collected_at": "2026-08-23T15:30:00.884592+00:00"
+}
