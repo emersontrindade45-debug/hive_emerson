@@ -1,6 +1,14 @@
 # Orchestrator STATE
 
 [L1]
+**Mapa do negócio levantado (2026-08-23):** `foundation/mapa-do-negocio.md` — estado real cruzando Notion (1.990 objetos, 134 databases) + Neotriad (121 tarefas) via API. Painel consolidado criado na página **Negócio** do Notion ("🎯 Central de Operação").
+
+**Diagnóstico central:** não falta método nem meta — ambos já existiam no Notion desde abril. Falta execução. 30 leads prospectados e zero contactados; 2 ciclos de 12 semanas vencidos e nunca fechados; Planner Semanal parado desde 24/05. Receita R$ 0.
+
+**Padrão a evitar:** 134 databases, 6 bases de tarefas, 3 planners. Quando algo não anda, a resposta tem sido criar estrutura nova. O HIVE não deve virar mais uma camada — a consolidação de 23/08 não criou nenhum database novo.
+
+**Gargalo único:** ligar para os 30 leads. Indicador semanal = leads que mudaram de etapa.
+
 HIVE configurado. Empresa: my-company | Indústria: Agência de IA para PMEs | Estágio: Pré-receita
 Squads ativos: todos os 10 — Commercial (Tatiane), Dev (Brenda), Marketing (Pietro), Finance (Lorenzo), Intelligence (Emerson), CS (Figueiredo), Product (Paes), Infra (Emilly), Operations (Cristina), Quality (Trindade)
 Visão de ciclo operacional integrado registrada em foundation/ciclo-operacional.md — conteúdo → lead → demanda → MVP → produto → infra → mais conteúdo, com Finance travando margem/escala/recorrência.
