@@ -57,6 +57,14 @@ SQUADS = [
         "max": 8,
         "assunto": "decisao de stack, banco, custo e confiabilidade",
     },
+    {
+        "nome": "operations",
+        "dir": "squads/operations/data/performance-intel",
+        "cadencia_dias": 14,
+        "janela_dias": 30,
+        "max": 8,
+        "assunto": "metas, alta performance, decisao do que fazer no dia",
+    },
 ]
 
 

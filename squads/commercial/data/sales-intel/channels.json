@@ -1,0 +1,4 @@
+{
+  "_comment": "Acervo de HABILIDADES DE VENDA para a Tatiane. Alimentado sob demanda por vídeos avulsos (python _core/youtube-fetch-video.py --dir squads/commercial/data/sales-intel <URL>), não por raspagem de canal inteiro. Para monitorar um canal de vendas continuamente, adicionar aqui e rodar o youtube-collect.py.",
+  "channels": []
+}

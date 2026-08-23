@@ -1,0 +1,23 @@
+{
+  "_comment": "Canais monitorados para ALTA PERFORMANCE — método de metas, produtividade, decisão sobre o que fazer no dia. Alimenta o setor de alta performance do Operations (Cristina). Não é conteúdo (marketing) nem decisão técnica (dev/infra).",
+  "channels": [
+    {
+      "name": "Neotriad",
+      "handle": "@Neotriad",
+      "channel_id": "UCuso76U8ORcgzG2-S_Up9jw",
+      "url": "https://www.youtube.com/@Neotriad",
+      "lang": "pt",
+      "focus": "Tríade do Tempo, gestão de tempo e prioridade, uso operacional da ferramenta",
+      "uso": "método operacional: como transformar meta em bloco de agenda"
+    },
+    {
+      "name": "Joel Jota",
+      "handle": "@joeljota",
+      "channel_id": "UCSICdgxW9BIvsHqmSLNU8hQ",
+      "url": "https://www.youtube.com/@joeljota",
+      "lang": "pt",
+      "focus": "Alta performance, disciplina, metas, mentalidade aplicada a negócio e vida pessoal",
+      "uso": "camada de decisão: escolher objetivo, manter consistência"
+    }
+  ]
+}
