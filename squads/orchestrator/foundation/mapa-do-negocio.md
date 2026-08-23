@@ -20,9 +20,21 @@ Bases: `Metas Principais` (7 metas), `Ciclos 12 Semanas`, `Planner Semanal`.
 7 metas por área (Espiritual, Saúde ×2, Família, Dinheiro, Carreira, **Negócio**).
 A de negócio: **"Faturar R$ 2.000/mês"** · Valor Alvo 2000 · prazo **31/12/2026**.
 
-### Prospecção — feita
-30 empresas em `Captação de Leads - Website`: pet shops, bares, barbearias, academias, salões (São Paulo).
-Mais 3 bases de leads: `Leads para Ligar`, `CRM - Leads`, `0. Potenciais Leads - IA`.
+### Prospecção — feita, em volume
+**238 leads no total**, distribuídos em 5 bases:
+
+| Base | Qtd | Estado |
+|---|---:|---|
+| `CRM - Leads` | 134 | 36 atendidos por IA, 5 por humano, **93 sem atendimento** |
+| `Leads para Ligar` | 50 | Guarujá, com telefone e endereço. **Call: 0. Presencial: 0** |
+| `Captação de Leads - Website` | 30 | São Paulo, todos na etapa 2 |
+| `0. Potenciais Leads - IA` | 24 | captura de fev/2026 |
+| `1. Estudo dos Leads` | 5 | estudados |
+
+### Processo de vendas — documentado
+`0. Vendas` (processo interno/externo, sentimentos a causar no lead, estrutura do script), `2. Scripts de Vendas de IA` (prospecção fria para negócios locais, anotações da mentoria 10k IA), `3. Scripts de Vendas`, `4. Funil de Vendas` (com automações), `3. Fechamento`, `Precificação IA - Clientes`.
+
+> Script de venda pronto + 238 leads com telefone + zero ligações registradas.
 
 ### Execução — houve, e parou
 `Planner Semanal` preenchido da semana 1 à 6 (13/04 a 24/05):
@@ -36,7 +48,7 @@ Mais 3 bases de leads: `Leads para Ligar`, `CRM - Leads`, `0. Potenciais Leads -
 
 | Item | Prazo | Situação em 23/08 |
 |---|---|---|
-| 30 leads | — | 100% na etapa 2, sem valor, sem responsável |
+| 238 leads | — | Nenhuma ligação registrada; 93 sem atendimento no CRM |
 | Ciclo "Abril a Junho" | 12/06 | "Em andamento" — vencido há 2 meses |
 | Ciclo "Maio a Julho" | 31/07 | "Em andamento" — vencido |
 | Planner Semanal | 24/05 | sem registro há 3 meses |
@@ -61,10 +73,10 @@ Cruzando com o Neotriad: 121 tarefas nos 14 dias seguintes, **100% classificadas
 
 ## O que PRECISA ser feito
 
-**Gargalo único:** 30 leads prospectados, zero contactados. É onde a receita está travada.
+**Gargalo único:** 238 leads prospectados, zero contactados. É onde a receita está travada.
 
 ### Ordem (a ordem importa)
-1. **Ligar para 5 leads** — hoje, antes de organizar qualquer coisa
+1. **Ligar para 5 leads** de `Leads para Ligar` (Guarujá — telefone e endereço prontos) — hoje, antes de organizar qualquer coisa
 2. Fechar os 2 ciclos vencidos (Concluído ou Cancelado — não deixar aberto)
 3. Criar a semana atual no `Planner Semanal`
 4. Repactuar ou cancelar as 12 tarefas de abril
@@ -80,7 +92,7 @@ Cruzando com o Neotriad: 121 tarefas nos 14 dias seguintes, **100% classificadas
 
 | Assunto | Notion | HIVE |
 |---|---|---|
-| Painel consolidado | página **Negócio** → "🎯 Central de Operação" | este arquivo |
+| Painel consolidado | página **Negócio** → "🎯 CENTRAL — Empresa IA" | este arquivo |
 | Decisão do dia | `O Que Fazer Hoje` | `squads/operations/foundation/alta-performance-playbook.md` |
 | Metas | `Metas Principais` | idem |
 | Leads | `Captação de Leads - Website` | `squads/commercial/` |
