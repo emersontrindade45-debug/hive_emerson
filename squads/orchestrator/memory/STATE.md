@@ -1,7 +1,17 @@
 # Orchestrator STATE
 
 [L1]
-**Mapa do negócio levantado (2026-08-23):** `foundation/mapa-do-negocio.md` — estado real cruzando Notion (1.990 objetos, 134 databases) + Neotriad (121 tarefas) via API. Painel consolidado criado na página **Negócio** do Notion ("🎯 Central de Operação").
+**Plano trimestral criado (2026-08-23):** `squads/operations/foundation/plano-trimestral-2026-Q4.md` — 23/08 a 31/10/2026. Metas desdobradas em microtarefas com data, horario e criterio de verificacao.
+
+**Disponibilidade real confirmada pelo Emerson:** 20h/semana para o negocio — 4h/dia (2h manha + 2h tarde), seg a sex. Sabado reservado para familia. Regra da Triade aplicada: 14h comprometidas, 6h de folga.
+
+**Grade fixa:** Bloco A Receita 09:00-11:00 seg-sex (inegociavel, ligacoes) | Bloco B Entrega 14:00-16:00 seg-qui | Revisao sex 14:00-15:00. Urgencia de cliente entra no Bloco B, nunca no A — foi o que zerou a receita de maio a agosto.
+
+**Metas repactuadas no Notion (aplicado via API em 23/08):** Negocio 31/12 -> 31/10 | Saude Emerson 30/04 -> 31/10 | Familia 12/06 -> 31/10. Pausadas ate 01/11: Automatizar despesas e Processo de Compras (CMS) — competem com o gargalo de receita.
+
+**Indicador semanal unico:** leads que mudaram de etapa. Zero = a semana nao avancou.
+
+**Marcos da meta de Negocio:** M1 50 ligados 29/08 | M2 10 reunioes 12/09 | M3 6 diagnosticos 26/09 | M4 5 propostas 10/10 | M5 2 contratos 24/10 | M6 R$ 2.000 em 31/10.
 
 **Diagnóstico central:** não falta método nem meta — ambos já existiam no Notion desde abril. Falta execução. 30 leads prospectados e zero contactados; 2 ciclos de 12 semanas vencidos e nunca fechados; Planner Semanal parado desde 24/05. Receita R$ 0.
 
