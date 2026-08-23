@@ -1,19 +1,24 @@
 # Orchestrator STATE
 
 [L1]
-**Plano trimestral criado (2026-08-23):** `squads/operations/foundation/plano-trimestral-2026-Q4.md` — 23/08 a 31/10/2026. Metas desdobradas em microtarefas com data, horario e criterio de verificacao.
+**ESTRATEGIA DO TRIMESTRE (revisada 2026-08-23):** foco em **Mercado Araujo** (converter piloto gratuito em contrato pago, R$ 4.000/mes) + **conteudo no canal** (leads inbound). **Prospeccao ativa por ligacao EXCLUIDA do trimestre** por decisao do Emerson.
 
-**Disponibilidade real confirmada pelo Emerson:** 20h/semana para o negocio — 4h/dia (2h manha + 2h tarde), seg a sex. Sabado reservado para familia. Regra da Triade aplicada: 14h comprometidas, 6h de folga.
+**Plano:** `squads/operations/foundation/plano-trimestral-2026-Q4.md` — 23/08 a 31/10/2026, microtarefas com data, horario e criterio de verificacao.
 
-**Grade fixa:** Bloco A Receita 09:00-11:00 seg-sex (inegociavel, ligacoes) | Bloco B Entrega 14:00-16:00 seg-qui | Revisao sex 14:00-15:00. Urgencia de cliente entra no Bloco B, nunca no A — foi o que zerou a receita de maio a agosto.
+**Disponibilidade:** 20h/semana para o negocio — 4h/dia (2h manha + 2h tarde), seg a sex. Sabado da familia.
 
-**Metas repactuadas no Notion (aplicado via API em 23/08):** Negocio 31/12 -> 31/10 | Saude Emerson 30/04 -> 31/10 | Familia 12/06 -> 31/10. Pausadas ate 01/11: Automatizar despesas e Processo de Compras (CMS) — competem com o gargalo de receita.
+**Grade:** Bloco A Araujo 09:00-11:00 seg-sex (inegociavel) | Bloco B Conteudo 14:00-16:00 seg-qui | Revisao sex 14:00-15:00.
 
-**Indicador semanal unico:** leads que mudaram de etapa. Zero = a semana nao avancou.
+**RISCO CENTRAL — o Araujo nao paga nada hoje.** E piloto gratuito e preco NUNCA foi mencionado ao cliente. Os R$ 4.000 sao estimativa do Emerson, nao sinalizacao do Araujo. Com a prospeccao excluida, nao ha plano B ativo.
 
-**Marcos da meta de Negocio:** M1 50 ligados 29/08 | M2 10 reunioes 12/09 | M3 6 diagnosticos 26/09 | M4 5 propostas 10/10 | M5 2 contratos 24/10 | M6 R$ 2.000 em 31/10.
+**19/09 e a data de decisao do trimestre** (marco A3, reuniao de precificacao). Se o Araujo recusar: reabrir prospeccao no mesmo dia — a base de 238 leads e o script continuam intactos.
 
-**Diagnóstico central:** não falta método nem meta — ambos já existiam no Notion desde abril. Falta execução. 30 leads prospectados e zero contactados; 2 ciclos de 12 semanas vencidos e nunca fechados; Planner Semanal parado desde 24/05. Receita R$ 0.
+**Marcos Araujo:** A1 estavel 05/09 | A2 relatorio de valor 12/09 | A3 REUNIAO DE PRECO 19/09 | A4 proposta 26/09 | A5 contrato 10/10 | A6 pagamento 31/10.
+**Marcos Conteudo:** C1 linha editorial 29/08 | C2 1o video 12/09 | C3 4 videos 10/10 | C4 8 videos + 1 lead 31/10.
+
+**Aplicado no Notion via API (23/08):** meta 4 renomeada para "Converter Mercado Araujo em contrato pago (R$ 4.000/mes)", alvo 2000->4000, prazo 31/12->31/10. Meta 7 "Gerar leads por conteudo no canal" criada. Saude Emerson e Familia repactuadas para 31/10. Pausadas ate 01/11: Automatizar despesas e Processo de Compras. Painel "CENTRAL — Empresa IA" reescrito com a semana 1.
+
+**EME-5 e EME-6 entraram no caminho critico** — sistema estavel e pre-requisito do marco A1 (05/09). Deixaram de ser divida tecnica e viraram parte da venda.
 
 **Padrão a evitar:** 134 databases, 6 bases de tarefas, 3 planners. Quando algo não anda, a resposta tem sido criar estrutura nova. O HIVE não deve virar mais uma camada — a consolidação de 23/08 não criou nenhum database novo.
 
