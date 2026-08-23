@@ -131,23 +131,18 @@ def fetch_video(video, channel, want_transcript):
     vid = video["video_id"]
     tmp_prefix = os.path.join(TRANSCRIPTS, f"_tmp_{vid}")
 
-    args = [
-        "--extractor-args", "youtube:lang=pt",
-        "--skip-download",
-        "-J",
-    ]
-    if want_transcript:
-        args += [
-            "--write-auto-subs",
-            "--write-subs",
-            # pt-orig = legenda no idioma original. Pedir variantes demais gera 429.
-            "--sub-langs", "pt-orig",
-            "--sub-format", "json3",
-            "-o", tmp_prefix + ".%(ext)s",
-        ]
-    args.append(video["url"])
-
-    out, err = run_ytdlp(args, timeout=240)
+    # Passo 1 - metadados. "-J" imprime o JSON no stdout, mas nesse modo o
+    # yt-dlp NAO grava os arquivos de legenda em disco. Por isso a legenda
+    # exige uma segunda chamada, sem "-J".
+    out, err = run_ytdlp(
+        [
+            "--extractor-args", "youtube:lang=pt",
+            "--skip-download",
+            "-J",
+            video["url"],
+        ],
+        timeout=240,
+    )
     if not out:
         return None, err[:200] if err else "sem resposta"
 
@@ -156,9 +151,25 @@ def fetch_video(video, channel, want_transcript):
     except json.JSONDecodeError:
         return None, "json invalido"
 
+    # Passo 2 - legenda, sem "-J", para que os arquivos sejam escritos.
     transcript = ""
     transcript_status = "nao solicitada"
     if want_transcript:
+        _, sub_err = run_ytdlp(
+            [
+                "--extractor-args", "youtube:lang=pt",
+                "--skip-download",
+                "--write-auto-subs",
+                "--write-subs",
+                # pt-orig = legenda no idioma original. Pedir variantes demais gera 429.
+                "--sub-langs", "pt-orig",
+                "--sub-format", "json3",
+                "-o", tmp_prefix + ".%(ext)s",
+                video["url"],
+            ],
+            timeout=240,
+        )
+        err = (err or "") + (sub_err or "")
         found = None
         for suffix in (".pt-orig.json3", ".pt.json3"):
             candidate = tmp_prefix + suffix
