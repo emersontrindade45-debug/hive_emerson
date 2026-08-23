@@ -1,0 +1,19 @@
+{
+  "_comment": "Canais monitorados para inteligência de crescimento no YouTube. Para adicionar um canal, inclua um objeto com handle + channel_id (rode collect.py --resolve <url> para descobrir o id).",
+  "channels": [
+    {
+      "name": "Nerds de Negócios",
+      "handle": "@nerdsdenegocios",
+      "channel_id": "UCbTAwyq6nWOLnFag-PR0XVw",
+      "url": "https://www.youtube.com/@nerdsdenegocios",
+      "focus": "Atualizações do algoritmo do YouTube, crescimento de canal, negócios"
+    },
+    {
+      "name": "Guria de Negócios",
+      "handle": "@GuriadeNegócios",
+      "channel_id": "UCITU2P3fPSuU7NeJPqjfD5g",
+      "url": "https://www.youtube.com/channel/UCITU2P3fPSuU7NeJPqjfD5g",
+      "focus": "Crescimento de canal, roteiro e conteúdo, canal como negócio"
+    }
+  ]
+}
