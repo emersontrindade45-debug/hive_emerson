@@ -11,10 +11,14 @@
 
 **RISCO CENTRAL — o Araujo nao paga nada hoje.** E piloto gratuito e preco NUNCA foi mencionado ao cliente. Os R$ 4.000 sao estimativa do Emerson, nao sinalizacao do Araujo. Com a prospeccao excluida, nao ha plano B ativo.
 
-**19/09 e a data de decisao do trimestre** (marco A3, reuniao de precificacao). Se o Araujo recusar: reabrir prospeccao no mesmo dia — a base de 238 leads e o script continuam intactos.
+**18/09 e a data de decisao do trimestre** (marco A3, reuniao de precificacao). Se o Araujo recusar: reabrir prospeccao no mesmo dia — a base de 238 leads e o script continuam intactos.
 
-**Marcos Araujo:** A1 estavel 05/09 | A2 relatorio de valor 12/09 | A3 REUNIAO DE PRECO 19/09 | A4 proposta 26/09 | A5 contrato 10/10 | A6 pagamento 31/10.
-**Marcos Conteudo:** C1 linha editorial 29/08 | C2 1o video 12/09 | C3 4 videos 10/10 | C4 8 videos + 1 lead 31/10.
+**Correcao 24/08:** o rascunho original do plano trimestral rotulava a Semana 1 como "Seg 25/08" e todos os marcos "sex" caiam em sabados no calendario real — todas as datas do plano foram deslizadas -1 dia para bater com os dias da semana corretos.
+
+**Marcos Araujo:** A1 estavel 04/09 | A2 relatorio de valor 11/09 | A3 REUNIAO DE PRECO 18/09 | A4 proposta 25/09 | A5 contrato 09/10 | A6 pagamento 30/10.
+**Marcos Conteudo:** C1 linha editorial 28/08 | C2 1o video 11/09 | C3 4 videos 09/10 | C4 8 videos + 1 lead 30/10.
+
+**Aplicado no Notion via API (24/08):** criada a base **📅 Calendário — Trimestre Q4** (em Metas - 2026) com 13 marcos + 10 tarefas/ritual da Semana 1, propriedade Data pronta para conectar ao Notion Calendar. Criada a página **🌳 Mapa de Objetivos — Q4 2026** com árvore mermaid (Trimestre → Metas → Marcos). Página "🎯 CENTRAL — Empresa IA" corrigida (estava com a meta antiga "Faturar R$ 2.000/mês" e marcos de ligação, desatualizada desde 23/08) e datas deslizadas -1 dia. Indicadores de Meta 4, Meta 7 e Meta 2 em "Metas Principais" corrigidos com as mesmas datas.
 
 **Aplicado no Notion via API (23/08):** meta 4 renomeada para "Converter Mercado Araujo em contrato pago (R$ 4.000/mes)", alvo 2000->4000, prazo 31/12->31/10. Meta 7 "Gerar leads por conteudo no canal" criada. Saude Emerson e Familia repactuadas para 31/10. Pausadas ate 01/11: Automatizar despesas e Processo de Compras. Painel "CENTRAL — Empresa IA" reescrito com a semana 1.
 

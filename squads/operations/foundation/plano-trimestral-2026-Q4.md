@@ -2,6 +2,7 @@
 
 > Gerado 2026-08-23. **Revisado no mesmo dia** após decisão do Emerson: foco em Mercado Araújo + conteúdo no canal; prospecção por ligação excluída do trimestre.
 > **Disponibilidade: 20h/semana** — 4h/dia (2h manhã + 2h tarde), seg a sex.
+> **Correção 24/08:** datas da Semana 1 deslizadas -1 dia (o rascunho original rotulava "Seg 25/08", mas 25/08/2026 é terça — Semana 1 passa a começar hoje, segunda 24/08).
 
 ---
 
@@ -51,25 +52,25 @@ Duas frentes, nesta ordem de prioridade:
 
 | # | Marco | Prazo | Verificação objetiva |
 |---|---|---|---|
-| A1 | Sistema estável — zero quedas por 7 dias | **05/09** sex | EME-5 e EME-6 fechadas; log limpo |
-| A2 | Relatório de valor entregue ao Araújo | **12/09** sex | PDF: nº de atendimentos, pedidos, horas economizadas |
-| A3 | **Reunião de precificação realizada** | **19/09** sex | Reunião feita; número R$ 4.000 apresentado |
-| A4 | Proposta formal enviada | **26/09** sex | Contrato com escopo, preço e SLA |
-| A5 | **Contrato assinado** | **10/10** sex | Assinatura + data da 1ª cobrança |
-| A6 | 1º pagamento recebido | **31/10** sex | Extrato bancário |
+| A1 | Sistema estável — zero quedas por 7 dias | **04/09** sex | EME-5 e EME-6 fechadas; log limpo |
+| A2 | Relatório de valor entregue ao Araújo | **11/09** sex | PDF: nº de atendimentos, pedidos, horas economizadas |
+| A3 | **Reunião de precificação realizada** | **18/09** sex | Reunião feita; número R$ 4.000 apresentado |
+| A4 | Proposta formal enviada | **25/09** sex | Contrato com escopo, preço e SLA |
+| A5 | **Contrato assinado** | **09/10** sex | Assinatura + data da 1ª cobrança |
+| A6 | 1º pagamento recebido | **30/10** sex | Extrato bancário |
 
 > **A2 é o que sustenta o A3.** Não dá para pedir R$ 4.000 sem mostrar, em número, o que o sistema já entregou de graça. Esse relatório é o argumento inteiro da negociação — e os dados já existem no Supabase.
 
-### Semana 1 — 25/08 a 29/08 (detalhada)
+### Semana 1 — 24/08 a 28/08 (detalhada)
 
 | Quando | Tarefa | Feito quando |
 |---|---|---|
-| **Seg 25/08, 09:00–11:00** | Rotacionar credencial do Postgres + fechar porta 5432 (EME-6) | Senha nova, porta fechada |
-| **Ter 26/08, 09:00–11:00** | Corrigir vazamento de conexões em `apps-auth` (EME-5) | Pool estável sob carga |
-| **Qua 27/08, 09:00–11:00** | Monitorar n8n + fila de conciliação ERP | Zero quedas registradas |
-| **Qui 28/08, 09:00–11:00** | **Extrair métricas do Supabase** — atendimentos, pedidos, tempo de resposta desde o início | Query pronta, números na mão |
-| **Sex 29/08, 09:00–11:00** | Montar rascunho do relatório de valor (A2) | Estrutura + números preenchidos |
-| **Sex 29/08, 14:00–15:00** | Revisão semanal | Indicadores escritos |
+| **Seg 24/08, 09:00–11:00** | Rotacionar credencial do Postgres + fechar porta 5432 (EME-6) | Senha nova, porta fechada |
+| **Ter 25/08, 09:00–11:00** | Corrigir vazamento de conexões em `apps-auth` (EME-5) | Pool estável sob carga |
+| **Qua 26/08, 09:00–11:00** | Monitorar n8n + fila de conciliação ERP | Zero quedas registradas |
+| **Qui 27/08, 09:00–11:00** | **Extrair métricas do Supabase** — atendimentos, pedidos, tempo de resposta desde o início | Query pronta, números na mão |
+| **Sex 28/08, 09:00–11:00** | Montar rascunho do relatório de valor (A2) | Estrutura + números preenchidos |
+| **Sex 28/08, 14:00–15:00** | Revisão semanal | Indicadores escritos |
 
 Tardes seg–qui: Bloco B (abaixo).
 
@@ -77,17 +78,17 @@ Tardes seg–qui: Bloco B (abaixo).
 
 | Sem | Período | Bloco A — Araújo | Marco |
 |---|---|---|---|
-| 2 | 01–05/09 | Estabilização final + fechar relatório | **A1** |
-| 3 | 08–12/09 | Entregar relatório e agendar reunião | **A2** |
-| 4 | 15–19/09 | **Reunião de precificação** | **A3** |
-| 5 | 22–26/09 | Ajustar escopo conforme reação + enviar proposta | **A4** |
-| 6 | 29/09–03/10 | Follow-up da proposta | Resposta obtida |
-| 7 | 06–10/10 | Negociação e fechamento | **A5** |
-| 8 | 13–17/10 | Formalizar cobrança recorrente | Boleto/PIX programado |
-| 9 | 20–24/10 | Entregar o que foi vendido | Escopo cumprido |
-| 10 | 27–31/10 | Cobrança + avaliar 2º cliente | **A6** R$ 4.000 |
+| 2 | 31/08–04/09 | Estabilização final + fechar relatório | **A1** |
+| 3 | 07–11/09 | Entregar relatório e agendar reunião | **A2** |
+| 4 | 14–18/09 | **Reunião de precificação** | **A3** |
+| 5 | 21–25/09 | Ajustar escopo conforme reação + enviar proposta | **A4** |
+| 6 | 28/09–02/10 | Follow-up da proposta | Resposta obtida |
+| 7 | 05–09/10 | Negociação e fechamento | **A5** |
+| 8 | 12–16/10 | Formalizar cobrança recorrente | Boleto/PIX programado |
+| 9 | 19–23/10 | Entregar o que foi vendido | Escopo cumprido |
+| 10 | 26–30/10 | Cobrança + avaliar 2º cliente | **A6** R$ 4.000 |
 
-### Plano de contingência — decidir em 19/09
+### Plano de contingência — decidir em 18/09
 
 Se na reunião A3 o Araújo recusar ou oferecer muito abaixo:
 
@@ -98,7 +99,7 @@ Se na reunião A3 o Araújo recusar ou oferecer muito abaixo:
 | Oferece < R$ 1.000 | Reduzir escopo drasticamente ou encerrar o gratuito |
 | Recusa pagar | **Reabrir prospecção imediatamente** — a base de 238 leads e o script continuam existindo |
 
-> **19/09 é a data de decisão do trimestre.** Até lá não há plano B ativo — foi decisão consciente, tomada em 23/08.
+> **18/09 é a data de decisão do trimestre.** Até lá não há plano B ativo — foi decisão consciente, tomada em 23/08.
 
 ---
 
@@ -114,21 +115,21 @@ Base já existente: `squads/marketing/foundation/youtube-playbook.md` e `metodo-
 
 | # | Marco | Prazo | Verificação |
 |---|---|---|---|
-| C1 | Linha editorial definida — 10 temas | **29/08** sex | Lista escrita |
-| C2 | Primeiro vídeo publicado | **12/09** sex | URL no ar |
-| C3 | 4 vídeos publicados | **10/10** sex | 4 URLs |
-| C4 | 8 vídeos + 1 lead inbound | **31/10** sex | 8 URLs + 1 contato |
+| C1 | Linha editorial definida — 10 temas | **28/08** sex | Lista escrita |
+| C2 | Primeiro vídeo publicado | **11/09** sex | URL no ar |
+| C3 | 4 vídeos publicados | **09/10** sex | 4 URLs |
+| C4 | 8 vídeos + 1 lead inbound | **30/10** sex | 8 URLs + 1 contato |
 
-**Ritmo:** 1 vídeo por semana a partir de 12/09. 8h/semana é folgado para isso — se sobrar tempo, volta para o Araújo.
+**Ritmo:** 1 vídeo por semana a partir de 11/09. 8h/semana é folgado para isso — se sobrar tempo, volta para o Araújo.
 
 ### Semana 1 — Bloco B (tardes seg–qui)
 
 | Quando | Tarefa |
 |---|---|
-| Seg 25/08, 14:00–16:00 | Definir ICP do canal: para quem eu falo? (comerciante local) |
-| Ter 26/08, 14:00–16:00 | Listar 10 temas que esse comerciante pesquisaria no YouTube |
-| Qua 27/08, 14:00–16:00 | Escolher formato e escrever roteiro do vídeo 1 |
-| Qui 28/08, 14:00–16:00 | Testar setup de gravação (câmera, áudio, luz) |
+| Seg 24/08, 14:00–16:00 | Definir ICP do canal: para quem eu falo? (comerciante local) |
+| Ter 25/08, 14:00–16:00 | Listar 10 temas que esse comerciante pesquisaria no YouTube |
+| Qua 26/08, 14:00–16:00 | Escolher formato e escrever roteiro do vídeo 1 |
+| Qui 27/08, 14:00–16:00 | Testar setup de gravação (câmera, áudio, luz) |
 
 > **O caso Araújo é o melhor conteúdo que existe.** "Automatizei o atendimento de um mercado" é tema com prova real. Usar — com autorização do cliente.
 
@@ -140,9 +141,9 @@ Base já existente: `squads/marketing/foundation/youtube-playbook.md` e `metodo-
 
 | Marco | Prazo |
 |---|---|
-| 79 kg | 19/09 |
-| 76 kg | 17/10 |
-| 73 kg | 31/10 |
+| 79 kg | 18/09 |
+| 76 kg | 16/10 |
+| 73 kg | 30/10 |
 
 Caminhada 30min · **seg/qua/sex 06:30**. Pesar **segunda 06:00**. Fora das 20h do negócio.
 
@@ -159,7 +160,7 @@ Definido na revisão de sexta. Por isso o plano usa só 5 dias.
 |---|---|
 | 5. Automatizar as despesas | Economiza 1h/semana; custa mais do que devolve agora |
 | 6. Processo de Compras (CMS) | Meta de emprego, não de negócio |
-| **Prospecção ativa (238 leads)** | **Excluída do trimestre por decisão de 23/08.** Base e script preservados — reativar se A3 falhar em 19/09 |
+| **Prospecção ativa (238 leads)** | **Excluída do trimestre por decisão de 23/08.** Base e script preservados — reativar se A3 falhar em 18/09 |
 
 ---
 

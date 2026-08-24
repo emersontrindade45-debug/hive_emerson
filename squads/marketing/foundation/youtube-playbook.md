@@ -4,7 +4,7 @@ Base de conhecimento acumulada sobre roteiro, retenção e crescimento no YouTub
 
 **Como usar:** consultar antes de escrever qualquer roteiro. Cada técnica cita a origem — se duas fontes se contradizem, mantenha as duas e anote o conflito.
 
-**Última atualização:** 2026-08-23
+**Última atualização:** 2026-08-24
 
 ---
 
@@ -27,6 +27,18 @@ Promete que o entendimento comum está errado. Segura quem já viu a notícia em
 
 Enumerar faixas faz cada espectador se localizar. Substitui "suas views vão subir bastante", que não fala com ninguém.
 *Fonte: idem*
+
+### Boa notícia / má notícia
+> "Eu tenho duas notícias, uma boa e uma ruim. A boa, você tá no melhor momento dos últimos 20 anos para começar. A ruim, cada dia que você demora é dinheiro que você tá jogando fora."
+
+Estrutura o hook em dois lados opostos na mesma frase — cria tensão sem precisar de uma estatística. Funciona como abertura genérica, reaplicável fora do nicho de origem.
+*Fonte: Nerds de Negócios, "5 INVESTIMENTOS PARA QUEM VAI COMEÇAR DO ZERO EM 2026" (14/08/2026)*
+
+### Estatística de crescimento com comparação explícita
+> "O volume de vendas cresceu 102 vezes em 12 meses. Não é crescer duas vezes ou três vezes, é 102 vezes."
+
+O número sozinho não sustenta o hook — é a negação da escala errada ("não é 2x, é 102x") que força o espectador a recalibrar a expectativa. Mesmo princípio da "escada de especificidade" já registrada acima, aplicado a um único número em vez de uma faixa.
+*Fonte: Nerds de Negócios, "TIKTOK SHOP: COMO GANHAR DINHEIRO SEM APARECER" (15/08/2026)*
 
 ### Pergunta plantada
 > "Se o seu canal desaparece amanhã, você saberia falar com a tua audiência? Responde sincero. Eu já vou explicar por que essa pergunta vale mais do que parece."
@@ -58,6 +70,16 @@ Verbaliza a objeção no momento exato em que ela surge na cabeça de quem assis
 "Reclamar não resolve, estratégia resolve" — e então entrega a defesa prática (documentar processo). O vídeo entrega uma saída, não só o susto.
 *Fonte: Nerds, canais deletados*
 
+### Prova de ganho em cenários crescentes
+Três cenários com o mesmo produto (conservador → intermediário → escala), cada um com números concretos de venda/dia e resultado mensal. Cada cenário é ancorado no anterior ("agora saindo do conservador, vamos pro intermediário"), o que faz o espectador validar o primeiro número antes de aceitar o maior.
+*Fonte: Nerds de Negócios, "TIKTOK SHOP: COMO GANHAR DINHEIRO SEM APARECER" (15/08/2026)*
+
+### CTA de inscrição justificado pelo algoritmo
+> "Preciso que você se inscreva agora, porque senão o algoritmo não vai te mostrar o próximo vídeo."
+
+Em vez de pedir inscrição por pedir, amarra o pedido a uma consequência mecânica que o espectador não controla — desloca o CTA de favor pessoal para necessidade técnica.
+*Fonte: Nerds de Negócios, "5 INVESTIMENTOS PARA QUEM VAI COMEÇAR DO ZERO EM 2026" (14/08/2026)*
+
 ---
 
 ## Escolha de nicho e pauta
@@ -79,6 +101,25 @@ Referência citada: Mr. Beast diz que são ~100 vídeos até um dar certo.
 ### Fragmento, não personagem
 Dá para crescer sem expor família, relacionamento ou casa. A autora grava tudo no escritório e mantém 600k inscritos no canal maior. A escolha de expor é reversível — o custo (haters, pitaco) não é.
 *Fonte: Guria, 10 mil por mês*
+
+---
+
+## Canal como negócio
+
+### Autoridade por exposição bate credencial formal
+> "O segredo tá em você ser visto, em você ser conhecido. Nem sempre o melhor é quem vende mais — é aquele que é mais conhecido, que aparece mais."
+
+A autora (professora de formação, sem diploma em marketing/publicidade) construiu uma agência de conteúdo faturando bem citando 10 anos de prática pública como substituto de credencial. Aplica direto à posição do Emerson: canal validado por resultado real mostrado (caso Araújo), não por diploma.
+*Fonte: Guria de Negócios, "NÃO precisa ter formação pra ser Um bom Profissional" (14/08/2026)*
+
+### Repurposing de vídeo longo em cortes verticais para crescer sem gravar todo dia
+Pegar vídeo longo do próprio nicho (inclusive vídeo já publicado), cortar em vertical com reenquadramento e legenda, e postar diariamente sem produção nova. Cresce o perfil com consistência mesmo com pouca disponibilidade de gravação.
+**Ressalva:** o vídeo é publi de ferramenta paga (Play Squad) — a técnica em si (cortar conteúdo longo próprio) é aplicável sem a ferramenta.
+*Fonte: Nerds de Negócios, "TIKTOK SHOP: COMO GANHAR DINHEIRO SEM APARECER" (15/08/2026)*
+
+### Audiência nichada converte mais que audiência genérica grande
+Um perfil de 5.000 seguidores num nicho específico vende mais que um de 50.000 seguidores generalistas. Reforça a entrada "PhD" e "Fragmento, não personagem" já registradas — a métrica que importa para monetização é concentração de nicho, não tamanho bruto.
+*Fonte: Nerds de Negócios, "TIKTOK SHOP: COMO GANHAR DINHEIRO SEM APARECER" (15/08/2026)*
 
 ---
 
