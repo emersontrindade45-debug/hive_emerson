@@ -16,7 +16,8 @@ Squad ativado via /hive-setup (2026-08-14). Voz de marca: Resultado, Parceira, E
 - [x] **DESBLOQUEADO 2026-08-24** — `brand-voice.md` preenchido (tom: direto e sem hype) e `creator-profile.md` preenchido com os 4 pilares. O roteiro do vídeo 1, pausado desde 19/08, deixou de estar bloqueado.
 - [x] **Marco C1 (prazo 28/08) coberto com 4 dias de antecedência** — 15 ângulos de conteúdo em `foundation/mapa-teste-publico.md`, classificados Hero/Hub/Help e mapeados por público. As 3 pautas do Intelligence (radar 19/08) foram absorvidas: ângulos #6, #8 e #14.
 - [x] Base de dados verificada criada (24/08) — `foundation/dores-ia-brasil-2026.md`. Adiciona 5 ângulos (#16-20), totalizando **20 ângulos** disponíveis.
-- [ ] **PRÓXIMO:** escolher 1 dos 20 ângulos e roteirizar o vídeo 1 (marco C2, 11/09). Consultar `youtube-playbook.md` antes de escrever o hook e `dores-ia-brasil-2026.md` antes de citar qualquer número.
+- [x] **ROTEIRO DO VÍDEO 1 PRONTO (24/08)** — `data/roteiros/video-01-resposta-ruim.md`. Ângulo #7 "Por que a IA te dá resposta ruim". Pilar 3 (saber pedir certo), público P3 primário. Help, 7-8min, com demonstração de tela e 4 cortes verticais derivados. **Escrito 18 dias antes do prazo C2 (11/09).**
+- [ ] **PRÓXIMO:** gravar. Testar setup (câmera/áudio/luz) era tarefa de qui 27/08 no plano — antecipar se possível. Depois publicar até 11/09 (marco C2).
 - [ ] **Pendente do Emerson:** tese central (3 candidatas em `creator-profile.md`) + missão como criador. Não trava o vídeo 1; trava coerência de marca no médio prazo.
 - [ ] **Pendente:** autorização do Araújo para citar o case nominalmente. Pedir em 11/09 na entrega do relatório de valor (marco A2). Até lá, conteúdo do P1 usa "um mercado de bairro" anônimo.
 - [ ] Definir estrutura de calendário de conteúdo em foundation/content-calendar.md
