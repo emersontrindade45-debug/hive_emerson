@@ -13,7 +13,7 @@
 - **Problema que resolve (Círculo de Competência):** trabalho manual repetitivo que consome o dia de quem toca um negócio ou uma rotina de trabalho — atendimento, registro de pedido, relatório, conciliação
 - **Público-alvo:** ⚠️ **EM TESTE.** 5 hipóteses em `mapa-teste-publico.md` (P1 comércio local · P2 PME de serviço · P3 CLT · P4 autônomo · P5 futuro automatizador). Decisão após o 8º vídeo (30/10/2026)
 - **Resultado que entrega:** devolve horas de trabalho manual, com sistema que roda sozinho — mostrado em número, não em promessa
-- **Missão como criador:** 🔲 *pendente — o que você quer que a pessoa faça depois de assistir? (tentar sozinha? te chamar? parar de ter medo de IA?)*
+- **Missão como criador:** servir antes de vender — a pessoa precisa sair do vídeo tendo conseguido fazer algo, não tendo conhecido um serviço. Cliente é consequência de ter ajudado muito, não objetivo do conteúdo *(princípio declarado pelo Emerson em 24/08; refinar a formulação com o tempo)*
 - **Diferencial (por que você e não outro criador de IA):** entrega em cliente real e mostra o que quebrou. A maioria do conteúdo de IA no YouTube BR é demonstração em ambiente controlado, sem cliente e sem consequência
 - **Tese central:** 🔲 *pendente — ver candidatas abaixo*
 
@@ -44,7 +44,8 @@ Os 4 pilares escolhidos pelo Emerson em 24/08. Cada um vira um pilar de conteúd
 
 - **Tom:** direto e sem hype — fato, número, sem promessa de resultado garantido. Detalhe completo em `brand-voice.md`
 - **Nível técnico:** traduz jargão na primeira menção, sempre. Fala com quem não é técnico sem tratar como leigo
-- **O que nunca faz:** hype vazio · promessa de resultado garantido · afirmar que funciona sem ter feito · esconder o que quebrou
+- **O que nunca faz:** hype vazio · promessa de resultado garantido · afirmar que funciona sem ter feito · esconder o que quebrou · segurar informação para forçar contato
+- **Princípio que rege o canal:** **servir primeiro.** As pessoas precisam ver que ele ajuda muito — o cliente vem daí. Entregar o passo a passo completo, mesmo quando a pessoa consegue fazer sozinha e não contrata (Jab-Jab-Jab-Hook, Aula 02)
 - **Frases/bordões recorrentes:** 🔲 *ainda não existem — surgem da repetição, não da definição. Revisar após 4 vídeos*
 
 ## Formatos que Funcionam
