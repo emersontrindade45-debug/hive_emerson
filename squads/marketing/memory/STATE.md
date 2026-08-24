@@ -8,12 +8,15 @@ Squad ativado via /hive-setup (2026-08-14). Voz de marca: Resultado, Parceira, E
 
 **PRINCÍPIO QUE REGE O CANAL (Emerson, 24/08):** **servir primeiro.** As pessoas precisam ver que ele ajuda muito — o cliente vem daí. Consequências: nenhum público é descartado por não comprar rápido; nos primeiros 8 vídeos a régua é "eu ajudei de verdade?" (retenção, comentário com contexto, "vou testar"/"consegui fazer"), e não geração de lead; retorno comercial é leitura de ciclo longo e cada público devolve por caminho diferente. Pietro NÃO deve aplicar régua de lead a canal com menos de 8 vídeos.
 
+**BASE DE DADOS VERIFICADA (24/08):** `foundation/dores-ia-brasil-2026.md` — dores de IA no Brasil com números conferidos na fonte primária (Cetic TIC Empresas 2025, Cetic TIC Governo 2025, Anatel #FiqueEsperto, WEF Future of Jobs 2025, Pew). **4 erros de dado corrigidos** de uma pesquisa via ChatGPT — inclusive um que invertia a manchete do Pew (25% especialistas vs 56% público, não "56% e 56%"). **Regra: nenhum número vai ao ar sem estar nesse arquivo.** Citar errado quebra o diferencial de "sem hype". 3 afirmações ficaram marcadas como NÃO VERIFICADAS (alerta do BC sobre deepfake, +830% da PF, fraude a cada 2,3s da Serasa) — não citar. Revisar o arquivo em nov/2026.
+
 **ALERTA 24/08/2026:** contagem de views do YouTube muda — passa a contar no primeiro frame (antes ~30s). Métrica de atenção real vira `engaged views`. Afeta precificação de publi e leitura de performance.
 
 [L2]
 - [x] **DESBLOQUEADO 2026-08-24** — `brand-voice.md` preenchido (tom: direto e sem hype) e `creator-profile.md` preenchido com os 4 pilares. O roteiro do vídeo 1, pausado desde 19/08, deixou de estar bloqueado.
 - [x] **Marco C1 (prazo 28/08) coberto com 4 dias de antecedência** — 15 ângulos de conteúdo em `foundation/mapa-teste-publico.md`, classificados Hero/Hub/Help e mapeados por público. As 3 pautas do Intelligence (radar 19/08) foram absorvidas: ângulos #6, #8 e #14.
-- [ ] **PRÓXIMO:** escolher 1 dos 15 ângulos e roteirizar o vídeo 1 (marco C2, 11/09). Consultar `youtube-playbook.md` antes de escrever o hook.
+- [x] Base de dados verificada criada (24/08) — `foundation/dores-ia-brasil-2026.md`. Adiciona 5 ângulos (#16-20), totalizando **20 ângulos** disponíveis.
+- [ ] **PRÓXIMO:** escolher 1 dos 20 ângulos e roteirizar o vídeo 1 (marco C2, 11/09). Consultar `youtube-playbook.md` antes de escrever o hook e `dores-ia-brasil-2026.md` antes de citar qualquer número.
 - [ ] **Pendente do Emerson:** tese central (3 candidatas em `creator-profile.md`) + missão como criador. Não trava o vídeo 1; trava coerência de marca no médio prazo.
 - [ ] **Pendente:** autorização do Araújo para citar o case nominalmente. Pedir em 11/09 na entrega do relatório de valor (marco A2). Até lá, conteúdo do P1 usa "um mercado de bairro" anônimo.
 - [ ] Definir estrutura de calendário de conteúdo em foundation/content-calendar.md
