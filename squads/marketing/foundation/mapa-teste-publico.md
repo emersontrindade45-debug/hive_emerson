@@ -161,7 +161,12 @@ Classificados em Hero/Hub/Help (Aula 04) e com o tipo da Aula 02.
 | 14 | "Bastidor: como eu monto uma automação pra cliente, do zero" | Bastidor |
 | 15 | "Bastidor: o dia que o sistema do cliente caiu" | Bastidor + história |
 
-> **15 ângulos = 10 semanas de canal com folga.** O marco C1 (28/08) pede 10 temas — estão aqui.
+### Ângulos baseados em dado verificado
+
+Ver [`dores-ia-brasil-2026.md`](./dores-ia-brasil-2026.md) — ângulos #16 a #20, sustentados por Cetic, WEF e Pew com números conferidos na fonte primária.
+
+> **20 ângulos = 10 semanas de canal com folga.** O marco C1 (28/08) pede 10 temas — estão aqui.
+> **Regra:** nenhum número vai ao ar sem estar em `dores-ia-brasil-2026.md`.
 
 ---
 
