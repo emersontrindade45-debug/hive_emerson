@@ -36,17 +36,42 @@ Ver `brand-voice.md`.
 |---|---|---|---|---|
 | **P1** | **Dono de comércio local** (mercado, padaria, farmácia, loja de bairro) | Atendimento no WhatsApp consome o dia; perde pedido; não sabe o que mais vendem | É o perfil do Araújo — **único com prova real na mão** | Pouco tempo de YouTube; consome mais Instagram/WhatsApp |
 | **P2** | **Dono de PME de serviço** (clínica, contabilidade, imobiliária, escola) | Agenda, follow-up, cliente que some, retrabalho administrativo | Paga mais que comércio; dor de processo é mais óbvia | Emerson não tem case ainda |
-| **P3** | **Profissional CLT que quer produzir mais** (analista, gestor, adm) | Planilha, relatório, e-mail, tarefa repetitiva que come a semana | **Maior volume de busca no YouTube BR.** Público que consome vídeo longo | Não compra serviço de automação — vira audiência, não lead |
+| **P3** | **Profissional CLT que quer produzir mais** (analista, gestor, adm) | Planilha, relatório, e-mail, tarefa repetitiva que come a semana | **Maior volume de busca no YouTube BR.** Público que consome vídeo longo. É onde se serve mais gente | Retorno chega por caminho indireto: indicação, o CLT que vira dono, o gestor que leva pra empresa |
 | **P4** | **Autônomo / prestador solo** (designer, consultor, advogado, coach) | Faz tudo sozinho; sem equipe; tempo é o produto | Ponte entre P2 e P3. Compra ferramenta, não projeto | Ticket baixo |
-| **P5** | **Quem quer virar automatizador** (freelancer, iniciante em n8n) | Quer aprender a vender automação | Volume alto de busca; monetiza por curso/comunidade | **Vira concorrente, não cliente.** Muda o modelo de negócio inteiro |
+| **P5** | **Quem quer virar automatizador** (freelancer, iniciante em n8n) | Quer aprender a vender automação | Volume alto de busca; público que engaja e compartilha muito | Retorno vem por outro modelo (curso, comunidade, parceria) — não por serviço |
+
+### Princípio que rege o teste
+
+> **Servir primeiro. As pessoas precisam ver que eu ajudo muito elas — é assim que o cliente vem.**
+> — Emerson, 24/08/2026
+
+Isso é o Jab-Jab-Jab-Hook do próprio método (Aula 02, item 3): muito valor antes da oferta. Consequência prática para este teste:
+
+- **Nenhum público é descartado por não comprar rápido.** A pergunta do teste é *"eu ajudei essa pessoa de verdade?"*, não *"essa pessoa virou lead?"*
+- **A ajuda vem primeiro, a medição de negócio vem depois.** Nos primeiros 8 vídeos a régua é qualidade de serviço prestado (ver seção de medição). Retorno comercial é leitura de ciclo longo.
+- **Cada público devolve por um caminho diferente** — e isso é informação, não defeito. Ver tabela abaixo.
 
 ### Recomendação de ordem
 
-**Testar P1, P3 e P4 primeiro** — nessa ordem de esforço, não de prioridade:
+**Começar por P1, P3 e P4** — esforço, não prioridade:
 
-- **P3 traz audiência** (volume de busca), **P1 traz cliente** (prova real + é quem paga), **P4 é a ponte** entre os dois.
-- **P2 fica para depois** — sem case, o conteúdo vira teoria, e teoria contradiz o tom escolhido.
-- **P5 fica de fora por enquanto** — se der certo, muda o negócio de "agência de IA" para "ensinar IA". É decisão estratégica, não teste de conteúdo. Reabrir só depois de 31/10.
+- **P1** é onde há prova real na mão (Araújo) — serve melhor porque já foi feito
+- **P3** é onde há mais gente para servir (maior volume de busca no YouTube BR)
+- **P4** é a ponte entre os dois
+- **P2** entra quando houver um case de serviço — sem case, o conteúdo vira teoria, e teoria contradiz o tom escolhido
+- **P5** entra a qualquer momento. Se esse público responder bem, é sinal de que existe um segundo modelo possível (curso, comunidade) além do serviço — decisão a tomar com dado, não a priori
+
+### Como cada público devolve
+
+Público diferente retribui de forma diferente. Nenhuma dessas é melhor — são prazos diferentes.
+
+| Público | Como devolve | Prazo |
+|---|---|---|
+| P1 comércio | Contrata serviço direto | Curto |
+| P2 PME serviço | Contrata serviço direto, ticket maior | Curto/médio |
+| P4 autônomo | Contrata pontual, indica muito | Médio |
+| P3 CLT | Indica, leva pra empresa onde trabalha, e alguns viram donos | Longo |
+| P5 automatizador | Compartilha, engaja, abre parceria e outros modelos | Longo |
 
 ---
 
@@ -65,18 +90,33 @@ Cada pilar fala com públicos diferentes. Esta é a matriz que gera as pautas.
 
 ---
 
-## Como medir qual público venceu
+## Como medir
 
-Não é "qual vídeo teve mais view". É:
+A pergunta não é "qual vídeo teve mais view". É **"eu ajudei alguém de verdade?"** — e depois, com o tempo, quem essa ajuda trouxe de volta.
+
+### Régua 1 — servi bem? (primeiros 8 vídeos)
 
 | Sinal | O que indica | Onde ver |
 |---|---|---|
-| **Retenção média (%)** | Se o conteúdo era pra aquela pessoa mesmo | YouTube Studio |
-| **Comentário com contexto** ("tenho uma loja e...") | Público real se identificou | Comentários |
+| **Retenção média (%)** | A pessoa ficou até o fim porque estava sendo útil | YouTube Studio |
+| **Comentário com contexto** ("tenho uma loja e...") | Alguém real se viu ali dentro | Comentários |
+| **"Vou testar" / "consegui fazer"** | **O sinal mais forte.** Alguém saiu e aplicou | Comentários / Direct |
+| **Pergunta específica nos comentários** | Confiança suficiente pra expor o próprio problema | Comentários |
 | **Engaged views** | Atenção real — **a métrica de views mudou em 24/08/2026**, view agora conta no 1º frame | YouTube Studio |
-| **Lead / DM citando o vídeo** | **O único sinal que importa pro trimestre** | WhatsApp / Direct |
 
-> **Regra:** view alta com zero comentário de contexto = público errado assistindo. Não perseguir.
+> **Regra:** view alta com zero comentário de contexto = ninguém foi servido de verdade, só assistiu. Não é público errado — é vídeo que não ajudou o suficiente.
+
+### Régua 2 — quem voltou? (a partir do 4º vídeo, leitura acumulada)
+
+Não substitui a régua 1, complementa. Registrar sem cobrar prazo:
+
+| Sinal | Onde ver |
+|---|---|
+| Direct/WhatsApp pedindo ajuda | WhatsApp / Direct |
+| Alguém citando o canal ao chegar | Conversa de entrada |
+| Indicação ("um amigo mandou seu vídeo") | Conversa de entrada |
+
+> **Não descartar público por essa régua nos primeiros 8 vídeos.** Confiança vem de frequência de contato, não de picos (Aula 05, gerador nº 7) — cobrar retorno comercial de um canal com 4 vídeos é cobrar de quem ainda não terminou de servir.
 
 **Ponto de decisão:** após o 8º vídeo (marco C4, 30/10). Aí sim `icp-audience.md` é preenchido.
 

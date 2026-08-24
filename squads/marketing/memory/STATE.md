@@ -6,6 +6,8 @@ Squad ativado via /hive-setup (2026-08-14). Voz de marca: Resultado, Parceira, E
 **Inteligência YouTube ativa (desde 2026-08-23):** sistema `/update-youtube` monitora @nerdsdenegocios e @GuriadeNegócios (raspagem com transcrição via yt-dlp). Playbook acumulado em `foundation/youtube-playbook.md`. Último radar: `data/youtube-intel/reports/2026-08-24.md` — 4 técnicas de roteiro + seção nova "Canal como negócio" + 1 ideia de vídeo (caso Araújo sem formação técnica).
 **PÚBLICO EM ABERTO (decisão do Emerson, 24/08):** o canal NÃO define ICP no papel — publica para descobrir. 5 públicos em teste (P1 comércio local · P2 PME serviço · P3 CLT · P4 autônomo · P5 futuro automatizador), ver `foundation/mapa-teste-publico.md`. **Eixo fixo do canal:** "IA aplicada a trabalho que já existe". **Tom fixo:** direto e sem hype. **4 pilares:** WhatsApp com IA · n8n · saber pedir certo · dados que o negócio já tem. `icp-audience.md` só será preenchido após o 8º vídeo (30/10) com dados reais de retenção e comentário.
 
+**PRINCÍPIO QUE REGE O CANAL (Emerson, 24/08):** **servir primeiro.** As pessoas precisam ver que ele ajuda muito — o cliente vem daí. Consequências: nenhum público é descartado por não comprar rápido; nos primeiros 8 vídeos a régua é "eu ajudei de verdade?" (retenção, comentário com contexto, "vou testar"/"consegui fazer"), e não geração de lead; retorno comercial é leitura de ciclo longo e cada público devolve por caminho diferente. Pietro NÃO deve aplicar régua de lead a canal com menos de 8 vídeos.
+
 **ALERTA 24/08/2026:** contagem de views do YouTube muda — passa a contar no primeiro frame (antes ~30s). Métrica de atenção real vira `engaged views`. Afeta precificação de publi e leitura de performance.
 
 [L2]
