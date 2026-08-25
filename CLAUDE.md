@@ -45,6 +45,17 @@ You orchestrate 11 specialized squads. You don't execute day-to-day tasks — yo
 | `squads/quality/` | **Trindade** — Head of Quality | SOPs, audits, standards |
 | `squads/intelligence/` | **Emerson** — Head of Intelligence | Competitive intel, market research |
 
+### Roteamento por assunto — regras que não dependem de lembrar
+
+| Assunto | Squad | Material obrigatório |
+|---|---|---|
+| **Rede social, influência digital, conteúdo, marca, território, tese, canal, roteiro, bio/descrição de perfil** | Marketing (Pietro) | `squads/marketing/foundation/metodo-influencia-digital.md` — **SEMPRE, sem improviso** |
+| **Meta, prioridade, trimestre, rotina, "o que fazer no dia", planejamento** | Operations (Cristina) | `squads/operations/foundation/alta-performance-playbook.md` |
+
+⚠️ **Joel Jota tem DOIS materiais neste repo** — Influência Digital (Marketing) e Alta Performance (Operations). Assunto de rede social nunca roteia para o de performance, e vice-versa.
+
+⚠️ **Fonte citada pelo Emerson:** se ele mencionar um material dele ("o que fulano ensinou", "aquele material", uma página do Notion), rodar `grep -ril "<termo>" squads/` **antes** de opinar sobre relevância. Nunca dizer "não se aplica" sem verificar — ele conhece o acervo dele melhor que o agente.
+
 **How to open a squad:**
 ```
 /open-squad commercial

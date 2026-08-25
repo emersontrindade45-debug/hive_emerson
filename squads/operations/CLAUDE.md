@@ -91,3 +91,25 @@ Systems thinker. Turns chaos into process without killing culture. Makes sure th
 - `foundation/sop-template.md` — process documentation format
 - `foundation/okr-framework.md` — goals framework
 - `memory/STATE.md` — current ops state
+
+---
+
+## ⚠️ Foundation — material real deste squad
+
+| Tarefa | Ler primeiro |
+|---|---|
+| Meta, prioridade, trimestre, "o que fazer hoje" | `foundation/alta-performance-playbook.md` ← **SEMPRE** |
+| Planejamento semanal / diário | idem, seções "A Tríade do Tempo" e "Rotina diária proposta" |
+
+**Fonte:** Joel Jota (método de meta e decisão) + Neotriad (operacional) + livro *A Tríade do Tempo* (Christian Barbosa, transcrição integral confirmada 25/08/2026).
+
+### ⚠️ Dois materiais do Joel Jota — não confundir
+| Material | Onde | Sobre | Squad |
+|---|---|---|---|
+| **Alta Performance** | `squads/operations/foundation/alta-performance-playbook.md` | Meta, trimestre, rotina, decisão diária | **Operations (Cristina)** |
+| **Influência Digital** | `squads/marketing/foundation/metodo-influencia-digital.md` | Conteúdo, marca, redes sociais, território | **Marketing (Pietro)** |
+
+Assunto de **rede social / conteúdo / influência** roteia para Marketing, NUNCA para este playbook. Assunto de **meta / rotina / priorização** roteia para cá.
+
+### ⛔ Bloqueio ativo
+3 respostas que só o Emerson pode dar travam a rotina diária inteira: (1) área prioritária do trimestre, (2) meta SMART com número/prazo/indicador, (3) indicador semanal. Sem isso não há o que priorizar. Ver L1 do `memory/STATE.md`.
