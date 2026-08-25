@@ -36,7 +36,7 @@
 
 ## HOOK — 0:00 a 0:35
 
-> *[Técnica: contradição do óbvio + pergunta plantada — playbook]*
+> *[Técnica: contrarian + pergunta plantada + antecipar objeção — playbook. Checado contra os 4 mandamentos do hook: alinhamento, velocidade ao valor, clareza, curiosidade]*
 
 **[FALA]**
 
@@ -44,13 +44,15 @@
 
 Genérica. Óbvia. Do tipo que você já sabia.
 
-Aí você pensa: 'essa IA é superestimada'.
+Aí você pensa: 'essa IA é superestimada'. Você tá errado — e eu vou provar em 7 minutos.
 
-Eu vou te mostrar em 7 minutos que o problema não é a IA. São quatro coisas que você não está fazendo — e nenhuma delas é técnica.
+O problema não é a IA. São quatro coisas que você não está fazendo — e nenhuma delas é técnica.
 
 E antes que você pense 'ah, é aquele papo de prompt mágico': não é. Não tem comando secreto, não tem lista de 100 prompts. É mais simples e mais chato que isso."
 
-**[NOTA DE GRAVAÇÃO]** Última frase derruba a objeção antes dela nascer (técnica "antecipar a objeção"). Sem ela, quem já viu vídeo de prompt sai aos 15 segundos.
+**[NOTA DE GRAVAÇÃO]** "Você tá errado" vira a linha contrarian que checa a curiosidade do hook — antes a frase só constatava, agora abre um loop (por quê estou errado?). Última frase derruba a objeção antes dela nascer (técnica "antecipar a objeção"). Sem ela, quem já viu vídeo de prompt sai aos 15 segundos.
+
+**[TELA]** Print de resposta genérica real na tela desde o primeiro segundo — mandamento do alinhamento: o que é falado, mostrado e escrito bate junto (mesma imagem da thumb).
 
 ---
 
@@ -130,19 +132,25 @@ Diz o que está errado, específico: *'ficou formal demais, meu cliente me chama
 
 ### Erro 4 — Você pede coisa que você mesmo não sabe avaliar (4:20–5:30)
 
+> *[Técnica: micro-história com fórmula 4W (quem/onde/quando/por quê) — quebra a objeção "então não dá pra confiar em nada" antes dela ser dita, em vez de só afirmar a regra]*
+
 **[FALA]**
 
 "Quarto erro, e esse é o perigoso.
 
 Você pede algo que você não tem como conferir. Um cálculo de imposto. Uma cláusula de contrato. Um dado de mercado.
 
-A IA vai responder. Com confiança. E pode estar errada — lembra dos 70% dos especialistas.
+Semana passada [QUANDO], um dono de comércio [QUEM] me mandou mensagem [ONDE: WhatsApp] porque a IA tinha calculado o imposto de um produto errado — e ele só descobriu porque o contador conferiu depois [POR QUÊ ele conferiu: já tinha o hábito de checar tudo que envolvia dinheiro saindo]. Se ele não tivesse esse hábito, teria pago a menos e criado um problema com o Fisco.
+
+A IA respondeu. Com confiança. E estava errada — lembra dos 70% dos especialistas.
 
 Aqui a regra é dura: **use a IA pra acelerar o que você sabe conferir, não pra substituir o que você não sabe.**
 
 Se você não consegue olhar a resposta e dizer 'isso está certo' ou 'isso está errado', você não está usando IA. Você está apostando.
 
 Isso não quer dizer não usar. Quer dizer: usa pra rascunhar, e confere na fonte. O tempo que ela economiza é no rascunho, não na conferência."
+
+**[NOTA]** Caso genérico e anônimo — sem citar o Araújo (autorização pendente). Se soar artificial na gravação, cortar a história e manter só a regra; não inventar detalhe além do que está aqui (licença poética tem limite: não mentir sobre o fato central).
 
 ---
 
@@ -166,7 +174,7 @@ Isso não quer dizer não usar. Quer dizer: usa pra rascunhar, e confere na font
 
 ## FECHO + CTA — 7:00 a 7:45
 
-> *[Técnica: fechar com ação, não resumo]*
+> *[Técnica: fechar com ação, não resumo + CTA em 3 partes Hook→Curiosity→Action + regra PSP: terminar abrindo o próximo problema, nunca com "então foi isso"]*
 
 **[FALA]**
 
@@ -178,9 +186,11 @@ Faz isso agora: pega a última coisa que você pediu pra IA e que veio ruim. Ree
 
 E me conta nos comentários o que mudou — eu respondo todos. Se não mudou nada, me manda o que você escreveu que eu te digo onde travou.
 
-Se isso te ajudou, se inscreve. Não é favor: é que o YouTube só mostra o próximo vídeo pra quem se inscreveu, e o próximo é sobre as tarefas que dá pra tirar da sua semana."
+Se isso te ajudou, se inscreve. Não é favor: é que o YouTube só mostra o próximo vídeo pra quem se inscreveu.
 
-**[NOTA]** O CTA pede ação primeiro, inscrição depois — coerente com "servir primeiro" (`creator-profile.md`). O convite pra mandar o prompt que travou é o que mais gera comentário com contexto — a régua 1 de `mapa-teste-publico.md`.
+[GANCHO] Mas resolver o prompt é só metade do problema. [LACUNA] Porque mesmo com o prompt certo, ainda sobra a pergunta que ninguém te conta: quais tarefas da sua semana você deveria estar delegando pra IA — e quais não. [AÇÃO] É o próximo vídeo. Clica aqui e eu te mostro."
+
+**[NOTA]** O CTA pede ação primeiro, inscrição depois — coerente com "servir primeiro" (`creator-profile.md`). O convite pra mandar o prompt que travou é o que mais gera comentário com contexto — a régua 1 de `mapa-teste-publico.md`. Fecho evita a frase "então foi isso" (gatilho de "acabou" que empurra saída) e termina abrindo um problema novo em vez de resumir — mesmo raciocínio do PSP: o vídeo 1 fecha o loop do prompt, mas abre o loop de "o que delegar", puxando para o vídeo 2 antes mesmo dele existir. Ajustar a frase se o tema do vídeo 2 mudar.
 
 ---
 
@@ -206,6 +216,9 @@ Do mesmo material, sem gravar de novo — técnica de repurposing do playbook.
 - [ ] Jargão traduzido na primeira menção
 - [ ] Legenda (áudio ruim no celular = saída)
 - [ ] `engaged views` como métrica, não view pública
+- [ ] Micro-história do Erro 4 soou natural na leitura em voz alta — se não, cortar e manter só a regra (ver nota no bloco)
+
+**Revisão 25/08 (playbook ampliado):** hook reforçado com linha contrarian + checagem dos 4 mandamentos · Erro 4 ganhou micro-história (fórmula 4W) pra quebrar objeção antes dela aparecer · CTA final reescrito em Hook→Curiosity→Action, terminando em problema aberto (regra PSP) em vez de resumo. Estrutura, título e os 4 erros em si **não mudaram** — ajuste foi cirúrgico, não reescrita.
 
 ## Depois de publicar — o que medir
 

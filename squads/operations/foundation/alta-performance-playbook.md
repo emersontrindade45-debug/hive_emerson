@@ -4,7 +4,7 @@ Método para estabelecer metas, desdobrar em execução e decidir **o que fazer 
 
 Fontes: Joel Jota (método de decisão e meta) + Neotriad (método operacional e ferramenta). Cada item cita a origem.
 
-**Última atualização:** 2026-08-23
+**Última atualização:** 2026-08-25 — seção da Tríade do Tempo revalidada com o livro completo (ver changelog em "Lacunas conhecidas")
 
 ---
 
@@ -167,21 +167,46 @@ Atividades do dia (executadas × restantes), tempo planejado × executado × res
 
 ## A Tríade do Tempo (Christian Barbosa)
 
-> ⚠️ **Procedência:** o livro NÃO foi lido. O que segue vem de fontes públicas — blog oficial do Neotriad, resumo do Sebrae-RS, materiais de divulgação da editora. Suficiente para aplicar o método; insuficiente para citar o livro. Se o Emerson tiver o livro, revalidar e marcar como confirmado.
+> ✅ **CONFIRMADO (25/08/2026)** — revalidado a partir da transcrição integral do livro (audiobook/vídeo, capítulos 1 a 13 + apêndices), fornecida pelo Emerson. Substitui a versão anterior, que vinha de fontes secundárias (blog do Neotriad, resumo do Sebrae-RS) e continha um dado incorreto (ver nota de correção abaixo). **Citação ao livro agora é segura.**
 
-É a metodologia que originou o Neotriad — entender a tríade é entender por que o app é estruturado como é.
+> ⚠️ **Correção de dado:** a versão anterior deste playbook citava "pesquisa com mais de 42.000 pessoas" como base das três esferas. O livro não sustenta esse número para a tríade em si — o estudo específico da distribuição 70/20/10 citado no livro é de **210 pessoas** (grupo teste do Neotriad, comparando quem classifica atividades vs. quem não classifica). A pesquisa de 42 mil aparece no livro associada a outro dado: **18 mil pessoas testadas no Brasil** confirmam a "lei de Pareto aplicada à produtividade" — 30% do tempo do brasileiro vai para o importante, 70% para urgente+circunstancial. Não confundir os dois estudos.
+
+É a metodologia que originou o Neotriad — entender a tríade é entender por que o app é estruturado como é. Nasceu como evolução da Matriz de Eisenhower/Covey (importante × urgente, 4 quadrantes) — Barbosa simplificou para 3 esferas que **nunca se sobrepõem**.
 
 ### As três esferas
 
-| Esfera | O que é | Sinal |
+| Esfera | O que é | Características |
 |---|---|---|
-| **Importante** | Ligado aos seus sonhos, metas e objetivos | Você escolheu fazer |
-| **Urgente** | Imprevisto, chega em cima da hora | Gera estresse; você não escolheu |
-| **Circunstancial** | Não agrega nada — conversa fútil, tarefa inútil | Tempo desperdiçado |
+| **Importante** | Atividades significativas, ligadas a sonhos/metas/missão, que trazem resultado a curto, médio ou longo prazo | Tem prazo (não é urgente por definição) · é pessoal (importante pra você, não necessariamente pros outros) · dá prazer ao ser executada · geralmente é espontânea |
+| **Urgente** | Deve ser feita imediatamente, gera problema se não for | Tempo curto ou esgotado · não pode ser prevista · causa estresse |
+| **Circunstancial** | Você é levado a fazer por situação/ambiente/outra pessoa, independente da sua vontade | Pode ser importante para outra pessoa, nunca pra você · desperdiça tempo · feita por educação, comodidade ou medo de dizer não · gera insensatez, frustração, decepção |
 
-**Diferença-chave para a matriz de Eisenhower:** aqui importante e urgente **nunca acontecem ao mesmo tempo**. Se algo importante virou urgente, é porque foi mal planejado — não é uma categoria "importante e urgente", é falha de planejamento.
+**Diferença-chave para a Matriz de Eisenhower:** aqui importante e urgente **nunca acontecem ao mesmo tempo** — não existe a categoria "importante e urgente" da matriz clássica. Se algo importante virou urgente, é porque **foi mal planejado**: a tarefa era importante, tinha prazo, mas não foi feita a tempo e migrou sozinha para a esfera da urgência. É diagnóstico, não coincidência.
 
-Base declarada: pesquisa com mais de 42.000 pessoas.
+**Origem do conceito, segundo o livro:** o General Eisenhower e depois Stephen Covey desenvolveram a matriz de 4 quadrantes (importante × urgente). Barbosa a simplificou observando que muita gente não conseguia classificar suas tarefas nos 4 quadrantes na prática — a tríade elimina a interseção, forçando cada tarefa em uma esfera só.
+
+### O quarto elemento: os 4 corpos (de onde vem "importante")
+
+Antes de aplicar a tríade, o livro define **identidade** (capítulo 6) como a fase mais importante da metodologia — o que é importante só se sabe quando se sabe quem se é. O ser humano tem 4 dimensões/corpos que precisam de equilíbrio:
+
+| Corpo | Elemento (analogia grega) | Função da consciência |
+|---|---|---|
+| **Físico** | Terra | Sensação (percebe o mundo pelos 5 sentidos) |
+| **Mental** | Ar | Pensamento (organiza, classifica, analisa) |
+| **Emocional** | Água | Sentimento (julga, valoriza, relaciona-se) |
+| **Espiritual** | Fogo | Intuição (essência, propósito, conexão com algo maior — não é sinônimo de religião) |
+
+Os 4 corpos são interdependentes — desequilíbrio em um afeta os outros. **Aplicação prática:** uma atividade pode trabalhar mais de um corpo ao mesmo tempo (ex.: um programa com a esposa — cinema + jantar + um gesto — trabalha físico, mental, emocional e espiritual juntos, sem precisar de 4 atividades separadas).
+
+### Papéis — a unidade prática da identidade
+
+Você desempenha diversos **papéis** (pai, profissional, amigo, voluntário, etc.) — cada um com objetivos e pessoas-chave próprios. Regra prática do livro: **mantenha até 8 papéis**. Menos papéis = mais tempo real para cada um. Inclua sempre o papel **"eu"** (cuidado consigo mesmo) — é o mais negligenciado e o livro recomenda literalmente marcar "reuniões com você mesmo" na agenda.
+
+**Gráfico de papéis:** o Neotriad gera automaticamente um gráfico de quanto tempo real vai para cada papel — geralmente revela desequilíbrio (ex.: papel de cônjuge esquecido). Não é indicador matemático, é espelho de reflexão: "está bom assim ou preciso melhorar?"
+
+### Missão pessoal
+
+Não é objetivo (objetivo tem prazo e passos). Missão é **atemporal** — a convergência de papéis, corpos, sonhos, crenças e valores em uma frase. Regras do livro para escrever uma: pessoal e inspiradora · abrange todas as áreas da vida, não só profissional · realista mas desafiadora · escrita no infinitivo, com verbos de ação · você **descobre** a missão, não inventa nem copia a de outra pessoa · é versionável (revisar ao longo da vida, sem culpa).
 
 ### Distribuição-alvo: 70 / 20 / 10
 
@@ -189,32 +214,85 @@ Base declarada: pesquisa com mais de 42.000 pessoas.
 - **20% urgente**
 - **10% circunstancial**
 
-A meta operacional é **eliminar urgências**, não administrá-las melhor. Urgência crônica é sintoma de planejamento ausente.
+A meta operacional é **eliminar urgências**, não administrá-las melhor. Urgência crônica é sintoma de planejamento ausente — "administração do tempo pelo grito": só quando a urgência grita é que a prioridade aparece.
+
+Em horas, para uma semana de 40h de trabalho: **28h importante, 8h urgência, 4h circunstância** — parâmetro citado no livro como "grande padrão de produtividade pessoal".
+
+### As 3 composições perigosas da tríade (diagnóstico de padrão pessoal)
+
+O livro nomeia três desequilíbrios recorrentes — útil para autodiagnóstico rápido, inclusive do Emerson:
+
+| Composição | Maior esfera → 2ª maior | Perfil |
+|---|---|---|
+| **Super-Homem** | Urgência → Circunstância | Vive "apagando incêndio", sente-se herói resolvendo crise alheia; usa circunstância (bebida, jogo, sono) como válvula de escape da urgência crônica. Comum em suporte técnico/operação. |
+| **Homer Simpson** | Circunstância → Urgência | Vida no piloto automático, aceita o que aparece, nunca decide o próprio rumo — "escravo do destino". Sem plano, sem luta pelos próprios sonhos. |
+| **Equilibrista** | Circunstância ≈ Urgência (parecidas) | Vive fazendo malabarismo entre as duas, quase não diz não, pouco hábito de planejamento — maior risco de esgotamento porque absorve as duas esferas ruins ao mesmo tempo. |
+
+Nenhuma das três tem a esfera da importância em destaque — esse é o problema comum às três. Diagnosticar qual composição bate com o padrão atual do Emerson (antes ou depois da integração Neotriad) é o primeiro passo de qualquer intervenção.
 
 ### Regra de agenda: não planeje mais de 70% do tempo
 
-Imprevisto acontece. Agenda 100% cheia quebra no primeiro problema. **Quem está começando deve planejar no máximo 50%.**
+Imprevisto acontece. Agenda 100% cheia quebra no primeiro problema. **Quem está começando deve planejar no máximo 50%**, subindo aos poucos até 70%.
 
 > Isso corrige um erro comum: encher o dia de tarefas e terminar frustrado. O espaço vazio é parte do método, não folga.
 
 ### Toda tarefa precisa de duração estimada
 
-Tirar da cabeça e colocar no papel (ou no app) — **com tempo estimado**. Sem duração, a lista vira desejo e não cabe em dia nenhum.
+Tirar da cabeça e colocar no papel (ou no app) — **com tempo estimado**. Sem duração, a lista vira desejo e não cabe em dia nenhum. **Atividades com mais de 3 horas de duração tendem a ser canceladas, procrastinadas ou adiadas** (achado do Neotriad) — se uma tarefa passa de 3h, quebrar em pedaços menores.
+
+### Metas SMART, na versão do livro
+
+O livro usa o mesmo acróstico SMART (specific/measurable/achievable/relevant/time-bound), com uma inversão de peso: **o "R" (relevante) é o mais importante dos 5**, porque é o que sustenta a motivação ao longo do tempo — sem uma razão profunda ("por que isso importa pra mim de verdade"), a meta perde força no meio do caminho. Regra prática: nunca escrever meta sem responder "por que eu quero isso" antes de definir prazo e números.
+
+**Meta vs. projeto:** meta é sonho/objetivo pessoal, desafiador, conectado à identidade. Projeto é uma tarefa grande mas sem desafio pessoal real — as condições para realizá-la já existem, só falta executar (ex.: "trocar de carro" com dinheiro em caixa é projeto, não meta). Confundir os dois é erro comum — projeto que vira meta na cabeça gera frustração desnecessária porque nunca vai ter aquele "desafio" que meta de verdade tem.
+
+**Recomendação de quantidade:** regra "8 metas por ano, 4 por mês, 2 por semana" (citada no livro como "regra 8-4-2") — cada nível de planejamento (anual → mensal → semanal) reduz o número de metas ativas simultâneas, mantendo foco.
 
 ### Os 4 passos do planejamento semanal
 
-1. **Ações ligadas à identidade** — papéis, relacionamentos, equilíbrio, missão
-2. **Ações ligadas às metas** — os pequenos passos que executam a meta
-3. **Rotina** — tarefas e compromissos recorrentes
-4. **Uma tarefa de organização pessoal**
+1. **Ações ligadas à identidade** — papéis, relacionamentos, equilíbrio dos 4 corpos, missão. Sempre incluir algo para o papel "eu".
+2. **Ações ligadas às metas conectadas** — os pequenos passos que executam a meta (regra 8-4-2: só 2 das metas do mês entram na semana)
+3. **Projetos e antecipação** — tarefas e compromissos rotineiros, revisão de projetos em andamento, antecipar problemas previsíveis (ex.: se tem apresentação quinta, revisar terça e ensaiar quarta)
+4. **Organização pessoal** — uma tarefa por semana (limpar caixa de entrada, taxonomia, ambiente físico), de preferência quinta ou sexta
 
-> A ordem importa: identidade e metas entram **antes** da rotina. Se a rotina entra primeiro, ela consome tudo e a meta fica para "quando sobrar" — e nunca sobra. É a mesma lógica do bloco matinal do Joel Jota, por outro caminho.
+> A ordem importa: identidade e metas entram **antes** da rotina/projetos. Se a rotina entra primeiro, ela consome tudo e a meta fica para "quando sobrar" — e nunca sobra. É a mesma lógica do bloco matinal do Joel Jota, por outro caminho. **Momento certo de planejar:** domingo ou sábado, nunca segunda (tarde demais) — processo leva 20-30 min. **Cuidado extra com segunda-feira:** estatisticamente é o dia com maior volume de atividades — planejar menos coisas nesse dia especificamente.
+
+### Priorização diária — os 3 passos + 2 modelos de ordenação
+
+**Os 3 passos** (leva ~5 min, primeira coisa do dia): (1) revisar pendências — o que não foi concluído ontem, e-mails a transformar em tarefa; (2) calcular a duração de cada atividade do dia; (3) priorizar em ordem numérica sequencial — nunca por categoria A/B/C, porque "se é opcional, não devia estar na lista".
+
+**Dois modelos de ordenação testados pelo Neotriad** (o livro não recomenda um só — depende do estilo):
+- **Por resultado desejado:** ordenar o dia pelo que você quer alcançar como resultado — ex. segunda é dia de fazer pedidos, ordena as tarefas para bater essa meta primeiro
+- **Por padrão de alta performance** (estudo com 1.929 pessoas de 14 países, 3+ meses de dados): 1º tarefas rápidas e fáceis (até 10 min) · 2º resolva urgências rapidamente · 3º tarefas difíceis/complexas no pico de produtividade pessoal (geralmente manhã, para brasileiro) · 4º delegue de manhã · 5º agrupe atividades semelhantes (ligações, e-mails) num bloco só
+
+**Regra de ouro:** monotarefa sempre. Estudos de Stanford/Harvard/MIT citados no livro mostram que multitarefa aumenta o tempo gasto em 30-78% e reduz foco — só 2% das pessoas testadas não perdem performance fazendo várias coisas ao mesmo tempo.
+
+### Fluxograma de decisão para evento inesperado
+
+Quando surge algo não planejado, 4 alternativas em ordem: **dizer não** (se não precisa ser você) → **delegar** → **fazer agora** (se leva até 3 min) → **agendar** (se leva mais tempo, definir data e voltar pro que estava fazendo). Nunca deixar sem decisão — todo evento precisa de um destino imediato, mesmo que o destino seja "daqui a duas semanas".
+
+### Organização — taxonomia pessoal
+
+Um mapa único de categorias (máximo ~10 ramos principais) aplicado a **todos** os ambientes — gavetas, pastas físicas, pastas do computador, e-mail, favoritos do navegador. Objetivo: nunca ter que "lembrar o mapa" de cada lugar separado. Regra de e-mail do livro: manter no máximo **25 mensagens na caixa de entrada** — tudo além disso é sinal de falta de decisão, não falta de tempo.
+
+### Operação Chateado (foco profundo)
+
+Ritual de concentração: desligar toda fonte de interrupção (celular, e-mail, mensageiro, porta fechada) por um bloco de **no máximo 3 horas**, com uma âncora de início (o livro usa música). Regra: foco é na **tarefa**, não no dia inteiro — errar a duração do bloco é o erro mais comum (bloco longo demais quebra a disciplina).
 
 ### Como isso conecta com o Neotriad
 
-Os campos que o app pede — **papel**, **categoria**, **indicador**, **prazo**, **plano de ação** — são a tríade materializada: `papel` vem do passo 1, `plano de ação` do passo 2, e a classificação importante/urgente/circunstancial é o que o dashboard mede.
+Os campos que o app pede — **papel**, **categoria**, **indicador**, **prazo**, **plano de ação** — são a tríade materializada: `papel` vem do passo 1 do planejamento semanal, `plano de ação` do passo 2, e a classificação importante/urgente/circunstancial é o que o dashboard mede. O app permite classificar até 80% das atividades (o estudo de 210 pessoas citado acima é exatamente sobre isso: quem classifica mais conclui mais tarefas e planeja com mais facilidade).
 
-**Fontes:** [Neotriad — blog oficial](https://neotriad.com/blog/produtividade-no-trabalho-triade-do-tempo/) · [Sebrae-RS](https://digital.sebraers.com.br/blog/resumo-do-livro-a-triade-do-tempo/) · [triade.com.br](https://www.triade.com.br/)
+### Implantação em 3 semanas (programa do próprio livro)
+
+Sequência sugerida pelo autor para adoção gradual — **não pular etapas**:
+- **Semana 1 — Identidade:** descobrir o que gosta/não gosta de fazer (5 min/dia) · gráfico de papéis (20 min, 1x) · missão pessoal (35 min, 1x) · metas de 24 meses, reduzidas a 3 (35 min, 1x)
+- **Semana 2 — Planejamento:** resolver urgências e pendências acumuladas (15 min) · planejar a semana seguinte (20 min)
+- **Semana 3 — Execução:** priorizar o dia (3 min/dia) · aplicar a taxonomia pessoal (30 min) · organizar e-mails (2h na primeira vez, 40 min depois)
+
+> **Duas horas por semana bastam** para o programa inteiro, segundo o livro — a barreira não é tempo, é disciplina de não pular etapa.
+
+**Fontes:** transcrição integral do livro "A Tríade do Tempo" (Christian Barbosa), fornecida pelo Emerson em 25/08/2026 — capítulos 6 (Identidade), 7 (Metas), 8 (Planejamento), 9 (Organização), 10 (Execução), 11 (Implantação), 12 (Equipes), 13 (Conclusão) + apêndices (dizer não, reuniões eficazes, Neotriad).
 
 ---
 
@@ -302,4 +380,5 @@ Derivada do método acima, adaptada ao contexto de operador solo com um cliente 
 
 - **Integração Neotriad ↔ HIVE:** não avaliada. Emerson informou ter acesso à API/docs; pendente de recebê-los.
 - **Notion:** integração possível (API pública), mas não faz sentido antes da cadeia meta→dia existir.
-- **Livro *A Tríade do Tempo*** (Christian Barbosa): não lido — é obra comercial protegida. O método está registrado acima **a partir de fontes públicas** (blog oficial do Neotriad, Sebrae-RS, editora), o que basta para aplicar. Falta o aprofundamento que só o livro dá: a pesquisa com 42 mil pessoas, os estudos de caso e as nuances de aplicação. Se o Emerson tiver o livro, revalidar a seção e marcá-la como confirmada.
+- [x] **RESOLVIDA 25/08/2026** — Livro *A Tríade do Tempo* revalidado com transcrição integral fornecida pelo Emerson. Seção "A Tríade do Tempo" reescrita com o método completo (identidade, 4 corpos, papéis, missão, metas SMART com peso no "R", planejamento em 4 passos, priorização em 3 passos + 2 modelos, fluxograma de decisão, composições perigosas, implantação em 3 semanas). Um dado da versão anterior foi corrigido (ver nota na seção).
+- [ ] **Pendente:** diagnosticar qual das 3 composições perigosas (Super-Homem / Homer Simpson / Equilibrista) mais se aproxima do padrão atual do Emerson — primeiro passo prático de aplicação, ainda não feito.
