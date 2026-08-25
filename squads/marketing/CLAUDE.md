@@ -73,31 +73,47 @@ Se o Emerson citar um material dele ("o que o Joel Jota ensinou", "aquele materi
 
 ---
 
-## Divisões operacionais — 3ª camada (piloto, desde 25/08/2026)
+## Divisões operacionais — 3ª camada (desde 25/08/2026)
 
-> **Modelo de 3 camadas:** Estratégica (Emerson/CEO — decide direção) → Tática (Pietro/Head — traduz em plano) → **Operacional (divisões — executam)**.
+> **Modelo de 3 camadas:** Estratégica (Emerson/CEO — direção) → Tática (Pietro/Head — prioriza, dono do STATE) → **Operacional (divisões — executam)**.
+> **Cadeia de reporte:** divisão → Pietro → Emerson. Divisão nunca reporta direto ao CEO.
 >
-> Marketing é o **piloto**. As 3 divisões abaixo não foram inventadas: já existiam na prática (`data/roteiros/`, `data/youtube-intel/`, `data/assets/`), só não tinham nome. Se o modelo provar valor em 2-3 semanas, replica-se aos outros squads. Se atrapalhar, apagar estas seções reverte tudo.
+> **Decisão do Emerson (25/08):** criar as 6 divisões de uma vez, incluindo as que ainda não têm trabalho — estrutura pronta evita retrabalho quando a frente abrir. Cada divisão carrega um **status** e um **gatilho de ativação**: divisão `DORMENTE` não gera tarefa, não entra em revisão de STATE e não consome atenção até o gatilho disparar.
 
-| Divisão | Responde por | Artefatos | Entrega |
-|---|---|---|---|
-| **M1 · Conteúdo** | Roteiro, pauta, ângulo, copy de qualquer plataforma | `data/roteiros/` · `youtube-playbook.md` · `mapa-teste-publico.md` | Peça pronta para gravar/publicar |
-| **M2 · Inteligência** | Radar de concorrência, técnicas de criador, base de dados verificada | `data/youtube-intel/` · `dores-ia-brasil-2026.md` | Técnica nova no playbook · dado conferido na fonte |
-| **M3 · Canal & Analytics** | Setup, identidade visual, métricas, distribuição | `data/assets/` · `canal-identidade.md` · `social-analytics-glossary.md` | Canal configurado · número de performance |
+| # | Divisão | Status | Responde por | Artefatos |
+|---|---|---|---|---|
+| **M1** | **Conteúdo** | 🟢 ATIVA | Roteiro, pauta, ângulo, copy de qualquer plataforma | `data/roteiros/` · `youtube-playbook.md` · `mapa-teste-publico.md` |
+| **M2** | **Inteligência** | 🟢 ATIVA | Radar de concorrência, técnica de criador, dado verificado | `data/youtube-intel/` · `dores-ia-brasil-2026.md` |
+| **M3** | **Canal & Analytics** | 🟢 ATIVA | Setup, identidade visual, métricas, performance | `data/assets/` · `canal-identidade.md` · `social-analytics-glossary.md` |
+| **M4** | **Distribuição & Repurpose** | 🟡 DORMENTE | Multiplicar 1 peça em N formatos e plataformas | *(a criar: `data/distribuicao/`)* |
+| **M5** | **Comunidade & Relacionamento** | 🟡 DORMENTE | Comentário, Direct, ritual, linguagem própria, fãs | *(a criar: `data/comunidade/`)* |
+| **M6** | **Growth & Aquisição** | 🔴 CONGELADA | Mídia paga, funil, CRO, geração de lead | — |
 
-### Como as divisões operam
-- **Cada divisão é uma seção nomeada no `memory/STATE.md`** (L2), não uma pasta nova. Um STATE só, três seções.
-- **Toda tarefa do L2 carrega o prefixo da divisão** (`[M1]`, `[M2]`, `[M3]`). Item sem prefixo = ainda não roteado.
-- **Uma divisão pode estar bloqueada sem travar as outras.** Ex.: M3 bloqueado por falta de Channel ID não impede M1 de escrever roteiro. Essa é a razão prática de existirem.
-- **Pietro (camada tática) continua dono do STATE e da priorização.** As divisões não decidem o que é prioridade — organizam a execução.
+### Gatilhos de ativação — quando cada divisão acorda
+
+| Divisão | Gatilho objetivo | Por que não antes |
+|---|---|---|
+| **M4 · Distribuição** | Quando a **2ª plataforma abrir** (Instagram ou LinkedIn com publicação real) | Com uma plataforma só não há o que distribuir. Aula 05: *"distribuir é tão importante quanto produzir"* — mas 1 vídeo em 1 canal é publicação, não distribuição |
+| **M5 · Comunidade** | Após o **8º vídeo (30/10/2026)** ou 100 inscritos, o que vier primeiro | Primal Branding (Aula 04) exige gente. Ritual e linguagem própria com zero inscrito é teoria |
+| **M6 · Growth** | Quando houver **verba de mídia aprovada pelo Finance** E o canal tiver ≥8 vídeos | Folga de caixa é R$5,79/mês — não há verba. E o princípio "servir primeiro" (Emerson, 24/08) proíbe régua de lead antes do 8º vídeo. Ativar antes **contradiz a estratégia declarada** |
+
+**Regra das dormentes:** não geram tarefa no L2, não aparecem em revisão de STATE, não recebem prefixo. Existem como caixa definida esperando gatilho. Quando o gatilho disparar, Pietro promove a divisão a 🟢 ATIVA e cria a pasta de artefato.
 
 ### Fronteiras (o que evita sobreposição)
-- Dado ou número → **M2 sempre**. M1 nunca cita número que M2 não verificou (`dores-ia-brasil-2026.md`).
-- Técnica de roteiro → M2 descobre e registra no playbook; **M1 aplica**. M2 não escreve roteiro.
-- Métrica de performance → **M3**. M1 não interpreta retenção; recebe a leitura de M3 e ajusta a pauta.
+- Dado ou número → **M2 sempre**. M1 nunca cita número que M2 não verificou (`dores-ia-brasil-2026.md`)
+- Técnica de roteiro → M2 descobre e registra no playbook; **M1 aplica**. M2 não escreve roteiro
+- Métrica de performance → **M3** lê; M1 ajusta a pauta com base na leitura
+- Peça original → **M1**. Adaptação da mesma peça para outra plataforma → **M4** (quando ativa)
+- Responder comentário/Direct → **M5** (quando ativa). Até lá, M1 responde e registra o que aparecer
+- **M6 nunca** define pauta. Growth compra distribuição, não decide conteúdo
 
-### ⚠️ Regra anti-inchaço
-Divisão só existe se tiver **trabalho real recorrente**. Não criar divisão vazia "para quando precisar" — o gargalo declarado do negócio é execução, não estrutura (238 leads sem ligação). Estrutura sem trabalho é procrastinação com aparência de progresso.
+### Equivalência com o mercado
+As 6 mapeiam o padrão de marketing corporativo, dimensionado ao volume real: M1 ≈ Content + Brand/Creative · M2 ≈ Market/Competitive Intelligence · M3 ≈ Marketing Ops & Analytics · M4 ≈ Distribution/Channel · M5 ≈ Community/Social · M6 ≈ Growth/Performance. Product Marketing e Comms/PR **não** viram divisão daqui: pertencem a Product (Paes) e Intelligence (Emerson).
+
+### ⚠️ Regra anti-inchaço (vale para as ativas também)
+Divisão ativa sem trabalho recorrente vira burocracia. Se numa revisão de STATE uma divisão 🟢 estiver há 30 dias sem item no L2, **rebaixar para 🟡 DORMENTE**. O gargalo declarado do negócio é execução, não estrutura (238 leads sem ligação).
+
+**Revisar o modelo inteiro:** meados de setembro/2026, depois do marco C2 (11/09).
 
 ---
 
