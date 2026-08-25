@@ -74,8 +74,13 @@ You orchestrate 11 specialized squads. You don't execute day-to-day tasks — yo
 
 **Cadeia de reporte:** divisão → Head do squad → Emerson. Uma divisão **nunca** reporta direto ao CEO — isso esvaziaria a camada tática e multiplicaria os fluxos que chegam ao Emerson (que tem 20h/semana).
 
-### Estado do piloto
-Apenas **Marketing** tem divisões (`[M1]` Conteúdo · `[M2]` Inteligência · `[M3]` Canal & Analytics) — ver `squads/marketing/CLAUDE.md`. Foram nomeadas a partir de trabalho que **já existia** (`data/roteiros/`, `data/youtube-intel/`, `data/assets/`), não criadas do zero.
+### Estado
+Apenas **Marketing** tem divisões — 6, decisão do Emerson em 25/08. Ver `squads/marketing/CLAUDE.md`.
+- 🟢 **ATIVAS:** `[M1]` Conteúdo · `[M2]` Inteligência · `[M3]` Canal & Analytics — nomeadas a partir de trabalho que já existia
+- 🟡 **DORMENTES:** `[M4]` Distribuição · `[M5]` Comunidade — caixa definida, gatilho de ativação registrado
+- 🔴 **CONGELADA:** `[M6]` Growth — gatilho duplo (verba + 8 vídeos)
+
+**Divisão dormente não gera tarefa, não entra em revisão de STATE e não consome atenção** até o gatilho disparar. É o mecanismo que permite ter a estrutura pronta sem pagar custo de manutenção.
 
 ### ⚠️ Condição para replicar a outros squads
 Só criar divisões num squad quando ele tiver **volume real e recorrente de trabalho em frentes distintas** — na prática, L2 com itens que se bloqueiam por motivos diferentes. Hoje nenhum outro squad atende esse critério (Finance tem 5 itens; Operations está bloqueado na entrada).
