@@ -18,41 +18,44 @@
 
 ---
 
-## Pendente do Emerson — decisões que faltam
+## Decisões do Emerson — ✅ FECHADAS 25/08/2026
 
-Nenhuma tem resposta certa; são as únicas coisas que este arquivo não pode decidir sozinho.
+Todas resolvidas. Textos prontos para colar em [`canal-identidade.md`](./canal-identidade.md).
 
-- [ ] **Nome do canal** — precisa refletir o eixo ("IA aplicada a trabalho que já existe"), não o público P1-P5 em teste. Evitar nome que amarre a um público só (ex.: nada com "comércio" ou "varejo" — mataria a leitura de P3/P4). Testar se o nome funciona pronunciado em vídeo ("se inscreve no canal ___").
-- [ ] **Handle (@usuario)** — precisa estar livre no YouTube e, se possível, coerente com Instagram/LinkedIn/TikTok para quando esses canais entrarem (mesmo handle em todas as plataformas evita fragmentar marca pessoal).
-- [ ] **Nome de exibição do criador** — usar nome real (Emerson) ou nome de canal? Dado o tom "conversa de quem já fez" (`brand-voice.md`), nome real tende a reforçar credibilidade — mas é decisão do Emerson.
+- [x] **Nome da marca:** Impulso IA
+- [x] **Handle:** `@impulsoia` — fallback `@impulsoia.br`, depois `@emerson.impulsoia`
+- [x] **Nome de exibição:** `Emerson | Impulso IA`
+- [x] **Conta Google:** nova, dedicada
+
+⚠️ **Risco de marca registrado (não bloqueia):** existe IMPULSO DIGITAL TECNOLOGIA E INTELIGENCIA ARTIFICIAL LTDA (CNPJ 60.475.559/0001-08) no mesmo CNAE. Não impede o canal; pode impedir registro INPI. Detalhe em `canal-identidade.md`.
 
 ---
 
 ## Checklist técnico — YouTube Studio
 
 ### 1. Conta e canal
-- [ ] Criar/usar conta Google dedicada (separar do Gmail pessoal se o Emerson preferir isolar)
+- [ ] Criar conta Google **nova e dedicada** (decidido 25/08 — não usar o Gmail pessoal)
 - [ ] Criar canal em [youtube.com/create_channel](https://www.youtube.com/create_channel)
-- [ ] Definir nome do canal (ver pendência acima)
-- [ ] Reivindicar handle @ (ver pendência acima) — [youtube.com/handle](https://www.youtube.com/handle)
-- [ ] Categoria do canal: **Educação** ou **Como fazer e estilo** (mais aderente a "Help/tutorial" que é 50-40% do conteúdo por `creator-profile.md`)
+- [ ] Nome de exibição: **`Emerson | Impulso IA`**
+- [ ] Reivindicar **`@impulsoia`** em [youtube.com/handle](https://www.youtube.com/handle) — se tomado: `@impulsoia.br`, depois `@emerson.impulsoia`
+- [ ] Categoria do canal: **Educação** (decidido 25/08)
 - [ ] País: Brasil / Idioma: Português
 
 ### 2. Identidade visual
-- [ ] Foto de perfil (800×800px mín.) — coerente com tom "direto e sem hype": preferir foto real a logo abstrato, dado que autoridade vem de "quem já fez" (`brand-voice.md`)
-- [ ] Banner do canal (2560×1440px, área segura 1546×423px) — comunicar o eixo em 1 linha ("IA aplicada a trabalho que já existe" ou variação)
+- [ ] Foto de perfil (800×800px) — **foto real do Emerson**, não logo. Spec completa em `canal-identidade.md`
+- [ ] Banner (2560×1440px, área segura 1546×423px) — linha única **"IA aplicada a trabalho que já existe"**. Spec e o que evitar em `canal-identidade.md`
 - [ ] Watermark de inscrição (150×150px) — aparece nos vídeos, opcional mas recomendado desde o vídeo 1
 
 ### 3. Descrição e metadados do canal
-- [ ] Descrição do canal (primeiras 2 linhas aparecem sem "ver mais" — usar o eixo + prova, não slogan)
+- [ ] Descrição do canal — **texto pronto para colar em `canal-identidade.md`**. Trocar `[email comercial]` antes
 - [ ] Links: site/LinkedIn/Instagram (mesmo sem conteúdo lá ainda, reserva o espaço)
 - [ ] E-mail de contato comercial (separado do pessoal, para parcerias)
-- [ ] Palavras-chave do canal (Configurações → Canal → Palavras-chave básicas): usar vocabulário de `brand-voice.md` seção "Usar" — *automação, WhatsApp, n8n, IA para negócio* — não jargão técnico puro
+- [ ] Palavras-chave do canal (Configurações → Canal → Palavras-chave básicas) — **lista pronta em `canal-identidade.md`**
 
 ### 4. Configurações antes do primeiro upload
 - [ ] Ativar monetização não é possível ainda (exige 500 inscritos + 3.000h watch time ou 3M views Shorts em 90 dias — regra 2026) — não é bloqueio para publicar, só não gera receita ainda
-- [ ] Definir template de descrição de vídeo (reutilizável): resumo + timestamps + links + CTA — escrever 1 vez, reaplicar
-- [ ] Definir template de tags/categoria padrão
+- [x] ✅ Template de descrição de vídeo **escrito** — `canal-identidade.md`. Falta só preencher LinkedIn e e-mail
+- [x] ✅ Template de tags padrão **escrito** — `canal-identidade.md`
 - [ ] Ativar/testar Estúdio de Legendas — vídeo 1 é "Help" educacional, legenda ajuda retenção (régua 1 de `mapa-teste-publico.md`)
 
 ### 5. Primeiro upload (vídeo 1)
@@ -63,15 +66,15 @@ Nenhuma tem resposta certa; são as únicas coisas que este arquivo não pode de
 - [ ] Verificar: vídeo público, não "não listado", data de publicação alinhada ao marco C2 (11/09)
 
 ### 6. Depois do primeiro vídeo no ar
-- [ ] Criar playlist única (ex. "Automação sem enrolação") — vídeos futuros entram nela desde o início
-- [ ] Registrar URL do canal e do vídeo 1 em `memory/STATE.md` L1
+- [ ] Criar playlist **"IA sem enrolação"** (nome decidido 25/08) — vídeo 1 entra nela já no upload
+- [ ] Registrar **Channel ID** (`UC...`, em Configurações → Canal → Configurações avançadas) + URL do canal e do vídeo 1 em `memory/STATE.md` L1
 - [ ] Atualizar `data/social-analytics/` (ver `foundation/social-analytics-glossary.md`) com o Channel ID assim que existir — é o que destrava o worker de analytics
 
 ---
 
 ## Ordem recomendada
 
-1. Decidir nome + handle (única dependência real — trava tudo abaixo)
+1. ~~Decidir nome + handle~~ ✅ feito 25/08 — ver `canal-identidade.md`
 2. Criar canal + identidade visual (item 1-3) — pode ser feito em paralelo à gravação
 3. Configurar templates (item 4) — uma vez só, reutiliza para sempre
 4. Publicar vídeo 1 (item 5)
