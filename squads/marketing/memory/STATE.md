@@ -26,6 +26,9 @@ Squad ativado via /hive-setup (2026-08-14). Voz de marca: Resultado, Parceira, E
 > 🟡 DORMENTE: `[M5]` Distribuição & Comunidade (gatilho: 2ª plataforma **ou** 8º vídeo/100 inscritos)
 > 🔴 CONGELADA: `[M6]` Growth & Performance (gatilho: verba aprovada **E** ≥8 vídeos)
 > **Interfaces (dono é outro squad, não duplicar):** Product Marketing → Paes · Comms/PR → Intelligence
+
+- [x] `[M2]` ✅ **NOVO 25/08 — Worker de descoberta de lacuna criado e testado:** `_core/youtube-gaps.py` + skill `/youtube-gaps` + `data/youtube-intel/termos.json` (10 termos mapeados aos 4 pilares). **Tese do sinal (Emerson):** vídeo com muitas views em canal pequeno = demanda validada sem autoridade — o algoritmo empurrou pelo TEMA, não pelo canal; logo procura existe e oferta boa não. Métrica: razão views÷inscritos (≥20x lacuna forte, 5-20x média). **Teste real:** achou vídeo de n8n+WhatsApp com 836k views em canal de 52,8k inscritos = **15,8x**. Complementa `/update-youtube` — vigilância ensina COMO fazer, prospecção diz SOBRE O QUE fazer.
+- [ ] `[M2]` **PRÓXIMO — rodar a varredura completa:** `python _core/youtube-gaps.py --termos-arquivo squads/marketing/data/youtube-intel/termos.json --max 20` (~8 min). Converter as lacunas fortes em ângulos novos em `mapa-teste-publico.md`, com ratio de origem como prova de demanda.
 >
 > Definição e fronteiras em `../CLAUDE.md`. Cadeia: divisões → Pietro (tático) → Emerson (estratégico). Dormentes **não geram tarefa nem entram em revisão** até o gatilho disparar. Item sem prefixo = ainda não roteado.
 
