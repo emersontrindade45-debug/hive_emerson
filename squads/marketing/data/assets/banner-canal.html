@@ -1,0 +1,124 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Banner Impulso IA — 2560x1440</title>
+<style>
+  :root{
+    --grafite:#16181D; --grafite-2:#1F232B;
+    --ambar:#F2A03D; --areia:#EDE7DE; --cinza:#8A9099;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#0b0c0f;display:flex;flex-direction:column;align-items:center;
+       gap:24px;padding:40px;font-family:'Segoe UI',system-ui,sans-serif;color:#ddd}
+  .wrap{width:2560px;height:1440px;transform-origin:top center}
+  .banner{
+    width:2560px;height:1440px;position:relative;overflow:hidden;
+    background:
+      radial-gradient(1400px 900px at 22% 50%, #232830 0%, transparent 62%),
+      linear-gradient(120deg,var(--grafite) 0%, var(--grafite-2) 58%, #12141a 100%);
+    display:flex;align-items:center;justify-content:center;
+  }
+  /* grade técnica discreta — sugere sistema, não "futurismo" */
+  .banner::before{
+    content:"";position:absolute;inset:0;opacity:.16;
+    background-image:linear-gradient(rgba(255,255,255,.13) 1px,transparent 1px),
+                     linear-gradient(90deg,rgba(255,255,255,.13) 1px,transparent 1px);
+    background-size:80px 80px;
+    -webkit-mask-image:radial-gradient(1300px 800px at 50% 50%,#000 20%,transparent 78%);
+            mask-image:radial-gradient(1300px 800px at 50% 50%,#000 20%,transparent 78%);
+  }
+  /* ÁREA SEGURA 1546x423 — tudo que precisa aparecer no celular vive aqui */
+  .safe{
+    position:relative;z-index:2;width:1546px;height:423px;
+    display:flex;flex-direction:column;justify-content:center;gap:26px;
+  }
+  .kicker{
+    font-size:30px;letter-spacing:.34em;text-transform:uppercase;
+    color:var(--ambar);font-weight:600;
+  }
+  h1{
+    font-size:96px;line-height:1.06;font-weight:800;color:var(--areia);
+    letter-spacing:-.02em;
+  }
+  h1 b{color:var(--ambar);font-weight:800}
+  .sub{font-size:35px;color:var(--cinza);font-weight:400;line-height:1.4;max-width:1280px}
+  .rule{width:132px;height:7px;background:var(--ambar);border-radius:4px}
+  /* guias — some ao exportar */
+  .guides{position:absolute;inset:0;z-index:5;pointer-events:none}
+  .g-safe{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+    width:1546px;height:423px;outline:3px dashed rgba(242,160,61,.85)}
+  .g-tv{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+    width:2560px;height:1440px;outline:3px dashed rgba(255,255,255,.28)}
+  .tag{position:absolute;font:600 22px/1 monospace;color:rgba(242,160,61,.95);
+    left:50%;transform:translateX(-50%);top:calc(50% - 240px)}
+  body.export .guides{display:none}
+  .bar{position:fixed;bottom:0;left:0;right:0;background:#15171c;border-top:1px solid #2a2e36;
+       padding:14px 20px;display:flex;gap:14px;align-items:center;font-size:14px;z-index:99}
+  button{background:var(--ambar);color:#1a1a1a;border:0;padding:10px 18px;border-radius:8px;
+         font-weight:700;cursor:pointer;font-size:14px}
+  button.alt{background:#333842;color:#e8e8e8}
+  .hint{color:#8c93a0}
+</style>
+
+<div class="wrap" id="wrap">
+  <div class="banner" id="banner">
+    <div class="safe">
+      <div class="kicker">Impulso IA</div>
+      <h1>IA aplicada a trabalho<br>que <b>já existe</b>.</h1>
+      <div class="rule"></div>
+      <div class="sub">Automação em negócio real — o que funciona, quanto custa e o que quebrou.</div>
+    </div>
+    <div class="guides">
+      <div class="g-tv"></div>
+      <div class="g-safe"></div>
+      <div class="tag">↑ área segura 1546×423 — o que aparece no celular ↑</div>
+    </div>
+  </div>
+</div>
+
+<div class="bar">
+  <button onclick="exportar()">Exportar PNG 2560×1440</button>
+  <button class="alt" onclick="document.body.classList.toggle('export')">Mostrar/ocultar guias</button>
+  <span class="hint">Guias são só referência — o PNG exportado nunca as inclui.</span>
+</div>
+
+<script>
+// escala a visualizacao pra caber na tela; nao afeta a exportacao
+function fit(){
+  const w = document.getElementById('wrap');
+  const s = Math.min((window.innerWidth-80)/2560, (window.innerHeight-190)/1440);
+  w.style.transform = 'scale('+s+')';
+  w.style.height = (1440*s)+'px';
+}
+addEventListener('resize', fit); fit();
+
+async function exportar(){
+  const era = document.body.classList.contains('export');
+  document.body.classList.add('export');           // garante banner limpo
+  const el = document.getElementById('banner');
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="2560" height="1440">
+    <foreignObject width="100%" height="100%">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <style>${[...document.styleSheets[0].cssRules].map(r=>r.cssText).join('')}</style>
+        ${el.outerHTML}
+      </div>
+    </foreignObject></svg>`;
+  const img = new Image();
+  img.onload = () => {
+    const c = document.createElement('canvas');
+    c.width = 2560; c.height = 1440;
+    c.getContext('2d').drawImage(img, 0, 0);
+    c.toBlob(b => {
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(b);
+      a.download = 'banner-impulso-ia-2560x1440.png';
+      a.click();
+      if(!era) document.body.classList.remove('export');
+    });
+  };
+  img.onerror = () => {
+    alert('Exportação automática falhou neste navegador.\n\nAlternativa garantida:\n1. Clique em "Mostrar/ocultar guias" para limpar\n2. Ctrl+Shift+P no Chrome > digite "screenshot" > "Capture node screenshot" com o banner selecionado no inspetor');
+    if(!era) document.body.classList.remove('export');
+  };
+  img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
+}
+</script>
