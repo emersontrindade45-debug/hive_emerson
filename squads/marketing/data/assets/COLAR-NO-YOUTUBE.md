@@ -20,12 +20,21 @@ Emerson | Impulso IA
 # CAMPO 2 — Descrição do canal ⚠️ O MAIS IMPORTANTE
 **Onde:** Personalizar o canal → Informações básicas → Descrição
 
-Está vazia hoje. É o texto que o YouTube usa para entender de que trata o canal e a quem recomendá-lo. **Só as 2 primeiras linhas aparecem sem clicar em "mais"** — por isso elas carregam o eixo e a prova, não saudação.
+Está vazia hoje. É o que o YouTube lê para entender o canal e a quem recomendá-lo.
+
+**Método aplicado** (`metodo-influencia-digital.md`):
+- **Aula 01, Passo 3 — fórmula da bio:** *"Eu ajudo (quem) a conseguir (resultado) por meio de (metodologia)"*, respondida em 5 segundos. As 2 primeiras linhas fazem isso.
+- **Aula 01, Passo 2 — Círculo de Competência:** as 3 perguntas obrigatórias (que problema resolvo / para quem / que resultado entrego) todas respondidas.
+- **Aula 05 — Tese:** a frase de crença que se repete em tudo. Aqui ela é explícita.
+- **Aula 02, tipo 10 — CTA:** termina convidando à ação, nunca "solto".
+- **Aula 02, tipo 3 — prova real:** cliente e sistema em produção, não adjetivo.
 
 ```
-IA aplicada a trabalho que já existe. Não é IA pra criar negócio novo — é IA pra tirar o trabalho manual de quem já trabalha.
+Eu ajudo quem já tem um negócio ou uma rotina manual a devolver horas do dia com automação e IA — mostrando o passo a passo do que eu faço em cliente real.
 
-Eu construo e opero automação com IA em cliente real: atendimento no WhatsApp, registro de pedido, conciliação com o sistema. Aqui eu mostro como faz, quanto custa e o que quebrou.
+Automação não é sobre tecnologia. É sobre o trabalho que ninguém deveria estar fazendo à mão.
+
+Eu construo e opero um sistema de atendimento com IA num mercado de bairro: o bot atende no WhatsApp, registra o pedido e concilia com o sistema. Aqui eu mostro como faz, quanto custa e o que quebrou.
 
 O QUE VOCÊ VAI ENCONTRAR AQUI
 
@@ -44,14 +53,24 @@ Promessa de faturamento. "O futuro chegou". Lista de 100 prompts mágicos. Demon
 
 Eu mostro o passo a passo completo — inclusive quando dá errado, porque é aí que se aprende o que ninguém conta.
 
-Vídeo novo toda semana.
+Se tem uma tarefa manual que come seu dia, comenta em qualquer vídeo qual é. Eu leio todos e já saiu vídeo de pergunta de comentário.
 
 📩 Contato: emerson.impulsoia@gmail.com
 💼 linkedin.com/in/emerson-trindade-8001
 📷 instagram.com/emerson.impulsoia
 ```
 
-⚠️ **"Vídeo novo toda semana" é uma promessa pública.** Se você não sustenta semanal, apague essa linha antes de colar — quebrar cadência anunciada custa mais que não anunciar. `brand-voice.md`: honesto sobre limite.
+### O que mudou e por quê
+
+| Mudança | Origem no método |
+|---|---|
+| Abre com "Eu ajudo quem... a conseguir... por meio de..." | Aula 01, Passo 3 — fórmula literal da bio |
+| Tese em linha própria, isolada | Aula 05 — "a tese precisa ser repetida"; isolada, ela é citável |
+| "um mercado de bairro" | Prova real (Aula 02, tipo 3) sem furar a pendência de autorização do Araújo |
+| CTA final pedindo a tarefa manual da pessoa | Aula 02, tipo 10 + Aula 01: **gerar conversa é a métrica**, não o link |
+| Saiu "Vídeo novo toda semana" | Promessa de cadência que você não confirmou. Aula 05: "consistência gera confiança" — anunciar e falhar custa mais que não anunciar |
+
+⚠️ **A tese ainda está formalmente em aberto** (`creator-profile.md` lista 3 candidatas). Usei a **#1**, a mais alinhada ao eixo do canal. Se você escolher outra depois, troque essa linha aqui e ela passa a valer em tudo.
 
 ---
 
