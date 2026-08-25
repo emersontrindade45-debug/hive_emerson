@@ -34,7 +34,18 @@
 
 **Sobre o nome de exibição:** `ImpulsoIA` (junto, sem espaço) perde as duas coisas que sustentavam a decisão original — o nome real do Emerson, que é de onde vem a autoridade ("conversa de quem já fez", `brand-voice.md`), e a legibilidade da marca. Nome de exibição **é editável a qualquer momento**, sem afetar URL nem inscritos. Recomendação: trocar para **`Emerson | Impulso IA`** em YouTube Studio → Personalização → Informações básicas. Custo: 10 segundos.
 
-**Ainda não verificado** (a página não expõe sem login): descrição, palavras-chave, foto, banner, links, Channel ID.
+**Verificado por print 25/08 (página do canal logada):**
+
+| Item | Estado |
+|---|---|
+| Foto de perfil | ✅ **PRONTA** — foto real, fundo preto liso, camiseta lisa, luz lateral limpa, enquadramento cabeça-e-ombros. Passa no teste dos 48px. *Ressalva menor: sorriso largo destoa levemente do tom "direto e sem hype" — trocar só se houver outra sessão de fotos, não é gargalo* |
+| Nome de exibição | ⚠️ `ImpulsoIA` — trocar para `Emerson \| Impulso IA` |
+| Descrição | ❌ **VAZIA** — só o "Saiba mais sobre este canal" padrão. Texto pronto neste arquivo, é colar |
+| Banner | ❌ **AUSENTE** — gerar com `data/assets/banner-canal.html` |
+| Palavras-chave / links / playlist | ❌ Não configurados |
+| Channel ID | ❌ Não coletado — trava o worker de analytics |
+
+**Ordem de impacto:** descrição (o YouTube usa pra entender o canal) → banner → nome → palavras-chave/links → playlist → Channel ID.
 
 ### Por que "Emerson | Impulso IA" e não só a marca
 A autoridade do canal vem de *quem já fez* (`brand-voice.md` — "conversa de quem já fez, com quem ainda não fez"). Nome real primeiro sustenta isso; a marca atrás dá para onde crescer. Falado em vídeo continua curto: "se inscreve no Impulso IA".
