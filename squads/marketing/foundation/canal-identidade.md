@@ -11,12 +11,30 @@
 | Item | Decisão |
 |---|---|
 | **Nome da marca** | Impulso IA |
-| **Handle YouTube** | `@impulsoia` — fallback 1: `@impulsoia.br` · fallback 2: `@emerson.impulsoia` (igual ao Instagram) |
-| **Nome de exibição** | `Emerson \| Impulso IA` |
-| **Conta Google** | Nova, dedicada — não usar o Gmail pessoal |
+| **Handle YouTube** | ✅ **`@emerson.impulsoia`** — CRIADO 25/08. Mesmo handle do Instagram (marca unificada). `@impulsoia` não ficou |
+| **Nome de exibição** | ⚠️ Está **`ImpulsoIA`** no canal criado. Decisão original era `Emerson \| Impulso IA` — ver nota abaixo |
+| **Conta Google (dona do canal)** | `emerson.impulsoia@gmail.com` — já criada, dedicada |
 | **Categoria** | Educação |
 | **País / Idioma** | Brasil / Português (Brasil) |
 | **Instagram já reservado** | `@emerson.impulsoia` |
+| **E-mail de contato público** | `emerson.impulsoia@gmail.com` (mesmo da conta, por ora — ver nota abaixo) |
+| **LinkedIn** | `linkedin.com/in/emerson-trindade-8001` — perfil pessoal, conta Hotmail |
+
+
+### ⚠️ Estado real do canal (verificado 25/08/2026)
+
+**URL:** https://www.youtube.com/@emerson.impulsoia — **canal criado e no ar.**
+
+| Campo | Decidido | No canal hoje |
+|---|---|---|
+| Handle | `@impulsoia` | ✅ `@emerson.impulsoia` — fallback previsto, sem problema |
+| Nome de exibição | `Emerson \| Impulso IA` | ⚠️ `ImpulsoIA` |
+
+**Sobre o handle:** ficou o fallback. Não é perda — mesmo handle do YouTube e do Instagram significa marca unificada e uma coisa só pra falar em vídeo. **Manter.**
+
+**Sobre o nome de exibição:** `ImpulsoIA` (junto, sem espaço) perde as duas coisas que sustentavam a decisão original — o nome real do Emerson, que é de onde vem a autoridade ("conversa de quem já fez", `brand-voice.md`), e a legibilidade da marca. Nome de exibição **é editável a qualquer momento**, sem afetar URL nem inscritos. Recomendação: trocar para **`Emerson | Impulso IA`** em YouTube Studio → Personalização → Informações básicas. Custo: 10 segundos.
+
+**Ainda não verificado** (a página não expõe sem login): descrição, palavras-chave, foto, banner, links, Channel ID.
 
 ### Por que "Emerson | Impulso IA" e não só a marca
 A autoridade do canal vem de *quem já fez* (`brand-voice.md` — "conversa de quem já fez, com quem ainda não fez"). Nome real primeiro sustenta isso; a marca atrás dá para onde crescer. Falado em vídeo continua curto: "se inscreve no Impulso IA".
@@ -28,6 +46,12 @@ Existe **IMPULSO DIGITAL TECNOLOGIA E INTELIGENCIA ARTIFICIAL LTDA** (CNPJ 60.47
 - **Impede potencialmente** um registro de marca no INPI: mesmo radical ("Impulso") + mesma classe (tecnologia/TI) é a hipótese clássica de indeferimento por colidência.
 - **Ação:** consultar a base do INPI antes de gastar com abertura de CNPJ "Impulso IA". Item aberto no Finance (Lorenzo).
 - **Nome do canal segue independente dessa decisão** — se o CNPJ vier com outro nome, o canal não precisa mudar.
+
+
+### Nota — e-mail de contato vs. e-mail dono do canal
+`emerson.impulsoia@gmail.com` é a conta **proprietária** do canal (acesso total: exclui vídeos, muda monetização, transfere o canal). Usá-la também como contato público na descrição é aceitável agora, mas concentra risco: o endereço que recebe spam e proposta é o mesmo que controla o canal.
+
+**Quando separar:** ao registrar domínio próprio, criar `contato@` e trocar só na descrição — a conta dona continua a mesma. Enquanto isso, **ativar verificação em 2 etapas nessa conta Google** é o mínimo, já que ela é o único ponto de falha do canal.
 
 ---
 
@@ -48,10 +72,10 @@ O que você vai encontrar:
 
 Sem promessa de faturamento. Sem "o futuro chegou". Passo a passo completo, inclusive o que deu errado.
 
-Contato: [email comercial]
+Contato: emerson.impulsoia@gmail.com
 ```
 
-**Antes de colar:** trocar `[email comercial]` pelo e-mail dedicado (item 3 do checklist).
+**Pronto para colar.** Nenhum placeholder pendente.
 
 ---
 
@@ -73,6 +97,15 @@ automação com IA, IA para pequenos negócios, WhatsApp com IA, n8n, automaçã
 | **Watermark** | 150×150px, fundo transparente | Versão mono do "Impulso IA" ou inicial. Aparece o vídeo todo — precisa funcionar pequeno e sem cor |
 
 **Paleta:** escolher 2 cores + neutro e travar. Evitar o azul-ciano-degradê genérico de conteúdo de IA — a diferenciação visual é a mesma do texto: parecer real, não parecer futurista.
+
+
+### Links do canal (Configurações → Canal → Informações básicas → Links)
+| Ordem | Link | Observação |
+|---|---|---|
+| 1 | `linkedin.com/in/emerson-trindade-8001` | Perfil pessoal. ⚠️ Está numa conta Hotmail pessoal — **adicionar `emerson.impulsoia@gmail.com` como e-mail secundário no LinkedIn** para o perfil ser recuperável se o Hotmail cair. Não trocar o principal |
+| 2 | `instagram.com/emerson.impulsoia` | Reservado, sem conteúdo ainda — reserva o espaço |
+
+O primeiro link aparece sobreposto ao banner. Ordem importa.
 
 ---
 
@@ -101,8 +134,8 @@ Eu sou Emerson. Construo automação com IA em negócio real e mostro aqui como 
 Se você quer que eu mostre algo específico, comenta que eu leio.
 
 📷 Instagram: @emerson.impulsoia
-💼 LinkedIn: [link]
-✉️ Contato: [email comercial]
+💼 LinkedIn: linkedin.com/in/emerson-trindade-8001
+✉️ Contato: emerson.impulsoia@gmail.com
 
 #automacao #inteligenciaartificial #n8n
 ```
@@ -134,7 +167,7 @@ automação, inteligência artificial, IA, n8n, whatsapp business, automação d
 
 ## Ordem de execução
 
-1. Criar conta Google dedicada
+1. ~~Criar conta Google dedicada~~ ✅ `emerson.impulsoia@gmail.com` já existe — logar com ela
 2. Criar canal → nome de exibição `Emerson | Impulso IA`
 3. Reivindicar `@impulsoia` em [youtube.com/handle](https://www.youtube.com/handle) — se tomado, `@impulsoia.br`
 4. Colar descrição + palavras-chave (acima)

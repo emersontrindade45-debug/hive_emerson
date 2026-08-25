@@ -23,9 +23,9 @@
 Todas resolvidas. Textos prontos para colar em [`canal-identidade.md`](./canal-identidade.md).
 
 - [x] **Nome da marca:** Impulso IA
-- [x] **Handle:** `@impulsoia` — fallback `@impulsoia.br`, depois `@emerson.impulsoia`
-- [x] **Nome de exibição:** `Emerson | Impulso IA`
-- [x] **Conta Google:** nova, dedicada
+- [x] **Handle:** ✅ **`@emerson.impulsoia`** — criado 25/08 (ficou o fallback; mesmo handle do Instagram)
+- [x] **Nome de exibição:** decidido `Emerson | Impulso IA` — ⚠️ **está `ImpulsoIA` no canal**, trocar (10s, editável sempre)
+- [x] **Conta Google:** `emerson.impulsoia@gmail.com` — já criada, dedicada
 
 ⚠️ **Risco de marca registrado (não bloqueia):** existe IMPULSO DIGITAL TECNOLOGIA E INTELIGENCIA ARTIFICIAL LTDA (CNPJ 60.475.559/0001-08) no mesmo CNAE. Não impede o canal; pode impedir registro INPI. Detalhe em `canal-identidade.md`.
 
@@ -34,10 +34,11 @@ Todas resolvidas. Textos prontos para colar em [`canal-identidade.md`](./canal-i
 ## Checklist técnico — YouTube Studio
 
 ### 1. Conta e canal
-- [ ] Criar conta Google **nova e dedicada** (decidido 25/08 — não usar o Gmail pessoal)
-- [ ] Criar canal em [youtube.com/create_channel](https://www.youtube.com/create_channel)
-- [ ] Nome de exibição: **`Emerson | Impulso IA`**
-- [ ] Reivindicar **`@impulsoia`** em [youtube.com/handle](https://www.youtube.com/handle) — se tomado: `@impulsoia.br`, depois `@emerson.impulsoia`
+- [x] ✅ Conta Google dedicada **já existe**: `emerson.impulsoia@gmail.com` — logar com ela
+- [ ] Ativar **verificação em 2 etapas** nessa conta — ela é o único ponto de falha do canal
+- [x] ✅ **Canal criado 25/08** — https://www.youtube.com/@emerson.impulsoia
+- [ ] ⚠️ **Corrigir nome de exibição:** está `ImpulsoIA`, trocar para **`Emerson | Impulso IA`** em Studio → Personalização → Informações básicas. Não afeta URL nem inscritos
+- [x] ✅ Handle reivindicado: **`@emerson.impulsoia`**
 - [ ] Categoria do canal: **Educação** (decidido 25/08)
 - [ ] País: Brasil / Idioma: Português
 
@@ -47,14 +48,15 @@ Todas resolvidas. Textos prontos para colar em [`canal-identidade.md`](./canal-i
 - [ ] Watermark de inscrição (150×150px) — aparece nos vídeos, opcional mas recomendado desde o vídeo 1
 
 ### 3. Descrição e metadados do canal
-- [ ] Descrição do canal — **texto pronto para colar em `canal-identidade.md`**. Trocar `[email comercial]` antes
-- [ ] Links: site/LinkedIn/Instagram (mesmo sem conteúdo lá ainda, reserva o espaço)
-- [ ] E-mail de contato comercial (separado do pessoal, para parcerias)
+- [ ] Descrição do canal — **texto pronto para colar em `canal-identidade.md`**, sem placeholder pendente
+- [ ] Links do canal: LinkedIn `linkedin.com/in/emerson-trindade-8001` + Instagram `@emerson.impulsoia` — tabela com ordem em `canal-identidade.md`
+- [ ] Adicionar `emerson.impulsoia@gmail.com` como **e-mail secundário no LinkedIn** (perfil está numa conta Hotmail pessoal — sem isso, perder o Hotmail = perder o perfil e os contatos)
+- [x] ✅ E-mail de contato: `emerson.impulsoia@gmail.com` (mesmo da conta dona por ora — separar quando houver domínio)
 - [ ] Palavras-chave do canal (Configurações → Canal → Palavras-chave básicas) — **lista pronta em `canal-identidade.md`**
 
 ### 4. Configurações antes do primeiro upload
 - [ ] Ativar monetização não é possível ainda (exige 500 inscritos + 3.000h watch time ou 3M views Shorts em 90 dias — regra 2026) — não é bloqueio para publicar, só não gera receita ainda
-- [x] ✅ Template de descrição de vídeo **escrito** — `canal-identidade.md`. Falta só preencher LinkedIn e e-mail
+- [x] ✅ Template de descrição de vídeo **completo** — `canal-identidade.md`, sem placeholder
 - [x] ✅ Template de tags padrão **escrito** — `canal-identidade.md`
 - [ ] Ativar/testar Estúdio de Legendas — vídeo 1 é "Help" educacional, legenda ajuda retenção (régua 1 de `mapa-teste-publico.md`)
 
