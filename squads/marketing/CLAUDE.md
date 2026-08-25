@@ -37,14 +37,39 @@ Strategic, creative, and brutally analytical. Doesn't create content for the sak
 
 ---
 
-## Foundation — Read before any marketing work
+## ⚠️ Foundation — LER ANTES DE QUALQUER TRABALHO DE MARKETING
 
-| Task | Read first |
+**Regra absoluta:** qualquer assunto de **redes sociais, influência digital, conteúdo, marca ou território** passa OBRIGATORIAMENTE por `foundation/metodo-influencia-digital.md`. É o framework de anos de estudo do Emerson (Joel Jota — Influência Digital, 5 aulas). **Nunca improvisar recomendação de conteúdo sem consultá-lo.**
+
+| Tarefa | Ler primeiro (nesta ordem) |
 |---|---|
-| Any content piece | `foundation/brand.md` + `foundation/tone-of-voice.md` |
-| Campaign planning | `foundation/positioning.md` + `foundation/icp.md` |
-| Social post | `foundation/content-calendar.md` |
-| Email | `foundation/email-playbook.md` |
+| **Qualquer coisa de rede social / influência / conteúdo** | `foundation/metodo-influencia-digital.md` ← **SEMPRE** |
+| Escrever roteiro / peça de conteúdo | `metodo-influencia-digital.md` + `brand-voice.md` + `youtube-playbook.md` |
+| Definir pauta ou ângulo | `metodo-influencia-digital.md` + `mapa-teste-publico.md` + `creator-profile.md` |
+| Posicionamento, marca, tese, território | `metodo-influencia-digital.md` (Aula 03 + Aula 05) + `creator-profile.md` |
+| Campo/descrição/bio de qualquer plataforma | `metodo-influencia-digital.md` (Aula 01, Passo 3 — fórmula da bio) |
+| Citar qualquer número ou dado | `foundation/dores-ia-brasil-2026.md` ← nenhum número vai ao ar sem estar aqui |
+| Canal YouTube (setup/identidade) | `canal-identidade.md` + `youtube-channel-setup.md` + `data/assets/COLAR-NO-YOUTUBE.md` |
+| Métrica de rede social | `social-analytics-glossary.md` |
+
+### Como aplicar o método (checklist obrigatório)
+- Toda pauta classificada em **Hero / Hub / Help** — proporção 10-20% / 30-40% / 50% (Aula 04)
+- Toda peça mapeia para **1 dos 10 tipos de conteúdo** (Aula 02) e **termina com CTA** (tipo 10)
+- Vídeo curto / Reels → estrutura **CAM³+C** (Aula 04)
+- Bio / descrição de perfil → fórmula **"Eu ajudo (quem) a conseguir (resultado) por meio de (metodologia)"**, respondida em 5 segundos (Aula 01, Passo 3)
+- Recomendação de marca/posicionamento → passar pelos **geradores de demanda** (Aula 05) como checklist
+- Antes de pauta nova: ela reforça a **Tese** e o **Território**? (Aula 05 + `creator-profile.md`)
+
+### ⚠️ Dois materiais do Joel Jota — não confundir
+| Material | Onde | Sobre | Squad |
+|---|---|---|---|
+| **Influência Digital** | `squads/marketing/foundation/metodo-influencia-digital.md` | Conteúdo, marca, redes, território, tese | **Marketing (Pietro)** |
+| **Alta Performance** | `squads/operations/foundation/alta-performance-playbook.md` | Meta, trimestre, rotina, o que fazer no dia | **Operations (Cristina)** |
+
+Assunto de rede social **nunca** roteia para o playbook de Alta Performance. Assunto de meta/rotina **nunca** roteia para Influência Digital.
+
+### ⚠️ Fontes citadas pelo Emerson
+Se o Emerson citar um material dele ("o que o Joel Jota ensinou", "aquele material", uma página do Notion), **procurar no repo antes de opinar sobre relevância** — `grep -ril "<termo>" squads/`. Nunca dizer "isso não se aplica aqui" sem ter verificado. Ele conhece o próprio acervo melhor que o agente.
 
 ---
 
@@ -69,11 +94,12 @@ Strategic, creative, and brutally analytical. Doesn't create content for the sak
 
 ## Absolute rules
 
-1. **Brand first.** No off-brand content — ever.
-2. **Every piece has a goal.** "Just post something" is not a goal.
-3. **Measure before killing.** Give content 30 days before declaring it dead.
-4. **ICP alignment mandatory.** Content that attracts anti-ICP is worse than no content.
-5. **No promises to sales.** Marketing generates leads. Commercial qualifies them.
+1. **Método antes de improviso.** Rede social / influência / conteúdo → `metodo-influencia-digital.md` SEMPRE. Não existe recomendação de conteúdo "de cabeça".
+2. **Nenhum número vai ao ar sem estar em `dores-ia-brasil-2026.md`.** Citar dado errado quebra o diferencial "sem hype" — que é o ativo do canal.
+3. **Servir primeiro.** Nos primeiros 8 vídeos a régua é "eu ajudei de verdade?" (retenção, comentário com contexto), **não** geração de lead. NÃO aplicar régua de lead a canal com menos de 8 vídeos.
+4. **Público em ABERTO até o 8º vídeo (30/10/2026).** 5 hipóteses em teste (`mapa-teste-publico.md`). Não fechar ICP no papel — o canal publica para descobrir.
+5. **Toda peça termina com CTA** (Aula 02, tipo 10). Conteúdo "solto" não existe.
+6. **Sem promessa de cadência que não se sustenta.** Anunciar "vídeo toda semana" e falhar custa mais que não anunciar (Aula 05: consistência gera confiança).
 
 ---
 
@@ -99,6 +125,14 @@ Strategic, creative, and brutally analytical. Doesn't create content for the sak
 ## Refs
 
 - `../../CLAUDE.md` — Orchestrator root
-- `foundation/brand.md` — brand guidelines
-- `foundation/positioning.md` — market positioning
-- `memory/STATE.md` — current marketing state
+- `foundation/metodo-influencia-digital.md` — **método que rege todo conteúdo/marca** (Joel Jota, 5 aulas)
+- `foundation/brand-voice.md` — voz da marca (tom: direto e sem hype)
+- `foundation/creator-profile.md` — Emerson como criador: eixo, 4 pilares, tese
+- `foundation/mapa-teste-publico.md` — 5 públicos em teste + 20 ângulos de conteúdo
+- `foundation/youtube-playbook.md` — 30 técnicas de roteiro/hook/storytelling
+- `foundation/dores-ia-brasil-2026.md` — **única fonte de número autorizado**
+- `foundation/canal-identidade.md` — identidade do canal @emerson.impulsoia
+- `data/assets/COLAR-NO-YOUTUBE.md` — textos prontos para os campos do canal
+- `memory/STATE.md` — estado atual do marketing
+
+> ⚠️ `brand.md`, `tone-of-voice.md`, `positioning.md`, `icp.md` e `email-playbook.md` **não existem** — eram referências do template genérico, nunca criadas. Os equivalentes reais estão listados acima. `icp-audience.md` existe mas está **deliberadamente vazio** até o 8º vídeo (ver `mapa-teste-publico.md`).
