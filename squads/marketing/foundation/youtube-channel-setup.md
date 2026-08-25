@@ -43,7 +43,7 @@ Todas resolvidas. Textos prontos para colar em [`canal-identidade.md`](./canal-i
 - [ ] País: Brasil / Idioma: Português
 
 ### 2. Identidade visual
-- [ ] Foto de perfil (800×800px) — **foto real do Emerson**, não logo. Spec completa em `canal-identidade.md`
+- [x] ✅ **Foto de perfil PRONTA** (verificada 25/08) — foto real, fundo preto liso, passa no teste dos 48px
 - [ ] Banner (2560×1440px, área segura 1546×423px) — linha única **"IA aplicada a trabalho que já existe"**. Spec e o que evitar em `canal-identidade.md`
 - [ ] Watermark de inscrição (150×150px) — aparece nos vídeos, opcional mas recomendado desde o vídeo 1
 
