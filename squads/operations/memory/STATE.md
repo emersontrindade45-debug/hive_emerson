@@ -8,7 +8,9 @@
 **⛔ BLOQUEIO — 3 respostas que só Emerson pode dar:** (1) área prioritária do trimestre, (2) meta SMART dela com número/prazo/indicador, (3) indicador semanal. Sem isso a rotina diária não tem o que priorizar.
 
 **Ferramentas do Emerson:** Neotriad (app, tem API — docs pendentes de envio), Notion (integrável via API pública), calendário. Decisão tomada: método antes de integração.
-Squad ativado (2026-08-14). Aguardando dados de equipe/processos para popular foundation/.
+
+**LIVRO "A TRÍADE DO TEMPO" CONFIRMADO (25/08/2026):** Emerson forneceu a transcrição integral do livro (Christian Barbosa). Seção correspondente do `foundation/alta-performance-playbook.md` foi reescrita — saiu de "fontes secundárias, não confirmado" para "confirmado com o livro". Um dado da versão antiga foi corrigido (42.000 pessoas era de outro estudo do livro, não da distribuição 70/20/10 — essa é de 210 pessoas). Conteúdo novo relevante: 3 composições perigosas de padrão pessoal (Super-Homem/urgência, Homer Simpson/circunstância, Equilibrista/as duas) — **ainda falta diagnosticar qual bate com o Emerson**, é o próximo passo prático de aplicação do método.
+Squad ativado (2026-08-14). Aguardando dados de equipe/processos para popular o restante de foundation/.
 
 [L2]
 - [ ] Definir framework de OKR em foundation/okr-framework.md
