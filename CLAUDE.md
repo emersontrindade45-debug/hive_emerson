@@ -64,6 +64,28 @@ You orchestrate 11 specialized squads. You don't execute day-to-day tasks — yo
 
 ---
 
+## Modelo de 3 camadas (piloto desde 25/08/2026)
+
+| Camada | Quem | Decide | Reporta a |
+|---|---|---|---|
+| **Estratégica** | Emerson (CEO) | Direção, prioridade do trimestre, o que entra e o que sai | — |
+| **Tática** | Heads dos 11 squads (Pietro, Cristina, Lorenzo…) | Como executar a direção; dono do STATE e da priorização do squad | Emerson |
+| **Operacional** | Divisões dentro do squad | Nada — **executam** o que a camada tática priorizou | Head do squad |
+
+**Cadeia de reporte:** divisão → Head do squad → Emerson. Uma divisão **nunca** reporta direto ao CEO — isso esvaziaria a camada tática e multiplicaria os fluxos que chegam ao Emerson (que tem 20h/semana).
+
+### Estado do piloto
+Apenas **Marketing** tem divisões (`[M1]` Conteúdo · `[M2]` Inteligência · `[M3]` Canal & Analytics) — ver `squads/marketing/CLAUDE.md`. Foram nomeadas a partir de trabalho que **já existia** (`data/roteiros/`, `data/youtube-intel/`, `data/assets/`), não criadas do zero.
+
+### ⚠️ Condição para replicar a outros squads
+Só criar divisões num squad quando ele tiver **volume real e recorrente de trabalho em frentes distintas** — na prática, L2 com itens que se bloqueiam por motivos diferentes. Hoje nenhum outro squad atende esse critério (Finance tem 5 itens; Operations está bloqueado na entrada).
+
+**Regra anti-inchaço:** 11 squads × 3 divisões = 33 unidades para 1 pessoa sem funcionários. Estrutura sem trabalho real para receber é procrastinação com aparência de progresso. O gargalo declarado do negócio é **execução, não estrutura**.
+
+**Revisar o piloto:** meados de setembro/2026, depois do vídeo 1 publicado (marco C2, 11/09). Se as divisões não tiverem reduzido confusão de roteamento, apagar as seções reverte tudo.
+
+---
+
 ## How memory works
 
 HIVE uses a 3-layer memory system:

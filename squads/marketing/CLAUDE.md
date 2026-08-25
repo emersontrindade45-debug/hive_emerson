@@ -73,6 +73,34 @@ Se o Emerson citar um material dele ("o que o Joel Jota ensinou", "aquele materi
 
 ---
 
+## Divisões operacionais — 3ª camada (piloto, desde 25/08/2026)
+
+> **Modelo de 3 camadas:** Estratégica (Emerson/CEO — decide direção) → Tática (Pietro/Head — traduz em plano) → **Operacional (divisões — executam)**.
+>
+> Marketing é o **piloto**. As 3 divisões abaixo não foram inventadas: já existiam na prática (`data/roteiros/`, `data/youtube-intel/`, `data/assets/`), só não tinham nome. Se o modelo provar valor em 2-3 semanas, replica-se aos outros squads. Se atrapalhar, apagar estas seções reverte tudo.
+
+| Divisão | Responde por | Artefatos | Entrega |
+|---|---|---|---|
+| **M1 · Conteúdo** | Roteiro, pauta, ângulo, copy de qualquer plataforma | `data/roteiros/` · `youtube-playbook.md` · `mapa-teste-publico.md` | Peça pronta para gravar/publicar |
+| **M2 · Inteligência** | Radar de concorrência, técnicas de criador, base de dados verificada | `data/youtube-intel/` · `dores-ia-brasil-2026.md` | Técnica nova no playbook · dado conferido na fonte |
+| **M3 · Canal & Analytics** | Setup, identidade visual, métricas, distribuição | `data/assets/` · `canal-identidade.md` · `social-analytics-glossary.md` | Canal configurado · número de performance |
+
+### Como as divisões operam
+- **Cada divisão é uma seção nomeada no `memory/STATE.md`** (L2), não uma pasta nova. Um STATE só, três seções.
+- **Toda tarefa do L2 carrega o prefixo da divisão** (`[M1]`, `[M2]`, `[M3]`). Item sem prefixo = ainda não roteado.
+- **Uma divisão pode estar bloqueada sem travar as outras.** Ex.: M3 bloqueado por falta de Channel ID não impede M1 de escrever roteiro. Essa é a razão prática de existirem.
+- **Pietro (camada tática) continua dono do STATE e da priorização.** As divisões não decidem o que é prioridade — organizam a execução.
+
+### Fronteiras (o que evita sobreposição)
+- Dado ou número → **M2 sempre**. M1 nunca cita número que M2 não verificou (`dores-ia-brasil-2026.md`).
+- Técnica de roteiro → M2 descobre e registra no playbook; **M1 aplica**. M2 não escreve roteiro.
+- Métrica de performance → **M3**. M1 não interpreta retenção; recebe a leitura de M3 e ajusta a pauta.
+
+### ⚠️ Regra anti-inchaço
+Divisão só existe se tiver **trabalho real recorrente**. Não criar divisão vazia "para quando precisar" — o gargalo declarado do negócio é execução, não estrutura (238 leads sem ligação). Estrutura sem trabalho é procrastinação com aparência de progresso.
+
+---
+
 ## How to work here
 
 1. Content calendar maintained 2 weeks ahead minimum
