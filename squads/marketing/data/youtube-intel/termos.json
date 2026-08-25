@@ -1,0 +1,22 @@
+{
+  "_comment": "Termos de busca da divisão M2 (Intelligence) para descoberta de lacuna. Organizados pelos 4 pilares de creator-profile.md. Rodar com: python _core/youtube-gaps.py --termos-arquivo squads/marketing/data/youtube-intel/termos.json",
+  "termos": [
+    "automação whatsapp inteligência artificial",
+    "agente de ia whatsapp negócio",
+    "n8n tutorial português",
+    "n8n automação empresa",
+    "como usar chatgpt no trabalho",
+    "prompt para trabalho produtividade",
+    "ia para pequenas empresas brasil",
+    "automatizar atendimento cliente ia",
+    "ia para comércio local",
+    "planilha automação inteligência artificial"
+  ],
+  "_pilares": {
+    "1_whatsapp_ia": ["automação whatsapp inteligência artificial", "agente de ia whatsapp negócio", "automatizar atendimento cliente ia"],
+    "2_n8n": ["n8n tutorial português", "n8n automação empresa"],
+    "3_pedir_certo": ["como usar chatgpt no trabalho", "prompt para trabalho produtividade"],
+    "4_dados": ["planilha automação inteligência artificial"],
+    "transversal": ["ia para pequenas empresas brasil", "ia para comércio local"]
+  }
+}

@@ -86,7 +86,7 @@ Se o Emerson citar um material dele ("o que o Joel Jota ensinou", "aquele materi
 | # | Divisão | Equivalente de mercado | Status | Responde por | Artefatos |
 |---|---|---|---|---|---|
 | **M1** | **Content & Editorial** | Content / Editorial | 🟢 ATIVA | Calendário, roteiro, pauta, ângulo, copy, SEO | `data/roteiros/` · `youtube-playbook.md` · `mapa-teste-publico.md` · `content-calendar.md` |
-| **M2** | **Intelligence** | Market / Competitive Intel | 🟢 ATIVA | Radar de concorrência, técnica de criador, dado verificado | `data/youtube-intel/` · `dores-ia-brasil-2026.md` |
+| **M2** | **Intelligence** | Market / Competitive Intel | 🟢 ATIVA | Radar de concorrência, técnica de criador, dado verificado, **descoberta de lacuna de conteúdo** | `data/youtube-intel/` · `data/youtube-intel/gaps/` · `dores-ia-brasil-2026.md` |
 | **M3** | **Marketing Ops & Analytics** | Marketing Ops & Analytics | 🟢 ATIVA | Stack, dados, atribuição, relatório, setup de canal | `data/assets/` · `canal-identidade.md` · `social-analytics-glossary.md` |
 | **M4** | **Brand & Creative** | Brand & Creative | 🟢 ATIVA | Identidade, narrativa, tese, território, produção visual | `brand-voice.md` · `creator-profile.md` · `metodo-influencia-digital.md` (Aulas 03 e 05) |
 | **M5** | **Distribuição & Comunidade** | Distribution + Community/Social | 🟡 DORMENTE | Repurpose multi-plataforma, comentário, Direct, ritual, fãs | *(a criar: `data/distribuicao/`)* |
@@ -116,6 +116,7 @@ Aparecem no organograma, mas o dono é outro squad. Marketing **colabora, não d
 
 ### Fronteiras (o que evita sobreposição)
 - **Marca vs. conteúdo:** M4 define tese, território, voz e identidade → **M1 escreve dentro disso**. M1 não altera brand-voice; propõe a M4
+- **Descoberta de pauta:** M2 acha o **tema** com demanda comprovada (`/youtube-gaps`); **M1 decide se vira pauta** e escreve. M2 não escolhe o calendário
 - **Dado ou número → M2 sempre.** M1 nunca cita número que M2 não verificou (`dores-ia-brasil-2026.md`)
 - **Técnica de roteiro:** M2 descobre e registra no playbook; **M1 aplica.** M2 não escreve roteiro
 - **Métrica:** M3 lê e reporta; M1 ajusta pauta; M4 revisa território se o padrão contrariar a hipótese

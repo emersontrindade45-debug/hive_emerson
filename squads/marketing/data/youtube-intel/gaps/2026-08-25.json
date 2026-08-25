@@ -1,0 +1,83 @@
+{
+  "gerado_em": "2026-08-25T23:23:00.114825+00:00",
+  "termos": [
+    "automação whatsapp inteligência artificial"
+  ],
+  "parametros": {
+    "max": 6,
+    "meses": 18,
+    "min_ratio": 3.0
+  },
+  "total_analisado": 4,
+  "total_acima_do_corte": 1,
+  "achados": [
+    {
+      "termo": "automação whatsapp inteligência artificial",
+      "video_id": "KkKlfAb3TSI",
+      "titulo": "N8N + WhatsApp GRÁTIS: Crie seu Agente de IA sem gastar NADA! (Tutorial fácil para iniciantes 2025)",
+      "url": "https://www.youtube.com/watch?v=KkKlfAb3TSI",
+      "canal": "Guilherme Lazarotto - Tecnologia & Automação",
+      "canal_url": "https://www.youtube.com/channel/UCO0x-39c7EttOhmFAsngfgg",
+      "inscritos": 52800,
+      "views": 836507,
+      "ratio": 15.84,
+      "likes": 42348,
+      "comentarios": 3200,
+      "duracao_seg": 781,
+      "upload_date": "20250511",
+      "sinal": "LACUNA MEDIA",
+      "motivo": "tema puxou alem da base do canal"
+    },
+    {
+      "termo": "automação whatsapp inteligência artificial",
+      "video_id": "4LVALSXHDcg",
+      "titulo": "COMO CRIAR UM AGENTE DE IA PARA WHATSAPP EM 10 MINUTOS (Passo a Passo)",
+      "url": "https://www.youtube.com/watch?v=4LVALSXHDcg",
+      "canal": "Hora de Negócios",
+      "canal_url": "https://www.youtube.com/channel/UCIe04HVUJNcZOEwXML6DDSA",
+      "inscritos": 2180000,
+      "views": 209547,
+      "ratio": 0.1,
+      "likes": 12639,
+      "comentarios": 367,
+      "duracao_seg": 935,
+      "upload_date": "20251003",
+      "sinal": "NORMAL",
+      "motivo": "alcance compativel com o canal"
+    },
+    {
+      "termo": "automação whatsapp inteligência artificial",
+      "video_id": "cQWdmkghDV0",
+      "titulo": "WhatsApp + IA para Negócios: Automação que Vende",
+      "url": "https://www.youtube.com/watch?v=cQWdmkghDV0",
+      "canal": "Luciana Papini | Automação com IA",
+      "canal_url": "https://www.youtube.com/channel/UCwCyve8wJg4gC3dwaqqc1ow",
+      "inscritos": 187000,
+      "views": 5257,
+      "ratio": 0.03,
+      "likes": 387,
+      "comentarios": 18,
+      "duracao_seg": 1402,
+      "upload_date": "20260506",
+      "sinal": "NORMAL",
+      "motivo": "alcance compativel com o canal"
+    },
+    {
+      "termo": "automação whatsapp inteligência artificial",
+      "video_id": "dO_S6inB4-M",
+      "titulo": "AUTOMAÇÃO NO WHATSAPP = EXPLOSÃO DE VENDAS!",
+      "url": "https://www.youtube.com/watch?v=dO_S6inB4-M",
+      "canal": "Nerds de Negócios",
+      "canal_url": "https://www.youtube.com/channel/UCbTAwyq6nWOLnFag-PR0XVw",
+      "inscritos": 4300000,
+      "views": 12775,
+      "ratio": 0.0,
+      "likes": 978,
+      "comentarios": 19,
+      "duracao_seg": 591,
+      "upload_date": "20260713",
+      "sinal": "NORMAL",
+      "motivo": "alcance compativel com o canal"
+    }
+  ]
+}
