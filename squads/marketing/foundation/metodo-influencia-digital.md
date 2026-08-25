@@ -177,3 +177,21 @@ Mudar de posicionamento constantemente; comunicar só promoção; sumir das rede
 - Toda peça de conteúdo deve mapear para um dos **10 tipos** da Aula 02 e terminar com CTA.
 - Recomendações de posicionamento/marca devem passar pelos **13 geradores de demanda** da Aula 05 como checklist.
 - Antes de sugerir uma pauta nova, checar se ela reforça a **Tese** e o **Território** definidos em `creator-profile.md`.
+
+---
+
+## Fonte primária confirmada (2026-08-25)
+
+Conteúdo conferido contra a página original do Notion do Emerson — *"Estabilidade Não Existe (Influência Digital) — Joel Jota"*, workspace `hypertrophysystem`, database de habilidades (Habilidade: Influência · Plataforma: Site · Concluído: Sim). Extração via API do Notion, 51k caracteres, 5 aulas.
+
+**As 5 aulas deste arquivo batem com a fonte.** Nenhuma correção de conteúdo foi necessária.
+
+⚠️ **Não confundir com o outro material do Joel Jota:** o squad de Operations tem `alta-performance-playbook.md`, também dele, mas sobre **metas, trimestre e rotina diária**. São dois corpos distintos — Influência Digital rege conteúdo/marca (Marketing), Alta Performance rege decisão e priorização (Operations).
+
+### Aplicações registradas
+- **Descrição do canal YouTube** (`data/assets/COLAR-NO-YOUTUBE.md`, 25/08): fórmula da bio da Aula 01 Passo 3, tese isolada da Aula 05, CTA de conversa da Aula 02 tipo 10, prova real da Aula 02 tipo 3.
+
+### Itens da fonte ainda NÃO aplicados
+- **Aula 03 — exercício da Tripla Convergência:** nota 0-10 em cada tópico dos 3 eixos (Valor, Valorização, Visibilidade) + 1 ação de visibilidade por tópico. **Só o Emerson pode dar as notas.** É um diagnóstico de território, não teoria.
+- **Aula 04 — Primal Branding:** ícones, rituais, palavras próprias, "pagãos", fanáticos. Prematuro em canal sem audiência; revisar após o 8º vídeo.
+- **Aula 01, item 10 — plano de ação de venda** (bio → post → 5 stories → 10 conversas → 1 venda): é rota de Instagram/venda direta, não de canal novo no YouTube. ⚠️ Conflita parcialmente com o princípio "servir primeiro" declarado pelo Emerson (24/08): nos primeiros 8 vídeos a régua é "eu ajudei de verdade?", não geração de lead. **Aplicar no Instagram quando essa frente abrir, não no YouTube agora.**
