@@ -74,11 +74,16 @@ You orchestrate 11 specialized squads. You don't execute day-to-day tasks — yo
 
 **Cadeia de reporte:** divisão → Head do squad → Emerson. Uma divisão **nunca** reporta direto ao CEO — isso esvaziaria a camada tática e multiplicaria os fluxos que chegam ao Emerson (que tem 20h/semana).
 
+### 📊 Organograma completo: `docs/organograma.md`
+Mapa visual do CEO até as divisões, com diagramas, interfaces e regras de reporte.
+
 ### Estado
 Apenas **Marketing** tem divisões — 6, decisão do Emerson em 25/08. Ver `squads/marketing/CLAUDE.md`.
-- 🟢 **ATIVAS:** `[M1]` Conteúdo · `[M2]` Inteligência · `[M3]` Canal & Analytics — nomeadas a partir de trabalho que já existia
-- 🟡 **DORMENTES:** `[M4]` Distribuição · `[M5]` Comunidade — caixa definida, gatilho de ativação registrado
-- 🔴 **CONGELADA:** `[M6]` Growth — gatilho duplo (verba + 8 vídeos)
+- 🟢 **ATIVAS:** `[M1]` Content & Editorial · `[M2]` Intelligence · `[M3]` Mkt Ops & Analytics · `[M4]` Brand & Creative
+- 🟡 **DORMENTE:** `[M5]` Distribuição & Comunidade
+- 🔴 **CONGELADA:** `[M6]` Growth & Performance
+
+**Interfaces — funções de marketing cujo dono é outro squad (não duplicar):** Product Marketing → **Product (Paes)** · Comms/PR → **Intelligence (Emerson)**.
 
 **Divisão dormente não gera tarefa, não entra em revisão de STATE e não consome atenção** até o gatilho disparar. É o mecanismo que permite ter a estrutura pronta sem pagar custo de manutenção.
 
