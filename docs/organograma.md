@@ -1,4 +1,4 @@
-# Organograma HIVE — do CEO às divisões
+ # Organograma HIVE — do CEO às divisões
 
 > Criado 2026-08-25. Mapa completo das 3 camadas de administração.
 > **Camada 1 — Estratégica:** Emerson (CEO) · **Camada 2 — Tática:** 11 Heads de squad · **Camada 3 — Operacional:** divisões dentro do squad.
@@ -128,6 +128,9 @@ flowchart LR
 ---
 
 ## Padrão de estrutura: **funcional** (modelo Apple)
+
+> 📋 Análise squad a squad de por que só o Marketing tem divisões: **`analise-divisoes-squads.md`** (26/08/2026)
+
 
 O HIVE recorta por **função/especialidade**. Referência: Apple sob P&L único e organização funcional desde 1997, mantida com 137 mil funcionários ([HBR, Podolny & Hansen, 2020](https://hbr.org/2020/11/how-apple-is-organized-for-innovation)).
 
