@@ -161,11 +161,21 @@ Classificados em Hero/Hub/Help (Aula 04) e com o tipo da Aula 02.
 | 14 | "Bastidor: como eu monto uma automação pra cliente, do zero" | Bastidor |
 | 15 | "Bastidor: o dia que o sistema do cliente caiu" | Bastidor + história |
 
+### Ângulos descobertos via vidIQ (sessão 26/08) — M2
+
+Fonte: pesquisa complementar ao `/youtube-gaps` nativo (relatório completo em `../data/youtube-intel/reports/2026-08-26.md`). Cross-validado com o scan de termos do mesmo dia (`../data/youtube-intel/gaps/2026-08-26.json`): ambos apontaram n8n/agente de IA como tema de maior demanda ÷ menor oferta boa.
+
+| # | Ângulo | H | Tipo | Pilar / Público | Prova de demanda | O que fazemos diferente |
+|---|---|---|---|---|---|---|
+| 21 | "Troquei o n8n pelo Claude Code pra automatizar — o que ganhei e o que perdi" | Hero | Bastidor + comparação | Pilar 2, P4/P5 | "n8n": volume de busca 92/100, competição só 48/100 (desproporção rara); ângulo "Claude Code em vez de n8n" tem tração alta em criadores espanhóis, quase zero em PT-BR (2 canais nascentes achados: JP Labs 16 inscritos +77%/30d, Larissa Gomes 1,6k +27%/30d) | Mostrar o que quebrou na migração — vídeos espanhóis vendem a troca como só vantagem; a régua "sem hype" do canal entra exatamente nessa lacuna |
+
+**Registrado, sem virar ângulo agora:** IA aplicada a e-commerce/marketplace (Mercado Livre, Shopee) — canal Itamar Rocha, +1538% inscritos/ano — fica fora porque não cabe em nenhum dos 4 pilares atuais. Ver relatório 26/08 para detalhe.
+
 ### Ângulos baseados em dado verificado
 
 Ver [`dores-ia-brasil-2026.md`](./dores-ia-brasil-2026.md) — ângulos #16 a #20, sustentados por Cetic, WEF e Pew com números conferidos na fonte primária.
 
-> **20 ângulos = 10 semanas de canal com folga.** O marco C1 (28/08) pede 10 temas — estão aqui.
+> **21 ângulos = mais de 10 semanas de canal com folga.** O marco C1 (28/08) pede 10 temas — estão aqui.
 > **Regra:** nenhum número vai ao ar sem estar em `dores-ia-brasil-2026.md`.
 
 ---

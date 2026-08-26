@@ -1,5 +1,9 @@
 {
   "mcpServers": {
+    "vidiq": {
+      "type": "http",
+      "url": "https://mcp.vidiq.com/mcp"
+    },
     "multi": {
       "command": "python3",
       "args": ["-m", "multi_mcp"],

@@ -22,6 +22,10 @@ Emerson | Impulso IA
 
 Está vazia hoje. É o que o YouTube lê para entender o canal e a quem recomendá-lo.
 
+⚠️ **Limite do campo: 1.000 caracteres.** A versão abaixo tem **991** — folga de 9. O YouTube conta codepoints simples (calibrado: a versão de 1.467 daqui apareceu como 1.468 lá, diferença da quebra final). **Se você editar qualquer coisa, conte de novo.** Precisa de espaço? A linha `O QUE NÃO TEM AQUI` libera ~137 caracteres — mas ela é o diferencial declarado do canal, então corte por último.
+
+**Revisão 26/08 — decisões do Emerson:** agentic builder é *ferramenta*, não oferta · altitude baixa até o 8º vídeo (30/10) · **HIVE é ativo central, mas entra como prova, nunca como tutorial** · a palavra "agente" varia por pilar.
+
 **Método aplicado** (`metodo-influencia-digital.md`):
 - **Aula 01, Passo 3 — fórmula da bio:** *"Eu ajudo (quem) a conseguir (resultado) por meio de (metodologia)"*, respondida em 5 segundos. As 2 primeiras linhas fazem isso.
 - **Aula 01, Passo 2 — Círculo de Competência:** as 3 perguntas obrigatórias (que problema resolvo / para quem / que resultado entrego) todas respondidas.
@@ -30,34 +34,25 @@ Está vazia hoje. É o que o YouTube lê para entender o canal e a quem recomend
 - **Aula 02, tipo 3 — prova real:** cliente e sistema em produção, não adjetivo.
 
 ```
-Eu ajudo quem já tem um negócio ou uma rotina manual a devolver horas do dia com automação e IA — mostrando o passo a passo do que eu faço em cliente real.
+Eu ajudo quem já tem um negócio ou uma rotina manual a devolver horas do dia com automação e IA — mostrando o passo a passo do que faço em cliente real.
 
 Automação não é sobre tecnologia. É sobre o trabalho que ninguém deveria estar fazendo à mão.
 
-Eu construo e opero um sistema de atendimento com IA num mercado de bairro: o bot atende no WhatsApp, registra o pedido e concilia com o sistema. Aqui eu mostro como faz, quanto custa e o que quebrou.
+Eu construo e opero um atendimento com IA num mercado de bairro: o bot atende no WhatsApp, registra o pedido e concilia com o sistema. E toco meu próprio negócio com uma equipe de agentes de IA. Aqui eu mostro como faz, quanto custa e o que quebrou.
 
-O QUE VOCÊ VAI ENCONTRAR AQUI
+AQUI VOCÊ VAI VER
 
-• Atendimento no WhatsApp com IA — bot que atende, responde e registra pedido
-• Automação de processo com n8n — conectar sistema e tirar a tarefa manual do meio
-• Saber pedir certo pra IA — prompt como habilidade de trabalho, não truque
-• Dados que o negócio já tem — extrair número de quem já vende
+• Atendimento no WhatsApp com IA
+• Automação de processo com n8n
+• Saber pedir certo pra IA
+• Tirar número dos dados que você já tem
+• Bastidor: um negócio tocado por agentes
 
-PRA QUEM É
+Não precisa saber programar. Se você já usou planilha, acompanha.
 
-Pra quem já tem um negócio rodando, ou um trabalho com rotina manual que consome o dia. Não precisa saber programar. Se você já usou uma planilha, você acompanha.
+O QUE NÃO TEM AQUI: promessa de faturamento, lista de prompts mágicos, demo que só funciona no vídeo. Eu mostro inclusive quando dá errado.
 
-O QUE VOCÊ NÃO VAI ENCONTRAR
-
-Promessa de faturamento. "O futuro chegou". Lista de 100 prompts mágicos. Demonstração que só funciona no vídeo.
-
-Eu mostro o passo a passo completo — inclusive quando dá errado, porque é aí que se aprende o que ninguém conta.
-
-Se tem uma tarefa manual que come seu dia, comenta em qualquer vídeo qual é. Eu leio todos e já saiu vídeo de pergunta de comentário.
-
-📩 Contato: emerson.impulsoia@gmail.com
-💼 linkedin.com/in/emerson-trindade-8001
-📷 instagram.com/emerson.impulsoia
+Tem uma tarefa manual que come seu dia? Comenta em qualquer vídeo qual é. Eu leio todos.
 ```
 
 ### O que mudou e por quê
@@ -69,6 +64,8 @@ Se tem uma tarefa manual que come seu dia, comenta em qualquer vídeo qual é. E
 | "um mercado de bairro" | Prova real (Aula 02, tipo 3) sem furar a pendência de autorização do Araújo |
 | CTA final pedindo a tarefa manual da pessoa | Aula 02, tipo 10 + Aula 01: **gerar conversa é a métrica**, não o link |
 | Saiu "Vídeo novo toda semana" | Promessa de cadência que você não confirmou. Aula 05: "consistência gera confiança" — anunciar e falhar custa mais que não anunciar |
+| Saíram os 3 contatos do rodapé (e-mail/LinkedIn/Instagram) | Redundância: já entram nos campos próprios (Campo 4). Custavam ~115 caracteres do limite de 1.000 |
+| "PRA QUEM É" virou uma linha só | Corte de limite. A qualificação ("não precisa programar") sobreviveu; o cabeçalho não era essencial |
 
 ⚠️ **A tese ainda está formalmente em aberto** (`creator-profile.md` lista 3 candidatas). Usei a **#1**, a mais alinhada ao eixo do canal. Se você escolher outra depois, troque essa linha aqui e ela passa a valer em tudo.
 
