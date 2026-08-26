@@ -77,18 +77,53 @@ You orchestrate 11 specialized squads. You don't execute day-to-day tasks — yo
 ### 📊 Organograma completo: `docs/organograma.md`
 Mapa visual do CEO até as divisões, com diagramas, interfaces e regras de reporte.
 
+### Padrão de estrutura: **funcional** (modelo Apple)
+
+O HIVE divide por **função/especialidade**, não por produto, mercado ou geografia. O modelo de referência é a Apple — que em 1997 demitiu os gerentes gerais de todas as unidades de negócio, colocou a empresa sob **um único P&L** e fundiu os departamentos numa organização funcional única, mantida até hoje com 137 mil funcionários ([HBR, Podolny & Hansen, 2020](https://hbr.org/2020/11/how-apple-is-organized-for-innovation)).
+
+| Princípio Apple | Como se aplica no HIVE |
+|---|---|
+| **P&L único da empresa** | Divisão **não é centro de resultado**. Não tem orçamento, meta nem receita própria. Quem tem P&L é a empresa (Finance/Lorenzo) |
+| **Divisão por função, não por produto/mercado** | Divisão nasce de uma **especialidade distinta**, nunca de um cliente, canal ou linha de produto |
+| **Experts leading experts** | Cada divisão carrega **material de referência obrigatório**. Quem opera M2 lê `dores-ia-brasil-2026.md` — a autoridade vem do domínio, não do cargo |
+| **Sem gerente geral de unidade** | Divisão é **escopo, não cargo**. Não ganha persona, não ganha camada de gestão. O Head do squad continua sendo o único dono tático |
+
+**Modelos descartados e por quê:** geografia (McDonald's) — há 1 mercado · linha de produto com margem (Dell) — não há receita para segmentar · CEO com N reports diretos (Tesla) — contradiz a cadeia divisão → Head → CEO.
+
+⚠️ **Consequência que costuma ser esquecida:** a Apple é o caso de uma empresa que **reduziu** divisões para inovar mais. Estrutura funcional é um argumento a favor de **menos** unidades, não de mais.
+
 ### Estado
 Apenas **Marketing** tem divisões — 6, decisão do Emerson em 25/08. Ver `squads/marketing/CLAUDE.md`.
-- 🟢 **ATIVAS:** `[M1]` Content & Editorial · `[M2]` Intelligence · `[M3]` Mkt Ops & Analytics · `[M4]` Brand & Creative
-- 🟡 **DORMENTE:** `[M5]` Distribuição & Comunidade
-- 🔴 **CONGELADA:** `[M6]` Growth & Performance
+- 🟢 **ATIVAS:** `[M1]` Conteúdo e Editorial · `[M2]` Inteligência · `[M3]` Operações e Análise de Marketing · `[M4]` Marca e Criação
+- 🟡 **DORMENTE:** `[M5]` Distribuição e Comunidade
+- 🔴 **CONGELADA:** `[M6]` Crescimento e Performance
 
 **Interfaces — funções de marketing cujo dono é outro squad (não duplicar):** Product Marketing → **Product (Paes)** · Comms/PR → **Intelligence (Emerson)**.
 
 **Divisão dormente não gera tarefa, não entra em revisão de STATE e não consome atenção** até o gatilho disparar. É o mecanismo que permite ter a estrutura pronta sem pagar custo de manutenção.
 
 ### ⚠️ Condição para replicar a outros squads
-Só criar divisões num squad quando ele tiver **volume real e recorrente de trabalho em frentes distintas** — na prática, L2 com itens que se bloqueiam por motivos diferentes. Hoje nenhum outro squad atende esse critério (Finance tem 5 itens; Operations está bloqueado na entrada).
+
+Criar divisão num squad exige **os 3 testes passando ao mesmo tempo**:
+
+| # | Teste | Pergunta objetiva |
+|---|---|---|
+| 1 | **Volume** | O squad tem ≥6 itens abertos no L2 **em execução** (não bloqueados esperando decisão)? |
+| 2 | **Função distinta** | Os itens se separam por **especialidade diferente** — exigem material de referência diferente? (teste Apple) |
+| 3 | **Bloqueio independente** | Os itens se bloqueiam por **motivos diferentes**? Se tudo trava pelo mesmo motivo, é uma frente só |
+
+**Situação em 26/08/2026 — nenhum squad passa nos 3:**
+
+| Squad | Abertos | T1 Volume | T2 Função | T3 Bloqueio | Veredito |
+|---|---|---|---|---|---|
+| Marketing | ~8 | ✅ | ✅ 4 especialidades | ✅ | ✅ **tem divisões** |
+| Finance | 6 | ⚠️ no limite | ❌ tudo é caixa/custo | ❌ mesmo motivo | ❌ |
+| Product | 5 | ❌ | ❌ nada em execução | ❌ | ❌ |
+| Dev · Infra | 3 cada | ❌ | ❌ | ❌ | ❌ |
+| Operations · Commercial · CS · Quality | 2 cada | ❌ | ❌ | ❌ bloqueados na entrada | ❌ |
+| Intelligence | 0 | ❌ | — | — | ❌ |
+
+**Por que Finance é o caso mais tentador e ainda assim não passa:** 6 itens parecem volume, mas todos respondem à mesma pergunta ("cabe no caixa?") e travam pelo mesmo motivo (folga de R$5,79/mês). Dividir em Contas a Pagar / Planejamento / Fiscal cria 3 rótulos para 1 decisão. Falha nos testes 2 e 3.
 
 **Regra anti-inchaço:** 11 squads × 3 divisões = 33 unidades para 1 pessoa sem funcionários. Estrutura sem trabalho real para receber é procrastinação com aparência de progresso. O gargalo declarado do negócio é **execução, não estrutura**.
 
