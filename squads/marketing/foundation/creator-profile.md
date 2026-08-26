@@ -25,8 +25,25 @@ A tese é a frase que se repete em todo vídeo, toda proposta, toda reunião (Au
 2. **"A IA não substitui pessoa. Ela devolve o tempo que a pessoa perde com o que não é o trabalho dela."**
 3. **"Se não dá pra medir em horas, não era automação — era demonstração."**
 
+## Decisões de 2026-08-26 — "agentic builder" e altitude
+
+Resolvem a pergunta do Emerson: *"eu trabalho com agentic builders, a descrição do canal está coerente?"*
+
+1. **Agentic builder é FERRAMENTA, não oferta.** Claude Code, frameworks agênticos e o HIVE são como o Emerson constrói — o cliente compra o resultado (horas devolvidas), não a arquitetura. Consequência: **não vender "agente" como produto** nem no canal nem na proposta comercial.
+2. **Altitude baixa até o 8º vídeo (30/10/2026).** A linha `"Não precisa saber programar. Se você já usou planilha, acompanha."` **fica**. É teto declarado e proposital. Reavaliar com dado real de retenção, não antes.
+3. **HIVE é ativo central — como PROVA, nunca como TUTORIAL.** ⚠️ Esta é a regra que faz as decisões 2 e 3 conviverem, e ela é frágil: se o HIVE virar tutorial, a altitude sobe sozinha e a decisão 2 morre na prática.
+   - ✅ Permitido até 30/10: *"o que isso me devolve"* — resultado, rotina, número, o que quebrou. Legível por dono de negócio.
+   - ❌ Proibido até 30/10: *"como você configura"* — hook, memória em camadas, orquestrador, estrutura de squad, comando de terminal.
+   - Depois do 8º vídeo, com a altitude subindo, o HIVE já está apresentado e vira a ponte natural para a trilha de construção — sem parecer outro canal.
+4. **Vocabulário varia por pilar.** Pilares de aplicação falam **"automação"** (é o que o público digita na busca). Conteúdo de construção e bastidor fala **"agente"**, sempre traduzido na primeira menção, conforme `brand-voice.md`.
+5. **5ª linha de conteúdo, NÃO 5º pilar:** "bastidor de quem opera um negócio com agentes" entrou na descrição do canal como formato Hero. Os **4 pilares seguem sendo 4** — não diluir.
+
+### Lacuna que essas decisões deixam aberta
+P5 ("quem quer virar automatizador", `mapa-teste-publico.md`) era hipótese periférica com retorno por curso/comunidade. Com o HIVE visível desde o vídeo 1, **P5 vira candidato a centro** e passa a ser o público mais provável de responder ao Hero. Vigiar: se a retenção e os comentários vierem majoritariamente de P5 antes do 8º vídeo, a decisão 2 (altitude baixa) precisa ser reaberta antes de 30/10.
+
 ## Autoridade e Histórico
 
+- **Segunda prova de autoridade (registrada 26/08):** o **HIVE** — framework open source que opera uma empresa inteira com 11 squads de agentes, memória persistente em camadas, hooks e orquestrador central; construído ao vivo. É a prova mais rara que o Emerson tem (não há equivalente no YouTube BR) e estava **fora de todo material do canal** até 26/08. Sujeito à regra "prova, não tutorial" acima. ⚠️ Verificar autoria/atribuição antes de tratar como ativo próprio: o repo público está sob `github.com/felipeluissalgueiro/hive`.
 - **Experiência prática que sustenta sua autoridade:** construiu e opera o **AI Retail Automation Hub** — sistema em produção com cliente real (Mercado Araújo): atendimento no WhatsApp com IA, registro de pedido, conciliação com ERP. Stack: n8n, Supabase, Evolution API, Vercel
 - **Resultados/cases que pode citar:** Mercado Araújo — **⚠️ autorização ainda não pedida (24/08).** Até obter, usar como "um mercado de bairro" anônimo. Pedir na entrega do relatório de valor (11/09, marco A2)
 - **O que já testou/aplicou na prática:** sistema em produção com uptime real e falhas reais (quedas, vazamento de conexão, fila de conciliação). O que quebrou é conteúdo tão bom quanto o que funcionou
