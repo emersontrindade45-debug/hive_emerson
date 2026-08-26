@@ -123,6 +123,8 @@ Criar divisão num squad exige **os 3 testes passando ao mesmo tempo**:
 | Operations · Commercial · CS · Quality | 2 cada | ❌ | ❌ | ❌ bloqueados na entrada | ❌ |
 | Intelligence | 0 | ❌ | — | — | ❌ |
 
+📋 **Análise completa dos 10 squads (26/08/2026): `docs/analise-divisoes-squads.md`** — leitura do L2 real de cada squad + pesquisa de mercado sobre o limiar de subdivisão de cada função (Dunbar ~50 pessoas por função; founder-led sales até ~US$1M ARR; separar DevOps cedo é antipadrão nomeado). **Veredito: nenhum dos 10 recebe divisão hoje.**
+
 **Por que Finance é o caso mais tentador e ainda assim não passa:** 6 itens parecem volume, mas todos respondem à mesma pergunta ("cabe no caixa?") e travam pelo mesmo motivo (folga de R$5,79/mês). Dividir em Contas a Pagar / Planejamento / Fiscal cria 3 rótulos para 1 decisão. Falha nos testes 2 e 3.
 
 **Regra anti-inchaço:** 11 squads × 3 divisões = 33 unidades para 1 pessoa sem funcionários. Estrutura sem trabalho real para receber é procrastinação com aparência de progresso. O gargalo declarado do negócio é **execução, não estrutura**.
