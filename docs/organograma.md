@@ -25,12 +25,12 @@ flowchart TD
     ST --> QLT["✅ Trindade<br/>Quality"]
     ST --> INT["🔍 Emerson<br/>Intelligence"]
 
-    MKT --> M1["M1 · Content &amp; Editorial 🟢"]
-    MKT --> M2["M2 · Intelligence 🟢"]
-    MKT --> M3["M3 · Mkt Ops &amp; Analytics 🟢"]
-    MKT --> M4["M4 · Brand &amp; Creative 🟢"]
-    MKT --> M5["M5 · Distribuição &amp; Comunidade 🟡"]
-    MKT --> M6["M6 · Growth &amp; Performance 🔴"]
+    MKT --> M1["M1 · Conteúdo e Editorial 🟢"]
+    MKT --> M2["M2 · Inteligência 🟢"]
+    MKT --> M3["M3 · Operações e Análise 🟢"]
+    MKT --> M4["M4 · Marca e Criação 🟢"]
+    MKT --> M5["M5 · Distribuição e Comunidade 🟡"]
+    MKT --> M6["M6 · Crescimento e Performance 🔴"]
 
     classDef ceo fill:#16181D,stroke:#F2A03D,stroke-width:3px,color:#EDE7DE
     classDef head fill:#1F232B,stroke:#8A9099,color:#EDE7DE
@@ -85,15 +85,15 @@ flowchart LR
     P["📣 Pietro<br/>Head of Marketing"]
 
     subgraph ATIVAS["🟢 Ativas — trabalho recorrente hoje"]
-        M4["<b>M4 · Brand &amp; Creative</b><br/>identidade · narrativa<br/>tese · território"]
-        M2["<b>M2 · Intelligence</b><br/>radar · técnica<br/>dado verificado"]
-        M1["<b>M1 · Content &amp; Editorial</b><br/>calendário · roteiro<br/>pauta · SEO"]
-        M3["<b>M3 · Ops &amp; Analytics</b><br/>stack · dados<br/>atribuição · setup"]
+        M4["<b>M4 · Marca e Criação</b><br/>identidade · narrativa<br/>tese · território"]
+        M2["<b>M2 · Inteligência</b><br/>radar · técnica<br/>dado verificado"]
+        M1["<b>M1 · Conteúdo e Editorial</b><br/>calendário · roteiro<br/>pauta · SEO"]
+        M3["<b>M3 · Operações e Análise</b><br/>stack · dados<br/>atribuição · setup"]
     end
 
     subgraph ESPERA["🟡🔴 Aguardando gatilho"]
-        M5["<b>M5 · Distribuição<br/>&amp; Comunidade</b> 🟡<br/>gatilho: 2ª plataforma<br/>ou 8º vídeo"]
-        M6["<b>M6 · Growth</b> 🔴<br/>gatilho: verba<br/><b>E</b> ≥8 vídeos"]
+        M5["<b>M5 · Distribuição<br/>e Comunidade</b> 🟡<br/>gatilho: 2ª plataforma<br/>ou 8º vídeo"]
+        M6["<b>M6 · Crescimento</b> 🔴<br/>gatilho: verba<br/><b>E</b> ≥8 vídeos"]
     end
 
     P --> M4 & M2 & M1 & M3
@@ -118,12 +118,29 @@ flowchart LR
 
 | # | Divisão | Equivalente de mercado | Status | Gatilho |
 |---|---|---|---|---|
-| **M1** | Content & Editorial | Content / Editorial | 🟢 | — |
-| **M2** | Intelligence | Market / Competitive Intel | 🟢 | — |
-| **M3** | Marketing Ops & Analytics | Marketing Ops & Analytics | 🟢 | — |
-| **M4** | Brand & Creative | Brand & Creative | 🟢 | — |
-| **M5** | Distribuição & Comunidade | Distribution + Community | 🟡 | 2ª plataforma publicando **ou** 8º vídeo / 100 inscritos |
-| **M6** | Growth & Performance | Growth / Performance | 🔴 | Verba aprovada **E** ≥8 vídeos |
+| **M1** | Conteúdo e Editorial | *Content / Editorial* | 🟢 | — |
+| **M2** | Inteligência | *Market / Competitive Intel* | 🟢 | — |
+| **M3** | Operações e Análise de Marketing | *Marketing Ops & Analytics* | 🟢 | — |
+| **M4** | Marca e Criação | *Brand & Creative* | 🟢 | — |
+| **M5** | Distribuição e Comunidade | *Distribution + Community* | 🟡 | 2ª plataforma publicando **ou** 8º vídeo / 100 inscritos |
+| **M6** | Crescimento e Performance | *Growth / Performance* | 🔴 | Verba aprovada **E** ≥8 vídeos |
+
+---
+
+## Padrão de estrutura: **funcional** (modelo Apple)
+
+O HIVE recorta por **função/especialidade**. Referência: Apple sob P&L único e organização funcional desde 1997, mantida com 137 mil funcionários ([HBR, Podolny & Hansen, 2020](https://hbr.org/2020/11/how-apple-is-organized-for-innovation)).
+
+| Princípio Apple | No HIVE |
+|---|---|
+| P&L único da empresa | Divisão não tem orçamento nem meta própria — P&L é da empresa (Lorenzo) |
+| Função, não produto/mercado | Divisão nasce de especialidade distinta, nunca de cliente, canal ou plataforma |
+| *Experts leading experts* | Autoridade vem do material de referência obrigatório, não do cargo |
+| Sem gerente geral de unidade | Divisão é escopo, não cargo. O Head segue único dono tático |
+
+**Modelos avaliados e descartados:** geografia (McDonald's — 3 segmentos: U.S., IOM, IDL) não se aplica com 1 mercado · linha de produto com P&L próprio (Dell — ISG e CSG) não se aplica sem receita a segmentar · CEO com N reports diretos (Tesla — 7 diretos, sem COO) contradiz a cadeia divisão → Head → CEO.
+
+⚠️ A Apple é o caso de uma empresa que **reduziu** unidades para inovar mais. Estrutura funcional argumenta a favor de **menos** divisões, não de mais.
 
 ---
 
@@ -133,7 +150,7 @@ Existem no organograma, mas o dono é outro squad. Evita dois donos para a mesma
 
 ```mermaid
 flowchart LR
-    M4["M4 · Brand &amp; Creative<br/><i>Marketing</i>"]
+    M4["M4 · Marca e Criação<br/><i>Marketing</i>"]
     PRD["📦 Paes — Product<br/><b>Product Marketing</b><br/>posicionamento de oferta<br/>lançamento"]
     COM["💼 Tatiane — Commercial<br/>usa material de venda"]
     INT["🔍 Emerson — Intelligence<br/><b>Comms / PR</b><br/>imprensa · relações públicas"]

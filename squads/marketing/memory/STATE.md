@@ -24,9 +24,10 @@ Squad ativado via /hive-setup (2026-08-14). Voz de marca: Resultado, Parceira, E
 
 [L2]
 > **Divisões operacionais (6, desde 25/08 — decisão do Emerson). Organograma completo: `docs/organograma.md`**
-> 🟢 ATIVAS: `[M1]` Content & Editorial · `[M2]` Intelligence · `[M3]` Mkt Ops & Analytics · `[M4]` Brand & Creative
-> 🟡 DORMENTE: `[M5]` Distribuição & Comunidade (gatilho: 2ª plataforma **ou** 8º vídeo/100 inscritos)
-> 🔴 CONGELADA: `[M6]` Growth & Performance (gatilho: verba aprovada **E** ≥8 vídeos)
+> **Eixo: funcional (modelo Apple)** — divisão é escopo/especialidade, não cargo, público ou plataforma. Sem P&L próprio.
+> 🟢 ATIVAS: `[M1]` Conteúdo e Editorial · `[M2]` Inteligência · `[M3]` Operações e Análise de Marketing · `[M4]` Marca e Criação
+> 🟡 DORMENTE: `[M5]` Distribuição e Comunidade (gatilho: 2ª plataforma **ou** 8º vídeo/100 inscritos)
+> 🔴 CONGELADA: `[M6]` Crescimento e Performance (gatilho: verba aprovada **E** ≥8 vídeos)
 > **Interfaces (dono é outro squad, não duplicar):** Product Marketing → Paes · Comms/PR → Intelligence
 
 - [x] `[M2]` ✅ **NOVO 25/08 — Worker de descoberta de lacuna criado e testado:** `_core/youtube-gaps.py` + skill `/youtube-gaps` + `data/youtube-intel/termos.json` (10 termos mapeados aos 4 pilares). **Tese do sinal (Emerson):** vídeo com muitas views em canal pequeno = demanda validada sem autoridade — o algoritmo empurrou pelo TEMA, não pelo canal; logo procura existe e oferta boa não. Métrica: razão views÷inscritos (≥20x lacuna forte, 5-20x média). **Teste real:** achou vídeo de n8n+WhatsApp com 836k views em canal de 52,8k inscritos = **15,8x**. Complementa `/update-youtube` — vigilância ensina COMO fazer, prospecção diz SOBRE O QUE fazer.

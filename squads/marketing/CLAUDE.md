@@ -81,18 +81,28 @@ Se o Emerson citar um material dele ("o que o Joel Jota ensinou", "aquele materi
 >
 > **Decisão do Emerson (25/08):** mapear TODAS as divisões do padrão de marketing corporativo, mesmo as sem trabalho hoje. Cada uma carrega **status** e **gatilho**: divisão `DORMENTE` não gera tarefa, não entra em revisão de STATE e não consome atenção até o gatilho disparar.
 
+### Padrão de estrutura: **funcional** (modelo Apple)
+
+As 6 divisões são recortes de **função/especialidade** — não de público, canal, plataforma ou produto. Referência: Apple sob P&L único e organização funcional desde 1997 ([HBR, Podolny & Hansen, 2020](https://hbr.org/2020/11/how-apple-is-organized-for-innovation)). Critério completo em `../../CLAUDE.md`.
+
+Em termos práticos, dentro do Marketing:
+- **Divisão não tem meta nem orçamento próprio.** P&L é da empresa (Lorenzo). Uma divisão não "performa" — o canal performa
+- **Divisão é escopo, não cargo.** Nenhuma ganha persona. Pietro segue sendo o único dono tático das 6
+- **Autoridade vem do material, não do rótulo** (*experts leading experts*): cada divisão tem leitura obrigatória — é ela que decide, não a hierarquia
+- **Nunca dividir por público ou plataforma.** P1–P5 e YouTube/Instagram/LinkedIn atravessam **todas** as divisões. Criar "divisão do Instagram" ou "divisão do P3" quebraria o eixo funcional e duplicaria M1 e M4
+
 ### As 6 divisões do Marketing
 
 | # | Divisão | Equivalente de mercado | Status | Responde por | Artefatos |
 |---|---|---|---|---|---|
-| **M1** | **Content & Editorial** | Content / Editorial | 🟢 ATIVA | Calendário, roteiro, pauta, ângulo, copy, SEO | `data/roteiros/` · `youtube-playbook.md` · `mapa-teste-publico.md` · `content-calendar.md` |
-| **M2** | **Intelligence** | Market / Competitive Intel | 🟢 ATIVA | Radar de concorrência, técnica de criador, dado verificado, **descoberta de lacuna de conteúdo** | `data/youtube-intel/` · `data/youtube-intel/gaps/` · `dores-ia-brasil-2026.md` |
-| **M3** | **Marketing Ops & Analytics** | Marketing Ops & Analytics | 🟢 ATIVA | Stack, dados, atribuição, relatório, setup de canal | `data/assets/` · `canal-identidade.md` · `social-analytics-glossary.md` |
-| **M4** | **Brand & Creative** | Brand & Creative | 🟢 ATIVA | Identidade, narrativa, tese, território, produção visual | `brand-voice.md` · `creator-profile.md` · `metodo-influencia-digital.md` (Aulas 03 e 05) |
-| **M5** | **Distribuição & Comunidade** | Distribution + Community/Social | 🟡 DORMENTE | Repurpose multi-plataforma, comentário, Direct, ritual, fãs | *(a criar: `data/distribuicao/`)* |
-| **M6** | **Growth & Performance** | Growth / Performance | 🔴 CONGELADA | Mídia paga, aquisição, CRO, funil | — |
+| **M1** | **Conteúdo e Editorial** | *Content / Editorial* | 🟢 ATIVA | Calendário, roteiro, pauta, ângulo, copy, SEO | `data/roteiros/` · `youtube-playbook.md` · `mapa-teste-publico.md` · `content-calendar.md` |
+| **M2** | **Inteligência** | *Market / Competitive Intel* | 🟢 ATIVA | Radar de concorrência, técnica de criador, dado verificado, **descoberta de lacuna de conteúdo** | `data/youtube-intel/` · `data/youtube-intel/gaps/` · `dores-ia-brasil-2026.md` |
+| **M3** | **Operações e Análise de Marketing** | *Marketing Ops & Analytics* | 🟢 ATIVA | Stack, dados, atribuição, relatório, setup de canal | `data/assets/` · `canal-identidade.md` · `social-analytics-glossary.md` |
+| **M4** | **Marca e Criação** | *Brand & Creative* | 🟢 ATIVA | Identidade, narrativa, tese, território, produção visual | `brand-voice.md` · `creator-profile.md` · `metodo-influencia-digital.md` (Aulas 03 e 05) |
+| **M5** | **Distribuição e Comunidade** | *Distribution + Community/Social* | 🟡 DORMENTE | Repurpose multi-plataforma, comentário, Direct, ritual, fãs | *(a criar: `data/distribuicao/`)* |
+| **M6** | **Crescimento e Performance** | *Growth / Performance* | 🔴 CONGELADA | Mídia paga, aquisição, CRO, funil | — |
 
-**Mudança 25/08 (2ª rodada):** **Brand & Creative virou divisão própria (M4)**, saindo de dentro de M1. Motivo: identidade, tese e território são decisões de marca que **regem** o conteúdo — não são subproduto dele. `metodo-influencia-digital.md` Aula 05 trata tese/território como gerador de demanda autônomo. Distribuição e Comunidade foram fundidas em M5 (mesmo gatilho prático: existir 2ª plataforma/audiência).
+**Mudança 25/08 (2ª rodada):** **Marca e Criação virou divisão própria (M4)**, saindo de dentro de M1. Motivo: identidade, tese e território são decisões de marca que **regem** o conteúdo — não são subproduto dele. `metodo-influencia-digital.md` Aula 05 trata tese/território como gerador de demanda autônomo. Distribuição e Comunidade foram fundidas em M5 (mesmo gatilho prático: existir 2ª plataforma/audiência).
 
 ### Interfaces — funções do padrão de mercado que NÃO são do Marketing
 
@@ -109,8 +119,8 @@ Aparecem no organograma, mas o dono é outro squad. Marketing **colabora, não d
 
 | Divisão | Gatilho objetivo | Por que não antes |
 |---|---|---|
-| **M5 · Distribuição & Comunidade** | **2ª plataforma publicando** (Instagram/LinkedIn) **ou** 8º vídeo (30/10) / 100 inscritos | Com 1 plataforma não há o que distribuir; Primal Branding (Aula 04) exige gente |
-| **M6 · Growth** | **Verba de mídia aprovada pelo Finance** **E** canal com ≥8 vídeos | Folga de caixa é R$5,79/mês. E "servir primeiro" (Emerson, 24/08) proíbe régua de lead antes do 8º vídeo — ativar antes contradiz a estratégia declarada |
+| **M5 · Distribuição e Comunidade** | **2ª plataforma publicando** (Instagram/LinkedIn) **ou** 8º vídeo (30/10) / 100 inscritos | Com 1 plataforma não há o que distribuir; Primal Branding (Aula 04) exige gente |
+| **M6 · Crescimento e Performance** | **Verba de mídia aprovada pelo Finance** **E** canal com ≥8 vídeos | Folga de caixa é R$5,79/mês. E "servir primeiro" (Emerson, 24/08) proíbe régua de lead antes do 8º vídeo — ativar antes contradiz a estratégia declarada |
 
 **Regra das dormentes:** não geram tarefa no L2, não aparecem em revisão de STATE, não recebem prefixo. Quando o gatilho disparar, Pietro promove a 🟢 e cria a pasta de artefato.
 
