@@ -60,4 +60,4 @@ O Contrapeso exige preparação escrita, não improviso:
 - **51 das 58 transcrições da Carol ainda não destiladas.** O playbook cobre 7 vídeos (os de aplicação imediata ao A3). As demais estão baixadas e cobrem carisma, prospecção, autoridade, fechamento, gatilhos, atendimento, mentalidade, mercados concorridos. Se a pergunta for sobre esses temas: dizer que o material existe baixado mas não foi destilado, e oferecer destilar antes de responder.
 - **AIDAS: só a letra A destilada.** I, D, A, S pendentes.
 - **JJ #219:** ~15% processado — o resto é gestão de time de vendas, pouco aplicável a quem vende sozinho.
-- `icp-profile.md` e `qualification-criteria.md` seguem em **template genérico** do HIVE (02/06), nunca preenchidos. O Método Alicerce (§2) é o roteiro para preenchê-los.
+- `squads/commercial/foundation/icp-profile.md` e `squads/commercial/foundation/qualification-criteria.md` seguem em **template genérico** do HIVE (02/06), nunca preenchidos. O Método Alicerce (§2) é o roteiro para preenchê-los.

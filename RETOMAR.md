@@ -76,6 +76,8 @@ Ao falar de um assunto, a skill do squad dono carrega sozinha:
 | "vale a pena?", nova oportunidade, precificar | `modelo-de-negocios` |
 | radar, o que saiu de novo, lista da semana | `radar-youtube` |
 
+**Auditoria feita em 27/08 (as 7 skills):** frontmatter válido em todas · todos os caminhos citados resolvem a partir da raiz · 7 cenários de roteamento testados e passando · `bom dia` corretamente não dispara nada. **2 defeitos encontrados e corrigidos na auditoria:** (1) caminhos relativos (`foundation/...`) que só resolveriam de dentro da pasta do squad — trocados por caminho completo a partir da raiz; (2) a skill `radar-youtube` **existia mas não estava ligada ao hook** — "lista da semana" não disparava nada. O hook ganhou `SKILLS_GLOBAIS`, para skills que disparam por assunto sem pertencer a um squad.
+
 **Dev, Infra, CS, Product, Finance e Quality não têm skill** — não têm acervo destilado. O hook avisa isso explicitamente em vez de improvisar.
 
 ---

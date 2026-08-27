@@ -30,7 +30,7 @@ description: Use ao trabalhar marca, território, tese, posicionamento, bio/desc
 ## Passo 2 — Respeitar o que já foi decidido
 
 - **Tom fixo:** direto e sem hype · **Eixo:** "IA aplicada a trabalho que já existe"
-- **`icp-audience.md` só será preenchido após o 8º vídeo** — o canal publica para descobrir, não define ICP no papel
+- **`squads/marketing/foundation/icp-audience.md` só será preenchido após o 8º vídeo** — o canal publica para descobrir, não define ICP no papel
 - **Marca: Impulso IA** · handle `@emerson.impulsoia`
 - **Limite de 1.000 caracteres** na descrição do canal (a versão final tem 991) — **contar caracteres antes de entregar texto para campo de plataforma**
 - ⚠️ **Risco de marca:** existe IMPULSO DIGITAL TECNOLOGIA E INTELIGENCIA ARTIFICIAL LTDA no mesmo CNAE — não impede o canal, mas pode impedir registro no INPI
@@ -38,4 +38,4 @@ description: Use ao trabalhar marca, território, tese, posicionamento, bio/desc
 ## Pendências que só o Emerson resolve
 
 - **Exercício da Tripla Convergência (Aula 03)** — nota 0-10 em Valor / Valorização / Visibilidade. Ninguém pode dar as notas por ele.
-- **Tese central** (3 candidatas em `creator-profile.md`) e missão como criador.
+- **Tese central** (3 candidatas em `squads/marketing/foundation/creator-profile.md`) e missão como criador.
