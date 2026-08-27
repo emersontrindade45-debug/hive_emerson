@@ -47,14 +47,31 @@ SKILLS = {
 
 SEM_ACERVO = {"dev","infra","cs","product","finance","quality"}
 
+# Skills que nao pertencem a um squad: disparam pelo assunto, em qualquer contexto.
+SKILLS_GLOBAIS = [
+    ("radar-youtube",
+     ["radar", "lista da semana", "o que saiu", "videos novos", "video novo",
+      "o que os canais", "novidades dos canais", "segunda-feira", "segunda feira"],
+     "lista os videos novos dos canais SEM baixar; o Emerson escolhe"),
+]
+
 
 def detect(prompt):
     pl = prompt.lower()
     return [s for s, kws in SQUADS.items() if any(kw in pl for kw in kws)]
 
 
-def anuncia_skills(squads):
+def skills_globais(prompt):
+    pl = prompt.lower()
+    return [(nome, desc) for nome, kws, desc in SKILLS_GLOBAIS
+            if any(kw in pl for kw in kws)]
+
+
+def anuncia_skills(squads, prompt=""):
     linhas, vistos = [], set()
+    for nome, desc in skills_globais(prompt):
+        vistos.add(nome)
+        linhas.append("  -> SKILL OBRIGATORIA: %s  (%s)" % (nome, desc))
     for s in squads:
         for nome, gatilho in SKILLS.get(s, []):
             if nome in vistos:
@@ -81,6 +98,8 @@ def main():
         sys.exit(0)
     squads = detect(prompt)
     if not squads:
+        # skill global pode disparar mesmo sem squad detectado
+        anuncia_skills([], prompt)
         sys.exit(0)
     if len(squads) == 1:
         s = squads[0]
@@ -92,7 +111,7 @@ def main():
         print("[hive/routing] Multiplos squads: %s" % ", ".join(squads))
         for s in squads:
             print("  squads/%s/" % s)
-    anuncia_skills(squads)
+    anuncia_skills(squads, prompt)
     sys.exit(0)
 
 

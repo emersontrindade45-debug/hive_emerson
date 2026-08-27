@@ -45,10 +45,10 @@ Transcrição baixada **não é o fim**. Ela precisa virar entrada no playbook d
 
 | Squad | Playbook | Skill alimentada |
 |---|---|---|
-| marketing | `foundation/youtube-playbook.md` | `roteiro-youtube` |
-| operations | `foundation/alta-performance-playbook.md` | `metas-performance` |
-| commercial | `foundation/sales-playbook.md` | `vendas` |
-| intelligence | `foundation/business-opportunities.md` | `modelo-de-negocios` |
+| marketing | `squads/marketing/foundation/youtube-playbook.md` | `roteiro-youtube` |
+| operations | `squads/operations/foundation/alta-performance-playbook.md` | `metas-performance` |
+| commercial | `squads/commercial/foundation/sales-playbook.md` | `vendas` |
+| intelligence | `squads/intelligence/foundation/business-opportunities.md` | `modelo-de-negocios` |
 | dev, infra | *sem playbook ainda* | — |
 
 **Regra de precedência:** entrada nova que conflita com uma existente vale pela **data de publicação da fonte mais recente**, não pela ordem de registro.
