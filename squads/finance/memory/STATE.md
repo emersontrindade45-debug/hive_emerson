@@ -13,7 +13,6 @@ Estrutura de custos FECHADA (2026-08-15). MEI, R$ 0 receita (Araújo piloto). Re
 - [ ] Decidir com Emerson: assinar Canva já (aperta margem a quase zero) ou esperar/cortar outro custo primeiro
 - [ ] Criar conta "Capacitação" no chart-of-accounts.md
 - [ ] Consolidar todos os meses de 2026 para média mensal real (hoje é faixa, não número fechado)
-- [ ] Criar conta de "Capacitação/Cursos" no chart-of-accounts.md
 
 [L3]
 - Document recurring revenue recognition rules
