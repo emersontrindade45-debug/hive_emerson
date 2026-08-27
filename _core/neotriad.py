@@ -30,11 +30,13 @@ DESCOBERTAS DE ESCRITA (testado em 2026-08-27):
   5. A resposta de escrita e por item:
      {"data": {"Itens": [{"Sucesso": bool, "id_tarefa": "...", "Mensagem": ...}]}}
      Um 201 no envelope NAO garante que todos os itens passaram — checar Sucesso.
-  6. O campo de PAPEL e aceito no corpo mas IGNORADO silenciosamente no POST
-     (a tarefa nasce sem papel, sem erro). No PUT ele falha com
-     "Object must implement IConvertible". Testados sem sucesso:
-     Papel:[{...}] · Papel:[guid] · papeis:[guid] · id_papel:guid.
-     Vincular papel continua sendo acao manual na interface.
+  6. PAPEL so funciona no POST, e o formato e Papel:[{"id_papel": "<guid>"}]
+     — LISTA DE OBJETOS, nao lista de GUIDs. Passar Papel:["<guid>"] e aceito
+     com 201 e IGNORADO em silencio: a tarefa nasce sem papel e sem erro.
+     No PUT nenhum formato funciona (objeto -> "Object must implement
+     IConvertible"; escalar -> "Invalid cast from System.String to
+     ICollection<Neotriad.Model.Papel>"). Consequencia pratica: para corrigir
+     o papel de uma tarefa existente, recriar e apagar a antiga.
   7. NAO existe endpoint de METAS nem de PROJETOS na API — so tarefas,
      compromissos, papeis e categorias. O campo id_meta existe na tarefa, mas
      a meta em si so pode ser criada pela interface web.
@@ -178,7 +180,10 @@ class Neotriad:
         if duracao_prevista:
             corpo["duracao_prevista"] = duracao_prevista
         if papeis:
-            corpo["Papel"] = papeis
+            # LISTA DE OBJETOS. Lista de GUIDs e ignorada em silencio (ver 6).
+            corpo["Papel"] = [
+                p if isinstance(p, dict) else {"id_papel": p} for p in papeis
+            ]
         if id_meta:
             corpo["id_meta"] = id_meta
         if descricao:
