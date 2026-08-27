@@ -46,7 +46,16 @@ def main():
     ap.add_argument("--dir", required=True, help="diretorio de dados do squad")
     ap.add_argument("--lang", default="pt", help="idioma da legenda (default pt)")
     ap.add_argument("--force", action="store_true", help="rebaixa se ja existir")
-    args = ap.parse_args()
+    # IDs do YouTube podem comecar com "-" (ex: -q9CsyUHH7w) e o argparse os
+    # le como flag, derrubando a chamada inteira. Converter esses IDs soltos
+    # em URL completa antes de parsear resolve sem afetar as flags reais.
+    argv = [
+        "https://www.youtube.com/watch?v=" + a
+        if (a.startswith("-") and not a.startswith("--") and len(a) == 11)
+        else a
+        for a in sys.argv[1:]
+    ]
+    args = ap.parse_args(argv)
 
     repo = os.path.dirname(BASE)
     base = args.dir if os.path.isabs(args.dir) else os.path.join(repo, args.dir)
