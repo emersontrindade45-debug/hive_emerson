@@ -5,6 +5,22 @@
 
 ---
 
+## ⚠️ AVISO PARA SESSÃO QUE JÁ ESTAVA ABERTA
+
+Se esta sessão começou **antes de 27/08 às 20h**, o contexto dela é anterior a mudanças grandes no repo. **Antes de editar qualquer coisa, releia:** `CLAUDE.md` (raiz), o STATE do squad em que for mexer, e este arquivo.
+
+O que mudou e pode conflitar com contexto antigo:
+- **6 skills novas** em `.claude/skills/` + regra "squad acionado, skill acionada" no `CLAUDE.md` raiz e nos CLAUDE.md de marketing/operations/commercial/intelligence
+- **Hook `userprompt-squad-routing.py` reescrito** — palavras-chave agora em PT-BR (antes eram em inglês com personas de outro projeto e não disparavam)
+- **`skills/open-squad.md`** ganhou o passo 4 (invocar skills antes de adotar persona)
+- **`sales-playbook.md` reescrito do zero** — de 51 para 204 linhas
+- **`_core/neotriad.py`** ganhou escrita · **`_core/youtube-radar.py`** é novo · **`_core/youtube-fetch-video.py`** teve bug de argparse corrigido
+- **Tarefa do Windows `HIVE-YouTube-Intel`** agora roda o radar (lista), não mais `youtube-collect-all.py` (baixava)
+
+**Nunca rodar `youtube-collect-all.py`** — contraria a decisão de 27/08 de não baixar transcrição automaticamente.
+
+---
+
 ## O que fizemos hoje (5 entregas)
 
 1. **10 marcos do trimestre criados no Neotriad** — C2/C3/C4 (conteúdo), A1–A6 (Araújo) + gatilho de cobrança, todos com papel EMPREENDEDOR e critério de verificação.
