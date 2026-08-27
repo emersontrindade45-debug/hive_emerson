@@ -113,3 +113,15 @@ Assunto de **rede social / conteúdo / influência** roteia para Marketing, NUNC
 
 ### ⛔ Bloqueio ativo
 3 respostas que só o Emerson pode dar travam a rotina diária inteira: (1) área prioritária do trimestre, (2) meta SMART com número/prazo/indicador, (3) indicador semanal. Sem isso não há o que priorizar. Ver L1 do `memory/STATE.md`.
+
+---
+
+## ⚠️ Skills obrigatórias deste squad
+
+**Squad acionado, skill acionada.** Ao abrir este squad — por `/open-squad`, pelo hook de roteamento, ou porque o assunto caiu no escopo — invocar a skill correspondente **antes de qualquer resposta**, inclusive antes de pergunta de esclarecimento.
+
+| Aciona | Skill | Dispara em |
+|---|---|---|
+| Squad inteiro | **`metas-performance`** | meta, trimestre, rotina, prioridade, Neotriad |
+
+A skill carrega o acervo destilado do tema. Responder sem ela desperdiça o conhecimento acumulado. Skills são cumulativas — um assunto pode acionar mais de uma.

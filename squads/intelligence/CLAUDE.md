@@ -100,3 +100,15 @@ Cold-eyed analyst. Separates signal from noise. Monitors competitors, tracks mar
 - `foundation/competitive-framework.md` — competitor analysis
 - `foundation/war-game-protocol.md` — war game format
 - `memory/STATE.md` — current intelligence state
+
+---
+
+## ⚠️ Skills obrigatórias deste squad
+
+**Squad acionado, skill acionada.** Ao abrir este squad — por `/open-squad`, pelo hook de roteamento, ou porque o assunto caiu no escopo — invocar a skill correspondente **antes de qualquer resposta**, inclusive antes de pergunta de esclarecimento.
+
+| Aciona | Skill | Dispara em |
+|---|---|---|
+| Squad inteiro | **`modelo-de-negocios`** | oportunidade nova, "vale a pena?", recorrência/escala/margem |
+
+A skill carrega o acervo destilado do tema. Responder sem ela desperdiça o conhecimento acumulado. Skills são cumulativas — um assunto pode acionar mais de uma.
