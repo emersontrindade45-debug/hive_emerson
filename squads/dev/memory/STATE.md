@@ -10,6 +10,7 @@ Propósito é **decisão e habilidade técnica** — não geração de conteúdo
 
 [L2]
 - [ ] **Auditar webhooks do Hub:** idempotência (reentrega duplicada) + verificação de origem (requisição forjada) + tempo de ACK
+  **⛔ BLOQUEADO POR ACESSO (verificado 26/08):** o código do Hub **não está neste repositório** — o HIVE é multi-repo e aqui só há documentação/orquestração. A auditoria exige abrir o repo do Hub (ou os workflows n8n). **Emerson precisa indicar onde o código vive.** Checklist pronto para rodar assim que houver acesso: (1) endpoint de webhook valida assinatura/token de origem? (2) há chave de idempotência por evento — `message_id`/`event_id` persistido antes de processar? (3) ACK volta antes do processamento pesado ou depois? (4) retry da Evolution API reprocessa ou descarta duplicado?
 - [ ] `foundation/tech-stack.md` está 100% em template `_e.g._`, mas a stack real já está em `context/squad-context.md` — resolver a duplicação (preencher a partir do context ou remover o arquivo)
 - [ ] Definir princípios de código em foundation/code-principles.md
 
