@@ -239,7 +239,14 @@ def main():
     txt = u"\n".join(L)
     if not os.path.isdir(SAIDA):
         os.makedirs(SAIDA)
-    dest = os.path.join(SAIDA, hoje + ".md")
+    # varredura pontual (squad especifico ou janela != semanal) nao pode
+    # sobrescrever o radar semanal do mesmo dia
+    sufixo = ""
+    if args.squad:
+        sufixo += "-" + args.squad
+    if args.dias != 7:
+        sufixo += "-%dd" % args.dias
+    dest = os.path.join(SAIDA, hoje + sufixo + ".md")
     io.open(dest, "w", encoding="utf-8").write(txt)
     sys.stdout.write(txt.encode("ascii", "replace").decode() + "\n")
     sys.stderr.write("\n[radar] salvo em %s\n" % dest)
