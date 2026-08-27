@@ -1,7 +1,15 @@
 # Orchestrator STATE
 
 [L1]
-**ESTRATEGIA DO TRIMESTRE (revisada 2026-08-23):** foco em **Mercado Araujo** (converter piloto gratuito em contrato pago, R$ 4.000/mes) + **conteudo no canal** (leads inbound). **Prospeccao ativa por ligacao EXCLUIDA do trimestre** por decisao do Emerson.
+**⚠️ ESTRATEGIA REVISADA 2026-08-26 — A PRIORIDADE VIROU CONTEUDO.** Decisao do Emerson respondendo as 3 perguntas do Operations. **Quando conteudo e Araujo disputarem a mesma hora, conteudo ganha.** Meta SMART: **4 videos publicados ate 09/10/2026** (marco C3; C4/8 videos vira esticada). Indicador semanal: **videos publicados (acumulado)**, olhado na revisao de sexta 14:00. Registro completo em `../operations/memory/STATE.md`.
+
+**⛔ MOTIVO — ARAUJO BLOQUEADO POR TERCEIRO:** a rede do Araujo esta **fechada para o Hub se comunicar com o ERP deles**. Emerson ja falou com o dono; o cliente ficou de acionar o rapaz de redes. **Sem data.** O Araujo deixou de avancar por esforco do Emerson — virou **item de espera, nao tarefa**. Cobrar retorno do dono se nao houver noticia ate o inicio de setembro.
+
+**Consequencia nos marcos Araujo:** A1 (04/09) e toda a cadeia ate a reuniao de preco A3 (18/09) ficam **em risco por causa externa**. Nao replanejar datas ate a rede liberar — replanejar sobre dependencia sem data e ficcao.
+
+**Consequencia em EME-5/EME-6:** seguem urgentes (credenciais expostas, cliente real em producao), mas **saem do caminho critico da venda** enquanto a rede estiver fechada — o marco A1 nao depende mais so deles. Continuam prioridade de seguranca.
+
+**ESTRATEGIA ANTERIOR (2026-08-23 a 2026-08-26, superada):** foco em **Mercado Araujo** (converter piloto gratuito em contrato pago, R$ 4.000/mes) + **conteudo no canal** (leads inbound). **Prospeccao ativa por ligacao EXCLUIDA do trimestre** por decisao do Emerson — essa exclusao **continua valendo**.
 
 **Plano:** `squads/operations/foundation/plano-trimestral-2026-Q4.md` — 23/08 a 31/10/2026, microtarefas com data, horario e criterio de verificacao.
 
@@ -9,9 +17,13 @@
 
 **Grade:** Bloco A Araujo 09:00-11:00 seg-sex (inegociavel) | Bloco B Conteudo 14:00-16:00 seg-qui | Revisao sex 14:00-15:00.
 
-**RISCO CENTRAL — o Araujo nao paga nada hoje.** E piloto gratuito e preco NUNCA foi mencionado ao cliente. Os R$ 4.000 sao estimativa do Emerson, nao sinalizacao do Araujo. Com a prospeccao excluida, nao ha plano B ativo.
+**RISCO CENTRAL (atualizado 26/08) — agora sao DOIS riscos empilhados no Araujo:**
+1. **Comercial:** o Araujo nao paga nada hoje. E piloto gratuito e preco NUNCA foi mencionado ao cliente. Os R$ 4.000 sao estimativa do Emerson, nao sinalizacao do Araujo.
+2. **Tecnico/externo (NOVO):** a rede do Araujo esta fechada para o Hub falar com o ERP deles. **Sem isso, nao ha o que precificar** — o Hub nao entrega o valor que sustentaria a conversa de preco.
 
-**18/09 e a data de decisao do trimestre** (marco A3, reuniao de precificacao). Se o Araujo recusar: reabrir prospeccao no mesmo dia — a base de 238 leads e o script continuam intactos.
+Com a prospeccao excluida, **nao ha plano B ativo**. A mitigacao escolhida pelo Emerson foi deslocar a prioridade para conteudo, que depende so dele.
+
+**18/09 era a data de decisao do trimestre** (marco A3, reuniao de precificacao). **Essa data agora depende de terceiro** — o rapaz de redes do Araujo. Se a rede nao liberar a tempo, A3 escorrega por causa externa. **Gatilho a vigiar:** se nao houver liberacao ate o inicio de setembro, cobrar o dono; se ainda assim nao destravar, reabrir a decisao de prospeccao (a base de 238 leads e o script continuam intactos).
 
 **Correcao 24/08:** o rascunho original do plano trimestral rotulava a Semana 1 como "Seg 25/08" e todos os marcos "sex" caiam em sabados no calendario real — todas as datas do plano foram deslizadas -1 dia para bater com os dias da semana corretos.
 
