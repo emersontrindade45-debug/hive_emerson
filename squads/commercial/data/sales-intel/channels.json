@@ -1,4 +1,14 @@
 {
-  "_comment": "Acervo de HABILIDADES DE VENDA para a Tatiane. Alimentado sob demanda por vídeos avulsos (python _core/youtube-fetch-video.py --dir squads/commercial/data/sales-intel <URL>), não por raspagem de canal inteiro. Para monitorar um canal de vendas continuamente, adicionar aqui e rodar o youtube-collect.py.",
-  "channels": []
+ "_comment": "Acervo de HABILIDADES DE VENDA para a Tatiane. Desde 27/08/2026 ha canal fixo no radar semanal (_core/youtube-radar.py) — o radar LISTA, o Emerson escolhe, so entao a transcricao e baixada. Nunca baixar em lote.",
+ "channels": [
+  {
+   "name": "Carol Iasmim",
+   "handle": "@carol.iasmim",
+   "channel_id": "UCxMvnbV0R5LioKmq2epdfnQ",
+   "url": "https://www.youtube.com/@carol.iasmim",
+   "lang": "pt",
+   "focus": "Venda e relacionamento com cliente — indicado pelo Emerson em 27/08/2026",
+   "uso": "como lidar com cliente, conversa de venda, objecao"
+  }
+ ]
 }

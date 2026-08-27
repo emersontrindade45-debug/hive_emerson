@@ -41,4 +41,4 @@ Ler `squads/commercial/memory/STATE.md` e o STATE do orchestrator antes de agir:
 ## Lacunas conhecidas
 
 - `icp-profile.md` e `qualification-criteria.md` seguem em **template genérico** do HIVE (02/06), nunca preenchidos.
-- Nenhum canal de vendas em monitoramento contínuo — acervo alimentado sob demanda.
+- **Canal fixo no radar desde 27/08:** **Carol Iasmim** (`@carol.iasmim`, 175k inscritos) — venda e relacionamento com cliente, indicado pelo Emerson. Entra no radar semanal como todo canal: **lista primeiro, o Emerson escolhe, só então transcreve** (ver skill `radar-youtube`). Antes disso o Commercial não tinha nenhum canal monitorado.
