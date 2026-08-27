@@ -1,7 +1,7 @@
 # Intelligence STATE
 
 [L1]
-Squad ativado (2026-08-14). Três frentes: (1) radar semanal de sinais IA/business para conteúdo do Pietro; (2) scouting diário de novos modelos de negócio — domínio do CEO Emerson; (3) radar DIÁRIO de ferramentas novas (produto/dev para Paes + criação de conteúdo para Pietro), adicionado 2026-08-15.
+Squad ativado (2026-08-14). Quatro frentes: (1) radar semanal de sinais IA/business para conteúdo do Pietro; (2) scouting diário de novos modelos de negócio — domínio do CEO Emerson; (3) radar DIÁRIO de ferramentas novas (produto/dev para Paes + criação de conteúdo para Pietro), adicionado 2026-08-15; (4) **NOVO 2026-08-27 — vigilância de dor/dificuldade de IA na rotina que possa virar produto digital (ebook/ferramenta)**, alimenta Product (Paes). Vigilância passiva, sem tarefa ativa até o pipeline acumular sinal validado.
 
 [L2]
 - [x] Primeiro digest semanal de tendências rodado (2026-08-19) — ver data/radar-semanal-2026-08-19.md. Destaque: reorganização Google DeepMind + expansão de compute Anthropic + Claude Sonnet 5. 3 pautas sugeridas repassadas ao Pietro (Marketing).

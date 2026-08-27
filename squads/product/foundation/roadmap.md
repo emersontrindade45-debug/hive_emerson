@@ -59,6 +59,7 @@ Hoje é uma solução sob medida para um cliente (Araújo). Para virar produto/S
 | Epic | Hypothesis | Signal to Proceed |
 |------|-----------|------------------|
 | Expandir para outros nichos de comércio local além de açougue/padaria/mercearia | O motor de atendimento é genérico o bastante para outros varejos | 1 cliente piloto fora do nicho original validado |
+| **Produto 2 — produtos digitais (ebooks/ferramentas) sobre dor de usar IA na rotina** (registrado 27/08/2026) | Pessoas/empresas têm dificuldade recorrente e específica em aplicar IA no dia a dia — dá pra empacotar como ebook, template ou mini-ferramenta vendável | Pipeline de oportunidades em `../intelligence/foundation/business-opportunities.md` acumular pelo menos 1 dor validada em múltiplas fontes (repetição = sinal). **Não iniciado — vigilância passiva só, sem hospedagem definida** |
 
 ---
 

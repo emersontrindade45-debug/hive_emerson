@@ -18,7 +18,7 @@
 
 > **Recomendo o #1.** YouTube é motor de busca (playbook), e "por que o ChatGPT dá resposta genérica" é literalmente o que se digita. O #2 é melhor thumb, pior busca — guardar para o corte vertical.
 
-**Thumb:** print de resposta genérica real do ChatGPT, com um X vermelho. Texto: **"NÃO É CULPA DELE"**
+**Thumb (revisado 27/08 — playbook "Algoritmo e crescimento de canal 2026"):** print de resposta genérica real do ChatGPT, com um X vermelho grande sobreposto. **Sem texto** — dado do estudo de 50 mil canais (19/04/2026): thumb com texto reduz views em até 19%; a imagem tem que contar a história sozinha. Se precisar mesmo de reforço textual, no máximo 7% da área, algo curto tipo "ERRADO" — não a frase completa. O X vermelho grande já comunica "algo está errado aqui" sem precisar de palavra. Evitar fundo/elemento vermelho saturado além do X (mesma fonte: vermelho performou mal no estudo).
 
 ---
 
@@ -36,21 +36,23 @@
 
 ## HOOK — 0:00 a 0:35
 
-> *[Técnica: contrarian + pergunta plantada + antecipar objeção — playbook. Checado contra os 4 mandamentos do hook: alinhamento, velocidade ao valor, clareza, curiosidade]*
+> *[Técnica: contrarian + pergunta plantada + antecipar objeção — playbook. Checado contra os 4 mandamentos do hook: alinhamento, velocidade ao valor, clareza, curiosidade. **Revisado 27/08 com o framework 3A (Atenção/Autoridade/Agenda) do playbook "Algoritmo e crescimento de canal 2026"** — o hook antigo tinha Atenção e Agenda, mas faltava o bloco de Autoridade explícito nos primeiros 15s.]*
 
 **[FALA]**
 
-"Você abre o ChatGPT, faz uma pergunta, e vem aquela resposta que parece... certa. Mas não serve pra nada.
+"Você abre o ChatGPT, faz uma pergunta, e vem aquela resposta que parece... certa. Mas não serve pra nada. [ATENÇÃO — 0:00-0:05]
 
 Genérica. Óbvia. Do tipo que você já sabia.
 
 Aí você pensa: 'essa IA é superestimada'. Você tá errado — e eu vou provar em 7 minutos.
 
-O problema não é a IA. São quatro coisas que você não está fazendo — e nenhuma delas é técnica.
+Eu apliquei isso pra rodar o atendimento de um comércio real, com IA, no dia a dia — sei exatamente onde o pedido quebra. [AUTORIDADE — 0:05-0:10]
+
+O problema não é a IA. São quatro coisas que você não está fazendo — e nenhuma delas é técnica. [AGENDA — 0:10-0:15]
 
 E antes que você pense 'ah, é aquele papo de prompt mágico': não é. Não tem comando secreto, não tem lista de 100 prompts. É mais simples e mais chato que isso."
 
-**[NOTA DE GRAVAÇÃO]** "Você tá errado" vira a linha contrarian que checa a curiosidade do hook — antes a frase só constatava, agora abre um loop (por quê estou errado?). Última frase derruba a objeção antes dela nascer (técnica "antecipar a objeção"). Sem ela, quem já viu vídeo de prompt sai aos 15 segundos.
+**[NOTA DE GRAVAÇÃO]** "Você tá errado" vira a linha contrarian que checa a curiosidade do hook — antes a frase só constatava, agora abre um loop (por quê estou errado?). A linha de autoridade é nova (27/08) — genérica o bastante pra não citar o Araújo (autorização pendente), mas específica o bastante pra não soar credencial vazia. Última frase derruba a objeção antes dela nascer (técnica "antecipar a objeção"). Sem ela, quem já viu vídeo de prompt sai aos 15 segundos.
 
 **[TELA]** Print de resposta genérica real na tela desde o primeiro segundo — mandamento do alinhamento: o que é falado, mostrado e escrito bate junto (mesma imagem da thumb).
 
@@ -70,11 +72,13 @@ Ou seja: quem mais entende da ferramenta é quem mais desconfia da resposta dela
 
 Isso não é motivo pra não usar. É motivo pra **saber pedir**. Porque a IA não sabe o que você quer. Ela sabe o que você escreveu.
 
-E é aí que quase todo mundo erra."
+E é aí que quase todo mundo erra.
+
+Já comenta aqui embaixo: você acha que o problema é a IA ou é a forma como a gente pede? Quero ver a opinião de vocês antes de eu mostrar os 4 erros."
 
 **[FONTE NA TELA]** *Pew Research Center, abril/2025*
 
-**[NOTA]** Um dado só, e o mais contraintuitivo. Ver `dores-ia-brasil-2026.md`. **Nunca citar número que não esteja lá.**
+**[NOTA]** Um dado só, e o mais contraintuitivo. Ver `dores-ia-brasil-2026.md`. **Nunca citar número que não esteja lá.** **Adicionado 27/08:** pergunta de engajamento plantada no meio (playbook "Algoritmo e crescimento de canal 2026") — diferente do CTA do fecho, que pede ação sobre o que foi ensinado, esta é sobre opinião/reação ao fato, plantada cedo pra capturar comentário de quem quer opinar mesmo sem terminar o vídeo. Risco a vigiar: a pergunta é neutra o bastante (não força "time A vs. time B" polarizado) pra não puxar comentário de briga — que agora frearia a distribuição do vídeo mesmo com engajamento alto (satisfação do espectador substituiu watch time como sinal principal).
 
 ---
 
@@ -217,8 +221,11 @@ Do mesmo material, sem gravar de novo — técnica de repurposing do playbook.
 - [ ] Legenda (áudio ruim no celular = saída)
 - [ ] `engaged views` como métrica, não view pública
 - [ ] Micro-história do Erro 4 soou natural na leitura em voz alta — se não, cortar e manter só a regra (ver nota no bloco)
+- [ ] Thumb final sem texto (ou no máximo 7% da área) — X vermelho grande faz o trabalho, não a frase escrita (ver nota da thumb, revisão 27/08)
 
 **Revisão 25/08 (playbook ampliado):** hook reforçado com linha contrarian + checagem dos 4 mandamentos · Erro 4 ganhou micro-história (fórmula 4W) pra quebrar objeção antes dela aparecer · CTA final reescrito em Hook→Curiosity→Action, terminando em problema aberto (regra PSP) em vez de resumo. Estrutura, título e os 4 erros em si **não mudaram** — ajuste foi cirúrgico, não reescrita.
+
+**Revisão 27/08 (playbook "Algoritmo e crescimento de canal 2026", 5 vídeos novos processados):** thumb perdeu o texto "NÃO É CULPA DELE" (dado: texto na thumb reduz views em até 19%) · hook ganhou bloco de Autoridade explícito (framework 3A) entre a Atenção e a Agenda · pergunta de engajamento plantada logo após o dado do Contexto, antes dos 4 erros (captura opinião cedo, separado do CTA de ação do fecho). **Duração não mudou (mantida 7-8min) por decisão deliberada:** o dado novo aponta ideal de 15-25min pra vídeo até 1h, mas isso é média geral — o critério real citado na própria fonte é "quanto tempo o público espera", e um vídeo de Help/tutorial denso e específico não precisa esticar artificialmente pra bater uma média. Revisar depois do vídeo 1 publicado, com dado de retenção real, se vale alongar o vídeo 2.
 
 ## Depois de publicar — o que medir
 

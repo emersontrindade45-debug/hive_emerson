@@ -17,3 +17,4 @@ Squad ativado (2026-08-14). Produto 1 identificado: AI Retail Automation Hub, j�
 - Document active user research sources
 - Map feature backlog with priorities
 - Define acceptance criteria template
+- **Produto 2 — produtos digitais (ebooks/ferramentas), registrado 27/08/2026 (pedido do Emerson):** vigilância passiva de dor/dificuldade de IA na rotina que possa virar produto vendável. Sinal alimentado por Intelligence (`../intelligence/foundation/business-opportunities.md`, seção "Trilha de produtos digitais"). **Nada a fazer agora** — nem definir hospedagem (Hotmart/Gumroad/site próprio), nem criar produto. Só puxar quando o pipeline acumular uma dor validada em múltiplas fontes. Ver `foundation/roadmap.md` LATER.

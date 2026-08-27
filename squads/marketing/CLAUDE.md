@@ -50,6 +50,7 @@ Strategic, creative, and brutally analytical. Doesn't create content for the sak
 | Campo/descrição/bio de qualquer plataforma | `metodo-influencia-digital.md` (Aula 01, Passo 3 — fórmula da bio) |
 | Citar qualquer número ou dado | `foundation/dores-ia-brasil-2026.md` ← nenhum número vai ao ar sem estar aqui |
 | Canal YouTube (setup/identidade) | `canal-identidade.md` + `youtube-channel-setup.md` + `data/assets/COLAR-NO-YOUTUBE.md` |
+| Setup de gravação (câmera/áudio/luz/tela) | `setup-gravacao.md` |
 | Métrica de rede social | `social-analytics-glossary.md` |
 
 ### Como aplicar o método (checklist obrigatório)

@@ -46,6 +46,8 @@ Visão de ciclo operacional integrado registrada em foundation/ciclo-operacional
 Sessão pausada em 2026-08-14 — retomar pelos itens L2 abaixo.
 
 [L2]
+- [ ] **2º canal "Concurso com IA" aprovado em princípio (27/08), sob guarda-chuva Impulso IA — CONGELADO até marco C3 (09/10).** Emerson é concurseiro desde 2017, aprovado em 5 concursos. Pesquisa completa em `squads/intelligence/foundation/business-opportunities.md`. Não consome atenção nem execução antes de 09/10 — registrado aqui só para o caminho crítico não ser reaberto por engano antes da meta do trimestre.
+- [ ] **SaaS de método de estudo (Ciclo EARA) para concurseiros — registrado 27/08, mesma trava de 09/10.** Emerson tem planilha própria aplicando o Ciclo EARA (método já validado no mercado, não inventado) — serviria de MVP. Formaria esteira com o 2º canal (audiência → produto recorrente). **Pendência explícita: estudo de mercado ainda não feito** (concorrência direta, volume de busca, os 3 pilares recorrência/escala/margem) — nada a decidir antes disso, e nada disso antes de 09/10. Detalhe em `squads/intelligence/foundation/business-opportunities.md`.
 - [x] Primeiro produto identificado: AI Retail Automation Hub (já em produção, cliente Araújo) — ver squads/product/foundation/roadmap.md
 - [ ] Corrigir vazamento apps-auth (n8n) e rotacionar credencial Postgres exposta — Infra
 - [ ] Decidir caminho multi-tenant para replicar o Hub a outros clientes

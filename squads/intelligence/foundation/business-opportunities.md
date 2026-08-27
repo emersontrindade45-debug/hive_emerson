@@ -79,6 +79,23 @@ Definida como "a recompensa do empresário" pelo trabalho, risco e capital inves
 - Lacuna de mercado que ninguém está atendendo bem
 - Movimento de concorrentes/players adjacentes que sinaliza demanda não atendida
 - Parcerias ou canais de distribuição não explorados
+- **Dor/dificuldade recorrente de pessoas ou empresas usando IA na rotina, que pode virar produto digital vendável (ebook, template, mini-ferramenta)** — pedido do Emerson, 27/08/2026, ver seção própria abaixo
+
+---
+
+## Trilha de produtos digitais (ebooks, ferramentas) — pedido 27/08/2026
+
+> **Objetivo do Emerson:** "sempre me manter atualizado de possíveis produtos que posso criar de acordo com a dor e dificuldades que pessoas e empresas encontram para usar a IA adequadamente em sua rotina, de forma que torne o dia mais produtivo."
+> **Escopo:** vigilância passiva, não é tarefa ativa hoje. Nada a executar — nem hospedagem, nem criação — até o Emerson decidir puxar um item do pipeline.
+> **Cadeia:** Intelligence identifica o sinal de dor/dificuldade (este arquivo) → registra em `## Pipeline de oportunidades` → **Product (Paes)** avalia e decide se vira produto (ver `squads/product/foundation/roadmap.md`). Intelligence não decide sozinho o que virar produto — só levanta o sinal com fonte e confiança.
+
+**O que procurar (diferente do `signal-monitoring.md`, que busca pauta de conteúdo):**
+- Reclamação recorrente sobre um passo específico de usar IA no trabalho (ex: "não sei escrever prompt bom", "perco tempo organizando resultado do ChatGPT", "não sei conectar ferramenta X com Y")
+- Pergunta repetida em comunidade/comentário que hoje não tem resposta pronta (produto = resposta empacotada)
+- Gap entre "IA promete produtividade" e "na prática dá trabalho configurar" — é exatamente esse gap que vira ebook/checklist/mini-ferramenta
+- Mesma dor aparecendo em fonte diferente (comentário do YouTube, pergunta do vidIQ Bloco 5.4, LinkedIn) — repetição é o sinal de validação, não achado único
+
+**Pendência em aberto, não decidir agora:** onde hospedar os produtos digitais (Hotmart, Gumroad, site próprio, etc.) — só entra em pauta quando houver o primeiro produto pronto para lançar. Registrado aqui para não esquecer, sem abrir a frente.
 
 ---
 
@@ -100,6 +117,53 @@ Definida como "a recompensa do empresário" pelo trabalho, risco e capital inves
 ## Pipeline de oportunidades
 
 <!-- Cada oportunidade identificada entra aqui, usando o formato acima -->
+
+## IA para concursos públicos — 27/08/2026
+
+> Pesquisa sob demanda do Emerson (sondagem de nicho/canal novo). Fontes: vidIQ (keyword research + questions + busca de vídeo/canal), 27/08/2026.
+
+**⚠️ CONTEXTO PESSOAL QUE MUDA A LEITURA (Emerson, 27/08):** ele é concurseiro desde 2017, **aprovado em 5 concursos**, parou de focar nisso ao ver a oportunidade de crescer mais rápido empreendendo com IA. Isso reverte a leitura de "baixo fit" abaixo — ele não seria um canal de IA tentando entrar em concurso (o padrão que falha, ver "Tamanho estimado" abaixo), ele seria **concurseiro real com credencial de aprovação, aplicando IA** — exatamente o padrão que os canais âncora identificados usam pra crescer (concurso primeiro, IA depois). **Decisão formal do Emerson (27/08): vira 2º canal, sob o guarda-chuva do Impulso IA, ativado só depois da meta do trimestre (marco C3, 4 vídeos até 09/10/2026)** — evita repetir o padrão já registrado no HIVE de abrir frente nova com a primeira ainda instável. Ver STATE do Marketing e do Orchestrator para o registro operacional dessa decisão.
+
+- **O que é:** nicho de "usar IA pra estudar pra concurso público" — NotebookLM/Gemini Notebook, ChatGPT, flashcards com IA, correção de redação, geração de questões inéditas, análise de padrão de banca.
+
+- **Por que agora (timing):**
+  - **Mudança de nome NotebookLM → Gemini Notebook (meados 2026) está gerando onda de conteúdo "o que mudou"** — vídeos de 28/07 a 12/08/2026 explicando a transição. Termo "gemini notebook" cresceu **+115% no mês**; "como usar notebooklm" cresceu **+79%**. É janela de atualização, quem publicar rápido pega quem já usava a ferramenta e ficou confuso com o rebrand.
+  - "concurseiro" como termo cresceu **+85% no mês** (9.041 buscas/mês) — sinal de que o público-base está mais ativo, não é nicho estagnado.
+  - Volume geral do tema é consistente: "como estudar para concurso" tem 44.753 buscas/mês (competição 36,5); "concurso público" 36.392/mês.
+
+- **Fit com o negócio atual:** ✅ **Revisado com o contexto pessoal do Emerson.** O eixo do Impulso IA é "IA aplicada a trabalho que já existe" (4 pilares: WhatsApp, n8n, saber pedir certo, dados do negócio) — concurseiro não é o público core do canal 1 (P1-P5 em `mapa-teste-publico.md`), então **não é pauta do canal 1**. Mas como **2º canal, sob o mesmo guarda-chuva Impulso IA**, o fit é forte: credencial real (5 aprovações, 2017-2026) é exatamente o ativo que falta na maioria dos concorrentes desse nicho, e resolve o problema estrutural identificado abaixo (canais que crescem são donos de credibilidade em concurso primeiro, não canais de IA genérica).
+
+- **Tamanho estimado / potencial de ROI:**
+  - **Vertical "ferramenta específica" (NotebookLM/Gemini Notebook) tem competição baixa-média** (18-35 nas perguntas específicas, ex: "como verticalizar edital com ia" comp. 18,1; "como criar flashcards com ia para o quizlet" comp. 5,6) — nicho ainda não saturado de tutorial aplicado a concurso especificamente.
+  - **Vertical "termo genérico"** (`ia para concursos`, `inteligência artificial para concursos`) tem competição média-alta (34-43) — mais disputado, dominado por canais de concurso estabelecidos que adicionaram IA como tópico (não canais de IA que entraram em concurso).
+  - **Canais âncora identificados:** Professor Zetta (11,2k inscritos, 1 vídeo com 158k views — outlier forte, 20/09/2025), Carlos Ribeiro (45,4k inscritos, cobre NotebookLM/Gemini Notebook + flashcards + Anki, publicação quase diária em agosto/2026), Matheus Haug (17,7k inscritos, vídeo de 24min sobre NotebookLM com 87 VPH — acima da média do canal). Todos são **canais pequenos/médios crescendo dentro do nicho de concurso geral ao adicionar o ângulo de IA**, não canais de IA generalista que migraram pra concurso.
+  - **Leitura central:** a demanda parece ser mais "concurseiro que quer usar IA melhor" do que "seguidor de IA que também presta concurso" — motivo pelo qual os canais que crescem são de concurso primeiro, IA depois.
+
+- **Próximo passo sugerido:** **congelado até 09/10/2026 (marco C3 do canal 1).** Depois disso: (1) rodar os 3 testes do framework "Aula 01-02" (recorrência/escala/margem) contra o modelo "canal de concurso com credencial real + IA", (2) definir tese e identidade próprias (equivalente a M4, mas para o canal 2) — a credencial de 5 aprovações é o ativo central da tese, (3) mapear público em teste equivalente ao `mapa-teste-publico.md`, mas para concurseiro.
+
+- **Status:** Em avaliação — aprovado em princípio pelo Emerson (27/08), ativação amarrada ao marco C3 do canal 1
+
+---
+
+## SaaS de método de estudo (Ciclo EARA) para concurseiros — 27/08/2026
+
+> Ideia do Emerson, ligada diretamente à oportunidade "IA para concursos públicos" acima — mesma credencial (concurseiro 2017-2026, 5 aprovações), mesmo timing. **Pendência: fazer estudo de mercado.** Nada executado, só registrado.
+
+- **O que é:** transformar em SaaS o **Ciclo EARA** — método de estudo já existente e reconhecido no nicho de concursos (Estudo → Aplicação → Revisão → Adaptação), criado por Fernando Mesquita (analista legislativo da Câmara, aprovado em 14 concursos). Emerson já tem uma **planilha própria aplicando o método**, que serviria de modelo/MVP para o produto. Não seria um método novo a validar no mercado — o EARA já é conhecido no público-alvo; o produto seria a ferramenta que automatiza/organiza o ciclo, não o método em si.
+
+- **Por que agora (timing):** conecta com a mesma janela da oportunidade de canal de concursos acima (rebrand NotebookLM→Gemini Notebook aquecendo o nicho, "concurseiro" crescendo +85%/mês). Ter um canal de concursos como distribuição natural do SaaS (audiência → produto) é exatamente a arquitetura de "esteira de produtos" que `business-opportunities.md` já documenta na Aula 02 (recorrência via esteira, CAC menor com produto próprio de distribuição).
+
+- **Fit com o negócio atual:** mesmo racional do canal de concursos — **2º canal + SaaS formam uma esteira**, não uma dispersão: canal de concursos gera audiência/prova social, SaaS monetiza com recorrência. Mas é uma 2ª camada de complexidade em cima de uma oportunidade que já está congelada até 09/10 — não abrir isso antes do canal 1 estabilizar.
+
+- **Tamanho estimado / potencial de ROI:** **não avaliado ainda — é exatamente o que falta.** Pendências de pesquisa antes de qualquer decisão:
+  1. Quantos produtos/apps já existem aplicando o Ciclo EARA ou métodos equivalentes (concorrência direta)?
+  2. Volume de busca e intenção de compra em torno de "ciclo eara app", "planilha ciclo eara", "app de ciclo de estudos" — vidIQ ainda não rodado para esses termos
+  3. Testar os 3 pilares do framework Aula 01-02 (acima neste arquivo): **recorrência** (SaaS por assinatura bate isso naturalmente, mas precisa confirmar disposição a pagar recorrente) · **escala** (mercado de concurseiros no Brasil é grande — TCU/Cetic teria dado, checar) · **margem** (custo de manter um SaaS simples é baixo, mas depende do modelo de precificação)
+  4. Validar se a planilha do Emerson resolve uma dor que hoje exige múltiplas ferramentas pagas (o padrão visto nos vídeos do radar: Anki + NotebookLM + Qconcursos + flashcards separados) — se sim, a proposta de valor é "tudo num só lugar", forte diferencial
+
+- **Próximo passo sugerido:** **estudo de mercado formal**, também congelado até 09/10 junto com o canal de concursos (mesma dependência de atenção/tempo). Quando destravar: rodar vidIQ + busca de concorrentes diretos (apps de ciclo de estudo, Notion templates de concurso, planilhas vendidas por concurseiros influenciadores) antes de qualquer decisão de construir.
+
+- **Status:** Radar — estudo de mercado pendente, congelado até marco C3 (09/10/2026)
 
 ---
 
