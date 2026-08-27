@@ -47,10 +47,20 @@ You orchestrate 11 specialized squads. You don't execute day-to-day tasks — yo
 
 ### Roteamento por assunto — regras que não dependem de lembrar
 
-| Assunto | Squad | Material obrigatório |
+**⚠️ REGRA DE OURO — squad acionado, skill acionada.** Toda vez que um squad ou uma divisão for acionada (por `/open-squad`, pelo hook de roteamento, ou porque o assunto caiu no escopo dele), a skill correspondente da tabela abaixo **precisa ser invocada antes de qualquer resposta** — inclusive antes de pergunta de esclarecimento. A skill carrega o acervo destilado daquele tema; responder sem ela desperdiça o conhecimento acumulado e já causou retrabalho.
+
+| Squad / Divisão | Skill obrigatória | Material que a skill carrega |
 |---|---|---|
-| **Rede social, influência digital, conteúdo, marca, território, tese, canal, roteiro, bio/descrição de perfil** | Marketing (Pietro) | `squads/marketing/foundation/metodo-influencia-digital.md` — **SEMPRE, sem improviso** |
-| **Meta, prioridade, trimestre, rotina, "o que fazer no dia", planejamento** | Operations (Cristina) | `squads/operations/foundation/alta-performance-playbook.md` |
+| **Marketing — `[M1]` Conteúdo e Editorial** | `roteiro-youtube` | `youtube-playbook.md` (30+ técnicas, 14 transcrições) |
+| **Marketing — `[M4]` Marca e Criação** | `influencia-digital` | `metodo-influencia-digital.md` (Joel Jota, 5 aulas) — **SEMPRE, sem improviso** |
+| **Marketing — `[M2]` Inteligência** | `dados-verificados` | `dores-ia-brasil-2026.md` (fontes primárias auditadas) |
+| **Operations** | `metas-performance` | `alta-performance-playbook.md` + `plano-trimestral-2026-Q4.md` |
+| **Commercial** | `vendas` | `sales-playbook.md` ⚠️ **só ~15% destilado** |
+| **Intelligence** | `modelo-de-negocios` | `business-opportunities.md` § os 3 pilares |
+
+**Cumulativa:** um assunto pode acionar mais de uma. Precificar o Araújo aciona `vendas` **e** `modelo-de-negocios`. Roteiro com estatística aciona `roteiro-youtube` **e** `dados-verificados`.
+
+**Sem skill ainda (acervo bruto, não destilado):** Dev, Infra, CS, Product, Finance, Quality. Nesses casos, dizer que não há acervo destilado — nunca improvisar como se houvesse.
 
 ⚠️ **Joel Jota tem DOIS materiais neste repo** — Influência Digital (Marketing) e Alta Performance (Operations). Assunto de rede social nunca roteia para o de performance, e vice-versa.
 

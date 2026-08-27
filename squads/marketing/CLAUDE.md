@@ -204,3 +204,17 @@ Divisão 🟢 sem item no L2 por 30 dias é rebaixada a 🟡 DORMENTE. Vale para
 - `memory/STATE.md` — estado atual do marketing
 
 > ⚠️ `brand.md`, `tone-of-voice.md`, `positioning.md`, `icp.md` e `email-playbook.md` **não existem** — eram referências do template genérico, nunca criadas. Os equivalentes reais estão listados acima. `icp-audience.md` existe mas está **deliberadamente vazio** até o 8º vídeo (ver `mapa-teste-publico.md`).
+
+---
+
+## ⚠️ Skills obrigatórias deste squad
+
+**Squad acionado, skill acionada.** Ao abrir este squad — por `/open-squad`, pelo hook de roteamento, ou porque o assunto caiu no escopo — invocar a skill correspondente **antes de qualquer resposta**, inclusive antes de pergunta de esclarecimento.
+
+| Aciona | Skill | Dispara em |
+|---|---|---|
+| `[M1]` Conteúdo e Editorial | **`roteiro-youtube`** | roteiro, hook, título, thumbnail, pauta, gravação |
+| `[M4]` Marca e Criação | **`influencia-digital`** | marca, território, tese, bio, Hero/Hub/Help |
+| `[M2]` Inteligência | **`dados-verificados`** | qualquer número/estatística que vá ao ar |
+
+A skill carrega o acervo destilado do tema. Responder sem ela desperdiça o conhecimento acumulado. Skills são cumulativas — um assunto pode acionar mais de uma.

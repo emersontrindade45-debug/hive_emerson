@@ -97,3 +97,16 @@ Relentless, data-driven, closes deals. Doesn't celebrate pipeline — celebrates
 - `foundation/icp.md` — ideal customer profile
 - `foundation/proposal-template.md` — proposal structure
 - `memory/STATE.md` — current pipeline state
+
+---
+
+## ⚠️ Skills obrigatórias deste squad
+
+**Squad acionado, skill acionada.** Ao abrir este squad — por `/open-squad`, pelo hook de roteamento, ou porque o assunto caiu no escopo — invocar a skill correspondente **antes de qualquer resposta**, inclusive antes de pergunta de esclarecimento.
+
+| Aciona | Skill | Dispara em |
+|---|---|---|
+| Squad inteiro | **`vendas`** | venda, proposta, negociação, lead, ICP, precificação ao cliente |
+| Ao precificar | **+ `modelo-de-negocios`** | preço sai do ROI do cliente, nunca do benchmark |
+
+A skill carrega o acervo destilado do tema. Responder sem ela desperdiça o conhecimento acumulado. Skills são cumulativas — um assunto pode acionar mais de uma.
