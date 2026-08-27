@@ -17,20 +17,26 @@ Obrigatória antes de qualquer conversa comercial. O marco **A3 (18/09)** — re
 
 | Situação | Seção |
 |---|---|
-| Cliente disse "tá caro" / pediu desconto | §1 — **Método Contrapeso** |
+| Cliente disse "tá caro" / pediu desconto | §1 — **Método Contrapeso** + **Estrutura de 4 passos** (empatia → isolar → minimizar → pedir a venda) |
 | Antecipar resistência antes que apareça | §1 — **Lavagem Cerebral Antiobjeção** |
+| Como dizer o número sem estragar a venda | §1 — **Depois de passar o preço** (5 erros + microdecisões) |
 | Não existe processo de venda | §2 — **Método Alicerce** (7 etapas) |
-| Atrair cliente, conteúdo, primeiro contato | §3 — **AIDAS** |
-| Mentalidade, perfil de cliente | §4 — Os dois pilares |
-| Dimensionar meta, contratar vendedor | §5 — Metas de venda |
+| Atrair, converter, fidelizar (funil inteiro) | §3 — **AIDAS completo** (A·I·D·A·S) |
+| Fechar sem parecer desesperado | §4 — **7 erros do fechamento** + **10 formas de induzir** |
+| Cliente disse "vou pensar" | §4 — **Cortina de fumaça × cliente analítico** |
+| Mentalidade, perfil de cliente | §5 — Os dois pilares |
+| Dimensionar meta, contratar vendedor | §6 — Metas de venda |
 | Preparar o Araújo (18/09) | § Aplicação ao contexto do Emerson |
 
-## Passo 2 — As 4 regras que mais mudam resultado
+## Passo 2 — As 7 regras que mais mudam resultado
 
 1. **Desconto não se dá, se troca.** Toda concessão precisa de contrapartida — fechamento hoje, à vista, contrato longo, indicação, depoimento. *"O que é conquistado, o cérebro valoriza; o que é dado, despreza."*
 2. **Contra "tá caro", peso no prato do valor — nunca tirar do prato do preço.** Derrubar o preço no primeiro sinal destrói a âncora e sinaliza que o valor original era mentira.
 3. **Custo invisível vence argumento.** Perguntar quanto custa **não** resolver, e ficar calado. O número que o cliente diz vale 10× mais que qualquer coisa que você fale.
 4. **Objeção é sinal de interesse.** *"Só tenho objeção de algo que tenho intenção de comprar."* Ordem: acolhe → entende → responde. Nunca vire advogado de defesa.
+5. **Isolar antes de conceder.** *"Se eu conseguir esse preço, a gente fecha agora — ou tem mais alguma coisa que impede?"* Sem isso você dá o desconto **e mesmo assim** ouve "vou analisar".
+6. **Toda mensagem termina em pergunta — e depois, silêncio.** Preço enviado sem pergunta mata a conversa. Feita a pergunta, **calar**: preencher o silêncio denuncia insegurança.
+7. **Nunca perguntar "você tem interesse?"** — nem *"ainda"* tem interesse. Conduza com duas opções ou assuma o fechamento: *"vou anotar seus dados"*.
 
 ## Passo 3 — Travas do contexto atual
 
@@ -57,7 +63,7 @@ O Contrapeso exige preparação escrita, não improviso:
 
 ## Lacunas — declarar quando a pergunta cair fora do playbook
 
-- **51 das 58 transcrições da Carol ainda não destiladas.** O playbook cobre 7 vídeos (os de aplicação imediata ao A3). As demais estão baixadas e cobrem carisma, prospecção, autoridade, fechamento, gatilhos, atendimento, mentalidade, mercados concorridos. Se a pergunta for sobre esses temas: dizer que o material existe baixado mas não foi destilado, e oferecer destilar antes de responder.
-- **AIDAS: só a letra A destilada.** I, D, A, S pendentes.
+- **45 das 58 transcrições da Carol ainda não destiladas.** O playbook cobre **13 vídeos** (preço/objeção, processo, AIDAS completo, fechamento). As demais estão baixadas e cobrem **prospecção, valor×preço, gatilhos, autoridade, pós-venda, canais (WhatsApp/ligação), crise, mercados concorridos**. Se a pergunta cair nesses temas: dizer que o material existe baixado mas não foi destilado, e oferecer destilar antes de responder. A **fila priorizada** está no fim do playbook.
+- ⚠️ **Uma transcrição veio vazia** (`nQBJPfBA-_A`) e **4 estão sem título** — precisam recoleta/inspeção.
 - **JJ #219:** ~15% processado — o resto é gestão de time de vendas, pouco aplicável a quem vende sozinho.
 - `squads/commercial/foundation/icp-profile.md` e `squads/commercial/foundation/qualification-criteria.md` seguem em **template genérico** do HIVE (02/06), nunca preenchidos. O Método Alicerce (§2) é o roteiro para preenchê-los.
