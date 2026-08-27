@@ -22,6 +22,22 @@ DESCOBERTAS que a documentacao oficial NAO traz (testado em 2026-08-23):
      devolve 403 (error code 1010) antes de a chave ser avaliada.
   3. As respostas vem como {"data": {"Quantidade": N, "<Recurso>": [...]}},
      nao como lista direta.
+
+DESCOBERTAS DE ESCRITA (testado em 2026-08-27):
+  4. POST/PUT/DELETE /api/tarefas operam em LOTE: o corpo e sempre uma LISTA,
+     mesmo para uma tarefa so. A doc mostra os campos de UMA tarefa e nao diz
+     isso; objeto solto devolve 400 "A lista de tarefas nao pode ser vazia".
+  5. A resposta de escrita e por item:
+     {"data": {"Itens": [{"Sucesso": bool, "id_tarefa": "...", "Mensagem": ...}]}}
+     Um 201 no envelope NAO garante que todos os itens passaram — checar Sucesso.
+  6. O campo de PAPEL e aceito no corpo mas IGNORADO silenciosamente no POST
+     (a tarefa nasce sem papel, sem erro). No PUT ele falha com
+     "Object must implement IConvertible". Testados sem sucesso:
+     Papel:[{...}] · Papel:[guid] · papeis:[guid] · id_papel:guid.
+     Vincular papel continua sendo acao manual na interface.
+  7. NAO existe endpoint de METAS nem de PROJETOS na API — so tarefas,
+     compromissos, papeis e categorias. O campo id_meta existe na tarefa, mas
+     a meta em si so pode ser criada pela interface web.
 """
 
 import io
@@ -134,6 +150,67 @@ class Neotriad:
         except urllib.error.HTTPError as exc:
             corpo = exc.read().decode()[:200]
             raise SystemExit(f"ERRO {exc.code} em {caminho}: {corpo}")
+
+    def _post(self, caminho, corpo):
+        """POST com corpo JSON. Escrita testada em 2026-08-27 (POST /api/tarefas)."""
+        dados = json.dumps(corpo).encode("utf-8")
+        req = urllib.request.Request(self.base + caminho, method="POST", data=dados)
+        req.add_header("Authorization", "Bearer " + self.token())
+        req.add_header("Content-Type", "application/json")
+        req.add_header("User-Agent", USER_AGENT)
+        req.add_header("Accept", "application/json")
+        try:
+            with urllib.request.urlopen(req, timeout=45) as resp:
+                bruto = resp.read().decode()
+                return json.loads(bruto) if bruto else {}
+        except urllib.error.HTTPError as exc:
+            raise SystemExit(
+                f"ERRO {exc.code} em POST {caminho}: {exc.read().decode()[:300]}"
+            )
+
+    def criar_tarefa(self, nome, data_inicio, id_triade="I",
+                     duracao_prevista=None, papeis=None, id_meta=None,
+                     descricao=None):
+        """Cria uma tarefa. Obrigatorios pela API: nome (<=255) e data_inicio."""
+        corpo = {"nome": nome[:255], "data_inicio": data_inicio}
+        if id_triade:
+            corpo["id_triade"] = id_triade
+        if duracao_prevista:
+            corpo["duracao_prevista"] = duracao_prevista
+        if papeis:
+            corpo["Papel"] = papeis
+        if id_meta:
+            corpo["id_meta"] = id_meta
+        if descricao:
+            corpo["descricao"] = descricao
+        return self.criar_tarefas([corpo])
+
+    def criar_tarefas(self, tarefas):
+        """POST /api/tarefas recebe uma LISTA, nunca um objeto solto.
+
+        A doc oficial mostra os campos de UMA tarefa e nao diz isso; enviar o
+        objeto direto devolve 400 "A lista de tarefas nao pode ser vazia".
+        Resposta: {"data": {"Itens": [{"Sucesso": bool, "id_tarefa": ...}]}}
+        """
+        return self._post("/api/tarefas", list(tarefas))
+
+    def excluir_tarefas(self, ids):
+        """DELETE /api/tarefas?ids=<guid>,<guid>"""
+        url = self.base + "/api/tarefas?" + urllib.parse.urlencode(
+            {"ids": ",".join(ids)}
+        )
+        req = urllib.request.Request(url, method="DELETE")
+        req.add_header("Authorization", "Bearer " + self.token())
+        req.add_header("User-Agent", USER_AGENT)
+        req.add_header("Accept", "application/json")
+        try:
+            with urllib.request.urlopen(req, timeout=45) as resp:
+                bruto = resp.read().decode()
+                return json.loads(bruto) if bruto else {}
+        except urllib.error.HTTPError as exc:
+            raise SystemExit(
+                f"ERRO {exc.code} em DELETE /api/tarefas: {exc.read().decode()[:300]}"
+            )
 
     @staticmethod
     def _itens(resposta, nome_recurso):
