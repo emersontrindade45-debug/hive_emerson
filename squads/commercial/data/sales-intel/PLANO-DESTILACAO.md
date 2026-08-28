@@ -1,6 +1,6 @@
 # Plano de destilação — acervo Carol Iasmim
 
-**Criado:** 2026-08-27 · **Atualizado:** 2026-08-27 (lotes 1, 2 e 3 concluídos) · **Estado:** 23 de 59 destilados · **Restam 36 vídeos / ~154 mil palavras**
+**Criado:** 2026-08-27 · **Atualizado:** 2026-08-27 · **Estado:** ✅ **PLANO CONCLUÍDO — os 9 lotes destilados** · 57 de 59 (as 2 restantes são pendências pontuais, ver "Fora dos lotes")
 
 > Fonte da priorização: catálogo real em `transcripts/` (data, palavras, views) cruzado com o marco **A3 — reunião de precificação com o Araújo, 18/09**.
 
@@ -51,103 +51,105 @@
 
 ---
 
-## LOTE 4 — Ler o cliente e comunicação `MÉDIA-ALTA`
+## ~~LOTE 4 — Ler o cliente e comunicação~~ ✅ **CONCLUÍDO 27/08/2026**
 
-**Por quê:** o Método Alicerce (§2) depende de sondagem e escuta ativa, e o AIDAS (§3) de adaptar ao perfil. Este lote instrumenta as duas.
+**Virou a `§3B` do playbook.** Os 5 vídeos destilados: `9fRrmO5-6Wo` · `-q9CsyUHH7w` · `-XXghFrMRHg` · `nFsPd_S9eoU` · `8kiDS4rvZrs` (15.203 palavras).
 
-| Vídeo | Palavras | Views | Data |
-|---|---|---|---|
-| `9fRrmO5-6Wo` — Aprenda a "LER" seu cliente | 3.955 | 29k | 2025-04-28 |
-| `-XXghFrMRHg` — Comunicação de MILHÕES em vendas | 2.411 | 42k | 2025-07-28 |
-| `-q9CsyUHH7w` — Como ser carismático em vendas | 3.977 | 76k | 2026-05-04 |
-| `8kiDS4rvZrs` — Como ser interessante nas vendas | 2.183 | 25k | 2026-07-06 |
-| `nFsPd_S9eoU` — Vender até para os clientes mais resistentes | 2.677 | 30k | 2025-01-18 |
+**O que entrou:** os **8 sinais implícitos de compra** · a regra do cliente confuso (nunca oferecer a 3ª opção) · **método FREQUÊNCIA** (sintonia · sinal vivo · eco) e o filtro reticular · carisma (3 neurotransmissores + 6 estratégias, Arthur Brooks/Harvard) · os **5 ajustes de comunicação**, com o **tom de voz por etapa do Alicerce** · o cliente resistente em 4 passos + os 3 perfis difíceis.
 
-**Total:** 15.203 palavras · **1 sessão**
+**Os 3 achados que mais mudam o A3:**
+1. **O eco** — devolver as **palavras exatas** do Araújo, não traduzir para o vocabulário técnico do Hub. Confirmado pela pesquisa de Cialdini (garçons que repetiam o pedido literalmente ganhavam mais gorjeta).
+2. **Tom de voz por etapa:** dizer R$4.000 é **quebra de objeção**, não abordagem. Tom animado no preço soa como pedido de desculpa.
+3. **Os sinais 4, 6 e 8 são o termômetro da reunião** — pergunta sobre suporte, parcelamento ou sair do assunto = parar de argumentar e conduzir ao fechamento.
 
----
-
-## LOTE 5 — Pós-venda, fidelização e indicação `MÉDIA-ALTA`
-
-**Por quê:** aprofunda a letra S do AIDAS. Com prospecção suspensa no trimestre, **indicação é o único canal de aquisição disponível**. Também é a etapa que a §2 nomeia como a mais negligenciada e mais rentável.
-
-| Vídeo | Palavras | Views | Data |
-|---|---|---|---|
-| `VdqJzeXvXR0` — O tipo de atendimento que os clientes adoram | 5.532 | 124k | 2025-12-02 |
-| `O97F8N5JDdo` — Atendimento que encanta | 3.475 | 125k | 2025-02-13 |
-| `fTC7Tfsqi-k` — Como ser o número 1 na mente do cliente | 2.942 | 70k | 2025-11-25 |
-| `bTKnX4vRCzA` — Como fazer o cliente comprar de você pra SEMPRE | 3.462 | 9k | 2026-03-31 |
-| `atcK1ESPGnU` — Técnica que faz o cliente se tornar seu FÃ | 3.179 | 22k | 2025-02-03 |
-
-**Total:** 18.590 palavras · **1 sessão**
+⚠️ **Bônus não previsto no plano:** o passo 1 do cliente resistente ("a resistência é cicatriz, não personalidade") se aplica à **rede fechada do Araújo** — perguntar o que já deu errado antes com integração, em vez de tratar o time de TI como obstáculo.
 
 ---
 
-## LOTE 6 — Prospecção e funil `MÉDIA` (preparo, não execução)
+## ~~LOTE 5 — Pós-venda, fidelização e indicação~~ ✅ **CONCLUÍDO 27/08/2026**
 
-**Por quê:** prospecção ativa está SUSPENSA no trimestre. Mas a §1 nomeou o custo de operar com 1 cliente no funil. Destilar agora deixa pronto para quando reabrir — sem gerar tarefa.
+**Virou a `§3C` do playbook.** Os 5 vídeos destilados: `VdqJzeXvXR0` · `O97F8N5JDdo` · `bTKnX4vRCzA` · `atcK1ESPGnU` · `fTC7Tfsqi-k` (18.590 palavras).
 
-| Vídeo | Palavras | Views | Data |
-|---|---|---|---|
-| `wq-UzQw7Owk` — O que eu faria se começasse a vender hoje | 4.908 | **291k** | 2025-06-04 |
-| `3QyN9seFm2w` — Como ficar viciado em prospectar clientes | 5.293 | **221k** | 2026-02-17 |
-| `ikzd4bK-4GU` — O plano diário de quem não fica sem vender | 2.740 | 149k | 2025-07-21 |
-| `z9TBtoXZXyw` — Aulão: como ter novos clientes todos os dias | 10.768 | 73k | 2025-06-09 |
+**O que entrou:** o **sistema de reativação em 3 técnicas** (janela de 30 dias / contato que não vende · mapa de recompra · aquecimento) · o **script de pedido de indicação** · separar joio do trigo (fidelizar só o cliente-fã) · os **6 antipadrões** que o cliente odeia · o que ele ama · o **efeito especialista** (tríade voz/corpo/digital).
 
-**Total:** 23.709 palavras · **1 sessão**
+**Este lote rendeu mais que a prioridade "MÉDIA-ALTA" sugeria** — com prospecção suspensa, é o único canal de aquisição aberto no trimestre.
 
----
+**Os 4 achados que mais mudam a operação:**
+1. *"O cliente não para de comprar — **somos nós que deixamos de vender para ele**."* Cliente órfão é adotado pela concorrência.
+2. **O piloto do Araújo está dentro da janela de reativação e ela não está sendo usada.** Cada contato deveria colher feedback explícito → alimenta pasta de feedbacks (§4C) + prova social + munição de valor do A3.
+3. **Pedir indicação ao Araújo não viola a suspensão de prospecção** — não é prospecção fria. É a alavanca de aquisição de maior retorno disponível hoje.
+4. **Os 238 leads parados não estão perdidos, estão órfãos.** "Não fechou, abra relacionamento" — reativação ≠ prospecção ativa.
 
-## LOTE 7 — Canal e contexto específico `MÉDIA-BAIXA`
-
-**Por quê:** aplicação por canal. Só rende depois da base. `AR6gJRIema8` (WhatsApp) sobe de prioridade se o contato com o Araújo for por lá.
-
-| Vídeo | Palavras | Views | Data |
-|---|---|---|---|
-| `AR6gJRIema8` — Venda mais e melhor pelo WhatsApp | 2.106 | 80k | 2025-07-31 |
-| `KRj_8g45Ihw` — Chega de ficar no vácuo | 3.962 | 56k | 2025-04-15 |
-| `D3-95nI3ob4` — A melhor forma de vender por ligação | 3.428 | 22k | 2025-11-03 |
-| `jqlJAavLnd8` — Como vender em mercados extremamente concorridos | 4.945 | 22k | 2026-04-27 |
-| `EdOa9sNFz_Q` — Bata recorde de vendas na crise | 3.869 | 21k | 2026-04-06 |
-
-**Total:** 18.310 palavras · **1 sessão**
+⚠️ **Correção de diagnóstico:** o *"vou pensar"* da §4 pode ser sintoma de **atendimento**, não de objeção — *"ele não gostou de como foi recebido, e nem ele sabe explicar isso"*.
 
 ---
 
-## LOTE 8 — Rotina, disciplina e visão geral `BAIXA`
+## ~~LOTE 6 — Prospecção e funil~~ ✅ **CONCLUÍDO 27/08/2026** `preparo, não execução`
 
-**Por quê:** há sobreposição com o `alta-performance-playbook.md` do squad Operations (Joel Jota). Destilar por último e **cruzar com Operations** para não duplicar.
+**Virou a `§2B` do playbook.** Os 4 vídeos destilados: `z9TBtoXZXyw` · `3QyN9seFm2w` · `wq-UzQw7Owk` · `ikzd4bK-4GU` (23.709 palavras).
 
-| Vídeo | Palavras | Views | Data |
-|---|---|---|---|
-| `NBMb6GPttx8` — 17 anos de aprendizado em 30 minutos | 5.946 | 28k | 2026-03-09 |
-| `dObgyrvOV3I` — Aulão: Alta performance em vendas | 11.843 | 20k | 2025-10-13 |
-| `a2gEEM4qMFs` — O mínimo para não fracassar em vendas | 5.229 | 72k | 2025-07-01 |
-| `V5EJe_QilRc` — Se você trabalha muito e vende pouco | 4.581 | 55k | 2025-06-16 |
-| `K87CTFlki_Q` — Você faz isso? Por isso você não vende | 4.718 | 102k | 2025-04-21 |
-| `ZbrBO9cZTew` — Chega de procrastinar em vendas | 4.042 | 15k | 2026-02-24 |
-| `-mt_lOTwInU` — A estratégia mental que salva os dias ruins | 4.036 | 30k | 2025-09-15 |
-| `ZKVmM1dhyoE` — Nunca mais deixe de vender por timidez | 4.425 | 24k | 2025-10-20 |
+⚠️ **A seção está marcada como PREPARO no playbook** — prospecção ativa segue suspensa. Os trechos que já valem hoje estão marcados com 🟢 (rotina em blocos, meta de execução, encerramento de contato, indicação/parceria/conteúdo).
 
-**Total:** 44.820 palavras · **1-2 sessões**
+**O que entrou:** a **engenharia do hábito em 5 passos** · a **estrutura de abordagem fria em 5 elementos** · a **rotina diária em blocos** · a técnica de **encerramento de contato** · as 4 fontes de clientes novos · o roteiro de quem começa do zero.
+
+**Os 3 achados que mais mudam a operação:**
+1. 🟢 **Medir prospecção por EXECUÇÃO, não por resultado** — *"a meta não é fechar 5 vendas, é falar com 15 pessoas"*. **Transferível direto ao marco C2:** a métrica do vídeo 1 não é performar, é **gravar e publicar**. É o que está sob controle.
+2. ⚠️ **O funil com 1 cliente ganhou diagnóstico estrutural:** não é só risco de receita — *"quem não prospecta negocia com medo, e quem tem medo de vender faz o cliente ter medo de comprar"*. É a condição exata que produz desconto precoce em 18/09.
+3. 🟢 **A técnica de encerramento de contato serve aos 238 leads parados** — *"pior do que escutar um não é viver com um talvez"*. Encerrar formalmente limpa a base e frequentemente reativa alguns.
+
+⚠️ **Nota de coerência:** a Carol critica nominalmente o script *"tá caro comparado ao quê?"* — o playbook nunca o adotou (a §1 usa o Contrapeso), então não há conflito a resolver.
 
 ---
 
-## LOTE 9 — Complementares e miscelânea `BAIXA`
+## ~~LOTE 7 — Canal e contexto específico~~ ✅ **CONCLUÍDO 27/08/2026**
 
-| Vídeo | Palavras | Views | Data |
-|---|---|---|---|
-| `9_vs78l7nLs` — 10 técnicas rápidas para vender mais | 3.271 | 35k | 2025-10-27 |
-| `trn5pNAc3zs` — Isso vai acelerar suas vendas de forma absurda | 3.803 | 46k | 2025-06-23 |
-| `1w9g-Ax9ERg` — Como vender mais sem ser chato | 5.029 | 62k | 2025-07-16 |
-| `KX7X3ymcf8M` — Use de forma moderada nas vendas | 3.722 | 36k | 2025-07-07 |
-| `fREFJREtzP8` — Assista antes da sua próxima venda | 3.499 | 8k | 2026-08-10 |
-| `6qQW00leg5I` — 10 formas de ser visto como referência | 5.218 | 122k | 2026-02-09 |
-| `IRYEHO4ApbU` — Os melhores livros de vendas que já li | 6.316 | 19k | 2025-04-02 |
+**Virou a `§7` do playbook.** Os 5 vídeos destilados: `AR6gJRIema8` · `KRj_8g45Ihw` · `D3-95nI3ob4` · `jqlJAavLnd8` · `EdOa9sNFz_Q` (18.310 palavras).
 
-**Total:** 30.858 palavras · **1 sessão**
+**A previsão do plano se confirmou:** `AR6gJRIema8` (WhatsApp) era o mais relevante do lote — é o canal do contato com o Araújo.
 
-⚠️ `6qQW00leg5I` (ser visto como referência) **cruza com Marketing `[M4]` / skill `influencia-digital`** — checar sobreposição com Joel Jota antes de destilar.
+**O que entrou:** as **8 atitudes do WhatsApp** · a **dissonância cognitiva** (por que o cliente some) e as 4 soluções · as **4 variáveis da voz** na ligação + o **resumo pós-ligação** · os **5 pilares da diferenciação** em mercado saturado · os **4 estados do cliente em crise** e os 5 passos, incluindo a **declaração de intenção**.
+
+**Os 4 achados que mais mudam o A3:**
+1. ⚠️ **"Talvez não é que você é caro — é que você está com cara de barato."** O piloto gratuito não só zera a âncora (§1B): **ensina** que o valor é baixo. Reforça a decisão da faixa com R$4.000 no meio.
+2. 🆕 **Resumo pós-reunião no WhatsApp** — ancora por escrito o valor apresentado em 18/09 e define o próximo passo com data. Prática nova, não estava em nenhum lote anterior.
+3. **A pergunta de isolamento ganhou uma segunda camada:** depois de *"se eu chegasse nesse valor, você fecharia?"*, perguntar **"e por quê?"** — faz o cliente verbalizar o valor que já enxerga. É a §1 com um degrau a mais.
+4. **Os 4 estados da crise descrevem o Araújo hoje** — rede fechada + piloto sem preço = estado de proteção. A resposta é **declaração de intenção + prova**, não desconto.
+
+⚠️ **Terceira convergência independente:** *A Venda Desafiadora* (citado aqui) diz que quem **ensina** o cliente converte ~3× mais. O playbook chegou nisso por três caminhos distintos (§1B, §4C, §3C) — ensinar é o mecanismo central da autoridade.
+
+---
+
+## ~~LOTE 8 — Rotina, disciplina e visão geral~~ ✅ **CONCLUÍDO 27/08/2026**
+
+**Virou a `§8` do playbook** — deliberadamente curta. Os 8 vídeos destilados: `NBMb6GPttx8` · `dObgyrvOV3I` · `a2gEEM4qMFs` · `V5EJe_QilRc` · `K87CTFlki_Q` · `ZbrBO9cZTew` · `-mt_lOTwInU` · `ZKVmM1dhyoE` (44.820 palavras).
+
+⚠️ **A checagem cruzada com Operations exigida pelo plano foi feita** — e a sobreposição prevista se confirmou, em grande escala. Foram descartados por já estarem cobertos: Pomodoro, foco, ladrões de tempo, planejamento semanal, metas e celular (já no `alta-performance-playbook.md` de Operations); treinamento mental de Phelps, autoimagem, medo e "não levar o não pro pessoal" (§4C/§4D); rotina diária e prospecção (§2B); cliente órfão e fidelização (§3C). **44.820 palavras renderam uma seção curta — e isso está correto**, não é perda.
+
+**O que era genuinamente novo:** o **caso da Vera** · a **classificação A/B/C** com a regra dos 80% e os sinais objetivos de qualificação · o **mapa de objeções universais** · os 2 erros de comunicação · microvitórias e visualização reversa · os "corvos".
+
+**Os 3 achados que mais mudam a operação:**
+1. 🆕 **O mapa de objeções universais é um artefato que o Emerson não tem.** A §1 tem os métodos, mas não existe documento com as objeções específicas do Hub e 3-4 respostas para cada. É o dever de casa mais direto do lote.
+2. ⚠️ **O caso da Vera é o alerta mais concreto para 18/09:** R$80 mil perdidos porque a vendedora encerrou o contato por irritação e sem agendar. *"Desistência por irritação não é qualificação."* Se o Araújo pedir prazo, **agendar com dia e hora** — foi a ausência disso que entregou a venda para a colega.
+3. ⚠️ **O erro nº 1 de comunicação dela é o risco técnico do A3:** falar do produto (arquitetura, integração) em vez do cliente (horas devolvidas, pedidos que não se perdem). *"Não é vender a carne, é vender o churrasco."*
+
+**Dados novos citados:** o cliente fecha no 1º contato em **~2%** dos casos; leads compram a partir do **6º-7º contato**.
+
+---
+
+## ~~LOTE 9 — Complementares e miscelânea~~ ✅ **CONCLUÍDO 27/08/2026**
+
+**Virou a `§9` do playbook.** Os 7 vídeos destilados: `9_vs78l7nLs` · `trn5pNAc3zs` · `1w9g-Ax9ERg` · `KX7X3ymcf8M` · `fREFJREtzP8` · `6qQW00leg5I` · `IRYEHO4ApbU` (30.858 palavras).
+
+⚠️ **A checagem com Marketing exigida pelo plano foi feita.** `6qQW00leg5I` ("ser visto como referência") **não conflita** com `influencia-digital` (Joel Jota): o material do Joel trata de território, tese e distribuição de conteúdo; o da Carol trata de postura na venda (autossuficiência percebida, ritmo, aparência). Registrado o cruzamento no antipadrão "rede social como panfleto".
+
+**O que entrou:** as **6 técnicas nomeadas** (microcompromissos, cliente no comando, antecipação positiva, viés de pertencimento, ancoragem/up-sell, cross-sell) · a **autossuficiência percebida** · as **5 zonas de valor** · os **6 antipadrões** · as **fontes bibliográficas** que ela cita.
+
+**Os 3 achados mais úteis:**
+1. **Autossuficiência percebida** — *"aja como se não precisasse vender"*. ⚠️ Só é sustentável com funil cheio; com 1 cliente, precisa ser construída deliberadamente.
+2. **As 5 zonas de valor** — checklist para gerar diferencial quando a resposta instintiva é "meu produto é igual". Para o Hub: bronze (confiabilidade, conveniência) e ouro (personalização).
+3. 🆕 **Nunca dizer "custa" — dizer "o valor é" / "o investimento é".** Detalhe de linguagem direto para 18/09.
+
+**A convergência final do acervo:** *"ensinar o cliente gera autoridade"* apareceu por 5 caminhos independentes (§1B, §4C, §3C, §7, §9) e aqui ganhou número — *A Venda Desafiadora*: quem ensina converte **~3× mais**. É o achado mais robusto de todo o acervo.
 
 ---
 
@@ -167,18 +169,26 @@
 | ~~1~~ | ~~Valor e diferenciação~~ | ~~16.364~~ | ✅ **feito** → §1B |
 | ~~2~~ | ~~Gatilhos e autoridade~~ | ~~13.960~~ | ✅ **feito** → §4B |
 | ~~3~~ | ~~Emocional e insegurança~~ | ~~35.676~~ | ✅ **feito** → §4C + §4D |
-| 4 | Ler o cliente | 15.203 | 1 |
-| 5 | Pós-venda e indicação | 18.590 | 1 |
-| 6 | Prospecção e funil | 23.709 | 1 |
-| 7 | Canal específico | 18.310 | 1 |
-| 8 | Rotina e visão geral | 44.820 | 1-2 |
-| 9 | Complementares | 30.858 | 1 |
-| — | **RESTANTE** | **~154 mil** | **5-7 sessões** |
+| ~~4~~ | ~~Ler o cliente~~ | ~~15.203~~ | ✅ **feito** → §3B |
+| ~~5~~ | ~~Pós-venda e indicação~~ | ~~18.590~~ | ✅ **feito** → §3C |
+| ~~6~~ | ~~Prospecção e funil~~ | ~~23.709~~ | ✅ **feito** → §2B |
+| ~~7~~ | ~~Canal específico~~ | ~~18.310~~ | ✅ **feito** → §7 |
+| ~~8~~ | ~~Rotina e visão geral~~ | ~~44.820~~ | ✅ **feito** → §8 |
+| ~~9~~ | ~~Complementares~~ | ~~30.858~~ | ✅ **feito** → §9 |
+| — | **RESTANTE** | **0** | ✅ **plano concluído** |
 
-**Antes de 18/09 (A3), o mínimo viável eram os lotes 1, 2 e 3.** ✅ **Os três estão feitos.** A base do A3 está integralmente coberta. Os lotes 4-9 podem esperar o trimestre seguinte sem custo — o próximo por prioridade é o **lote 4 (ler o cliente)**, que instrumenta a sondagem do Método Alicerce.
+**Antes de 18/09 (A3), o mínimo viável eram os lotes 1, 2 e 3.** ✅ **Os 9 lotes foram concluídos em 27/08/2026**, em sessão única — decisão do Emerson de seguir pelos lotes 4-9 na sequência depois de fechar o lote 3. Restam apenas as 2 pendências pontuais abaixo (`nQBJPfBA-_A` a recoletar e `ZIMyHzpB8BY` a rotear para Marketing).
 
 ## Como retomar numa sessão nova
+
+✅ **O plano de destilação está concluído** — não há mais lote a processar. O que resta são as 2 pendências acima. Para trabalhar o acervo daqui em diante, o caminho é a **skill `vendas`**, que aponta a seção certa do playbook.
+
+<details>
+<summary>Instrução original (mantida para referência)</summary>
+
 
 Abrir sessão na raiz do repo e dizer: **"destilar lote N da Carol"**. O agente lê este arquivo, processa os vídeos do lote e escreve a seção correspondente no `foundation/sales-playbook.md`.
 
 ⚠️ Nunca usar `cd` para subpasta — quebra os hooks do HIVE e trava a sessão inteira.
+
+</details>
