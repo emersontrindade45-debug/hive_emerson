@@ -8,7 +8,7 @@ Habilidades de venda acumuladas. Alimentado por vídeos enviados pelo Emerson e 
 - **Carol Iasmim** (`@carol.iasmim`, 175k inscritos) — catálogo completo 2025 + 2026, **58 vídeos** (19 de 2026, 39 de 2025). 17 anos de vendas, formada em Direito, criadora do método Neurovendas. Baixado a pedido do Emerson em 27/08/2026.
 - **Dani Martins** (Sales Prime), via JJ Podcast #219 — 1 transcrição, ⚠️ processada só na abertura.
 
-**Destilado até aqui: 57 dos 59** (56 da Carol + abertura do JJ #219). ✅ **Os 9 lotes concluídos** em 27/08 — o acervo da Carol está integralmente destilado. Os 39 restantes estão priorizados em `../data/sales-intel/PLANO-DESTILACAO.md`.
+**Destilado até aqui: 57 dos 59** (56 da Carol + abertura do JJ #219). ✅ **Os 9 lotes concluídos** em 27/08 — o acervo da Carol está integralmente destilado. Histórico dos 9 lotes em `../data/sales-intel/PLANO-DESTILACAO.md`.
 
 > **Regra de precedência:** entradas que conflitam valem pela **data de publicação da fonte mais recente**.
 
