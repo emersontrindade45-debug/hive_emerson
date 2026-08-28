@@ -1,6 +1,6 @@
 # Plano de destilação — acervo Carol Iasmim
 
-**Criado:** 2026-08-27 · **Atualizado:** 2026-08-27 (lotes 1, 2 e parte do 3) · **Estado:** 20 de 59 destilados · **Restam 39 vídeos / ~176 mil palavras**
+**Criado:** 2026-08-27 · **Atualizado:** 2026-08-27 (lotes 1, 2 e 3 concluídos) · **Estado:** 23 de 59 destilados · **Restam 36 vídeos / ~154 mil palavras**
 
 > Fonte da priorização: catálogo real em `transcripts/` (data, palavras, views) cruzado com o marco **A3 — reunião de precificação com o Araújo, 18/09**.
 
@@ -35,20 +35,19 @@
 
 ---
 
-## LOTE 3 — Emocional e insegurança `EM ANDAMENTO — 1 de 4 feito`
+## ~~LOTE 3 — Emocional e insegurança~~ ✅ **CONCLUÍDO 27/08/2026**
 
-**Por quê:** a §1 já registrou que *"o cliente pede desconto porque percebeu que o vendedor é fraco"* e listou as 7 emoções que entregam fraqueza. Este lote é o antídoto — e o Emerson vai a 18/09 com 1 cliente no funil, cenário de apego emocional máximo.
+**Virou as `§4C` e `§4D` do playbook.** Os 4 vídeos destilados: `twBGhn8IaP0` → §4C · `9AmNTZ37ZWc` · `UZ2IxYSHvVE` · `lZIOMPsl-jY` → §4D (35.676 palavras no total).
 
-| Vídeo | Palavras | Views | Data | Estado |
-|---|---|---|---|---|
-| `twBGhn8IaP0` — Aulão: dominar a insegurança e vender com autoridade | **13.864** | 44k | 2025-04-06 | ✅ **virou a §4C** |
-| `9AmNTZ37ZWc` — Aulão: Inteligência Emocional em Vendas | **13.350** | 120k | 2025-03-04 | ⬜ pendente |
-| `UZ2IxYSHvVE` — Acabe com seu bloqueio em vendas | 4.841 | 121k | 2025-05-05 | ⬜ pendente |
-| `lZIOMPsl-jY` — Como ter uma mentalidade blindada em vendas | 3.621 | 34k | 2025-08-04 | ⬜ pendente |
+**O que entrou na §4C** (aulão de insegurança): autodiagnóstico de 8 perguntas · 4 antídotos (pasta de feedbacks, clareza de resultado, poder pessoal, autoridade sem arrogância) · conhecimento profundo como fonte de autoridade.
 
-**Restam:** 21.812 palavras · **1 sessão**
+**O que entrou na §4D** (os 3 restantes, só o que era novo): as 4 inteligências de Jeb Blount · os **3 componentes da emoção** (fisiológico, cognitivo, comportamental) · a **pergunta libertadora** · os **5 pilares da mentalidade blindada** · 5 estratégias de desenvolvimento (blindar ambiente, planejamento, diálogo interno, registro de vitórias, **treinamento de cenário**) · a **saída elegante** quando o cliente fecha com o concorrente.
 
-⚠️ **Checar sobreposição antes de destilar os 3 restantes.** A §4C já cobre autodiagnóstico, pasta de feedbacks, clareza de resultado, poder pessoal e autoridade percebida × declarada. Os 3 pendentes provavelmente repetem boa parte disso — **destilar só o que for novo**, não reescrever a seção.
+⚠️ **A checagem de sobreposição se confirmou:** os 3 vídeos repetiam boa parte da §4C (pasta de feedbacks, a metáfora da cura, não levar o não pro lado pessoal). A §4D registra só o que era novo e aponta a divisão: **§4C = medo antes da venda · §4D = emoção durante e depois**.
+
+**Os dois achados que mais mudam o A3:**
+1. **A pergunta libertadora** — *"qual é a pior coisa que pode acontecer se esse cliente não fechar?"* Com 1 cliente no funil, é a contramedida mais barata contra o desconto por apego. O plano de contingência já responde a pergunta por escrito — é isso que a desarma na reunião.
+2. **O treinamento de cenário (método Michael Phelps) é a lacuna do preparo atual.** A contingência cobre a resposta *técnica* a cada faixa de preço (R$4.000 / R$1.500-3.000 / <R$1.000 / recusa). Não cobre a resposta **emocional** — e é ela que decide se o número sai com firmeza ou com pedido de desculpa.
 
 ---
 
@@ -167,16 +166,16 @@
 |---|---|---|---|
 | ~~1~~ | ~~Valor e diferenciação~~ | ~~16.364~~ | ✅ **feito** → §1B |
 | ~~2~~ | ~~Gatilhos e autoridade~~ | ~~13.960~~ | ✅ **feito** → §4B |
-| 3 | Emocional e insegurança | 21.812 restantes | 1 (1 de 4 feito → §4C) |
+| ~~3~~ | ~~Emocional e insegurança~~ | ~~35.676~~ | ✅ **feito** → §4C + §4D |
 | 4 | Ler o cliente | 15.203 | 1 |
 | 5 | Pós-venda e indicação | 18.590 | 1 |
 | 6 | Prospecção e funil | 23.709 | 1 |
 | 7 | Canal específico | 18.310 | 1 |
 | 8 | Rotina e visão geral | 44.820 | 1-2 |
 | 9 | Complementares | 30.858 | 1 |
-| — | **RESTANTE** | **~176 mil** | **6-8 sessões** |
+| — | **RESTANTE** | **~154 mil** | **5-7 sessões** |
 
-**Antes de 18/09 (A3), o mínimo viável eram os lotes 1, 2 e 3.** ✅ **1 e 2 feitos, 3 pela metade.** A base do A3 está coberta — o resto do lote 3 é reforço, não pré-requisito. Os lotes 4-9 podem esperar o trimestre seguinte sem custo.
+**Antes de 18/09 (A3), o mínimo viável eram os lotes 1, 2 e 3.** ✅ **Os três estão feitos.** A base do A3 está integralmente coberta. Os lotes 4-9 podem esperar o trimestre seguinte sem custo — o próximo por prioridade é o **lote 4 (ler o cliente)**, que instrumenta a sondagem do Método Alicerce.
 
 ## Como retomar numa sessão nova
 

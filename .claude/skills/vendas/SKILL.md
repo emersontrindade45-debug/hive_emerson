@@ -25,6 +25,7 @@ Obrigatória antes de qualquer conversa comercial. O marco **A3 (18/09)** — re
 | Usar gatilhos (escassez, urgência, prova social) | §4B — **os 4 gatilhos de Cialdini + aversão à perda** |
 | Voz, postura, presença, linguagem não verbal | §4B — 9 elementos da oratória + **método SINCRONIA** |
 | **Travado, com medo, insegurança para vender** | **§4C — autodiagnóstico de 8 perguntas + 4 antídotos** |
+| **Ansiedade na reunião · recuperar depois do "não"** | **§4D — 3 componentes da emoção · 5 pilares · treinamento de cenário** |
 | Não existe processo de venda | §2 — **Método Alicerce** (7 etapas) |
 | Atrair, converter, fidelizar (funil inteiro) | §3 — **AIDAS completo** (A·I·D·A·S) |
 | Fechar sem parecer desesperado | §4 — **7 erros do fechamento** + **10 formas de induzir** |
@@ -63,7 +64,8 @@ O Contrapeso exige preparação escrita, não improviso:
 3. **3 moedas de troca** — o que aceita conceder e o que exige em troca
 4. **A faixa de preço** — ⚠️ o Araújo está em piloto gratuito, então a âncora dele é **zero**. Nunca apresentar R$4.000 sozinho: montar faixa com **R$4.000 no meio, nunca no topo** (§1B, comparação inteligente)
 5. **Rodar o autodiagnóstico de 8 perguntas da §4C** — 2 minutos. Duas ou mais respostas "sim" e o problema de 18/09 é emocional, não de argumento
-6. **Juntar a pasta de feedbacks** — todo retorno positivo do Araújo durante o piloto é prova social e munição de valor (§4C)
+6. **Treinamento de cenário (§4D)** — para cada faixa da contingência (R$4.000 · R$1.500-3.000 · <R$1.000 · recusa), escrever não só a resposta técnica mas **como vai reagir emocionalmente**. E responder antes: *"qual é a pior coisa que acontece se ele não fechar?"*
+7. **Juntar a pasta de feedbacks** — todo retorno positivo do Araújo durante o piloto é prova social e munição de valor (§4C)
 
 ## Fontes
 
@@ -72,8 +74,8 @@ O Contrapeso exige preparação escrita, não improviso:
 
 ## Lacunas — declarar quando a pergunta cair fora do playbook
 
-- **39 das 59 transcrições ainda não destiladas.** O playbook cobre **20 vídeos** (preço/objeção, valor, processo, AIDAS completo, fechamento, gatilhos/autoridade, insegurança). As demais cobrem **ler o cliente, pós-venda, prospecção, canais (WhatsApp/ligação), crise, mercados concorridos, rotina**. Se a pergunta cair nesses temas: dizer que o material existe baixado mas não foi destilado, e oferecer destilar antes de responder.
-- 📋 **Plano priorizado: `squads/commercial/data/sales-intel/PLANO-DESTILACAO.md`** — 6-8 sessões restantes. ✅ Lotes 1 (valor) e 2 (gatilhos) feitos, lote 3 (emocional) pela metade. **A base do A3 está coberta.** Para retomar: *"destilar lote N da Carol"*.
+- **36 das 59 transcrições ainda não destiladas.** O playbook cobre **23 vídeos** (preço/objeção, valor, processo, AIDAS completo, fechamento, gatilhos/autoridade, insegurança, inteligência emocional/mentalidade). As demais cobrem **ler o cliente, pós-venda, prospecção, canais (WhatsApp/ligação), crise, mercados concorridos, rotina**. Se a pergunta cair nesses temas: dizer que o material existe baixado mas não foi destilado, e oferecer destilar antes de responder.
+- 📋 **Plano priorizado: `squads/commercial/data/sales-intel/PLANO-DESTILACAO.md`** — 5-7 sessões restantes. ✅ Lotes 1 (valor), 2 (gatilhos) e 3 (emocional) concluídos. **A base do A3 está integralmente coberta**; o próximo é o lote 4 (ler o cliente). Para retomar: *"destilar lote N da Carol"*.
 - ⚠️ **`nQBJPfBA-_A` veio com transcrição vazia** — precisa recoletar.
 - **JJ #219:** ~15% processado — o resto é gestão de time de vendas, pouco aplicável a quem vende sozinho.
 - `squads/commercial/foundation/icp-profile.md` e `squads/commercial/foundation/qualification-criteria.md` seguem em **template genérico** do HIVE (02/06), nunca preenchidos. O Método Alicerce (§2) é o roteiro para preenchê-los.
