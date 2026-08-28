@@ -84,7 +84,7 @@ O Contrapeso exige preparação escrita, não improviso:
 ## Lacunas — declarar quando a pergunta cair fora do playbook
 
 - ✅ **O acervo da Carol está integralmente destilado** (57 de 59, os 9 lotes concluídos em 27/08/2026). Não há mais lacuna de conteúdo comercial da Carol — se uma pergunta não for respondida pelo playbook, é sinal de que o tema não está no acervo dela, não de que falta destilar.
-- 📋 **`squads/commercial/data/sales-intel/PLANO-DESTILACAO.md`** — ✅ plano concluído. Restam 2 pendências pontuais: `nQBJPfBA-_A` (transcrição vazia, recoletar) e `ZIMyHzpB8BY` (escopo de Marketing `[M4]`).
+- 📋 **`squads/commercial/data/sales-intel/PLANO-DESTILACAO.md`** — ✅ plano concluído, **sem pendência de trabalho**. `ZIMyHzpB8BY` foi roteado para Marketing (`destravar-producao.md`); `nQBJPfBA-_A` está encerrado — o vídeo não tem legenda no YouTube.
 - ⚠️ **`nQBJPfBA-_A` veio com transcrição vazia** — precisa recoletar.
 - **JJ #219:** ~15% processado — o resto é gestão de time de vendas, pouco aplicável a quem vende sozinho.
 - `squads/commercial/foundation/icp-profile.md` e `squads/commercial/foundation/qualification-criteria.md` seguem em **template genérico** do HIVE (02/06), nunca preenchidos. O Método Alicerce (§2) é o roteiro para preenchê-los.

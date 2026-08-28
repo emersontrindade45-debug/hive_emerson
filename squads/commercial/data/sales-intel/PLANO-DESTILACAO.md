@@ -1,6 +1,6 @@
 # Plano de destilação — acervo Carol Iasmim
 
-**Criado:** 2026-08-27 · **Atualizado:** 2026-08-27 · **Estado:** ✅ **PLANO CONCLUÍDO — os 9 lotes destilados** · 57 de 59 (as 2 restantes são pendências pontuais, ver "Fora dos lotes")
+**Criado:** 2026-08-27 · **Atualizado:** 2026-08-27 · **Estado:** ✅ **PLANO CONCLUÍDO** — os 9 lotes destilados · **58 dos 59 vídeos aproveitados** (57 no playbook comercial + 1 roteado para Marketing). O 59º não tem legenda no YouTube.
 
 > Fonte da priorização: catálogo real em `transcripts/` (data, palavras, views) cruzado com o marco **A3 — reunião de precificação com o Araújo, 18/09**.
 
@@ -157,8 +157,8 @@
 
 | Vídeo | Situação |
 |---|---|
-| `nQBJPfBA-_A` — Pare de falar isso e veja suas vendas subirem | ❌ **Transcrição vazia (0 palavras).** Recoletar antes de qualquer coisa. 42k views — provavelmente vale |
-| `ZIMyHzpB8BY` — Fique viciado em aparecer nas redes sociais | ⚠️ Escopo de **Marketing**, não Commercial. Rotear para `[M4]` |
+| `nQBJPfBA-_A` — Pare de falar isso e veja suas vendas subirem | 🔴 **ENCERRADO — sem solução por esta via.** Recoleta forçada em 27/08 trouxe os metadados (22min, 41.827 views) mas `yt-dlp --list-subs` confirma: **"has no automatic captions / has no subtitles"**. O vídeo não tem legenda nenhuma no YouTube — não é falha do coletor. Só seria recuperável por transcrição de áudio (Whisper ou similar), que hoje não existe no pipeline. **Único caso entre 59.** |
+| `ZIMyHzpB8BY` — Fique viciado em aparecer nas redes sociais | ✅ **ROTEADO em 27/08/2026** → `squads/marketing/foundation/destravar-producao.md` (divisão `[M4]`). Conteúdo é produção/presença digital, não venda. |
 
 ---
 
@@ -177,7 +177,7 @@
 | ~~9~~ | ~~Complementares~~ | ~~30.858~~ | ✅ **feito** → §9 |
 | — | **RESTANTE** | **0** | ✅ **plano concluído** |
 
-**Antes de 18/09 (A3), o mínimo viável eram os lotes 1, 2 e 3.** ✅ **Os 9 lotes foram concluídos em 27/08/2026**, em sessão única — decisão do Emerson de seguir pelos lotes 4-9 na sequência depois de fechar o lote 3. Restam apenas as 2 pendências pontuais abaixo (`nQBJPfBA-_A` a recoletar e `ZIMyHzpB8BY` a rotear para Marketing).
+**Antes de 18/09 (A3), o mínimo viável eram os lotes 1, 2 e 3.** ✅ **Os 9 lotes foram concluídos em 27/08/2026**, em sessão única — decisão do Emerson de seguir pelos lotes 4-9 na sequência depois de fechar o lote 3. ✅ **Não resta pendência de trabalho:** `ZIMyHzpB8BY` foi roteado para Marketing e `nQBJPfBA-_A` está encerrado por ausência de legenda no YouTube (ver "Fora dos lotes").
 
 ## Como retomar numa sessão nova
 
