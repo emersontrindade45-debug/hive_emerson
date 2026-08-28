@@ -1559,11 +1559,11 @@ Os dados existem no Supabase e viram o relatório do marco **A2 (11/09)** — qu
 
 ## Lacunas conhecidas
 
-- ✅ **O acervo da Carol está integralmente destilado** — 57 das 59 transcrições. As 2 pendências são pontuais (abaixo).
+- ✅ **O acervo da Carol está integralmente destilado** — **58 dos 59 vídeos aproveitados** (57 aqui + 1 roteado para Marketing). O 59º não tem legenda no YouTube.
 - 📋 **Plano completo em `../data/sales-intel/PLANO-DESTILACAO.md`** — **os 9 lotes foram concluídos em 27/08/2026**. Restam apenas as 2 pendências fora dos lotes.
 - **JJ #219 (Dani Martins):** 13.462 palavras, **~15% processado**. O que falta é majoritariamente *gestão de time de vendas* (remuneração, contratar "cavalo de corrida" vs "pangaré", clima) — pouco aplicável a quem vende sozinho hoje.
-- ⚠️ **`nQBJPfBA-_A.json` está com transcrição vazia** (0 palavras) — vídeo *"Pare de falar isso e veja suas vendas subirem"*. Precisa recoletar.
-- **`ZIMyHzpB8BY`** (Fique viciado em aparecer nas redes sociais) é escopo de **Marketing `[M4]`**, não Commercial.
+- 🔴 **`nQBJPfBA-_A` — irrecuperável por esta via.** *"Pare de falar isso e veja suas vendas subirem"* (41.827 views). Recoleta forçada em 27/08 confirmou via `yt-dlp --list-subs`: o vídeo **não tem legenda nenhuma** no YouTube. Só por transcrição de áudio, que não existe no pipeline hoje. Único caso entre 59.
+- ✅ **`ZIMyHzpB8BY`** (Fique viciado em aparecer nas redes sociais) — roteado em 27/08 para **Marketing `[M4]`**: `squads/marketing/foundation/destravar-producao.md`.
 - `icp-profile.md` e `qualification-criteria.md` seguem em template genérico.
 
 ## Como adicionar material
