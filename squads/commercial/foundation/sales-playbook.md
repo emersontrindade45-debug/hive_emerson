@@ -8,7 +8,7 @@ Habilidades de venda acumuladas. Alimentado por vídeos enviados pelo Emerson e 
 - **Carol Iasmim** (`@carol.iasmim`, 175k inscritos) — catálogo completo 2025 + 2026, **58 vídeos** (19 de 2026, 39 de 2025). 17 anos de vendas, formada em Direito, criadora do método Neurovendas. Baixado a pedido do Emerson em 27/08/2026.
 - **Dani Martins** (Sales Prime), via JJ Podcast #219 — 1 transcrição, ⚠️ processada só na abertura.
 
-**Destilado até aqui: 11 dos 59** (10 da Carol + abertura do JJ #219). Os 48 restantes estão priorizados em **9 lotes** em `../data/sales-intel/PLANO-DESTILACAO.md`.
+**Destilado até aqui: 15 dos 59** (14 da Carol + abertura do JJ #219). ✅ Lote 1 concluído em 27/08. Os 44 restantes estão priorizados em **8 lotes** em `../data/sales-intel/PLANO-DESTILACAO.md`.
 
 > **Regra de precedência:** entradas que conflitam valem pela **data de publicação da fonte mais recente**.
 
@@ -16,6 +16,8 @@ Habilidades de venda acumuladas. Alimentado por vídeos enviados pelo Emerson e 
 |---|---|
 | Responder "tá caro" / pedido de desconto | §1 — Contrapeso · Estrutura de 4 passos |
 | Dizer o preço sem estragar a venda | §1 — Depois de passar o preço |
+| **Construir o argumento de valor** | **§1B — 10 maneiras · atitude que convence · fechar em menos tempo** |
+| Atraio curioso e não comprador | §1B — As 4 causas |
 | Montar processo do zero | §2 — Método Alicerce |
 | Atrair e converter (funil completo) | §3 — AIDAS |
 | Fechar sem parecer desesperado | §4 — 7 erros · 10 formas |
@@ -150,6 +152,108 @@ Se você acha caro, vende **se desculpando** — e o cliente ouve isso no tom de
 > **A regra do silêncio:** *"Você tem que fazer a pergunta e calar a boca."* O silêncio é o cliente pensando. Preencher o vazio repetindo o que já disse te torna prolixo e **denuncia insegurança**.
 
 **Tarefa que ela manda fazer:** listar **5 diferenciais seus** — não do produto, **seus**, perante a concorrência. *"O produto pode ser o mesmo, mas a minha entrega é mais rápida / meu pós-venda é diferenciado."* O que os clientes mais elogiam em você?
+
+---
+
+## 1B. Vender VALOR — como encher o prato do valor
+
+> A §1 diz **onde** pôr o peso. Esta seção diz **como**. Sem ela, o Contrapeso é método sem munição.
+
+### As 10 maneiras de vender valor na prática
+`Carol Iasmim, 2025-09-08 · 180k views — o tema nº 1 mais pedido do canal`
+
+**O ponto de partida:** *"Às vezes uma pessoa vende o mesmo produto que o concorrente, um pouco mais caro, e vende mais. É a maneira dela de aumentar a percepção de valor."*
+
+| # | Técnica | Como executar |
+|---|---|---|
+| 1 | **Descobrir o motivador → traduzir em emoção** | Duas pessoas compram o mesmo carro por motivos opostos (economia × status). Perguntar **antes de apresentar qualquer coisa**: *"O que você espera com isso?"* · *"Qual seu objetivo?"* Depois falar da emoção, não da ficha técnica — *"parar de vender a carne e começar a vender o churrasco"* |
+| 2 | **Contar histórias** | História de cliente real prende mais que argumento. *"Não, mas é muito bom, você não vai se arrepender"* é monótono e o mercado já está saturado disso |
+| 3 | **Comparação inteligente** | Mostrar a faixa inteira (R$300 · R$800 · R$1.000 · R$2.000) e assumir papel de **conselheiro**: por que o de R$1.000 é o certo *para ele*. ⚠️ **Se na cabeça do cliente os dois são iguais, ele compra o mais barato — sempre.** Nomear a diferença é obrigação sua |
+| 4 | **Antecipação do futuro** | Pôr na ponta do lápis o custo de adiar. O exemplo dela (venda de treinamento) está detalhado abaixo |
+| 5 | **Autoridade indireta** | Verbalizar tempo de mercado e nº de clientes atendidos. *"Se o cliente não te vê como autoridade, ele pede mais desconto que o normal"* |
+| 6 | **Experiência sensorial** | Test drive, provar a roupa, pôr no dedo. Por WhatsApp: **vídeo de 30s bem-feito**, não foto ruim |
+| 7 | **Reinterpretação do preço** | Traduzir a parcela em algo cotidiano: *"R$100 é a pizza com refrigerante de um fim de semana"* |
+| 8 | **Prova por convicção** | *"Se você tem medo de vender, o cliente fica com medo de comprar."* O tom muda por etapa: abordagem leve → objeção mais firme → fechamento mais sério |
+| 9 | **Escassez real** | Só se for verdade. Usar falso = perder a confiança para sempre |
+| 10 | **Repetição inteligente** | *"Quem não é bom em repetir não vende repetidamente."* Repetir o motivador emocional 2-3×, e **mais devagar e mais baixo** — velocidade alta não fixa |
+
+**A técnica 4 desenhada por extenso** — é o modelo mais próximo do caso do Emerson, porque é venda B2B de serviço recorrente:
+
+> *"Qual o percentual médio de desconto que seu time dá?"* → 8%
+> *"Qual o faturamento?"* → X/mês
+> *"Se o treinamento reduzir de 8% para 5%, isso dá R$200 mil a mais. Você pagaria o treinamento tranquilamente. Agora, se você deixa para daqui um ano, o prejuízo de não ter time capacitado é de X no ano. Consegue perceber?"*
+
+⚠️ **Note a estrutura:** ela **não afirma** o ganho — ela **pergunta os números ao cliente** e faz a conta com eles na frente dele. É o **custo invisível** da §1, quantificado. O cliente constrói o argumento; ela só organiza.
+
+**Sobre autoridade quando não se tem 10 anos de mercado** (técnica 5): use o número que você tem — *"já atendi X pessoas com esse mesmo problema"*. E a fala-modelo dela combina autoridade com horizonte longo:
+
+> *"Eu quero que você compre, claro. Mas quero que daqui um tempo, se pensar em comprar de novo, você lembre de mim. Que se um amigo seu precisar, você me indique. É assim que eu construo carreira."*
+
+### A atitude que convence mais que desconto
+`Carol Iasmim, 2025-09-03 · 208k views`
+
+**A imagem que abre:** você não diz *"vem ver a TV que o fulano me vendeu"* — você diz *"vem ver a TV que eu comprei"*. **O cliente precisa sentir que a decisão foi dele.**
+
+| # | Técnica | Execução |
+|---|---|---|
+| 1 | **Começar pelo que ele quer ouvir** | Se ele perguntou do prazo, fale do prazo. Ignorar a preocupação dele para falar do que você quer **desliga a mente dele** — ele passa a ouvir por educação |
+| 2 | **Regra do sim — colher "sins" rápidos** | Antes do preço, arrancar 2-3 concordâncias: *"Para você é importante ter qualidade superior?"* · *"É essencial ter suporte no pós-venda?"* |
+| 3 | **Espelhar sem ser robótico** | Cliente agitado → ritmo mais rápido. Cliente analítico → segurar a empolgação. **Entusiasmo demais parece forçado, e forçado destrói confiança** |
+| 4 | **Pequenas vitórias durante a conversa** | *"Isso que expliquei faz sentido para você?"* · *"Ficou com alguma dúvida?"* — minifechamentos ao longo do caminho |
+| 5 | **Desarmar objeção antes que apareça** | Ver §1 — Lavagem Cerebral. ⚠️ **Cuidado para não criar objeção que não existia** |
+| 6 | **Mudar o foco de preço para benefício** | Fazer a conta na ponta do lápis, provar por A+B |
+
+⚠️ **Por que a regra do sim (2) é mais do que parece:** *"Se ele discorda de você três vezes, na hora do fechamento ele vai ser resistente."* Discordância acumula. Concordância também.
+
+> **A fala pronta para antecipar a objeção de preço** (técnica 5) — aplicável quase literalmente ao Araújo:
+>
+> *"Eu já posso antecipar que nós não somos a empresa com o preço mais barato do mercado, porque o nosso objetivo nem é ser o mais barato. É vender para você várias vezes, que você volte, que me indique, que não se arrependa. **O menor preço é diferente do melhor preço.** O menor eu não tenho — mas perante o que eu entrego, esse é o melhor preço que você vai encontrar."*
+
+### Por que você atrai curioso e não comprador
+`Carol Iasmim, 2026-03-02`
+
+**A distinção que resolve o diagnóstico:** curioso e comprador são **indistinguíveis no início**. O que separa não é o perfil — é se o produto virou **necessidade**. Interessante ≠ necessário.
+
+⚠️ **Não descartar curioso automaticamente.** O caso dela: contrato de **R$62 mil de lucro** fechado após **5 meses** de conversa. Teria perdido se desistisse no primeiro *"preciso falar com o sócio"*.
+
+**As 4 causas de atrair só curioso:**
+
+| # | Causa | Correção |
+|---|---|---|
+| 1 | **Preço desalinhado do público que você comunica** | Corretor que só posta Minha Casa Minha Vida não vende imóvel de R$2 mi. **Ancoragem:** o cliente guarda o primeiro preço que viu de você |
+| 2 | **Oferta sem clareza de resultado** | *"Cliente confuso não compra."* Generalista confunde: **quanto mais especialista, mais o cliente paga sem reclamar** — clínico geral × ortopedista |
+| 3 | **Viver na promoção** | Promoção precisa de **data para começar e para acabar**. Promoção permanente **educa o cliente a esperar desconto** — por que ele pagaria preço cheio? |
+| 4 | **Conteúdo errado nas redes** | Rede social é vitrine: o cliente julga seu preço por ela. **Conteúdo de curiosidade ≠ conteúdo de autoridade.** Autoridade = ensinar + mostrar caso real com resultado |
+
+⚠️ **A causa 3 conecta direto com a §1:** *"Nem sempre o cliente pede desconto porque achou caro — às vezes é porque sente que negocia com uma pessoa fraca, para quem tudo é dar desconto, bônus, fazer um precinho."*
+
+⚠️ **Erro que ela admite ter cometido:** comunicava para quem *começava* em vendas — público que nem sabe que técnica de vendas existe. *"A minha comunicação estava errada para o público que eu queria alcançar."*
+
+**Sobre poder de compra:** *"Não é que o cliente tenha que ter o dinheiro — ele tem que ver seu produto como possível."* Quem financiou casa não tinha o dinheiro.
+
+### Fechar em menos tempo
+`Carol Iasmim, 2025-03-26 · 291k views — o vídeo mais visto do acervo`
+
+> **A causa raiz que ele nomeia:** *"Muitas vezes perdemos vendas não por preço, qualidade ou prazo — é por falta de técnica de fechamento."*
+
+**O fechamento é construído desde o "oi".** Abordagem fraca → fechamento baixo. Sem boas perguntas → fechamento baixo. Sem apresentar valor → fechamento baixo.
+
+**Perguntas inteligentes (método SPIN):** situação → problema → implicação → necessidade. *"Quando você faz boas perguntas, o cliente vende o produto para ele mesmo — e quando ele vende para si, confia muito mais."*
+
+**Autoavaliação após cada negociação:** quantas perguntas eu fiz? qual foi a **aberta**? qual foi a **fechada**?
+
+**Fechamento por condição — e o aproveitamento de objeção** (a técnica mais afiada do vídeo):
+
+| Cliente pede | ❌ Resposta ansiosa | ✅ Resposta que fecha |
+|---|---|---|
+| Desconto | *"Consigo, vou ver aqui"* | *"Se eu conseguir chegar nesse valor, nós fechamos ainda hoje?"* |
+| Entrega adiantada | *"Consigo, vou abrir uma exceção para você"* | *"Se eu conseguir, nós já damos andamento no pedido?"* |
+
+⚠️ **O que acontece quando você concede antes:** *"Já que você conseguiu abrir uma exceção, vou pensar direitinho e qualquer coisa eu te retorno."* Você entregou a concessão e não comprou nada — **é o mesmo mecanismo do "isolar antes de conceder" da §1**, aplicado a prazo e entrega, não só a preço.
+
+⚠️ **O erro final que destrói tudo:** continuar justificando preço e qualidade **no momento do fechamento**. *"Um dos idiomas que temos que dominar em vendas é o idioma do silêncio. Vendedor inseguro fica tentando preencher todos os silêncios."*
+
+> **A frase que resume a seção inteira:** *"Você não precisa ter o menor preço — mas prova o tempo todo ao cliente que o seu é o melhor preço."*
 
 ---
 
@@ -473,6 +577,26 @@ Cliente sem clareza do próprio objetivo é cliente que não fecha — ou que fe
 **Buraco estrutural que o Método Alicerce expõe:** `icp-profile.md` e `qualification-criteria.md` seguem em template genérico desde 02/06. Pelas etapas 1-3 do Alicerce, é ali que a conta chega depois.
 
 **O que a letra S (§3) cobra depois de 18/09:** *"Você não tem uma clientela — tem ex-compradores."* Fechando ou não, o Araújo é a única relação comercial ativa. Pós-venda estruturado é o que gera a indicação que substitui a prospecção suspensa.
+
+### O roteiro do A3, montado com a §1B
+
+**1. Antes — a conta da antecipação do futuro.** É o formato mais próximo do caso: B2B, serviço recorrente. Não afirmar o ganho — **perguntar os números e fazer a conta na frente dele**:
+
+> *"Quantos atendimentos vocês recebem por mês? Quanto tempo cada um leva hoje? Quanto custa a hora de quem faz isso?"* → e então: *"O Hub devolve X horas/mês. Isso dá R$Y. Se você deixa para daqui um ano, o custo de não resolver é R$Z."*
+
+Os dados existem no Supabase e viram o relatório do marco **A2 (11/09)** — que assim deixa de ser entregável isolado e vira **munição do A3**.
+
+**2. Antes — a regra do sim.** Colher 2-3 concordâncias antes de qualquer número: *"Para vocês é importante reduzir o tempo de resposta?"* · *"É essencial ter suporte depois de implantado?"* Discordância acumula tanto quanto concordância.
+
+**3. Ao abrir preço — a fala de antecipação**, adaptada quase literal:
+
+> *"Já adianto que não vou ser a opção mais barata, porque o objetivo não é ser o mais barato. É que isso funcione e continue funcionando. O menor preço é diferente do melhor preço."*
+
+**4. Se ele pedir desconto ou prazo — fechamento por condição.** Nunca *"consigo, vou ver"*. Sempre: *"Se eu chegar nesse valor, fechamos hoje?"* Vale para **prazo e escopo**, não só preço.
+
+⚠️ **Onde o Emerson está mais exposto — a causa 1 dos curiosos (ancoragem):** o Araújo **está em piloto gratuito**. O preço que ele ancorou é **zero**. Isso é ancoragem em grau máximo e explica por que 18/09 é difícil por construção, não por falha de execução. A resposta do material é a técnica 3 (comparação inteligente): **nunca apresentar R$4.000 sozinho** — apresentar uma faixa, com o R$4.000 posicionado como a escolha recomendada, e nomear o que muda entre os níveis. Número único contra âncora zero vira leilão.
+
+⚠️ **A causa 2 (oferta sem clareza) é a tarefa que sobrou:** *"quanto mais especialista, mais o cliente paga sem reclamar."* O `icp-profile.md` em template genérico desde 02/06 é exatamente esse buraco.
 
 ---
 
