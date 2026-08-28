@@ -1,6 +1,6 @@
 # Plano de destilação — acervo Carol Iasmim
 
-**Criado:** 2026-08-27 · **Estado:** 11 de 59 destilados · **Restam 48 vídeos / 219.690 palavras**
+**Criado:** 2026-08-27 · **Atualizado:** 2026-08-27 (lote 1 concluído) · **Estado:** 15 de 59 destilados · **Restam 44 vídeos / ~203 mil palavras**
 
 > Fonte da priorização: catálogo real em `transcripts/` (data, palavras, views) cruzado com o marco **A3 — reunião de precificação com o Araújo, 18/09**.
 
@@ -15,18 +15,13 @@
 
 ---
 
-## LOTE 1 — Valor e diferenciação `PRIORIDADE MÁXIMA`
+## ~~LOTE 1 — Valor e diferenciação~~ ✅ **CONCLUÍDO 27/08/2026**
 
-**Por quê:** é o prato do valor da balança do Contrapeso. Sem isso o Emerson chega em 18/09 com o método mas sem munição. Resolve o dever de casa do A3 que está aberto no L2.
+**Virou a `§1B` do playbook.** Os 4 vídeos foram destilados: `LU7yilHR6kk` · `nkb2bqmveMk` · `mPtsaWhVlko` · `fiqPPT-viHY` (16.364 palavras).
 
-| Vídeo | Palavras | Views | Data |
-|---|---|---|---|
-| `LU7yilHR6kk` — 10 maneiras de vender VALOR na prática | 5.541 | 180k | 2025-09-08 |
-| `nkb2bqmveMk` — Essa atitude convence mais do que qualquer desconto | 3.546 | **208k** | 2025-09-03 |
-| `mPtsaWhVlko` — Se você tem atraído só cliente curioso | 3.267 | 16k | 2026-03-02 |
-| `fiqPPT-viHY` — Técnicas para fechar vendas em muito menos tempo | 4.010 | **291k** | 2025-03-26 |
+**O que entrou:** 10 maneiras de vender valor · a atitude que convence mais que desconto (regra do sim, espelhamento) · as 4 causas de atrair curioso · fechar em menos tempo (fechamento por condição).
 
-**Total:** 16.364 palavras · **1 sessão**
+**O achado que mais muda o A3:** o Araújo está em piloto gratuito, então **a âncora dele é zero** — ancoragem em grau máximo. A resposta é a *comparação inteligente*: nunca apresentar R$4.000 sozinho, sempre numa faixa com o R$4.000 como recomendado. Número único contra âncora zero vira leilão.
 
 ---
 
@@ -173,7 +168,7 @@
 
 | Lote | Tema | Palavras | Sessões |
 |---|---|---|---|
-| 1 | Valor e diferenciação | 16.364 | 1 |
+| ~~1~~ | ~~Valor e diferenciação~~ | ~~16.364~~ | ✅ **feito** |
 | 2 | Gatilhos e autoridade | 13.960 | 1 |
 | 3 | Emocional e insegurança | 35.676 | 1-2 |
 | 4 | Ler o cliente | 15.203 | 1 |
@@ -182,9 +177,9 @@
 | 7 | Canal específico | 18.310 | 1 |
 | 8 | Rotina e visão geral | 44.820 | 1-2 |
 | 9 | Complementares | 30.858 | 1 |
-| — | **TOTAL** | **~220 mil** | **9-11 sessões** |
+| — | **RESTANTE** | **~203 mil** | **8-10 sessões** |
 
-**Antes de 18/09 (A3), o mínimo viável são os lotes 1, 2 e 3.** Os demais podem esperar o trimestre seguinte sem custo.
+**Antes de 18/09 (A3), o mínimo viável são os lotes 1, 2 e 3.** ✅ Lote 1 feito — **faltam 2 e 3**. Os demais podem esperar o trimestre seguinte sem custo.
 
 ## Como retomar numa sessão nova
 

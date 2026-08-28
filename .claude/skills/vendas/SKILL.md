@@ -20,6 +20,8 @@ Obrigatória antes de qualquer conversa comercial. O marco **A3 (18/09)** — re
 | Cliente disse "tá caro" / pediu desconto | §1 — **Método Contrapeso** + **Estrutura de 4 passos** (empatia → isolar → minimizar → pedir a venda) |
 | Antecipar resistência antes que apareça | §1 — **Lavagem Cerebral Antiobjeção** |
 | Como dizer o número sem estragar a venda | §1 — **Depois de passar o preço** (5 erros + microdecisões) |
+| **Construir o argumento de valor** | **§1B — 10 maneiras de vender valor + regra do sim + fechamento por condição** |
+| Atraio curioso e não comprador | §1B — **As 4 causas** (ancoragem, falta de clareza, viver na promoção, conteúdo errado) |
 | Não existe processo de venda | §2 — **Método Alicerce** (7 etapas) |
 | Atrair, converter, fidelizar (funil inteiro) | §3 — **AIDAS completo** (A·I·D·A·S) |
 | Fechar sem parecer desesperado | §4 — **7 erros do fechamento** + **10 formas de induzir** |
@@ -63,8 +65,8 @@ O Contrapeso exige preparação escrita, não improviso:
 
 ## Lacunas — declarar quando a pergunta cair fora do playbook
 
-- **48 das 59 transcrições ainda não destiladas.** O playbook cobre **11 vídeos** (preço/objeção, processo, AIDAS completo, fechamento). As demais estão baixadas e cobrem **valor×preço, gatilhos, autoridade, emocional, ler o cliente, pós-venda, prospecção, canais (WhatsApp/ligação), crise, mercados concorridos**. Se a pergunta cair nesses temas: dizer que o material existe baixado mas não foi destilado, e oferecer destilar antes de responder.
-- 📋 **Plano priorizado: `squads/commercial/data/sales-intel/PLANO-DESTILACAO.md`** — 9 lotes, 9-11 sessões. Antes do A3 (18/09) o mínimo viável são os **lotes 1 (valor), 2 (gatilhos) e 3 (emocional)**. Para retomar: *"destilar lote N da Carol"*.
+- **44 das 59 transcrições ainda não destiladas.** O playbook cobre **15 vídeos** (preço/objeção, **valor**, processo, AIDAS completo, fechamento). As demais estão baixadas e cobrem **gatilhos, autoridade, emocional, ler o cliente, pós-venda, prospecção, canais (WhatsApp/ligação), crise, mercados concorridos**. Se a pergunta cair nesses temas: dizer que o material existe baixado mas não foi destilado, e oferecer destilar antes de responder.
+- 📋 **Plano priorizado: `squads/commercial/data/sales-intel/PLANO-DESTILACAO.md`** — 8 lotes restantes, 8-10 sessões. ✅ Lote 1 (valor) feito. Antes do A3 (18/09) **faltam os lotes 2 (gatilhos) e 3 (emocional)**. Para retomar: *"destilar lote N da Carol"*.
 - ⚠️ **`nQBJPfBA-_A` veio com transcrição vazia** — precisa recoletar.
 - **JJ #219:** ~15% processado — o resto é gestão de time de vendas, pouco aplicável a quem vende sozinho.
 - `squads/commercial/foundation/icp-profile.md` e `squads/commercial/foundation/qualification-criteria.md` seguem em **template genérico** do HIVE (02/06), nunca preenchidos. O Método Alicerce (§2) é o roteiro para preenchê-los.
