@@ -22,6 +22,9 @@ Obrigatória antes de qualquer conversa comercial. O marco **A3 (18/09)** — re
 | Como dizer o número sem estragar a venda | §1 — **Depois de passar o preço** (5 erros + microdecisões) |
 | **Construir o argumento de valor** | **§1B — 10 maneiras de vender valor + regra do sim + fechamento por condição** |
 | Atraio curioso e não comprador | §1B — **As 4 causas** (ancoragem, falta de clareza, viver na promoção, conteúdo errado) |
+| Usar gatilhos (escassez, urgência, prova social) | §4B — **os 4 gatilhos de Cialdini + aversão à perda** |
+| Voz, postura, presença, linguagem não verbal | §4B — 9 elementos da oratória + **método SINCRONIA** |
+| **Travado, com medo, insegurança para vender** | **§4C — autodiagnóstico de 8 perguntas + 4 antídotos** |
 | Não existe processo de venda | §2 — **Método Alicerce** (7 etapas) |
 | Atrair, converter, fidelizar (funil inteiro) | §3 — **AIDAS completo** (A·I·D·A·S) |
 | Fechar sem parecer desesperado | §4 — **7 erros do fechamento** + **10 formas de induzir** |
@@ -54,9 +57,13 @@ Ler `squads/commercial/memory/STATE.md` e o STATE do orchestrator antes de agir:
 ## Passo 4 — Antes da reunião, fazer o dever de casa
 
 O Contrapeso exige preparação escrita, não improviso:
-1. **Diferenciais** do Hub (matéria-prima dos argumentos)
-2. **Custo invisível do Araújo** — quanto custa por mês o problema continuar. Os dados existem no Supabase (atendimentos, pedidos, horas economizadas) e viram o relatório do marco A2 (11/09)
+
+1. **Diferenciais** — do Hub **e do Emerson** (a §1B manda listar 5 diferenciais *seus*, não do produto)
+2. **Custo invisível do Araújo** — quanto custa por mês o problema continuar. Os dados existem no Supabase (atendimentos, pedidos, horas economizadas) e viram o relatório do marco A2 (11/09). Pela §1B, **não afirmar o ganho: perguntar os números e fazer a conta na frente dele**
 3. **3 moedas de troca** — o que aceita conceder e o que exige em troca
+4. **A faixa de preço** — ⚠️ o Araújo está em piloto gratuito, então a âncora dele é **zero**. Nunca apresentar R$4.000 sozinho: montar faixa com **R$4.000 no meio, nunca no topo** (§1B, comparação inteligente)
+5. **Rodar o autodiagnóstico de 8 perguntas da §4C** — 2 minutos. Duas ou mais respostas "sim" e o problema de 18/09 é emocional, não de argumento
+6. **Juntar a pasta de feedbacks** — todo retorno positivo do Araújo durante o piloto é prova social e munição de valor (§4C)
 
 ## Fontes
 
@@ -65,8 +72,8 @@ O Contrapeso exige preparação escrita, não improviso:
 
 ## Lacunas — declarar quando a pergunta cair fora do playbook
 
-- **44 das 59 transcrições ainda não destiladas.** O playbook cobre **15 vídeos** (preço/objeção, **valor**, processo, AIDAS completo, fechamento). As demais estão baixadas e cobrem **gatilhos, autoridade, emocional, ler o cliente, pós-venda, prospecção, canais (WhatsApp/ligação), crise, mercados concorridos**. Se a pergunta cair nesses temas: dizer que o material existe baixado mas não foi destilado, e oferecer destilar antes de responder.
-- 📋 **Plano priorizado: `squads/commercial/data/sales-intel/PLANO-DESTILACAO.md`** — 8 lotes restantes, 8-10 sessões. ✅ Lote 1 (valor) feito. Antes do A3 (18/09) **faltam os lotes 2 (gatilhos) e 3 (emocional)**. Para retomar: *"destilar lote N da Carol"*.
+- **39 das 59 transcrições ainda não destiladas.** O playbook cobre **20 vídeos** (preço/objeção, valor, processo, AIDAS completo, fechamento, gatilhos/autoridade, insegurança). As demais cobrem **ler o cliente, pós-venda, prospecção, canais (WhatsApp/ligação), crise, mercados concorridos, rotina**. Se a pergunta cair nesses temas: dizer que o material existe baixado mas não foi destilado, e oferecer destilar antes de responder.
+- 📋 **Plano priorizado: `squads/commercial/data/sales-intel/PLANO-DESTILACAO.md`** — 6-8 sessões restantes. ✅ Lotes 1 (valor) e 2 (gatilhos) feitos, lote 3 (emocional) pela metade. **A base do A3 está coberta.** Para retomar: *"destilar lote N da Carol"*.
 - ⚠️ **`nQBJPfBA-_A` veio com transcrição vazia** — precisa recoletar.
 - **JJ #219:** ~15% processado — o resto é gestão de time de vendas, pouco aplicável a quem vende sozinho.
 - `squads/commercial/foundation/icp-profile.md` e `squads/commercial/foundation/qualification-criteria.md` seguem em **template genérico** do HIVE (02/06), nunca preenchidos. O Método Alicerce (§2) é o roteiro para preenchê-los.

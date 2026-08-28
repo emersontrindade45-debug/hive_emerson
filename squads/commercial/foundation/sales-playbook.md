@@ -8,7 +8,7 @@ Habilidades de venda acumuladas. Alimentado por vídeos enviados pelo Emerson e 
 - **Carol Iasmim** (`@carol.iasmim`, 175k inscritos) — catálogo completo 2025 + 2026, **58 vídeos** (19 de 2026, 39 de 2025). 17 anos de vendas, formada em Direito, criadora do método Neurovendas. Baixado a pedido do Emerson em 27/08/2026.
 - **Dani Martins** (Sales Prime), via JJ Podcast #219 — 1 transcrição, ⚠️ processada só na abertura.
 
-**Destilado até aqui: 15 dos 59** (14 da Carol + abertura do JJ #219). ✅ Lote 1 concluído em 27/08. Os 44 restantes estão priorizados em **8 lotes** em `../data/sales-intel/PLANO-DESTILACAO.md`.
+**Destilado até aqui: 20 dos 59** (19 da Carol + abertura do JJ #219). ✅ Lotes 1 e 2 concluídos + aulão de insegurança (lote 3), em 27/08. Os 39 restantes estão priorizados em `../data/sales-intel/PLANO-DESTILACAO.md`.
 
 > **Regra de precedência:** entradas que conflitam valem pela **data de publicação da fonte mais recente**.
 
@@ -18,6 +18,9 @@ Habilidades de venda acumuladas. Alimentado por vídeos enviados pelo Emerson e 
 | Dizer o preço sem estragar a venda | §1 — Depois de passar o preço |
 | **Construir o argumento de valor** | **§1B — 10 maneiras · atitude que convence · fechar em menos tempo** |
 | Atraio curioso e não comprador | §1B — As 4 causas |
+| Usar gatilhos (escassez, urgência, prova social) | §4B — Os 4 gatilhos · aversão à perda |
+| Melhorar voz, postura e presença | §4B — 9 elementos da oratória · método SINCRONIA |
+| **Estou travado / com medo de vender** | **§4C — autodiagnóstico de 8 perguntas + 4 antídotos** |
 | Montar processo do zero | §2 — Método Alicerce |
 | Atrair e converter (funil completo) | §3 — AIDAS |
 | Fechar sem parecer desesperado | §4 — 7 erros · 10 formas |
@@ -515,6 +518,184 @@ A analogia da Shopee: você lê a descrição do produto ou os comentários de q
 
 ---
 
+## 4B. Gatilhos, autoridade e presença
+
+> As §§1-4 dizem **o que falar**. Esta diz **como o cliente decide se acredita em você** — antes de processar o argumento.
+
+### Os 4 gatilhos que fazem o cliente dizer sim
+`Carol Iasmim, 2025-11-10 · base: Robert Cialdini, "As Armas da Persuasão" e "Pré-suasão"`
+
+**1. Reciprocidade — dar antes de receber.**
+*"Todas as vezes que você dá algo antes de receber, o cliente sente que te deve um favor."*
+
+| Onde | Como |
+|---|---|
+| Pré-venda | Conteúdo/ajuda gratuita. O garçom que entrega chocolate antes da conta recebe gorjeta maior |
+| Presencial | Oferecer café — **conduzindo**: *"Prefere café coado ou cappuccino?"*, nunca *"aceita um café?"* |
+| Pós-venda | Brinde **significativo**, aos melhores clientes. ⚠️ Brinde que o cliente não quer *"não fede nem cheira"* — não gera nada |
+
+⚠️ **O que a reciprocidade realmente compra:** tirar você do papel de quem quer vender a qualquer custo. *"Dá para sentir quando o profissional olha para você como uma chave Pix"* — o exemplo dela é uma consulta médica particular.
+
+**2. Autoridade — e ela tem duas formas.** Esta é a distinção mais útil do vídeo:
+
+| Tipo | O que é | Como se constrói |
+|---|---|---|
+| **Percebida** | Os sinais que o cliente lê sem você dizer nada: roupa, postura, ambiente, **como você escreve no WhatsApp**, o áudio que envia | *"Se você escreve tudo errado no WhatsApp, eu não te vejo como autoridade. Se você conversa de forma ansiosa e desesperada, eu não te vejo como autoridade"* |
+| **Declarada** | Os números que você verbaliza: tempo de mercado, nº de clientes, resultados | *"Já atendi mais de X clientes do mesmo mercado que o seu"* |
+
+**Apresentar-se como especialista, não como empresa:** *"Sou especialista no mercado imobiliário"* em vez de *"sou da empresa tal"*.
+
+**3. Prova social — o gatilho que tira o cliente de cima do muro.**
+A imagem: dois restaurantes na praça de alimentação, preço e comida parecidos. Um vazio, outro com 6 pessoas. Você vai ao de 6 — *"é a maneira do seu cérebro te proteger de uma decisão errada"*.
+
+Na prática: print de feedback (com autorização) · áudio de cliente satisfeito enviado ao indeciso · **avaliação no Google** — prova social indireta que trabalha sozinha.
+
+**4. Escassez e urgência — e a diferença que quase todos confundem:**
+
+| Gatilho | Envolve | Exemplo |
+|---|---|---|
+| **Escassez** | **Quantidade** | *"Só tenho mais uma peça / um horário"* |
+| **Urgência** | **Tempo** | *"A promoção vai até amanhã"* · *"Reajuste da tabela na semana que vem"* |
+
+### Aversão à perda — por que urgência funciona
+`Carol Iasmim, 2025-03-09`
+
+> **A demonstração que explica tudo** (de *"Vender é Humano"*): acorde um multimilionário às 5h dizendo *"você tem a oportunidade de ganhar R$5.000"* — ele se irrita. Acorde-o dizendo *"você está perdendo R$5.000"* — ele acorda **e agradece**.
+
+*"As pessoas têm muito mais medo de perder do que vontade de ganhar."*
+
+**Por que a escassez encarece:** edição limitada de automóvel vende mais caro e mais rápido. Ouro é caro porque é raro — *"você não sai tropeçando em ouro na rua igual tropeça em brita"*. Promoções com limite por CPF vendem mais que as sem limite.
+
+**Se o cliente sente que daqui a 6 meses terá o mesmo preço, a mesma condição e a mesma disponibilidade — não existe razão para decidir hoje.** É essa a pergunta que a urgência responde.
+
+**5 formas de aplicar urgência sem parecer desesperado:**
+
+| # | Situação | Execução |
+|---|---|---|
+| 1 | Proposta enviada | **Data de validade** na proposta. *"Empresas me procuram com orçamento do ano passado — preciso explicar que o cachê mudou"* |
+| 2 | Agenda com poucos horários | *"Tenho segunda 14h ou quarta 10h — qual fica melhor?"* — escassez **e** fechamento por escolha |
+| 3 | Reajuste de tabela chegando | Reativar quem sumiu: *"Conversamos mês passado sobre aquele problema. Entro em contato porque haverá reajuste na semana que vem. Você já conseguiu resolver?"* |
+| 4 | Campanha nova | **Preferência a quem já é cliente** — *"para quem já comprou, abrimos antecipadamente"*. Faz o cliente sentir vantagem em continuar cliente |
+| 5 | Cliente analítico com item único | Entrar no papel de **conselheiro**: *"Entendo que queira pensar. Só preciso reforçar que é o único, e outros clientes já demonstraram interesse. Não deixe muito tempo para não se arrepender depois"* |
+
+⚠️ **A regra que protege o gatilho:** *"Toda vez que usar, lembre: se esse cliente me chamar daqui um mês, aquilo tem que realmente ter acontecido."* Gatilho falso funciona uma vez e destrói a credibilidade — *"o cliente pensa: ela fala que é a última, mas toda vez está disponível. Por que eu compraria agora?"*
+
+⚠️ **Conecta com a §1B:** viver na promoção é o mesmo erro visto do outro lado. Quem sempre tem desconto nunca tem urgência crível.
+
+### Voz de autoridade — os 9 elementos da oratória
+`Carol Iasmim, 2026-01-12`
+
+**A distinção de partida:** comunicação é o que você usa o tempo todo; **oratória é usar a comunicação de forma intencional**. Ela declara que tinha péssima comunicação e construiu a atual — *"eu era a pessoa mais improvável para isso"*.
+
+| # | Elemento | O ajuste |
+|---|---|---|
+| 1 | **Postura ereta** | Muda o tom de voz e como você é percebido |
+| 2 | **Voz apoiada** | Do **peito**, não da garganta. Voz da garganta sai fina, gritada, cansativa |
+| 3 | **Ritmo e pausa** | Nervoso atropela palavras. *"É impossível te enxergarem como autoridade"* |
+| 4 | **Entonação por etapa** | Abordagem **receptiva** → sondagem **curiosa** → objeção **firme** → pós-venda **animada**. ⚠️ Monotom é o pior cenário |
+| 5 | **Dicção** | Exercício: A-E-I-O-U articulando o rosto todo; trava-línguas. Boa dicção **obriga** a falar mais devagar |
+| 6 | **Olhar** | Olhar disperso = desconfiança. **Tirar o celular da mesa** na negociação |
+| 7 | **Expressão facial** | Microexpressões precisam bater com a fala. Se não batem, o cérebro do cliente lê **mentira** |
+| 8 | **Mãos** | Usar intencionalmente para reforçar e organizar o raciocínio de quem ouve |
+| 9 | **Energia** | *"A energia positiva a gente sente"* — e a pesada também |
+
+> **A técnica de palco que vale na negociação:** para recuperar atenção, **não** aumentar o volume. *"Eu pauso. O silêncio já faz as pessoas prestarem atenção. Começo a falar mais baixo e mais devagar."*
+
+**Exercício:** ler a mesma frase em 3-4 tons diferentes (animado, firme, curioso). Gravar-se e ouvir.
+
+### Método SINCRONIA — 5 ajustes de linguagem não verbal
+`Carol Iasmim, 2026-07-27 · base: "O Corpo Fala"`
+
+**A premissa neurológica:** existe uma parte antiga do cérebro que responde a uma só pergunta — *"essa pessoa é segura ou preciso me proteger dela?"* — em milésimos de segundo, **lendo o corpo**. *"Enquanto você ainda pensa no que falar, seu corpo já falou, e mais alto."*
+
+> **A analogia que explica o "vou pensar e te retorno":** é como assistir a um filme com dublagem fora de sincronia. O cliente não sabe explicar o que está errado, mas sai com uma sensação estranha. **Quando palavra e corpo brigam, a pessoa acredita no corpo — sempre.**
+
+| # | Ajuste | Erro nomeado | Correção |
+|---|---|---|---|
+| 1 | **Inclinação** | Corpo jogado para trás = desinteresse (não tranquilidade) | Poucos centímetros à frente **quando ele fala do que importa** — junto com *"volta nessa parte, isso é importante"*. ⚠️ A reunião inteira inclinado vira ansiedade |
+| 2 | **Olhar** | **Versão cardápio** (olha para tudo menos para ele) × **versão delegacia** (trava o olho, vira interrogatório) | Olhar bastante **enquanto ele fala**; soltar mais quando você fala |
+| 3 | **Mãos** | **Versão mágico** — mão no bolso ou sob a mesa. *"O cérebro checa: o que essa pessoa está guardando?"* | Mãos à vista. **Palma para cima** = abertura (perguntar/escutar); **palma para baixo** = firmeza (sustentar prazo, preço) |
+| 4 | **Espelho** | — | Copiar postura e ritmo **com atraso e sutileza**. ⚠️ Copiar gesto imediato (coçar o nariz) vira deboche |
+| 5 | **Cadência** | **Versão 2×** — fala rápido, mexe no celular, pega e larga a caneta | Desacelerar de propósito. *"Quem manda numa sala costuma ser a pessoa mais devagar dela"* |
+
+**A evidência do ajuste 3:** análise comparando as palestras TED mais e menos assistidas — as mais assistidas usavam **quase o dobro de gestos com as mãos**. O gesto facilita o trabalho do cérebro de quem ouve, e o cérebro confia mais rápido no que entende mais rápido.
+
+⚠️ **Como o ajuste 5 destrói a negociação:** *"O cérebro traduz velocidade como ansiedade. E ansiedade ele lê assim: essa pessoa precisa mais de mim do que eu preciso dela."* **Você perde o poder da conversa antes de falar qualquer coisa** — é o mecanismo por trás de *"o cliente pede desconto porque percebeu que o vendedor é fraco"* (§1), visto pelo lado do corpo.
+
+⚠️ **Nada disso funciona no automático.** A instrução dela: **treinar um ajuste por vez, três dias cada**, começando pela inclinação. *"Se tentar aplicar os cinco amanhã, você vai parecer um robô com defeito."*
+
+> **A frase que fecha:** *"Você passou a vida treinando a sua boca — e o cliente estava decidindo pela outra linguagem, aquela que você nunca parou para treinar."*
+
+---
+
+## 4C. Insegurança — o que trava a venda antes da técnica
+
+`Carol Iasmim, 2025-04-06 (Aulão, 13.864 palavras)`
+
+> **A tese que reposiciona o problema:** *"A insegurança não é um defeito seu."* E mais — *"geralmente o vendedor que mais tem vontade de crescer é o que está mais inseguro."*
+
+⚠️ **O diagnóstico que corrige o alvo:** *"Você acha que é falta de confiança para falar. Não é. O seu medo é do julgamento."* Do cliente, do chefe, e **de si mesmo**. É isso que trava a prospecção, o follow-up e a oferta do ticket maior — não a falta de argumento.
+
+### Autodiagnóstico — 8 perguntas
+
+Responder sim/não. **Duas ou três respostas "sim" já indicam insegurança operando na venda.**
+
+| # | Pergunta | O que denuncia |
+|---|---|---|
+| 1 | Quando o cliente pede desconto, você fica nervoso e **aceita rápido demais**? | §1 — concessão sem troca |
+| 2 | Sente medo de **incomodar** ao fazer follow-up? | §4 — venda abandonada em "estou à disposição" |
+| 3 | Pensa muito antes de ligar, preocupado com o que ele vai achar? | §4B — cadência e autoridade percebida |
+| 4 | Quando ouve um não, fica **remoendo** o resto do dia? | Apego emocional — §1, funil vazio |
+| 5 | No fechamento pergunta *"você vai levar?"* em vez de conduzir? | §4 — erro 6 |
+| 6 | Evita ligar de novo para quem já disse não, por receio de parecer insistente? | Com **fato novo**, vale ligar — a conversão é boa |
+| 7 | Quando a venda trava, **quem conduz** é você ou o cliente? | §4 — condução |
+| 8 | Deixa de ofertar o produto **premium** por pré-julgar que ele não compra? | §1B — ancoragem para cima |
+
+⚠️ **A pergunta 8 é a mais cara e a menos percebida:** *"Se você se vê pequeno, você vende pequeno."* Vender **um** produto premium bate a meta mais rápido que dez do mais barato. Deixar de ofertar por medo é decisão de insegurança disfarçada de leitura de cliente — e a §1B já mostrou que **o julgamento pela aparência erra nos dois sentidos**.
+
+### Os 4 antídotos
+
+**1. A pasta de feedbacks.** Criar uma pasta no celular só com retornos positivos de clientes, e abri-la sempre que a insegurança aparecer.
+
+> *"Você escuta um feedback negativo e esquece dos 100 positivos. Isso não é justo com você mesmo. As coisas têm que ter o mesmo peso."*
+
+⚠️ *"Não tenho nenhum feedback positivo"* **é diagnóstico de pós-venda inexistente** (§3, letra S), não de falta de qualidade.
+
+**2. Clareza sobre o resultado que você gera.**
+
+> *"Se você tivesse a cura de uma doença terminal e soubesse de alguém precisando, você insistiria. Você olharia para o seu produto com essa certeza."*
+
+*"A sua insegurança está muito ligada à falta de clareza do resultado que você gera na vida do cliente."* Se você não acredita, o cliente ouve isso no tom — é a mesma raiz do *"você acha seu produto caro?"* da §1.
+
+**3. Poder pessoal — a autoridade percebida começa no espelho.**
+
+> *"Às vezes o cliente não está achando o produto caro. Ele olha para você e acha que pela sua cara o produto é barato."*
+
+E a regra que explica a urgência disso: *"são necessários sete encontros para desfazer uma primeira impressão"* — e quase nunca há sete encontros.
+
+**Checagem antes de qualquer reunião importante:** apresentação pessoal · o áudio que você acabou de mandar (você compraria de si mesmo?) · **as mensagens escritas** — abreviações, português, vícios de linguagem.
+
+**4. Autoridade não é arrogância.**
+
+> *"Tem hora que tem que ser leão, tem hora que tem que ser gatinho."*
+
+A firmeza aparece em momentos específicos: *"Isso eu não consigo reduzir mais. Mas consigo te entregar valor aqui. O menor preço é diferente do melhor preço."*
+
+### O conhecimento profundo como fonte de autoridade
+
+O caso da vendedora de roupas que sabia tom de pele, anatomia, corte que favorece, gola × colar, monocromia para parecer mais alta. **Resultado: a Carol comprou 5× mais do que pretendia** — não por técnica de fechamento, mas porque a vendedora *"trouxe novas perspectivas"*.
+
+> **O desafio que ela propõe:** *"O que você pode aprender de novo sobre o seu produto para ensinar ao seu cliente?"*
+
+⚠️ **Fecha o ciclo com a §1B:** ali, *"quanto mais especialista, mais o cliente paga sem reclamar"*. Aqui está o mecanismo — especialista **ensina**, e quem ensina vira autoridade sem precisar declarar.
+
+**Duas notas de contexto que valem para quem vende sozinho:**
+
+- *"O maior problema não é não bater a meta. É estar **indiferente** à meta."*
+- *"Existem momentos em que é inteligente desistir do cliente"* — e ela diz isso como crítica a gerentes que confundem persistência com pressão. Converge com o *"negócio estagnado é praga"* da §1.
+
+---
+
 ## 5. Os dois pilares da venda (e o que priorizar)
 `Carol Iasmim, 2026-01-01 (Aulão "Faça de 2026 o ano mais forte de vendas")`
 
@@ -597,6 +778,28 @@ Os dados existem no Supabase e viram o relatório do marco **A2 (11/09)** — qu
 ⚠️ **Onde o Emerson está mais exposto — a causa 1 dos curiosos (ancoragem):** o Araújo **está em piloto gratuito**. O preço que ele ancorou é **zero**. Isso é ancoragem em grau máximo e explica por que 18/09 é difícil por construção, não por falha de execução. A resposta do material é a técnica 3 (comparação inteligente): **nunca apresentar R$4.000 sozinho** — apresentar uma faixa, com o R$4.000 posicionado como a escolha recomendada, e nomear o que muda entre os níveis. Número único contra âncora zero vira leilão.
 
 ⚠️ **A causa 2 (oferta sem clareza) é a tarefa que sobrou:** *"quanto mais especialista, mais o cliente paga sem reclamar."* O `icp-profile.md` em template genérico desde 02/06 é exatamente esse buraco.
+
+**5. Urgência legítima — o que existe de verdade no caso.** Pela §4B, gatilho falso destrói credibilidade. O que é real aqui:
+
+| Candidato a urgência | É legítimo? |
+|---|---|
+| **Validade da proposta** | ✅ Sim — e é a mais forte. Basta datar a proposta e **cumprir** |
+| **O piloto gratuito tem fim** | ✅ Sim, se houver data definida. É o fim de uma condição excepcional, não uma promoção inventada |
+| "Última vaga", "só até sexta" genérico | ❌ Não existe. Não usar |
+
+⚠️ **O que a §4B acrescenta ao risco já mapeado:** *"o cérebro traduz velocidade como ansiedade — e ansiedade ele lê como: essa pessoa precisa mais de mim do que eu dela."* Com um cliente no funil, isso não é hipótese. **A cadência (ajuste 5 do método Sincronia) é a contramedida mais barata que existe** — falar e gesticular mais devagar de propósito, e não preencher silêncio.
+
+**6. Reciprocidade já foi construída — e não está sendo cobrada.** O piloto gratuito **é** reciprocidade em escala máxima: meses de trabalho entregues sem cobrança. Pelo gatilho 1 da §4B isso é crédito acumulado. Vale nomear na reunião, uma vez e sem cobrança:
+
+> *"A gente rodou esse período inteiro sem custo justamente para você decidir com dado, não com promessa."*
+
+⚠️ **Antes da reunião, checar a autoridade percebida** (§4B): como estão as mensagens de WhatsApp trocadas com o Araújo, os áudios enviados, o tempo de resposta. *"Se você conversa de forma ansiosa, eu não te vejo como autoridade"* — e autoridade baixa é o que faz o desconto ser pedido.
+
+**7. Rodar o autodiagnóstico da §4C antes de 18/09.** São 8 perguntas, 2 minutos. Três delas descrevem exatamente o cenário do A3: **pergunta 1** (aceitar desconto rápido demais), **pergunta 4** (remoer o não — com um cliente só no funil, o não pesa o dobro) e **pergunta 8** (não ofertar o ticket maior por pré-julgamento). Duas ou mais respostas "sim" ⇒ o problema de 18/09 **não é de argumento, é emocional**, e a preparação muda: menos roteiro, mais pasta de feedbacks e clareza do resultado gerado.
+
+⚠️ **A pergunta 8 tem consequência direta na faixa de preço.** A §1B manda apresentar uma faixa com o R$4.000 como recomendado. Se a insegurança fizer o Emerson montar a faixa **abaixo** de R$4.000 — para "não assustar" —, a técnica vira o oposto de si mesma. **A faixa deve ter o R$4.000 no meio, não no topo.**
+
+**8. Onde buscar a pasta de feedbacks.** O Araújo está em piloto há meses. Todo retorno positivo dado nesse período — mensagem, elogio, pedido de mais funcionalidade — **é prova social e é munição de valor**. Se não houver nenhum registrado, isso é o diagnóstico da §4C: pós-venda inexistente, não produto ruim.
 
 ---
 
