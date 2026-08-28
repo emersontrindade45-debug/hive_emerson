@@ -1,6 +1,6 @@
 # Plano de destilação — acervo Carol Iasmim
 
-**Criado:** 2026-08-27 · **Atualizado:** 2026-08-27 (lote 1 concluído) · **Estado:** 15 de 59 destilados · **Restam 44 vídeos / ~203 mil palavras**
+**Criado:** 2026-08-27 · **Atualizado:** 2026-08-27 (lotes 1, 2 e parte do 3) · **Estado:** 20 de 59 destilados · **Restam 39 vídeos / ~176 mil palavras**
 
 > Fonte da priorização: catálogo real em `transcripts/` (data, palavras, views) cruzado com o marco **A3 — reunião de precificação com o Araújo, 18/09**.
 
@@ -25,33 +25,30 @@
 
 ---
 
-## LOTE 2 — Gatilhos, persuasão e autoridade `ALTA`
+## ~~LOTE 2 — Gatilhos, persuasão e autoridade~~ ✅ **CONCLUÍDO 27/08/2026**
 
-**Por quê:** ela manda explicitamente usar gatilhos JUNTO com as técnicas de fechamento já destiladas (§4). Sem este lote, a §4 fica incompleta na prática.
+**Virou a `§4B` do playbook.** Os 4 vídeos destilados: `sQHRaP-Kl2o` · `gNqu2WF34fs` · `u5mrIJnFAEA` · `4vRLqb8gvOY` (13.960 palavras).
 
-| Vídeo | Palavras | Views | Data |
-|---|---|---|---|
-| `sQHRaP-Kl2o` — 4 gatilhos psicológicos que fazem o cliente dizer "sim" | 3.657 | 100k | 2025-11-10 |
-| `gNqu2WF34fs` — O gatilho mental mais poderoso para fechar vendas | 3.592 | 105k | 2025-03-09 |
-| `u5mrIJnFAEA` — Como ter voz de autoridade | 4.107 | 100k | 2026-01-12 |
-| `4vRLqb8gvOY` — Truques de postura que te deixam 10x mais persuasivo | 2.604 | 26k | 2026-07-27 |
+**O que entrou:** os 4 gatilhos de Cialdini (reciprocidade, autoridade, prova social, escassez) · aversão à perda · **escassez = quantidade × urgência = tempo** · 5 formas de aplicar urgência sem parecer desesperado · 9 elementos da oratória · **método SINCRONIA** (5 ajustes de linguagem não verbal).
 
-**Total:** 13.960 palavras · **1 sessão**
+**O achado que mais muda o A3:** *"o cérebro traduz velocidade como ansiedade — e ansiedade ele lê como: essa pessoa precisa mais de mim do que eu dela."* A cadência (falar e gesticular devagar de propósito) é a contramedida mais barata contra o risco de funil com um cliente só.
 
 ---
 
-## LOTE 3 — Emocional e insegurança `ALTA`
+## LOTE 3 — Emocional e insegurança `EM ANDAMENTO — 1 de 4 feito`
 
 **Por quê:** a §1 já registrou que *"o cliente pede desconto porque percebeu que o vendedor é fraco"* e listou as 7 emoções que entregam fraqueza. Este lote é o antídoto — e o Emerson vai a 18/09 com 1 cliente no funil, cenário de apego emocional máximo.
 
-| Vídeo | Palavras | Views | Data |
-|---|---|---|---|
-| `twBGhn8IaP0` — Aulão: dominar a insegurança e vender com autoridade | **13.864** | 44k | 2025-04-06 |
-| `9AmNTZ37ZWc` — Aulão: Inteligência Emocional em Vendas | **13.350** | 120k | 2025-03-04 |
-| `UZ2IxYSHvVE` — Acabe com seu bloqueio em vendas | 4.841 | 121k | 2025-05-05 |
-| `lZIOMPsl-jY` — Como ter uma mentalidade blindada em vendas | 3.621 | 34k | 2025-08-04 |
+| Vídeo | Palavras | Views | Data | Estado |
+|---|---|---|---|---|
+| `twBGhn8IaP0` — Aulão: dominar a insegurança e vender com autoridade | **13.864** | 44k | 2025-04-06 | ✅ **virou a §4C** |
+| `9AmNTZ37ZWc` — Aulão: Inteligência Emocional em Vendas | **13.350** | 120k | 2025-03-04 | ⬜ pendente |
+| `UZ2IxYSHvVE` — Acabe com seu bloqueio em vendas | 4.841 | 121k | 2025-05-05 | ⬜ pendente |
+| `lZIOMPsl-jY` — Como ter uma mentalidade blindada em vendas | 3.621 | 34k | 2025-08-04 | ⬜ pendente |
 
-**Total:** 35.676 palavras · **1-2 sessões** (os dois aulões são densos)
+**Restam:** 21.812 palavras · **1 sessão**
+
+⚠️ **Checar sobreposição antes de destilar os 3 restantes.** A §4C já cobre autodiagnóstico, pasta de feedbacks, clareza de resultado, poder pessoal e autoridade percebida × declarada. Os 3 pendentes provavelmente repetem boa parte disso — **destilar só o que for novo**, não reescrever a seção.
 
 ---
 
@@ -168,18 +165,18 @@
 
 | Lote | Tema | Palavras | Sessões |
 |---|---|---|---|
-| ~~1~~ | ~~Valor e diferenciação~~ | ~~16.364~~ | ✅ **feito** |
-| 2 | Gatilhos e autoridade | 13.960 | 1 |
-| 3 | Emocional e insegurança | 35.676 | 1-2 |
+| ~~1~~ | ~~Valor e diferenciação~~ | ~~16.364~~ | ✅ **feito** → §1B |
+| ~~2~~ | ~~Gatilhos e autoridade~~ | ~~13.960~~ | ✅ **feito** → §4B |
+| 3 | Emocional e insegurança | 21.812 restantes | 1 (1 de 4 feito → §4C) |
 | 4 | Ler o cliente | 15.203 | 1 |
 | 5 | Pós-venda e indicação | 18.590 | 1 |
 | 6 | Prospecção e funil | 23.709 | 1 |
 | 7 | Canal específico | 18.310 | 1 |
 | 8 | Rotina e visão geral | 44.820 | 1-2 |
 | 9 | Complementares | 30.858 | 1 |
-| — | **RESTANTE** | **~203 mil** | **8-10 sessões** |
+| — | **RESTANTE** | **~176 mil** | **6-8 sessões** |
 
-**Antes de 18/09 (A3), o mínimo viável são os lotes 1, 2 e 3.** ✅ Lote 1 feito — **faltam 2 e 3**. Os demais podem esperar o trimestre seguinte sem custo.
+**Antes de 18/09 (A3), o mínimo viável eram os lotes 1, 2 e 3.** ✅ **1 e 2 feitos, 3 pela metade.** A base do A3 está coberta — o resto do lote 3 é reforço, não pré-requisito. Os lotes 4-9 podem esperar o trimestre seguinte sem custo.
 
 ## Como retomar numa sessão nova
 
