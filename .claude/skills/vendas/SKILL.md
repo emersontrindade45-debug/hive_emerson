@@ -63,7 +63,8 @@ O Contrapeso exige preparação escrita, não improviso:
 
 ## Lacunas — declarar quando a pergunta cair fora do playbook
 
-- **45 das 58 transcrições da Carol ainda não destiladas.** O playbook cobre **13 vídeos** (preço/objeção, processo, AIDAS completo, fechamento). As demais estão baixadas e cobrem **prospecção, valor×preço, gatilhos, autoridade, pós-venda, canais (WhatsApp/ligação), crise, mercados concorridos**. Se a pergunta cair nesses temas: dizer que o material existe baixado mas não foi destilado, e oferecer destilar antes de responder. A **fila priorizada** está no fim do playbook.
-- ⚠️ **Uma transcrição veio vazia** (`nQBJPfBA-_A`) e **4 estão sem título** — precisam recoleta/inspeção.
+- **48 das 59 transcrições ainda não destiladas.** O playbook cobre **11 vídeos** (preço/objeção, processo, AIDAS completo, fechamento). As demais estão baixadas e cobrem **valor×preço, gatilhos, autoridade, emocional, ler o cliente, pós-venda, prospecção, canais (WhatsApp/ligação), crise, mercados concorridos**. Se a pergunta cair nesses temas: dizer que o material existe baixado mas não foi destilado, e oferecer destilar antes de responder.
+- 📋 **Plano priorizado: `squads/commercial/data/sales-intel/PLANO-DESTILACAO.md`** — 9 lotes, 9-11 sessões. Antes do A3 (18/09) o mínimo viável são os **lotes 1 (valor), 2 (gatilhos) e 3 (emocional)**. Para retomar: *"destilar lote N da Carol"*.
+- ⚠️ **`nQBJPfBA-_A` veio com transcrição vazia** — precisa recoletar.
 - **JJ #219:** ~15% processado — o resto é gestão de time de vendas, pouco aplicável a quem vende sozinho.
 - `squads/commercial/foundation/icp-profile.md` e `squads/commercial/foundation/qualification-criteria.md` seguem em **template genérico** do HIVE (02/06), nunca preenchidos. O Método Alicerce (§2) é o roteiro para preenchê-los.

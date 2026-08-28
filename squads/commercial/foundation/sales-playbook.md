@@ -8,7 +8,7 @@ Habilidades de venda acumuladas. Alimentado por vídeos enviados pelo Emerson e 
 - **Carol Iasmim** (`@carol.iasmim`, 175k inscritos) — catálogo completo 2025 + 2026, **58 vídeos** (19 de 2026, 39 de 2025). 17 anos de vendas, formada em Direito, criadora do método Neurovendas. Baixado a pedido do Emerson em 27/08/2026.
 - **Dani Martins** (Sales Prime), via JJ Podcast #219 — 1 transcrição, ⚠️ processada só na abertura.
 
-**Destilado até aqui: 13 dos 59** (12 da Carol + abertura do JJ #219). Ver **Fila de destilação** no fim do arquivo.
+**Destilado até aqui: 11 dos 59** (10 da Carol + abertura do JJ #219). Os 48 restantes estão priorizados em **9 lotes** em `../data/sales-intel/PLANO-DESTILACAO.md`.
 
 > **Regra de precedência:** entradas que conflitam valem pela **data de publicação da fonte mais recente**.
 
@@ -478,23 +478,12 @@ Cliente sem clareza do próprio objetivo é cliente que não fecha — ou que fe
 
 ## Lacunas conhecidas
 
-- **45 das 58 transcrições da Carol ainda não destiladas** — este playbook cobre **13 vídeos**, os de maior aplicação imediata ao marco A3. As demais estão baixadas em `data/sales-intel/transcripts/`.
+- **48 das 59 transcrições ainda não destiladas** — este playbook cobre **11 vídeos**, os de maior aplicação imediata ao marco A3. As demais estão baixadas em `data/sales-intel/transcripts/`.
+- 📋 **Plano completo em `../data/sales-intel/PLANO-DESTILACAO.md`** — 48 vídeos organizados em **9 lotes priorizados**, com estimativa de sessões. Antes do A3, o mínimo viável são os **lotes 1, 2 e 3**.
 - **JJ #219 (Dani Martins):** 13.462 palavras, **~15% processado**. O que falta é majoritariamente *gestão de time de vendas* (remuneração, contratar "cavalo de corrida" vs "pangaré", clima) — pouco aplicável a quem vende sozinho hoje.
 - ⚠️ **`nQBJPfBA-_A.json` está com transcrição vazia** (0 palavras) — vídeo *"Pare de falar isso e veja suas vendas subirem"*. Precisa recoletar.
-- **4 arquivos sem título no JSON:** `-XXghFrMRHg`, `9fRrmO5-6Wo`, `KRj_8g45Ihw`, `atcK1ESPGnU` — têm transcrição, mas o tema só é conhecido abrindo.
-- **Parte do catálogo 2025 tem título em inglês** (fase de títulos traduzidos do canal) — o conteúdo é em português.
+- **`ZIMyHzpB8BY`** (Fique viciado em aparecer nas redes sociais) é escopo de **Marketing `[M4]`**, não Commercial.
 - `icp-profile.md` e `qualification-criteria.md` seguem em template genérico.
-
-### Fila de destilação — o que falta, por valor
-
-| Prioridade | Tema | Vídeos | Por quê |
-|---|---|---|---|
-| 1 | **Prospecção e funil** | `3QyN9seFm2w` · `z9TBtoXZXyw` · `ikzd4bK-4GU` · `wq-UzQw7Owk` | O insight 6 (§1) nomeou o custo de funil com 1 cliente. Fica pronto para quando a prospecção reabrir |
-| 2 | **Valor × preço** | `LU7yilHR6kk` (10 maneiras de vender valor) · `mPtsaWhVlko` · `3PHZV3b0JVY` | Alimenta direto o prato do valor no A3 |
-| 3 | **Gatilhos e persuasão** | `sQHRaP-Kl2o` · `gNqu2WF34fs` · `4vRLqb8gvOY` · `u5mrIJnFAEA` | Ela manda usar gatilhos **junto** com as técnicas de fechamento |
-| 4 | **Autoridade e mentalidade** | `twBGhn8IaP0` (13.864 palavras) · `9AmNTZ37ZWc` (13.350) · `dObgyrvOV3I` (11.843) · `UZ2IxYSHvVE` | As 7 emoções (§1) são o gancho: emocional fraco atrai objeção |
-| 5 | **Pós-venda e fidelização** | `bTKnX4vRCzA` · `O97F8N5JDdo` · `VdqJzeXvXR0` · `fTC7Tfsqi-k` | Aprofunda a letra S — o caminho para indicação sem prospecção ativa |
-| 6 | **Canal e contexto específico** | `AR6gJRIema8` (WhatsApp) · `D3-95nI3ob4` (ligação) · `jqlJAavLnd8` (mercados concorridos) · `EdOa9sNFz_Q` (crise) | Aplicação por canal, depois da base |
 
 ## Como adicionar material
 
