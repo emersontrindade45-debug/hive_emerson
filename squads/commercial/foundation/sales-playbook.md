@@ -8,7 +8,7 @@ Habilidades de venda acumuladas. Alimentado por vídeos enviados pelo Emerson e 
 - **Carol Iasmim** (`@carol.iasmim`, 175k inscritos) — catálogo completo 2025 + 2026, **58 vídeos** (19 de 2026, 39 de 2025). 17 anos de vendas, formada em Direito, criadora do método Neurovendas. Baixado a pedido do Emerson em 27/08/2026.
 - **Dani Martins** (Sales Prime), via JJ Podcast #219 — 1 transcrição, ⚠️ processada só na abertura.
 
-**Destilado até aqui: 20 dos 59** (19 da Carol + abertura do JJ #219). ✅ Lotes 1 e 2 concluídos + aulão de insegurança (lote 3), em 27/08. Os 39 restantes estão priorizados em `../data/sales-intel/PLANO-DESTILACAO.md`.
+**Destilado até aqui: 23 dos 59** (22 da Carol + abertura do JJ #219). ✅ Lotes 1, 2 e **3 concluídos** em 27/08. Os 39 restantes estão priorizados em `../data/sales-intel/PLANO-DESTILACAO.md`.
 
 > **Regra de precedência:** entradas que conflitam valem pela **data de publicação da fonte mais recente**.
 
@@ -21,6 +21,7 @@ Habilidades de venda acumuladas. Alimentado por vídeos enviados pelo Emerson e 
 | Usar gatilhos (escassez, urgência, prova social) | §4B — Os 4 gatilhos · aversão à perda |
 | Melhorar voz, postura e presença | §4B — 9 elementos da oratória · método SINCRONIA |
 | **Estou travado / com medo de vender** | **§4C — autodiagnóstico de 8 perguntas + 4 antídotos** |
+| **Ansiedade na reunião · recuperar depois do não** | **§4D — 3 componentes da emoção · 5 pilares · treinamento de cenário** |
 | Montar processo do zero | §2 — Método Alicerce |
 | Atrair e converter (funil completo) | §3 — AIDAS |
 | Fechar sem parecer desesperado | §4 — 7 erros · 10 formas |
@@ -696,6 +697,114 @@ O caso da vendedora de roupas que sabia tom de pele, anatomia, corte que favorec
 
 ---
 
+## 4D. Inteligência emocional e mentalidade — sustentar a técnica sob pressão
+
+`Carol Iasmim: 2025-03-04 (Aulão IE em vendas, 13.350 palavras) · 2025-05-05 (Bloqueio, 4.841) · 2025-08-04 (Mentalidade blindada, 3.621)`
+
+⚠️ **Relação com a §4C:** a §4C trata do medo **antes** da venda (não ir, não ofertar, não cobrar o preço). A §4D trata do que acontece **durante e depois** — a emoção que vaza na reunião e a recuperação após o não. Os três vídeos repetem muito da §4C (pasta de feedbacks, a cura da doença terminal, não levar o não pro pessoal) — aqui está só o que é **novo**.
+
+> **A tese:** *"O primeiro cliente que tem que ser convencido todos os dias é você mesmo."* E o corolário que reordena a prioridade: *"Não é preço que é determinante, não é nem sempre a qualidade do produto — muitas vezes é quem está vendendo."*
+
+### As 4 inteligências (Jeb Blount) — e qual delas está faltando
+
+| Inteligência | O que é | Diagnóstico |
+|---|---|---|
+| **Inata** | QI, facilidade de captar. Não é "dom de vendas" | Existe predisposição, **não existe dom**. Quem não tem predisposição e estuda vende mais que quem tem e não estuda |
+| **Adquirida** | Conhecimento validado, buscado ativamente | *"A pessoa fala 'tenho 20 anos de experiência' mas deve ter 120 meses que ela não aprende nada novo."* **Experiência ≠ conhecimento** |
+| **Tecnológica** | CRM, WhatsApp, redes sociais, IA | Não ter CRM = não ter controle do processo. *"Às vezes o que falta não é técnica, é usar as ferramentas"* |
+| **Emocional** | Lidar com as próprias emoções na venda | Sem ela, as outras três não convertem |
+
+⚠️ **O diagnóstico que muda o alvo:** *"Você sabe que seria inteligente vir divulgar seu produto, mas não faz. Por quê? Por medo do julgamento."* Não é falta de conhecimento — é falta de IE. **Aplicação direta ao canal do Emerson (marco C2):** o que trava a gravação do vídeo 1 é do mesmo tipo do que trava o follow-up.
+
+### Os 3 componentes da emoção — onde intervir em cada um
+
+**1. Fisiológico — o corpo denuncia antes da boca.**
+
+Mãos suando, tremor, respiração curta. *"Seu corpo não mente"* — é o cérebro reptiliano preparando luta ou fuga.
+
+- **Intervenção:** preparação (*"não tem como se sentir seguro se você não se preparou"*) + **respiração diafragmática** antes de entrar.
+- **A regra de ouro:** *"Vai. Não deixa de ir."* O corpo vai tremer e a voz vai gaguejar — vá assim mesmo. *"Se você tem o hábito de sempre se preparar, isso diminui cada vez mais."*
+- ⚠️ *"Eu fiz palestra para 5.000 pessoas ansiosa e ninguém percebeu."* **Sentir e transmitir são coisas separadas** — dá para sentir medo e não entregá-lo.
+
+**2. Cognitivo — a história que você conta para você mesmo.**
+
+O mesmo fato, duas leituras:
+
+| Fato | Leitura sem IE | Leitura com IE |
+|---|---|---|
+| Cliente diz "tá caro" | "Não tem interesse" | "Tem pelo menos interesse mínimo" (§1) |
+| Não respondeu no WhatsApp | "Não quer, vou ser chato se insistir" | "Não viu / dia corrido — mando outra" |
+| Pergunta a mesma coisa 3× | "Cliente difícil" | "Já teve experiência ruim com concorrente" |
+
+> **O caso da manicure:** ela viu a mensagem, pensou em responder, foi atender uma ligação e esqueceu. No dia seguinte a profissional insistiu — e fechou. *"Se ela pensasse 'não vou ser chata', teria perdido o agendamento que eu queria fazer."*
+
+⚠️ **A regra:** *"A maneira de interpretar os fatos é o que mais controla as nossas emoções no dia a dia."*
+
+**3. Comportamental — o que vaza sem você perceber.**
+
+*"Se o seu cliente sente que você não tem segurança para vender, ele não tem segurança para comprar."*
+
+Sinais que entregam: falar rápido, repetitivo, prolixo · **testamentos no WhatsApp** (*"quem tem bons argumentos não precisa mandar texto enorme — os melhores argumentos são perguntas"*) · olhar para o chão · auto-toque (se acariciar para se acalmar) · microexpressões.
+
+### A pergunta libertadora — antes de cada reunião difícil
+
+> **"Qual é a pior coisa que pode acontecer se esse cliente não fechar?"**
+
+*"Não tem nada de tão pior assim. O mundo não vai acabar. Seria ótimo fechar? Sim. Mas não fechar não é extraordinário."*
+
+⚠️ **Aplicação ao A3:** com **um cliente no funil**, essa pergunta é a contramedida mais barata contra o apego que produz desconto precoce. A resposta honesta ("perco a receita prevista, reabro prospecção") já está escrita como plano de contingência — e é justamente por estar escrita que ela deixa de ser ameaça existencial na reunião.
+
+⚠️ **A armadilha da última semana:** *"A pessoa não vai construindo a meta e chega na última semana mega ansiosa querendo compensar."* A ansiedade de fechamento é, na maioria das vezes, **dívida de prospecção acumulada** — não um problema emocional.
+
+### Os 5 pilares da mentalidade blindada
+
+⚠️ *"Não é positividade forçada — 'esse mês eu vou conseguir' enquanto não se faz nada diferente."*
+
+| # | Pilar | O que significa na prática |
+|---|---|---|
+| 1 | **Separar quem você é do resultado do dia** | 1-2 dias ruins não dizem nada. **3 meses seguidos dizem** — aí é sinal de corrigir o processo |
+| 2 | **Venda é processo, não sorte** | *"Hoje eu não vendi, mas plantei. Quando você está em movimento, não existe tempo perdido"* |
+| 3 | **Frieza emocional com o não** | Contar a taxa: a cada quantos nãos vem um sim. **Cada não é feedback** — o que dá para mudar? |
+| 4 | **Alta tolerância à frustração e à demora** | *"A chateação não pode durar mais que 5 minutos"* |
+| 5 | **Convicção do valor que você entrega** | *"Quem tenta te diminuir está falando mais sobre ela do que sobre você"* |
+
+> **O que está sob controle:** *"Você não controla o cliente, o mercado, o concorrente, às vezes nem a meta nem o preço. Você controla **as ações que executa** e **a reação** quando as coisas não saem como queria. Só isso."*
+
+### As 5 estratégias para desenvolver
+
+1. **Blindar o ambiente.** Sair de perto de quem só reclama; se não dá para trocar o ambiente, buscar o input fora dele (curso, livro, quem já chegou onde você quer).
+2. **Planejamento diário.** *"Não negocie com você. Adulto faz o que precisa ser feito; é criança que faz o que gosta."* Rotina definida evita que um cliente mal-educado derrube o dia. → cruza com `metas-performance` (Operations).
+3. **Diálogo interno.** Afirmação antes de cada evento — o exemplo do Cristiano Ronaldo antes do pênalti.
+4. **Registro das vitórias.** Espelho da pasta de feedbacks da §4C, mas com **as suas** vitórias, não as dos clientes.
+5. **Treinamento de cenário.** O método Michael Phelps: imaginar mentalmente **os cenários ruins** (óculos enchendo de água, cãibra) e como responder a cada um. Em vendas: *"tá caro" · "achei mais barato" · "vou pensar"* — e também **o sentimento**: 2 dias sem bater meta, como reajo? 4 dias?
+
+⚠️ **O pilar 5 do treinamento de cenário é o que falta no preparo do A3.** O plano de contingência cobre a resposta técnica (aceitar R$1.500-3.000, reduzir escopo, encerrar). Não cobre **a resposta emocional** a cada faixa — e é ela que decide se o número sai da boca com firmeza ou com pedido de desculpa.
+
+### O exercício das 10 maneiras — versão bloqueio
+
+> *"Liste 10 maneiras que o seu produto ajuda a vida de alguém."*
+
+⚠️ **Não confundir com as 10 maneiras de vender valor da §1B.** Lá é argumento **para o cliente**; aqui é convicção **para você**. A Carol dá o próprio exemplo trocando o substantivo pelo verbo: não *"vendo curso, palestra, mentoria"*, mas *"ajudo a empresa a aumentar lucratividade · ajudo vendedores a vender com confiança · ajudo profissionais a pararem de negociar só dando desconto"*.
+
+### A saída elegante — o que fazer quando o cliente fecha com o concorrente
+
+Caso analisado pela Carol de uma aluna. Sequência:
+
+1. Perguntar **qual foi o fator decisivo** (sem cobrar, sem defender)
+2. *"Fico feliz que você já tomou essa decisão e vai resolver esse problema"*
+3. *"Me coloco à disposição para quando eu puder ser útil"*
+
+> *"Se ele não estiver mais satisfeito lá, que eu seja a primeira pessoa a vir na mente dele."*
+
+⚠️ **O antipadrão nomeado:** ficar com raiva, parar de seguir, bloquear. *"Nem sempre é porque ele é melhor do que você."* Converge com a letra S do AIDAS (§3) — e, com prospecção suspensa, **a porta aberta é ativo de aquisição**, não cortesia.
+
+### Duas notas que valem para quem vende sozinho
+
+- **Cuidado com script pronto e com IA como muleta.** *"A IA é boa para quem já é bom, porque quem é bom sabe avaliar se aquela resposta é um argumento válido."* Quem não sabe fica engessado. *"Se atalho fosse bom, não existia o caminho."*
+- **A qualidade da vida depende da qualidade dos clientes.** *"Às vezes o lucro que um cliente traz não vale a paz que ele tira."* Vender muito é o que permite **escolher** cliente — converge com o *"negócio estagnado é praga"* da §1 e com o *"existem momentos em que é inteligente desistir do cliente"* da §4C.
+
+---
+
 ## 5. Os dois pilares da venda (e o que priorizar)
 `Carol Iasmim, 2026-01-01 (Aulão "Faça de 2026 o ano mais forte de vendas")`
 
@@ -805,8 +914,8 @@ Os dados existem no Supabase e viram o relatório do marco **A2 (11/09)** — qu
 
 ## Lacunas conhecidas
 
-- **48 das 59 transcrições ainda não destiladas** — este playbook cobre **11 vídeos**, os de maior aplicação imediata ao marco A3. As demais estão baixadas em `data/sales-intel/transcripts/`.
-- 📋 **Plano completo em `../data/sales-intel/PLANO-DESTILACAO.md`** — 48 vídeos organizados em **9 lotes priorizados**, com estimativa de sessões. Antes do A3, o mínimo viável são os **lotes 1, 2 e 3**.
+- **36 das 59 transcrições ainda não destiladas** — este playbook cobre **23 vídeos**. As demais estão baixadas em `data/sales-intel/transcripts/`.
+- 📋 **Plano completo em `../data/sales-intel/PLANO-DESTILACAO.md`** — **lotes 1, 2 e 3 concluídos**; restam os lotes 4-9 (36 vídeos, ~154 mil palavras). A base do A3 está coberta.
 - **JJ #219 (Dani Martins):** 13.462 palavras, **~15% processado**. O que falta é majoritariamente *gestão de time de vendas* (remuneração, contratar "cavalo de corrida" vs "pangaré", clima) — pouco aplicável a quem vende sozinho hoje.
 - ⚠️ **`nQBJPfBA-_A.json` está com transcrição vazia** (0 palavras) — vídeo *"Pare de falar isso e veja suas vendas subirem"*. Precisa recoletar.
 - **`ZIMyHzpB8BY`** (Fique viciado em aparecer nas redes sociais) é escopo de **Marketing `[M4]`**, não Commercial.
