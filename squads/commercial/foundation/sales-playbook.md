@@ -4,9 +4,10 @@ Habilidades de venda acumuladas. Alimentado por vídeos enviados pelo Emerson e 
 
 **Última atualização:** 2026-08-27
 
-**Acervo:** 59 transcrições · ~271 mil palavras
+**Acervo:** 59 transcrições · ~271 mil palavras · + 1 material de estudo do Emerson
 - **Carol Iasmim** (`@carol.iasmim`, 175k inscritos) — catálogo completo 2025 + 2026, **58 vídeos** (19 de 2026, 39 de 2025). 17 anos de vendas, formada em Direito, criadora do método Neurovendas. Baixado a pedido do Emerson em 27/08/2026.
 - **Dani Martins** (Sales Prime), via JJ Podcast #219 — 1 transcrição, ⚠️ processada só na abertura.
+- 🆕 **Conselho 01 — "Como vender mais e melhor"** (Spotify, 26/09/2022) — Thiago Nigro, Caio Carneiro e Flávio Augusto. Notas do Emerson no Notion, estudadas em 26/02/2026, destiladas em 27/08/2026 → **§10**. **Primeira fonte não-Carol do playbook.**
 
 **Destilado até aqui: 57 dos 59** (56 da Carol + abertura do JJ #219). ✅ **Os 9 lotes concluídos** em 27/08 — o acervo da Carol está integralmente destilado. Histórico dos 9 lotes em `../data/sales-intel/PLANO-DESTILACAO.md`.
 
@@ -33,6 +34,8 @@ Habilidades de venda acumuladas. Alimentado por vídeos enviados pelo Emerson e 
 | **Mercado saturado · crise · "achei mais barato"** | **§7 — 5 pilares da diferenciação · declaração de intenção** |
 | **Qualificar lead · priorizar funil · objeção recorrente** | **§8 — classificação A/B/C · mapa de objeções · caso da Vera** |
 | **Técnica com nome · zonas de valor · o que NÃO fazer** | **§9 — microcompromissos · autossuficiência · 5 zonas · antipadrões** |
+| 🆕 **Cliente não sabe que tem o problema · educar antes de vender** | **§10 — níveis de consciência · medo × ambição** |
+| 🆕 **Para quem NÃO vender · canais · LTV/CAC · script de abordagem** | **§10 — Caio Carneiro · unit economics · reescrita do script do Emerson** |
 | Preparar a reunião do Araújo (18/09) | § Aplicação ao contexto do Emerson |
 
 ---
@@ -1483,6 +1486,132 @@ Quando o produto é igual ao do concorrente, o valor se constrói por camadas:
 Ao longo de 9 lotes e 50 vídeos, **um mecanismo apareceu por caminhos independentes mais vezes que qualquer outro**: *"ensinar o cliente é o que gera autoridade"* — na §1B (especialista cobra mais), na §4C (a vendedora que ensinou e vendeu 5× mais), na §3C (efeito especialista), na §7 (mercado saturado) e aqui, com **dado quantitativo** (*A Venda Desafiadora*: ~3× mais conversão).
 
 ⚠️ **Se houvesse uma única coisa a levar do acervo inteiro para 18/09, seria essa:** o Araújo deve sair da reunião tendo **aprendido algo sobre a operação dele** que não sabia antes — de preferência um número do próprio piloto. Isso faz mais pelo preço que qualquer argumento sobre o Hub.
+
+---
+
+## 10. Consciência, arquitetura de canais e os 3 pilares do vendedor
+
+`Conselho 01 — Spotify, 2022-09-26 · Thiago Nigro, Caio Carneiro, Flávio Augusto · notas do Emerson em 26/02/2026`
+
+⚠️ **Primeira fonte do playbook que NÃO é Carol Iasmim.** Todo o resto do acervo vem de um canal só. Este bloco traz três operadores diferentes e, com isso, os dois temas que a Carol praticamente não cobre: **níveis de consciência do cliente** e **arquitetura de canais / unit economics (LTV/CAC)**. Onde converge com o acervo existente, está marcado — onde diverge, também.
+
+### Os 3 pilares — o que sustenta o vendedor antes da técnica
+
+| Pilar | O que é | Onde já aparece no playbook |
+|---|---|---|
+| **Ambição** | fome, apetite. Sem isso o processo não se sustenta | §6 — qualificar pela ambição (lá é do *cliente*; aqui é do *vendedor*) |
+| **Técnica** | o processo é **treinável** — não é dom | §2 — Alicerce |
+| **Resiliência** | gestão emocional. *"Vai dar mais errado do que certo"* — confiar na estatística de conversão | §4C · §4D |
+
+> *"Vendedor é igual atleta."* E a consequência prática: **não levar para o pessoal, ser pragmático.**
+
+🆕 **O que é novo aqui:** o playbook trata insegurança como algo a **corrigir** (§4C, §4D). Este bloco trata a rejeição como **taxa esperada do sistema** — não como falha a consertar. São compatíveis, mas o enquadramento é diferente e mais barato de operar.
+
+⚠️ **Nota sobre a "baixa aceitação social" no lançamento:** o material afirma que produto novo tem pouca tração no início e cresce exponencialmente após validação. É observação anedótica dos participantes, sem dado — **não usar como projeção do canal ou do Hub**.
+
+### Os níveis de consciência — o que fazer ANTES de vender
+
+🆕 **Tema ausente do playbook até aqui.** A §3 (AIDAS) começa na Atenção; esta escada começa antes.
+
+| Nível | Estado do cliente | O que fazer |
+|---|---|---|
+| 1 | **Não sabe que tem o problema** — está tranquilo | Educar. Não vender |
+| 2 | **Tem noção do problema** | Dimensionar o custo dele |
+| 3 | **Quer uma solução** — *"pode me ajudar?"* | Aí sim, apresentar |
+
+> *"Consciência é de graça, mas a consequência você paga."*
+
+**As duas únicas motivações de compra:** **medo (real)** ou **ambição**. Toda construção de valor se ancora numa das duas.
+
+⚠️ **Convergência forte com a §9:** *"quem ensina o cliente converte ~3× mais"* (A Venda Desafiadora). Aqui a mesma ideia aparece como **mecanismo de subida de nível**: educação é o que move o cliente do nível 1 ao 3.
+
+**A cegueira por desatenção (nome dado no material):** pensar no **produto** em vez de pensar no **cliente**. É o mesmo erro nº 1 de comunicação da §8 (*"vender o churrasco, não a carne"*), nomeado por outro caminho.
+
+### O processo de duas reuniões — Thiago Nigro
+
+🆕 **Formato explícito que o playbook não tinha:**
+
+1. **1ª reunião — qualificar.** Entender a vida do cliente, mostrar **o problema**. Não apresentar solução.
+2. **2ª reunião — apresentar a solução.**
+
+Cruza direto com o Alicerce (§2): sondagem e apresentação viram **eventos separados no calendário**, não duas partes da mesma conversa. Torna estrutural a proibição da "versão adivinho".
+
+### Para quem NÃO vender — Caio Carneiro
+
+> *"Quem quer vender para todo mundo não vende para ninguém."*
+
+⚠️ **A regra mais dura, e a que falta no HIVE:** *"Evitar gastar energia com empresas que não estão preparadas para receber o seu serviço. **Não há técnica que converta esse cliente.**"*
+
+Isso qualifica a §8 (classificação A/B/C): existe uma categoria **abaixo do C** — o cliente que não é lento, é **inviável**, e insistir nele é desperdício, não persistência. 🆕 **É o critério que falta em `foundation/qualification-criteria.md`, que segue em template genérico.**
+
+**Flávio Augusto, na mesma direção:** às vezes o cliente **precisaria de meses** para entender a solução. *"Quanto mais eu quiser vender no primeiro momento, mais ele se distancia."* → relacionamento e confiança antes da oferta.
+
+### Arquitetura do processo e canais — o bloco de unit economics
+
+🆕 **Tema quase ausente do playbook.** A Carol ensina a **conversa**; este bloco trata a **estrutura**.
+
+**Um bom processo de vendas é:**
+1. **Mensurável** — o contrário disso é inimigo de vendas
+2. **Com métricas**
+3. **Simples** — pegar o complexo e facilitar
+4. **Ensinável** — se não dá para ensinar, não é processo
+5. → o resultado é **receita previsível**
+
+**Canais:** diversificar a quantidade de canais de venda. *"Canal digital é uma parte dos canais, não o conjunto."* O melhor canal é o que atende o cliente onde ele está.
+
+⚠️ **A conta que precisa fechar: LTV/CAC ≥ 3×.** É a única métrica dura do bloco — e a ponte direta com a skill `modelo-de-negocios` (Recorrência · Escala · Margem). ⚠️ O material enuncia a regra sem fonte; ela é convenção difundida em SaaS, não lei — tratar como referência de ordem de grandeza.
+
+**Fruta baixa:** *"o que eu faço com menor esforço e alta probabilidade de venda?"* — priorização por esforço/probabilidade, não por tamanho do ticket.
+
+### Os erros do vendedor — o que este material acrescenta
+
+1. 🆕 **Sobrevender.** Continuar vendendo depois que o cliente já decidiu. Exige sensibilidade para **acelerar e desacelerar**. → complementa os 8 sinais de compra da §3B: o sinal serve para **parar de vender**, não só para fechar.
+2. **Mais afirmações do que perguntas.** → §3B, método FREQUÊNCIA.
+3. **Colocar as próprias considerações à frente das razões do cliente.**
+4. 🆕 **Não identificar o momento exato em que o cliente verbaliza uma dor** — é ali que se atua.
+5. 🆕 **Não criar o próximo produto.** Quem comprou R$1.000 pode comprar R$10.000. → é o cross-sell (§9) virado em **decisão de portfólio**, não técnica de conversa.
+
+### A prática para amanhã
+
+> **Estrada (método) + carro (ferramentas) + piloto (você)** — Caio Carneiro
+
+> 🆕 *"Quem fala primeiro perde. Quem pergunta melhor ganha. A melhor história sempre vence."*
+
+**O exercício concreto:** fazer **5 perguntas diferentes para 5 clientes diferentes**. *"Ser mais interessante do que interesseiro."*
+
+**A pergunta de pesquisa de valor:** listar os principais clientes que confiam em você e perguntar **o que faria eles pagarem 10× mais**. ⚠️ Para o Emerson isso hoje é n=1 (Araújo) — mas é exatamente a pergunta a fazer em 18/09.
+
+**Sobre isolamento:** empreender é solitário. Eleger **uma referência alcançável** — de preferência local, não ídolo inatingível — e manter conversa recorrente (~1×/mês) sobre técnica, experiência e frustração. ⚠️ Contramedida direta ao antipadrão dos **"corvos"** da §8.
+
+### 🔴 O insight de abordagem do próprio Emerson (registrado por ele em 26/02/2026)
+
+> *"Olha, eu tenho conhecimento e ferramentas de Inteligência Artificial e gostaria de saber quais são os problemas que você enfrenta no que diz respeito a tempo, recursos financeiros, pessoal, dificuldade com mão de obra, erros recorrentes. Preciso entender você para poder implantar o serviço da melhor maneira possível."*
+
+**Avaliação contra o playbook:**
+
+| ✅ Acerta | ⚠️ Quebra |
+|---|---|
+| Termina em **pergunta** (§1, regra 6) | Abre falando de **si** — "eu tenho conhecimento e ferramentas". §2 (abordagem) e §8 mandam abrir **pelo cliente** |
+| Busca a **dor** antes de ofertar (§2, sondagem) | Lista **5 categorias de problema de uma vez** — aberto demais, o cliente não sabe por onde responder. §3B pede **no máximo 3 opções** |
+| Não menciona preço (§1B, valor antes de preço) | *"para eu implantar o serviço"* **presume a venda** no primeiro contato — é o distanciamento que o Flávio Augusto descreve |
+| Postura de servir (§1B) | *"Inteligência Artificial"* é **produto**, não resultado — cegueira por desatenção, o erro nº 1 da §8 |
+
+**Reescrita aplicando o playbook** (abre pelo cliente, uma dor só, termina em pergunta fechada):
+
+> *"[Nome], trabalho com donos de [setor] que perdem hora do time em tarefa repetitiva — resposta de cliente, pedido digitado à mão, retrabalho. Na sua operação, isso pesa mais no atendimento ou no pedido?"*
+
+O que mudou: fala do **cliente**, não da IA · **uma** dor concreta · fecha com **duas opções** (§3B) em vez de cinco categorias abertas · não presume implantação.
+
+⚠️ **Se for usar número na abordagem** ("isso come 2-3 horas por dia"), o número precisa vir dos dados do piloto no Supabase — não de estimativa. Regra da skill `dados-verificados`.
+
+### Aplicação ao contexto do Emerson
+
+1. 🆕 **Reescrever o script de abordagem** antes de qualquer reativação de lead — o texto atual quebra 4 regras do playbook. ⚠️ Não é prospecção ativa (suspensa): é preparo, e serve à reativação, que está liberada (§3C).
+2. 🆕 **Preencher `qualification-criteria.md` com o critério do Caio Carneiro** — a categoria "não está preparado para receber o serviço", abaixo do C. É a lacuna nomeada no arquivo que está em template genérico desde 02/06.
+3. **Aplicar os níveis de consciência ao Araújo:** ele está no **nível 3** (já usa o piloto, já quer a solução). ⚠️ Consequência para 18/09: **não gastar a reunião educando** — o dever de casa é dimensionar o custo, não criar consciência.
+4. ⚠️ **"Sobrevender" é risco real no A3.** Com um cliente só e ansiedade estrutural (§4D), a tendência é continuar vendendo depois do sim. Os 8 sinais da §3B servem para **calar**.
+5. **A pergunta dos 10×** vale para a única conta que existe: perguntar ao Araújo o que faria o Hub valer múltiplas vezes mais. Vira insumo de precificação e de roadmap.
+6. **LTV/CAC ≥ 3×** — levar para `modelo-de-negocios` quando houver preço definido. Hoje CAC ≈ 0 (cliente veio por relação) e LTV indefinido: a conta está **em branco**, não fechada nem quebrada.
 
 ---
 

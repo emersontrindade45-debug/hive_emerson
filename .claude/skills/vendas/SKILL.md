@@ -1,6 +1,6 @@
 ---
 name: vendas
-description: Use ao preparar QUALQUER conversa de venda, negociação, proposta, resposta a objeção, precificação ao cliente, qualificação de lead ou definição de ICP — e sempre que o squad Commercial for acionado. Carrega os métodos Contrapeso (preço/desconto), Lavagem Cerebral Antiobjeção, Alicerce (7 etapas do processo) e AIDAS. Dispara em "vender", "venda", "proposta", "negociar", "desconto", "tá caro", "objeção", "preço para o cliente", "lead", "qualificar", "ICP", "pipeline", "prospecção", "fechamento", "reunião com cliente", "Araújo".
+description: Use ao preparar QUALQUER conversa de venda, negociação, proposta, resposta a objeção, precificação ao cliente, qualificação de lead, script de abordagem ou definição de ICP — e sempre que o squad Commercial for acionado. Carrega os métodos Contrapeso (preço/desconto), Lavagem Cerebral Antiobjeção, Alicerce (7 etapas do processo), AIDAS e os níveis de consciência do cliente. Dispara em "vender", "venda", "proposta", "negociar", "desconto", "tá caro", "objeção", "preço para o cliente", "lead", "qualificar", "ICP", "pipeline", "prospecção", "abordagem", "script", "canal de venda", "CAC", "LTV", "fechamento", "reunião com cliente", "Araújo".
 ---
 
 # Vendas
@@ -35,6 +35,9 @@ Obrigatória antes de qualquer conversa comercial. O marco **A3 (18/09)** — re
 | Cliente disse "vou pensar" | §4 — **Cortina de fumaça × cliente analítico** |
 | Mentalidade, perfil de cliente | §5 — Os dois pilares |
 | **Técnica com nome · zonas de valor · o que NÃO fazer** | **§9 — microcompromissos · autossuficiência · 5 zonas · antipadrões** |
+| **Cliente não sabe que tem o problema · educar antes de vender** | **§10 — níveis de consciência · medo × ambição · 2 reuniões (Nigro)** |
+| **Escrever/revisar script de abordagem** | **§10 — reescrita do script do Emerson, com os 4 erros nomeados** |
+| **Para quem NÃO vender · canal de venda · LTV/CAC** | **§10 — Caio Carneiro · arquitetura de canais · unit economics** |
 | Dimensionar meta, contratar vendedor | §6 — Metas de venda |
 | **Qualificar lead · priorizar funil · objeção recorrente** | **§8 — A/B/C + regra dos 80% · mapa de objeções · caso da Vera** |
 | **Vender por WhatsApp · ligação · cliente sumiu no vácuo** | **§7 — 8 atitudes · dissonância cognitiva · voz** |
@@ -75,15 +78,18 @@ O Contrapeso exige preparação escrita, não improviso:
 6. **Treinamento de cenário (§4D)** — para cada faixa da contingência (R$4.000 · R$1.500-3.000 · <R$1.000 · recusa), escrever não só a resposta técnica mas **como vai reagir emocionalmente**. E responder antes: *"qual é a pior coisa que acontece se ele não fechar?"*
 7. **Montar o mapa de objeções do Hub** (§8) — as objeções previsíveis do Araújo (preço, rede fechada, "vou avaliar", adoção pelo time) com 3-4 respostas cada. ⚠️ Artefato que ainda não existe
 8. **Juntar a pasta de feedbacks** — todo retorno positivo do Araújo durante o piloto é prova social e munição de valor (§4C)
+9. 🆕 **Não educar na reunião (§10)** — o Araújo está no **nível 3 de consciência**: já usa o piloto, já quer a solução. Gastar o A3 explicando o que é o problema é desperdiçar a reunião. O trabalho é **dimensionar o custo**, não criar consciência. E vigiar o **sobrevender**: depois do sim, calar (§3B)
 
 ## Fontes
 
 - **Carol Iasmim** (`@carol.iasmim`, 175k) — 58 vídeos, catálogo completo 2025+2026, ✅ **integralmente destilado em 27/08/2026** (~271 mil palavras → 15 seções do playbook). 17 anos de vendas, formada em Direito. Canal fixo no radar semanal desde 27/08.
 - **Dani Martins** (Sales Prime) via JJ Podcast #219 — ⚠️ só ~15% processado.
+- **Conselho 01 — "Como vender mais e melhor"** (Spotify, 26/09/2022) — Thiago Nigro · Caio Carneiro · Flávio Augusto. Notas do Emerson no Notion (estudadas 26/02/2026), destiladas em 27/08/2026 → **§10**. Única fonte não-Carol; traz os dois temas ausentes do resto do acervo: **níveis de consciência** e **canais/LTV-CAC**.
 
 ## Lacunas — declarar quando a pergunta cair fora do playbook
 
 - ✅ **O acervo da Carol está integralmente destilado** (57 de 59, os 9 lotes concluídos em 27/08/2026). Não há mais lacuna de conteúdo comercial da Carol — se uma pergunta não for respondida pelo playbook, é sinal de que o tema não está no acervo dela, não de que falta destilar.
 - 📋 **`squads/commercial/data/sales-intel/PLANO-DESTILACAO.md`** — ✅ plano concluído, **sem pendência de trabalho**. `ZIMyHzpB8BY` foi roteado para Marketing (`destravar-producao.md`); `nQBJPfBA-_A` está encerrado — o vídeo não tem legenda no YouTube.
 - **JJ #219:** ~15% processado — o resto é gestão de time de vendas, pouco aplicável a quem vende sozinho.
-- `squads/commercial/foundation/icp-profile.md` e `squads/commercial/foundation/qualification-criteria.md` seguem em **template genérico** do HIVE (02/06), nunca preenchidos. O Método Alicerce (§2) é o roteiro para preenchê-los.
+- `squads/commercial/foundation/icp-profile.md` e `squads/commercial/foundation/qualification-criteria.md` seguem em **template genérico** do HIVE (02/06), nunca preenchidos. O Método Alicerce (§2) é o roteiro para preenchê-los — e a **§10 dá o critério de corte que faltava** (Caio Carneiro: a categoria abaixo do C, o cliente que não está preparado para receber o serviço).
+- 🆕 **O script de abordagem do Emerson foi avaliado e reescrito na §10.** O texto original (Notion, 26/02/2026) quebra 4 regras do playbook — abre falando de si, lista 5 dores de uma vez, presume a venda e vende "IA" em vez de resultado.
