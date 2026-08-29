@@ -37,6 +37,17 @@ Celular Android intermediário/básico grava pior que o hardware permite quando 
 
 **Se comprar microfone de lapela (ver seção física abaixo):** grava direto no celular via cabo P2/USB-C, sem app extra.
 
+**⚠️ Se decidir gravar SEM comprar microfone algum (nem lapela, nem segundo celular) — limite real, não hipotético (29/08):**
+
+Não existe app que resolva isso de verdade. Cancelamento de ruído "em tempo real" de app genérico funciona por dois métodos, e nenhum dos dois substitui microfone físico perto da boca:
+
+1. **Onda inversa (ativo):** o app escuta o ruído de fundo e gera uma onda oposta para cancelar — é a mesma técnica de fone com ANC. Em gravação de voz falada, isso **distorce a própria voz** junto com o ruído, porque os dois estão na mesma faixa de frequência (voz humana). Funciona bem para ruído constante e grave (ventilador, ar-condicionado); funciona mal para o que mais atrapalha aqui, que é ruído de rua/vizinho.
+2. **Filtro de frequência (passivo):** corta faixas onde normalmente não tem voz. Ajuda um pouco, mas é o mesmo processamento que qualquer editor de vídeo (inclusive gratuito) já faz DEPOIS de gravado — rodar em tempo real no Moto E7 (Helio G25, 2-4GB RAM) ainda arrisca travar a gravação.
+
+**Recomendação honesta: não usar app de cancelamento de ruído durante a captura.** Gravar o áudio o mais limpo possível na fonte (as 5 medidas grátis do §1.5 — janela fechada, cobertor, tom de voz normal, horário) e, se sobrar ruído, tratar DEPOIS na edição (CapCut, gratuito, tem redução de ruído em pós — mas isso é edição, não captura). Aplicar redução de ruído ao vivo raramente ajuda mais do que atrapalha, e é conselho recorrente até entre quem já usa microfone dedicado.
+
+**O único ganho real de app, sem comprar nada:** o app nativo de gravador de voz do Android (ou "Diretor de Som") gravando em modo avião, o mais perto possível da boca, como fonte de áudio separada — que é a opção "sem microfone dedicado" já registrada acima. Não é um app "melhorando" o microfone do celular; é usar o próprio celular COMO microfone, posicionado direito. É esse posicionamento — 30-40cm da boca — que faz toda a diferença, não o app.
+
 **Se ainda não tiver microfone dedicado:** usar um segundo celular (ou o próprio, em modo avião pra não ter interrupção) só para gravar áudio, o mais perto possível da boca (30-40cm), com o app **Diretor de Som** ou o gravador de voz nativo do Android em qualidade alta — depois sincronizar no editor batendo a palma no início da gravação (marca visual e sonora clara pro corte).
 
 ---
