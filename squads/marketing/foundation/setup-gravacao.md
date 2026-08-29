@@ -24,7 +24,22 @@ Fica registrado como checklist dentro de M3, não como divisão nova. Revisar se
 
 Celular Android intermediário/básico grava pior que o hardware permite quando usa o app de câmera padrão em automático. Ganho maior vem de configuração e app, não de comprar celular novo.
 
-### App de câmera
+### ⚠️ ATUALIZAÇÃO 29/08 — Emerson já usa FiLMiC Pro, não Open Camera
+
+O Emerson informou que já usa o **FiLMiC Pro** e vai gravar pela **câmera frontal** (mais fácil manter contato visual com a lente, sendo iniciante). Isso substitui a recomendação de Open Camera abaixo — mantida só como alternativa gratuita caso o FiLMiC pareça complexo demais ou tenha custo que não valha.
+
+**Sobre o FiLMiC Pro:**
+- Controles manuais de foco, exposição, ISO, temperatura de cor, velocidade do obturador — mesmo propósito do Open Camera, mais completo
+- Tem botão dedicado para **trocar entre câmera frontal e traseira**, inclusive mapeável em atalho personalizado
+- ⚠️ **Ressalva real:** câmera frontal de celular de entrada (Moto E7) tem menos sensor e menos controle exposto que a traseira — é limitação de hardware, não do app. Os controles manuais aparecem na tela, mas o efeito prático pode ser mais limitado do que seria na câmera traseira.
+- ⚠️ **Gravando pela frontal, a checagem de foco/exposição do `teste-gravacao-30s.md` vale ainda mais** — é onde a limitação de hardware mais aparece
+
+**Configuração mínima (vale para qualquer app de câmera manual, inclusive FiLMiC):**
+- Resolução 1080p a 30fps (não 4K — pesado demais pro Moto E7 processar)
+- Travar foco manual no rosto antes de falar
+- Lente limpa
+
+### App de câmera — alternativa gratuita (Open Camera)
 **Open Camera** (grátis, Android, sem anúncio, open source) — permite travar foco e exposição manualmente, o que o app padrão da maioria das marcas intermediárias não deixa fazer direito. Trava o problema mais comum de celular básico: a câmera "respira" (muda exposição sozinha) toda vez que algo se move no fundo.
 
 **Configuração mínima antes de gravar:**
