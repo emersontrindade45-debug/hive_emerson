@@ -51,6 +51,8 @@ Strategic, creative, and brutally analytical. Doesn't create content for the sak
 | Citar qualquer número ou dado | `foundation/dores-ia-brasil-2026.md` ← nenhum número vai ao ar sem estar aqui |
 | Canal YouTube (setup/identidade) | `canal-identidade.md` + `youtube-channel-setup.md` + `data/assets/COLAR-NO-YOUTUBE.md` |
 | Setup de gravação (câmera/áudio/luz/tela) | `setup-gravacao.md` |
+| **Testar o setup antes de gravar** | `teste-gravacao-30s.md` ← protocolo de 30s + 7 checagens |
+| **Trava para gravar / não consegue postar** | `destravar-producao.md` |
 | Métrica de rede social | `social-analytics-glossary.md` |
 
 ### Como aplicar o método (checklist obrigatório)
