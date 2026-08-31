@@ -53,15 +53,15 @@ Transcrição baixada **não é o fim**. Ela precisa virar entrada no playbook d
 
 **Regra de precedência:** entrada nova que conflita com uma existente vale pela **data de publicação da fonte mais recente**, não pela ordem de registro.
 
-## Canais monitorados (10)
+## Canais monitorados (18)
 
 | Squad | Canais |
 |---|---|
-| marketing | Nerds de Negócios · Guria de Negócios · Gabriel Tomaz · JP Labs · Larissa Gomes · Itamar Rocha · onsmartAI · Julio |
+| marketing | Nerds de Negócios · Guria de Negócios · Gabriel Tomaz · JP Labs · Larissa Gomes · Itamar Rocha · onsmartAI · Julio · **RoboNuggets** (EN, add 31/08) |
 | operations | **Joel Jota** · Neotriad |
 | dev | Fireship · freeCodeCamp · Programming with Mosh |
 | infra | NetworkChuck · Anton Putra · ByteByteGo |
-| commercial | *nenhum fixo — sob demanda* |
+| commercial | Carol Iasmim |
 
 Para adicionar canal: incluir em `squads/<squad>/data/<intel>/channels.json` com `channel_id`.
 

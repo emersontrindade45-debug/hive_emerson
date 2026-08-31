@@ -53,6 +53,11 @@ SKILLS_GLOBAIS = [
      ["radar", "lista da semana", "o que saiu", "videos novos", "video novo",
       "o que os canais", "novidades dos canais", "segunda-feira", "segunda feira"],
      "lista os videos novos dos canais SEM baixar; o Emerson escolhe"),
+    ("roteiro-gauntlet",
+     ["gauntlet", "lapida", "lapidar", "critica esse", "critique esse",
+      "esta bom o suficiente", "está bom o suficiente", "barra de qualidade",
+      "compara com", "comparar com", "melhora o roteiro", "melhorar o roteiro"],
+     "lapida rascunho JA EXISTENTE contra barra real; TETO de 3 rodadas ou 40min"),
 ]
 
 

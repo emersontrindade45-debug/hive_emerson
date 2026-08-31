@@ -459,3 +459,100 @@ Pergunta de checagem: existe Boya mais barato com o mesmo perfil (ímã + par)? 
 3. Áudio abafou → ✅ funcionou. Áudio igual → ❌ está no microfone interno do Moto E7 → **devolver**
 
 Isso é o que garante que os R$253 não viram R$253 perdidos numa incompatibilidade de Motorola.
+
+---
+
+# ✅ COMPRA REALIZADA — 29/08 · Emerson comprou o Hollyland Lark A1 Mini USB-C
+
+⚠️ **Mudança de decisão em relação ao registrado acima.** A recomendação anterior era o Boya Omic-U; o Emerson comprou o **Hollyland Lark A1 Mini USB-C Preto** — modelo que a Revisão 3 já havia mapeado como "o mais próximo do Lark M2", mas tinha sido descartado por estourar o teto de R$250. **Decisão do Emerson, não recomendação minha** — e é uma compra objetivamente boa, superior ao Omic-U em quase todo critério.
+
+## Specs confirmadas (29/08)
+
+| Critério | Lark A1 Mini | Comparado ao Omic-U (não comprado) |
+|---|---|---|
+| **Peso/discrição** | **8g, 0,9cm de espessura** — cabe por dentro da camisa | ✅ Muito mais discreto — era exatamente o critério original do Emerson |
+| **Fixação** | ✅ Magnética | Empate |
+| **Par** | ✅ 2 transmissores | Empate |
+| **Bateria** | **54h** | 12h — Lark A1 é **4,5× maior** |
+| **Alcance** | 200m (irrelevante — quarto tem 5m) | 50m (também irrelevante) |
+| **Cancelamento de ruído** | 3 níveis adaptativos | Sim, sem graduação especificada |
+| **USB-C** | ✅ Confirma compatibilidade com Moto E7 | ✅ |
+| **Preço pago** | Verificar nota fiscal — mercado varia R$354-600 | Teria sido ~R$253 |
+| **Acessórios** | 2 ímãs, 2 protetores de vento felpudos, base de carregamento, bolsa | Case com zíper |
+
+## Por que essa compra é boa, apesar de estourar o teto original
+
+1. **É o mesmo formato do Lark M2** (a referência de discrição que o Emerson pediu desde o início) — 8g contra 9g do M2, praticamente idêntico
+2. **54h de bateria elimina uma preocupação operacional inteira** — não precisa recarregar entre sessões de gravação por semanas
+3. **Marca com histórico melhor documentado** que Boya na faixa de lapela ultracompacto — Hollyland é referência no segmento
+4. ⚠️ **O risco de compatibilidade Android/Motorola mapeado nas revisões anteriores continua valendo igual** — é risco do USB-C em geral, não do modelo específico
+
+## ⚠️ O teste segue exatamente o mesmo, e agora é ainda mais importante
+
+Pagou mais caro → o teste de validação no dia da chegada, com prazo de devolução aberto, importa mais, não menos:
+
+1. Plugar → Open Camera (ou FiLMiC Pro) → selecionar fonte de áudio externa
+2. Gravar 10s falando normal
+3. **Tapar o transmissor com a mão** e continuar falando
+4. Áudio abafou → ✅ funcionou. Áudio igual → ❌ Moto E7 não reconheceu, **devolver**
+
+Rodar isso junto com o `teste-gravacao-30s.md` completo antes de contar com o microfone no vídeo 1.
+
+## Atualização de status
+
+**Compra de microfone: ✅ CONCLUÍDA.** Próximo bloqueio do checklist de `setup-gravacao.md` deixa de ser "comprar microfone" e passa a ser **rodar o teste de validação** — é o próximo passo natural.
+
+## Fontes (29/08/2026)
+
+- [Amazon — Hollyland Lark A1 Combo](https://www.amazon.com.br/Hollyland-LARK-Combo-Microfone-Carregamento/dp/B0F3DC7WWM) — specs completas, 8g, 0,9cm, 54h
+- [Oficina da Net — Review Hollyland Lark A1](https://www.oficinadanet.com.br/audio/62177-review-hollyland-lark-a1)
+- [Kenny Douglas — Hollyland Lark A1](https://kennydouglas.com.br/hollyland-lark-a1-microfone/)
+
+---
+
+# Funções do Lark A1 — o que ele faz além de captar áudio (29/08)
+
+Pergunta do Emerson: quais funções novas ele ganha com esse microfone. Levantamento das funções reais, com o que muda na prática do canal.
+
+## 🔑 A função que mais importa: gravação offline no próprio transmissor
+
+**3 toques no microfone = ele grava um backup de áudio internamente**, independente do celular. Isso é seguro extra que o Kaidi/Boya baratos não têm.
+
+⚠️ **Por que isso importa MUITO no seu caso específico:** é a rede de segurança contra o risco de compatibilidade Android/Motorola que mapeamos em toda a análise anterior. **Se o Moto E7 falhar em captar o áudio via USB-C** (o risco real que ainda não testamos), **o Lark A1 já gravou tudo sozinho por dentro** — você recupera depois plugando ele num PC. Nenhuma outra opção que analisamos (Kaidi, Boya) tinha essa rede de segurança.
+
+## Controles físicos (nos botões do próprio microfone)
+
+| Toques | Função |
+|---|---|
+| **1 clique** | Ativa/ajusta cancelamento de ruído |
+| **2 cliques** | Muta o microfone |
+| **3 cliques** | Inicia gravação offline (backup interno) |
+
+## App companion: **LarkSound** (instalar no celular)
+
+O app abre um painel de controle que os concorrentes baratos não têm:
+
+| Recurso do app | O que faz | Uso prático pra você |
+|---|---|---|
+| **Equalização (3 perfis: Balance, Low, Bright)** | Muda o timbre da voz captada | Testar os 3 no `teste-gravacao-30s.md` e escolher o que soar mais natural na sua voz |
+| **Cancelamento de ruído (3 níveis)** | Ajusta intensidade do filtro | Nível baixo/médio é mais seguro — nível alto pode distorcer a voz (mesmo problema que já expliquei sobre apps de ruído em geral) |
+| **Reverb (3 níveis)** | Adiciona eco artificial | ⚠️ **Não usar** — quarto não precisa de reverb, e vídeo educacional pede voz seca e clara |
+| **Mono/Estéreo** | Como os 2 transmissores gravam | Mono é suficiente pra 1 pessoa falando sozinha |
+| **Controle de LED** | Liga/desliga a luzinha indicadora do transmissor | ⚠️ **Relevante pra discrição** — desligar o LED torna o microfone ainda mais invisível no vídeo, era exatamente seu pedido original |
+| **Controle de ganho (6 níveis)** | Volume de entrada do microfone | Ajustar até a voz não estourar nem ficar baixa — testar durante o teste de 30s |
+
+## Modo PC direto (bônus, fora do celular)
+
+O receptor USB-C funciona **direto num computador** como microfone externo — útil se algum dia você quiser gravar um vídeo direto do PC (webinar, tela+voz) sem passar pelo celular.
+
+## O que ele NÃO tem
+
+⚠️ **Sem saída de monitoramento de áudio em tempo real** — não dá pra plugar fone no receptor e ouvir exatamente o que está sendo captado enquanto grava. Não é um problema para o seu uso (você confia no teste de 30s antes de gravar de verdade, não em ficar ouvindo ao vivo).
+
+## Ação recomendada antes do vídeo 1
+
+1. Instalar o app **LarkSound** no Moto E7
+2. Desligar o **LED** do transmissor (discrição)
+3. Deixar cancelamento de ruído em **nível baixo/médio**, sem reverb, modo **mono**
+4. Rodar o `teste-gravacao-30s.md` com essas configurações
+5. **Testar a gravação offline** (3 toques) uma vez, só pra confirmar que sabe ativar — é o seu plano B se o Android falhar
