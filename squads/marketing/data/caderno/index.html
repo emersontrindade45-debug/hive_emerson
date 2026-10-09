@@ -5,7 +5,7 @@
 <style>
 /* Caderno de Gravação — uma coluna de leitura, navegação em dois níveis (grupo → vídeo),
    cada vídeo em abas internas. Âmbar só onde guia o olho: tempo, corte, vídeo selecionado.
-   09/10/2026 — aba Tópicos (notas de palco) em cada vídeo que tem roteiro falado. */
+   09/10/2026 — aba Tópicos só no V08 e no V09. */
 :root{
   --bg:#F7F6F3; --surface:#FFFFFF; --surface-2:#F2F0EB;
   --ink:#1B1915; --muted:#67625A; --faint:#8F887D;
@@ -2228,84 +2228,205 @@ function oratHTML(v){
 }
 
 
-/* --- aba Tópicos: notas de palco (conduz sem ler o prompter) --- */
-function linhaTopico(raw){
-  if(raw==="▌")return {k:"corte"};
-  if(/^\[.+\]$/.test(raw))return {k:"mostra",text:raw.slice(1,-1)};
-  const m=raw.match(/^\[sai da Bilibili\]\s*/i);
-  return {k:"fala",bili:!!m,text:m?raw.slice(m[0].length):raw};
-}
-function respiracoes(p){
-  const out=[]; let cur=[];
-  const flush=()=>{if(cur.length){out.push(cur);cur=[]}};
-  (p||[]).forEach(line=>{
-    if(line==="▌"){flush();out.push([{k:"corte"}]);return}
-    if(line===""){flush();return}
-    cur.push(linhaTopico(line));
-  });
-  flush();
-  return out;
-}
-function cravaLinha(s){
-  if(!s)return false;
-  if(/\?/.test(s) && /(conta|like|inscrev|escreve|responde o teste|manda esse|quantas conversas|onde a IA|depois de quanto)/i.test(s))return true;
-  if(/R\$|\b\d|%|NÃO INFORMADO|quarenta e oito|uma vez só|não inventa|vou confirmar|quero conversar|sempre |sem ser |sem arriscar|não volta|não chutou/i.test(s))return true;
-  if(/^(são |passo \w|regra \w)/i.test(s) && s.trim().split(/\s+/).length<=6)return true;
-  const beats=s.split(/(?<=\.)\s+/).filter(Boolean);
-  if(beats.length>=2 && beats.every(x=>x.replace(/[.“”"!]/g,"").trim().split(/\s+/).filter(Boolean).length<=3))return true;
-  return false;
-}
-function comecaCorte(p){
-  for(const line of (p||[])){
-    if(line==="")continue;
-    return line==="▌";
-  }
-  return false;
-}
-function primeiraFala(p){
-  for(const line of (p||[])){
-    if(!line||line==="▌"||/^\[.+\]$/.test(line))continue;
-    return linhaTopico(line).text;
-  }
-  return "";
-}
+/* --- aba Tópicos: só V08 e V09. Notas de palco, não o prompter. --- */
+const TOPICOS={
+V08:[
+ {beats:[
+  {lead:"Desliguei a IA do WhatsApp no mercado",fatos:["educada e rápida, e falava preço errado"]},
+  {lead:"Hoje o conserto",fatos:["ela fala o preço que está na tabela","cala quando não souber"]}
+ ],crava:["falar sempre o preço que está na sua tabela","ficar quieta quando ela não souber"],
+ vira:"Liga no vídeo das três peças. A terceira era a chata."},
+ {beats:[
+  {lead:"A terceira peça",fatos:["preço e estoque chegarem certos pra IA","hoje mostra como"]},
+  {lead:"Três passos",fatos:["o segredo não é a IA","é onde o preço mora"],nota:"Se o passo 3 cair no teste: são dois passos."}
+ ],crava:["São três passos.","O segredo não é a IA. É onde o preço mora."],
+ vira:"Café. Uma frase de quem você é."},
+ {beats:[
+  {lead:"Pega um café e vem",fatos:["Emerson","constrói automação todo dia","sabe montar e sabe onde quebra"]}
+ ],crava:["Eu construo automação todos os dias."],
+ vira:"Para. Corte. Loja de exemplo: a carne mudou e ninguém avisou a IA."},
+ {beats:[
+  {corte:1},
+  {lead:"Loja de exemplo",fatos:["a carne mudou hoje","ninguém avisou a IA"]},
+  {lead:"O cliente pergunta o quilo",tela:"resposta real da IA, com o preço velho"},
+  {lead:"Educada. Rápida. Errada."},
+  {lead:"O dono só tem duas saídas",fatos:["banca a diferença","ou desmente a ferramenta na frente do cliente"]},
+  {lead:"No mercado foi isso",fatos:["ela só sabia o preço que chegava","quase sempre que passou pra uma pessoa, era porque não tinha o preço certo"]},
+  {lead:"Cliente desconfiado não volta"}
+ ],crava:["Educada. Rápida. Errada.","quase sempre que ela passou a conversa pra uma pessoa, foi porque ela não tinha o preço certo","Cliente desconfiado não volta."],
+ vira:"Passo um. O preço mora num lugar só."},
+ {beats:[
+  {lead:"Passo um: um lugar só"},
+  {lead:"Uma planilha",fatos:["produto, preço e a data da mudança","a IA não guarda preço de cabeça","perguntou, ela abre e lê","fora da planilha, o produto não existe pra ela"]},
+  {lead:"Muda a carne e pergunta de novo",fatos:["de [R$ __] para [R$ __]"],tela:"resposta real com o preço novo, e quantos segundos"},
+  {lead:"Mudou na planilha, mudou na resposta"},
+  {lead:"Like, com motivo",fatos:["se já poupou um susto","é assim que chega em outro dono"]},
+  {lead:"Teste ao lado",fatos:["onde a IA deve buscar o preço na hora de responder?"]}
+ ],crava:["Passo um: o preço mora num lugar só.","Mudou na planilha, mudou na resposta.","onde a IA deve buscar o preço na hora de responder?"],
+ vira:"Pergunta no comentário: qual produto muda de preço mais."},
+ {beats:[
+  {lead:"Qual produto seu muda de preço com mais frequência?"},
+  {lead:"A objeção",fatos:["não vou mexer na planilha toda hora"]},
+  {lead:"A resposta",fatos:["mexe na linha que mudou","se já tem sistema de caixa, dá pra nem digitar","isso vem daqui a pouco"]}
+ ],crava:["qual produto seu muda de preço com mais frequência?"],
+ vira:"Para. Corte. O que a IA faz quando não sabe."},
+ {beats:[
+  {corte:1},
+  {lead:"Passo dois: quando ela não sabe"},
+  {lead:"Sem regra, ela responde mesmo sem saber"},
+  {lead:"Uma frase só",fatos:["se não está na planilha, não inventa","responde “vou confirmar” e chama uma pessoa"]},
+  {lead:"Tem açaí?",fatos:["açaí não está na planilha"],tela:"“vou confirmar” e o aviso pro dono"},
+  {lead:"Não chutou. Chamou a gente."},
+  {lead:"Essa frase separa automação de dor de cabeça"}
+ ],crava:["se o produto não está na planilha, não inventa. Responde “vou confirmar” e chama uma pessoa.","Não chutou. Chamou a gente."],
+ vira:"Para. Corte do preço velho — só se o teste da data funcionou."},
+ {beats:[
+  {corte:1},
+  {lead:"Passo três: o preço que ficou velho",nota:"Se o teste falhou, este cartão não existe. Volta e diz dois passos."},
+  {lead:"A coluna da data",fatos:["há [N] dias sem mexer, ela não responde esse preço","ela chama você"],tela:"aviso de preço velho"},
+  {lead:"O erro não depende de você lembrar"}
+ ],crava:["Se um preço não foi mexido há [N] dias, a IA não responde esse preço.","Assim o erro não depende de você lembrar."],
+ vira:"E se a loja já tem sistema de caixa?"},
+ {beats:[
+  {lead:"O preço pode vir do sistema",fatos:["sem ninguém digitar"]},
+  {lead:"Depende do sistema de cada comércio",bili:1},
+  {lead:"No final, como a gente olha isso",bili:1}
+ ],crava:["Isso depende do sistema de cada comércio."],
+ vira:"Recapitula os três. Depois a confissão."},
+ {beats:[
+  {lead:"Três linhas",fatos:["o preço mora num lugar só","se não está lá, a IA não responde","preço velho chama você"]},
+  {lead:"A confissão",fatos:["achava que o difícil era montar a IA","o difícil era o preço certo","preferiu desligar a deixar ela errando"]}
+ ],crava:["Eu preferi desligar a IA do mercado a deixar ela errando. Foi a decisão certa."],
+ vira:"Inscrição pelo próximo: a mensagem que traz o cliente de volta."},
+ {beats:[
+  {lead:"Se inscreve por um motivo",fatos:["o que dá pra fazer no WhatsApp de um comércio de verdade"]},
+  {lead:"O próximo vídeo",fatos:["a mensagem que traz de volta o cliente que sumiu"]},
+  {lead:"Manda pro amigo",fatos:["tem loja e está com medo de pôr IA no WhatsApp"]}
+ ],crava:["No próximo vídeo eu mostro a mensagem que traz de volta o cliente que sumiu."],
+ vira:"Take separado. Primeiro o que é de graça. “Quero conversar” no fim."},
+ {beats:[
+  {lead:"De graça, na descrição",fatos:["o modelo da planilha","a frase da regra"]},
+  {lead:"No link, o e-book das três peças"},
+  {lead:"Se quiser que eu olhe o seu caso",fatos:["com o seu sistema","marca “quero conversar” na mesma página"]}
+ ],crava:["marca “quero conversar” na mesma página"],
+ vira:"Tela final. O caso do mercado está no vídeo das três peças."},
+ {beats:[
+  {lead:"O vídeo das três peças",fatos:["o caso do mercado","ele está aqui"]}
+ ],crava:["Ele está aqui."],
+ vira:"Acabou. Segura o último ponto e corta."}
+],
+V09:[
+ {beats:[
+  {lead:"O cliente pergunta o preço",fatos:["você responde","ele some"]},
+  {lead:"Você nunca mais olha essa conversa"},
+  {lead:"Hoje: como chamar de volta",fatos:["sem ser chato","sem arriscar o número"]}
+ ],crava:["Sem ser chato. E sem arriscar o seu número."],
+ vira:"Três regras. A primeira é a que protege."},
+ {beats:[
+  {lead:"Três regras",fatos:["pra quem mandar","quando mandar","o que escrever"]},
+  {lead:"O spoiler",fatos:["a que mais importa é a primeira","só pra quem já falou com você"]}
+ ],crava:["São três regras.","Mandar só pra quem já falou com você."],
+ vira:"Café. Uma frase de quem você é."},
+ {beats:[
+  {lead:"Pega um café e vem",fatos:["Emerson","constrói automação todo dia","sabe montar e sabe onde quebra"]}
+ ],crava:["Eu construo automação todos os dias."],
+ vira:"Para. Corte. A mensagem que quase todo mundo manda."},
+ {beats:[
+  {corte:1},
+  {lead:"Quase todo mundo manda isto",fatos:["“Olá! Tudo bem? Temos promoções imperdíveis! Aproveite!”"]},
+  {lead:"Pra lista inteira",fatos:["quem pediu marmita e quem pediu gás"]},
+  {lead:"Quem não esperava, não gosta",fatos:["se muita gente bloquear ou denunciar, o número corre risco"],tela:"só fale de bloqueio se a política do WhatsApp sustentar — conferir antes"},
+  {lead:"A mensagem ruim",fatos:["não é a que chama o cliente","é a que chama todo mundo, sobre qualquer coisa"]}
+ ],crava:["“Olá! Tudo bem? Temos promoções imperdíveis! Aproveite!”","É a que chama todo mundo, sobre qualquer coisa."],
+ vira:"Regra um. Só quem já falou com você, nas últimas 48 horas."},
+ {beats:[
+  {lead:"Regra um: só quem já falou com você",fatos:["perguntou e não fechou","só nas últimas quarenta e oito horas"]},
+  {lead:"A lista",fatos:["nome","o que a pessoa perguntou","quando"]},
+  {lead:"Três conversas paradas",fatos:["mais velho que isso, a conversa esfriou","chamar agora é abordar um desconhecido"],tela:"a lista do teste, com 3 conversas"},
+  {lead:"Like, com motivo",fatos:["se já deu uma ideia do que você deixa parado"]},
+  {lead:"Teste ao lado",fatos:["depois de quanto tempo sem resposta vale chamar de volta?"]}
+ ],crava:["só nas últimas quarenta e oito horas","Chamar agora é abordar um desconhecido.","depois de quanto tempo sem resposta vale chamar o cliente de volta?"],
+ vira:"Tarefa de dois minutos: conta as conversas paradas."},
+ {beats:[
+  {lead:"Abre o WhatsApp",fatos:["conta quantas conversas paradas tem hoje","escreve o número aqui embaixo"]},
+  {lead:"“Isso não é chato?”",fatos:["depende da mensagem","é a regra três"]}
+ ],crava:["Escreve o número aqui embaixo."],
+ vira:"Regra dois. Quando mandar."},
+ {beats:[
+  {lead:"Regra dois: quando",fatos:["no dia seguinte","em horário comercial","uma vez só"]},
+  {lead:"Duas saídas",fatos:["respondeu: a conversa volta ao normal","não respondeu: para","não existe segunda tentativa"]}
+ ],crava:["Uma vez só.","Não existe segunda tentativa."],
+ vira:"Para. Corte. O que escrever, em três partes."},
+ {beats:[
+  {corte:1},
+  {lead:"Regra três: o que escrever",fatos:["lembra o que a pessoa perguntou","faz uma pergunta fácil","dá uma saída"]},
+  {tela:"a mensagem do exemplo: ontem perguntou da marmita, ainda quer, se não for é só avisar"},
+  {lead:"“Quero”",fatos:["a conversa segue"],tela:"resposta real no teste"},
+  {lead:"“Não”",fatos:["a IA para e não chama mais"],tela:"resposta real no teste"},
+  {lead:"Sem promoção. Sem “imperdível”.",fatos:["só o que a pessoa já tinha pedido"]}
+ ],crava:["Lembra o que a pessoa perguntou. Faz uma pergunta fácil de responder. E dá uma saída.","Sem promoção. Sem “imperdível”."],
+ vira:"Para. Corte. A parte que quase ninguém conta: o que cada caminho custa."},
+ {beats:[
+  {corte:1},
+  {lead:"Quase ninguém conta esta parte"},
+  {lead:"Pela Meta, depois de um dia sem resposta, é pago",fatos:["uns [R$ 0,32] cada","reconferir a tabela vigente antes de falar"]},
+  {lead:"Pelo QR code, a Meta não cobra",fatos:["os termos não autorizam o uso automático","podem suspender","não diga que vai ser banido"]},
+  {lead:"O caminho do meio",fatos:["você mesmo, no celular","poucas conversas: na mão, cinco minutos por dia","automatizar só quando são muitas"]},
+  {lead:"Risco também é custo"}
+ ],crava:["uns [R$ 0,32] cada","podem suspender","Cinco minutos por dia.","Risco também é custo."],
+ vira:"E quando são dezenas de conversas por dia?"},
+ {beats:[
+  {lead:"Dezenas por dia",fatos:["alguém monta a lista","manda na hora certa","para quando o cliente responde"]},
+  {lead:"Isso é trabalho todo dia",bili:1},
+  {lead:"No final, como a gente olha o seu caso",bili:1}
+ ],crava:["Isso é trabalho todo dia."],
+ vira:"Recapitula as três. A confissão tem que ser verdadeira — não grave o campo vazio."},
+ {beats:[
+  {lead:"Três linhas",fatos:["só pra quem já falou com você","dia seguinte, uma vez só","uma mensagem que lembra, pergunta e dá saída"]},
+  {lead:"A sua confissão",fatos:["algo que você deixou parar, ou mandou e não devia"],tela:"não leia o colchete — fale o fato real"},
+  {lead:"Quem some não é cliente perdido",fatos:["é conversa que ninguém retomou"]}
+ ],crava:["Quem some não é cliente perdido. É conversa que ninguém retomou."],
+ vira:"Inscrição. Manda pro amigo que responde e nunca mais olha a conversa."},
+ {beats:[
+  {lead:"Se inscreve por um motivo",fatos:["o que dá pra fazer no WhatsApp de um comércio de verdade"]},
+  {lead:"Manda pro amigo",fatos:["responde o cliente e depois nunca mais olha a conversa"]}
+ ],crava:["manda esse vídeo pra aquele amigo que responde o cliente e depois nunca mais olha a conversa"],
+ vira:"Take separado. Os modelos de graça. “Quero conversar” no link."},
+ {beats:[
+  {lead:"De graça, na descrição",fatos:["as mensagens-modelo"]},
+  {lead:"Se quiser que eu olhe o seu caso",fatos:["as conversas e o movimento","marca “quero conversar” no link"]}
+ ],crava:["marca “quero conversar” no link"],
+ vira:"Tela final. O vídeo do preço certo. Ele está aqui."},
+ {beats:[
+  {lead:"O vídeo anterior",fatos:["como a IA fala o preço certo","ele está aqui"]}
+ ],crava:["Ele está aqui."],
+ vira:"Acabou. Segura o último ponto e corta."}
+]
+};
+
 function topicosHTML(v){
+  const notes=TOPICOS[v.num];
+  if(!notes)return "";
   const blocs=v.blocos||[];
-  const cards=blocs.map((b,i)=>{
-    const next=blocs[i+1];
-    const resp=respiracoes(b.p);
-    const crava=[];
-    const itens=resp.map(grupo=>{
-      if(grupo.length===1 && grupo[0].k==="corte")return `<div class="tcorte">Corte · parado, no centro · 608px</div>`;
-      const falas=grupo.filter(x=>x.k==="fala");
-      const mostras=grupo.filter(x=>x.k==="mostra");
-      falas.forEach(f=>{if(cravaLinha(f.text)&&!crava.includes(f.text))crava.push(f.text)});
-      if(!falas.length && mostras.length){
-        return `<li>${mostras.map(m=>`<span class="tslot"><i>Na tela</i>${esc(m.text)}</span>`).join("")}</li>`;
-      }
-      const lead=falas[0];
-      const rest=falas.slice(1);
-      return `<li>
-        <span class="tlead">${esc(lead.text)}${lead.bili?`<span class="tbili">sai da Bilibili</span>`:""}</span>
-        ${rest.map(f=>`<span class="tfato">${esc(f.text)}${f.bili?`<span class="tbili">sai da Bilibili</span>`:""}</span>`).join("")}
-        ${mostras.map(m=>`<span class="tslot"><i>Na tela</i>${esc(m.text)}</span>`).join("")}
-      </li>`;
+  const cards=notes.map((card,i)=>{
+    const b=blocs[i]||{};
+    const beats=(card.beats||[]).map(x=>{
+      if(x.corte)return `<div class="tcorte">Corte · parado, no centro · 608px</div>`;
+      const lead=x.lead?`<span class="tlead">${esc(x.lead)}${x.bili?`<span class="tbili">sai da Bilibili</span>`:""}</span>`:"";
+      const fatos=(x.fatos||[]).map(f=>`<span class="tfato">${esc(f)}</span>`).join("");
+      const tela=x.tela?`<span class="tslot"><i>Na tela</i>${esc(x.tela)}</span>`:"";
+      const nota=x.nota?`<span class="tfato">${esc(x.nota)}</span>`:"";
+      return `<li>${lead}${fatos}${nota}${tela}</li>`;
     }).join("");
-    const ultima=(b.p||[]).filter(x=>x&&x!=="▌"&&!/^\[.+\]$/.test(x)).map(x=>linhaTopico(x).text).pop();
-    if(ultima && ultima.split(/\s+/).length<=8 && !crava.includes(ultima))crava.push(ultima);
-    const vira=next
-      ? ( comecaCorte(next.p)
-          ? `Para. O próximo é corte, parado no centro: <span class="tname">${esc(next.n)}</span>.`
-          : `Entra em <span class="tname">${esc(next.n)}</span>. ${esc(primeiraFala(next.p))}` )
-      : "Acabou o roteiro. Segura o último ponto e corta.";
+    const crava=(card.crava||[]).length?`<div class="tbar tcrava"><b>Crava</b><ul>${card.crava.map(c=>`<li>${esc(c)}</li>`).join("")}</ul></div>`:"";
     return `<article class="tcard${b.take?" take":""}">
-      <header class="tcard-h"><span class="btime">${esc(b.t)}</span><h3 class="bname">${esc(b.n)}</h3><span class="bfn">${esc(b.f)}</span>${b.take?`<span class="btag take">take separado</span>`:""}${b.corte?`<span class="btag">✂ corte</span>`:""}</header>
-      <ol class="tbeats">${itens}</ol>
-      ${crava.length?`<div class="tbar tcrava"><b>Crava</b><ul>${crava.map(c=>`<li>${esc(c)}</li>`).join("")}</ul></div>`:""}
-      <div class="tbar tvira"><b>Vira</b>${vira}</div>
+      <header class="tcard-h"><span class="btime">${esc(b.t||"")}</span><h3 class="bname">${esc(b.n||"")}</h3><span class="bfn">${esc(b.f||"")}</span>${b.take?`<span class="btag take">take separado</span>`:""}${b.corte?`<span class="btag">✂ corte</span>`:""}</header>
+      <ol class="tbeats">${beats}</ol>
+      ${crava}
+      <div class="tbar tvira"><b>Vira</b>${card.vira}</div>
     </article>`;
   }).join("");
-  return `<p class="tlegend"><b>Notas de palco.</b> Um cartão por bloco, na ordem do roteiro. A linha grande é o ponto — começa por ela e segue com as suas palavras. A linha menor é o que não pode cair fora. Em âmbar, crava: número, frase-tese, pergunta. A virada te entrega o próximo cartão, para você não decorar a emenda.</p>${cards}`;
+  return `<p class="tlegend"><b>Notas de palco.</b> Um cartão por bloco, na ordem do roteiro. A linha grande é a ideia: começa por ela e fala do seu jeito. A linha menor é o fato que não pode cair. Em âmbar, crava — sai palavra por palavra. A virada te entrega o próximo cartão.</p>${cards}`;
 }
 
 /* --- documento: cabeçalho + abas internas --- */
@@ -2316,7 +2437,7 @@ function docHTML(v){
   const cortes=v.cortes||[], posts=v.posts||[], plat=v.plat||[], stories=v.stories||[], travas=v.travas||[], titulos=v.titulos||[];
   const secoes=v.secoes||[];
   const PANES=[["antes","Antes de gravar"],["roteiro","Roteiro"]];
-  if((v.blocos||[]).length)PANES.push(["topicos","Tópicos"]);
+  if(TOPICOS[v.num])PANES.push(["topicos","Tópicos"]);
   if(v.orat)PANES.push(["orat","Oratória"]);
   if(cortes.length)PANES.push(["cortes","Cortes"]);
   PANES.push(["publicar","Publicar"],["check","Checklist"]);
@@ -2379,7 +2500,7 @@ function docHTML(v){
     ${v.nota?`<p class="prose">${v.nota}</p>`:""}
     ${secoes.map(x=>`<h2 class="sec">${x.h}</h2>${x.html}`).join("")}`;
 
-  const bodies={antes,roteiro,topicos:(v.blocos||[]).length?topicosHTML(v):"",orat:v.orat?oratHTML(v):"",cortes:cortesH,publicar,check,notas};
+  const bodies={antes,roteiro,topicos:TOPICOS[v.num]?topicosHTML(v):"",orat:v.orat?oratHTML(v):"",cortes:cortesH,publicar,check,notas};
   return `
   <div class="kicker">${esc(v.num)} · ${grp?grp.nome:""}</div>
   <h1 class="vtitle">${esc(v.titulo)}</h1>
