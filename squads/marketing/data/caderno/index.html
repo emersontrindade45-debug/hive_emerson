@@ -276,40 +276,6 @@ input[type=checkbox]{accent-color:var(--accent)}
 @media (max-width:560px){.spy dl>div{grid-template-columns:1fr;gap:1px}}
 
 
-/* ---- aba Tópicos: notas de palco ---- */
-.tlegend{margin-top:18px;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:var(--surface);font-size:14.5px;line-height:1.6;color:var(--muted)}
-.tlegend b{color:var(--ink)}
-.tcard{margin-top:16px;border:1px solid var(--line);border-radius:14px;background:var(--surface);overflow:hidden}
-.tcard.take{border-color:var(--warn)}
-.tcard-h{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline;padding:14px 16px 0}
-.tbeats{list-style:none;margin:6px 0 0;padding:0 16px 4px}
-.tbeats>li{padding:11px 0;border-top:1px solid var(--line)}
-.tbeats>li:first-child{border-top:0}
-.tlead{display:block;font-size:17.5px;font-weight:700;line-height:1.35;letter-spacing:-.015em;color:var(--ink)}
-.tfato{display:block;margin-top:5px;padding-left:14px;font-size:15px;line-height:1.45;color:var(--muted)}
-.tfato::before{content:"";position:absolute}
-.tbeats .tfato{position:relative}
-.tbeats .tfato::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--line-strong);position:absolute;left:0;top:.55em}
-.tslot{display:flex;gap:8px;align-items:baseline;margin-top:8px;font-size:14px;line-height:1.45;color:var(--ink)}
-.tslot i{flex:none;font-style:normal;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--accent)}
-.tbili{display:inline-block;margin-left:8px;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--warn)}
-.tcorte{margin:4px 16px 8px;padding:8px 12px;border:1px dashed var(--accent);border-radius:8px;color:var(--accent);font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
-.tbar{margin:0 12px 12px;padding:10px 12px;border-radius:10px;font-size:14.5px;line-height:1.5}
-.tbar b{display:block;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-bottom:3px}
-.tcrava{background:var(--accent-soft);color:var(--ink)}
-.tcrava b{color:var(--accent)}
-.tvira{background:var(--surface-2);color:var(--muted);margin-bottom:14px}
-.tvira b{color:var(--faint)}
-.tname{font-weight:700;color:var(--ink)}
-.tcrava ul,.tvira{margin:0}
-.tcrava ul{margin:0;padding-left:18px}
-.tcrava li{margin:2px 0}
-@media (max-width:560px){
-  .tlead{font-size:16.5px}
-  .tcard-h{padding:12px 14px 0}
-  .tbeats{padding:0 14px 4px}
-}
-
 /* ---- prompter, barra, overlay de câmera: sem mudança de comportamento ---- */
 /* ---- prompter ---- */
 .prompter{display:none}
@@ -2410,23 +2376,26 @@ function topicosHTML(v){
   const blocs=v.blocos||[];
   const cards=notes.map((card,i)=>{
     const b=blocs[i]||{};
+    const tags=[b.corte?`<span class="btag">✂ corte</span>`:"",b.take?`<span class="btag take">take separado</span>`:""].join("");
     const beats=(card.beats||[]).map(x=>{
-      if(x.corte)return `<div class="tcorte">Corte · parado, no centro · 608px</div>`;
-      const lead=x.lead?`<span class="tlead">${esc(x.lead)}${x.bili?`<span class="tbili">sai da Bilibili</span>`:""}</span>`:"";
-      const fatos=(x.fatos||[]).map(f=>`<span class="tfato">${esc(f)}</span>`).join("");
-      const tela=x.tela?`<span class="tslot"><i>Na tela</i>${esc(x.tela)}</span>`:"";
-      const nota=x.nota?`<span class="tfato">${esc(x.nota)}</span>`:"";
-      return `<li>${lead}${fatos}${nota}${tela}</li>`;
+      if(x.corte)return `<div class="mk">▌ centralizado e parado · 608px</div>`;
+      const bits=[];
+      if(x.lead)bits.push(`<b>${esc(x.lead)}</b>`);
+      (x.fatos||[]).forEach(f=>bits.push(esc(f)));
+      if(x.bili)bits.push("sai da Bilibili");
+      if(x.nota)bits.push(esc(x.nota));
+      const tela=x.tela?`<br><span class="pslot">Na tela: ${esc(x.tela)}</span>`:"";
+      return `<p>${bits.join("<br>")}${tela}</p>`;
     }).join("");
-    const crava=(card.crava||[]).length?`<div class="tbar tcrava"><b>Crava</b><ul>${card.crava.map(c=>`<li>${esc(c)}</li>`).join("")}</ul></div>`:"";
-    return `<article class="tcard${b.take?" take":""}">
-      <header class="tcard-h"><span class="btime">${esc(b.t||"")}</span><h3 class="bname">${esc(b.n||"")}</h3><span class="bfn">${esc(b.f||"")}</span>${b.take?`<span class="btag take">take separado</span>`:""}${b.corte?`<span class="btag">✂ corte</span>`:""}</header>
-      <ol class="tbeats">${beats}</ol>
-      ${crava}
-      <div class="tbar tvira"><b>Vira</b>${card.vira}</div>
+    const crava=(card.crava||[]).length?`<div class="pend"><b>Crava.</b> ${card.crava.map(esc).join("<br>")}</div>`:"";
+    const vira=card.vira?`<div><dt>Vira</dt><dd>${esc(card.vira)}</dd></div>`:"";
+    return `<article class="bloco">
+      <header class="bhead"><span class="btime">${esc(b.t||"")}</span><h3 class="bname">${esc(b.n||"")}</h3><span class="bfn">${esc(b.f||"")}</span>${tags}</header>
+      <div class="fprompt">${beats}</div>
+      <dl class="why">${crava}${vira}</dl>
     </article>`;
   }).join("");
-  return `<p class="tlegend"><b>Notas de palco.</b> Um cartão por bloco, na ordem do roteiro. A linha grande é a ideia: começa por ela e fala do seu jeito. A linha menor é o fato que não pode cair. Em âmbar, crava — sai palavra por palavra. A virada te entrega o próximo cartão.</p>${cards}`;
+  return `<div class="toolbar"><span>${notes.length} blocos · a linha em negrito é a ideia, o resto é o que não pode cair</span></div>${cards}`;
 }
 
 /* --- documento: cabeçalho + abas internas --- */
